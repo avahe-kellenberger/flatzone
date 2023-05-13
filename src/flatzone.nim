@@ -4,18 +4,13 @@ import std/[json, tables, strutils, uri]
 
 type
   Character = object
-    number: int
     name: string
-    weight: int
-    fallSpeed: float
-    airdodge: int
-    escapeOption: int
     generalGameplan: string
     nairFSDair: string
     chefAngleAtLedge: int
     doesDsmashHitAllLedgeOptionsButJump: bool
     whichIsHighestMoveToHitLedgehang: string
-    top3StageBans: string
+    top3StageBans: seq[string]
     vods: seq[string]
 
 const characters: seq[Character] = static:
@@ -39,15 +34,25 @@ proc createTitleBar(): VNode =
     a(href = "#/donations"):
       h2: text "Donations"
 
+proc normalizeCharacterName(name: string): string =
+  return
+    toLower(name)
+    .replace(" ", "_")
+    .replace(".", "")
+    .replace("&", "and")
+
+template characterImg(name: string): string =
+  "../assets/images/" & normalizeCharacterName(name) 
+
 proc createCharacterPage(character: string): VNode =
   result = buildHtml(tdiv(class="")):
     createTitleBar()
-    h1: text character
+    img(class = "character-tile", src = characterImg(character) & ".webp")
 
 proc createCharacterTile(character: Character): VNode =
-  result = buildHtml(tdiv(class="")):
+  result = buildHtml():
     a(href = cstring("#/" & character.name)):
-      h2: text character.name
+      img(class = "character-tile", src = characterImg(character.name) & ".webp")
 
 proc createHomePage(): VNode =
   result = buildHtml(tdiv(class="")):
@@ -65,7 +70,6 @@ proc createSite(data: RouterData): VNode =
     return createHomePage()
   elif data.hashPart.startsWith("#/"):
     let hashPartEnd = decodeUrl(($data.hashPart)[2..^1])
-    echo hashPartEnd
     if characterLookup.hasKey(hashPartEnd):
       return createCharacterPage(hashPartEnd)
 

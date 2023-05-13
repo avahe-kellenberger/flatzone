@@ -29,23 +29,6 @@ body {
   text-decoration: underline;
 }
 
-.news-text {
-  white-space: pre-wrap;
-}
-
-.news-text, .donations-text {
-  text-align: center;
-  line-height: .7;
-  padding-top: 8px;
-  color: #D3D4D8;
-}
-
-.donate-btn {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
 .search-bar {
   margin-top: 10px;
   margin-left: 10px;
@@ -55,7 +38,7 @@ body {
   vertical-align: middle;
 }
 
-.search-btn, .donate-btn {
+.search-btn {
   background-color: #5D6074;
   color: #D3D4D8;
   border-radius: 2px;
@@ -65,7 +48,14 @@ body {
   margin-top: 10px;
 }
 
-.search-btn:hover, .donate-btn:hover {
+.search-btn:hover {
   cursor: pointer; 
   background-color: #525779;
 }
+
+.character-tile {
+  max-width: 200px;
+  max-height: 200px;
+  overflow: hidden;
+}
+
