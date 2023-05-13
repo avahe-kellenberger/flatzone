@@ -1,0 +1,71 @@
+body {
+  background-color: #37383E;
+  font-family: helvetica;
+  margin: 0;
+}
+
+.top-bar {
+  background-color: #5D6074;
+  color: #E7E7E8;
+  text-align: center;
+  width: 100%;
+}
+
+.title {
+  position: fixed;
+  top: 0px;
+  left: 20px;
+  font-size: 38px
+}
+
+.top-bar a {
+  display: inline-block;
+  text-decoration: none;
+  padding: 10px 40px;
+  color: #E7E7E8; 
+}
+
+.top-bar a:hover {
+  text-decoration: underline;
+}
+
+.news-text {
+  white-space: pre-wrap;
+}
+
+.news-text, .donations-text {
+  text-align: center;
+  line-height: .7;
+  padding-top: 8px;
+  color: #D3D4D8;
+}
+
+.donate-btn {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.search-bar {
+  margin-top: 10px;
+  margin-left: 10px;
+  width: 300px;
+  height: 18px;
+  font-family: helvetica;
+  vertical-align: middle;
+}
+
+.search-btn, .donate-btn {
+  background-color: #5D6074;
+  color: #D3D4D8;
+  border-radius: 2px;
+  border-style: solid;
+  border-color: #5D6074;
+  vertical-align: middle;
+  margin-top: 10px;
+}
+
+.search-btn:hover, .donate-btn:hover {
+  cursor: pointer; 
+  background-color: #525779;
+}
