@@ -14,27 +14,18 @@ body {
 .title {
   display: inline-flex;
   font-size: 38px;
+  margin-top: 1em;
   margin-left: 1em;
 }
 
 .top-bar a {
   display: inline-flex;
   text-decoration: none;
-  padding: 10px 40px;
   color: #E7E7E8; 
 }
 
 .top-bar a:hover {
   text-decoration: underline;
-}
-
-.search-bar {
-  margin-top: 10px;
-  margin-left: 10px;
-  width: 300px;
-  height: 18px;
-  font-family: helvetica;
-  vertical-align: middle;
 }
 
 .search-btn {
@@ -85,5 +76,25 @@ body {
   max-height: 220px;
   width: auto;
   height: auto;
+}
+
+.searchbar-container {
+  text-align: center;
+}
+
+.searchbar {
+  width: 80%;
+  padding: 12px;
+  margin: 24px;
+  font-family: helvetica;
+  vertical-align: middle;
+  border: 1px solid #131313;
+  background-color: #26272D;
+  color: #E7E7E8;
+
+}
+
+input:focus {
+  outline: navy;
 }
 

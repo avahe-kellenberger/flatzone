@@ -1,6 +1,7 @@
 include karax/prelude
 
-import std/[json, tables, strutils, uri]
+import std/[json, tables, strutils, uri, dom]
+import fuzzy
 
 type
   Character = object
@@ -20,20 +21,15 @@ var characterLookup = initTable[string, flatzone.Character]()
 for character in characters:
   characterLookup[character.name] = character
 
+var characterDomTiles: Table[string, VNode] = initTable[string, VNode]()
+
 proc createTitleBar(): VNode =
   result = buildHtml(tdiv(class="top-bar")):
     link(rel = "stylesheet", `type` = "text/css", href = "main.css")
     h1(class="title"):
       text "Flatzone"
 
-    a(href = "#/search"):
-      h2: text "Search"
-
-    a(href = "#/news"):
-      h2: text "News"
-
-    a(href = "#/donations"):
-      h2: text "Donations"
+    # TODO: Add any other links, like to discord etc.
 
 proc normalizeCharacterName(name: string): string =
   return
@@ -56,9 +52,30 @@ proc createCharacterTile(character: Character): VNode =
       img(src = characterImg(character.name) & ".png")
       h1(class="character-name"): text character.name
 
+  # Add tile to list so we can filter by search.
+  characterDomTiles[
+    character.name.toLower().replace(".", "")
+  ] = result
+
+proc filterBySearch(searchText: string) =
+  for charName, charTile in characterDomTiles.pairs():
+    if searchText.len == 0 or score(searchText, charName) > 0:
+      charTile.dom.style.display = ""
+    else:
+      charTile.dom.style.display = "none"
+
 proc createHomePage(): VNode =
   result = buildHtml(tdiv(class="")):
     createTitleBar()
+
+    tdiv(class="searchbar-container"):
+      input(class="searchbar", placeholder="Search...", setFocus=true):
+        proc onkeyup(e: Event, n: VNode) =
+          filterBySearch(toLower($e.target.value))
+
+        proc onblur(e: Event, n: VNode) =
+          e.target.focus()
+
     tdiv(class="characters-container"):
       for character in characters:
         createCharacterTile(character)

@@ -1311,7 +1311,7 @@ function mulInt(a_33556948, b_33556949) {
 
   
 }
-        var characters_452985073 = [{name: makeNimstrLit("Banjo & Kazooie"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Bayonetta"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Bowser"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Bowser Jr."), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Byleth"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Captain Falcon"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Chrom"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Cloud"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Corrin"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Daisy"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Dark Pit"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Dark Samus"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Diddy Kong"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Donkey Kong"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Dr. Mario"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Duck Hunt"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Falco"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Fox"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Ganondorf"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Greninja"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Hero"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Ice Climbers"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Ike"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Incineroar"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Inkling"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Isabelle"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Jigglypuff"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Joker"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Kazuya"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Ken"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("King Dedede"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("King K. Rool"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Kirby"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Link"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Little Mac"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Lucario"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Lucas"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Lucina"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Luigi"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Mario"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Marth"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Mega Man"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Meta Knight"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Mewtwo"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Mii Brawler"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Mii Gunner"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Mii Swordfighter"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Min Min"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Mr. Game & Watch"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Mythra"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Ness"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Olimar"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Pac Man"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Palutena"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Peach"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Pichu"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Pikachu"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Piranha Plant"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Pit"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Squirtle"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Ivysaur"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Charizard"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Pyra"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Richter"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Ridley"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("R.O.B."), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Robin"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Rosalina and Luma"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Roy"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Ryu"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Samus"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Sephiroth"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Sheik"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Shulk"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Simon"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Snake"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Sonic"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Sora"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Steve"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Terry"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Toon Link"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Villager"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Wario"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Wii Fit Trainer"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Wolf"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Yoshi"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Young Link"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Zelda"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Zero Suit Samus"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}];
+        var characters_452985075 = [{name: makeNimstrLit("Banjo & Kazooie"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Bayonetta"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Bowser"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Bowser Jr."), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Byleth"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Captain Falcon"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Chrom"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Cloud"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Corrin"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Daisy"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Dark Pit"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Dark Samus"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Diddy Kong"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Donkey Kong"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Dr. Mario"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Duck Hunt"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Falco"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Fox"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Ganondorf"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Greninja"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Hero"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Ice Climbers"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Ike"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Incineroar"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Inkling"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Isabelle"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Jigglypuff"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Joker"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Kazuya"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Ken"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("King Dedede"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("King K. Rool"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Kirby"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Link"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Little Mac"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Lucario"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Lucas"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Lucina"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Luigi"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Mario"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Marth"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Mega Man"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Meta Knight"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Mewtwo"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Mii Brawler"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Mii Gunner"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Mii Swordfighter"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Min Min"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Mr. Game & Watch"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Mythra"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Ness"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Olimar"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Pac Man"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Palutena"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Peach"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Pichu"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Pikachu"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Piranha Plant"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Pit"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Squirtle"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Ivysaur"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Charizard"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Pyra"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Richter"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Ridley"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("R.O.B."), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Robin"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Rosalina and Luma"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Roy"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Ryu"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Samus"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Sephiroth"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Sheik"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Shulk"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Simon"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Snake"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Sonic"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Sora"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Steve"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Terry"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Toon Link"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Villager"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Wario"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Wii Fit Trainer"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Wolf"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Yoshi"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Young Link"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Zelda"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Zero Suit Samus"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}];
 
 function subInt(a_33556944, b_33556945) {
         var result = a_33556944 - b_33556945;
@@ -1368,6 +1368,10 @@ function nimMin(a_33556994, b_33556995) {
   return result_33556996;
 
 }
+var ConstSet2 = setConstr([65, 90]);
+var ConstSet3 = setConstr([97, 122]);
+    var toLowerRanges_973079451 = new Int32Array([65, 90, 532, 192, 214, 532, 216, 222, 532, 393, 394, 705, 433, 434, 717, 904, 906, 537, 910, 911, 563, 913, 929, 532, 931, 939, 532, 1021, 1023, 370, 1024, 1039, 580, 1040, 1071, 532, 1329, 1366, 548, 4256, 4293, 7764, 5024, 5103, 39364, 5104, 5109, 508, 7312, 7354, -2508, 7357, 7359, -2508, 7944, 7951, 492, 7960, 7965, 492, 7976, 7983, 492, 7992, 7999, 492, 8008, 8013, 492, 8040, 8047, 492, 8072, 8079, 492, 8088, 8095, 492, 8104, 8111, 492, 8120, 8121, 492, 8122, 8123, 426, 8136, 8139, 414, 8152, 8153, 492, 8154, 8155, 400, 8168, 8169, 492, 8170, 8171, 388, 8184, 8185, 372, 8186, 8187, 374, 11264, 11310, 548, 11390, 11391, -10315, 65313, 65338, 532, 66560, 66599, 540, 66736, 66771, 540, 68736, 68786, 564, 71840, 71871, 532, 93760, 93791, 532, 125184, 125217, 534]);
+    var toLowerSinglets_973079452 = new Int32Array([256, 501, 258, 501, 260, 501, 262, 501, 264, 501, 266, 501, 268, 501, 270, 501, 272, 501, 274, 501, 276, 501, 278, 501, 280, 501, 282, 501, 284, 501, 286, 501, 288, 501, 290, 501, 292, 501, 294, 501, 296, 501, 298, 501, 300, 501, 302, 501, 304, 301, 306, 501, 308, 501, 310, 501, 313, 501, 315, 501, 317, 501, 319, 501, 321, 501, 323, 501, 325, 501, 327, 501, 330, 501, 332, 501, 334, 501, 336, 501, 338, 501, 340, 501, 342, 501, 344, 501, 346, 501, 348, 501, 350, 501, 352, 501, 354, 501, 356, 501, 358, 501, 360, 501, 362, 501, 364, 501, 366, 501, 368, 501, 370, 501, 372, 501, 374, 501, 376, 379, 377, 501, 379, 501, 381, 501, 385, 710, 386, 501, 388, 501, 390, 706, 391, 501, 395, 501, 398, 579, 399, 702, 400, 703, 401, 501, 403, 705, 404, 707, 406, 711, 407, 709, 408, 501, 412, 711, 413, 713, 415, 714, 416, 501, 418, 501, 420, 501, 422, 718, 423, 501, 425, 718, 428, 501, 430, 718, 431, 501, 435, 501, 437, 501, 439, 719, 440, 501, 444, 501, 452, 502, 453, 501, 455, 502, 456, 501, 458, 502, 459, 501, 461, 501, 463, 501, 465, 501, 467, 501, 469, 501, 471, 501, 473, 501, 475, 501, 478, 501, 480, 501, 482, 501, 484, 501, 486, 501, 488, 501, 490, 501, 492, 501, 494, 501, 497, 502, 498, 501, 500, 501, 502, 403, 503, 444, 504, 501, 506, 501, 508, 501, 510, 501, 512, 501, 514, 501, 516, 501, 518, 501, 520, 501, 522, 501, 524, 501, 526, 501, 528, 501, 530, 501, 532, 501, 534, 501, 536, 501, 538, 501, 540, 501, 542, 501, 544, 370, 546, 501, 548, 501, 550, 501, 552, 501, 554, 501, 556, 501, 558, 501, 560, 501, 562, 501, 570, 11295, 571, 501, 573, 337, 574, 11292, 577, 501, 579, 305, 580, 569, 581, 571, 582, 501, 584, 501, 586, 501, 588, 501, 590, 501, 880, 501, 882, 501, 886, 501, 895, 616, 902, 538, 908, 564, 975, 508, 984, 501, 986, 501, 988, 501, 990, 501, 992, 501, 994, 501, 996, 501, 998, 501, 1000, 501, 1002, 501, 1004, 501, 1006, 501, 1012, 440, 1015, 501, 1017, 493, 1018, 501, 1120, 501, 1122, 501, 1124, 501, 1126, 501, 1128, 501, 1130, 501, 1132, 501, 1134, 501, 1136, 501, 1138, 501, 1140, 501, 1142, 501, 1144, 501, 1146, 501, 1148, 501, 1150, 501, 1152, 501, 1162, 501, 1164, 501, 1166, 501, 1168, 501, 1170, 501, 1172, 501, 1174, 501, 1176, 501, 1178, 501, 1180, 501, 1182, 501, 1184, 501, 1186, 501, 1188, 501, 1190, 501, 1192, 501, 1194, 501, 1196, 501, 1198, 501, 1200, 501, 1202, 501, 1204, 501, 1206, 501, 1208, 501, 1210, 501, 1212, 501, 1214, 501, 1216, 515, 1217, 501, 1219, 501, 1221, 501, 1223, 501, 1225, 501, 1227, 501, 1229, 501, 1232, 501, 1234, 501, 1236, 501, 1238, 501, 1240, 501, 1242, 501, 1244, 501, 1246, 501, 1248, 501, 1250, 501, 1252, 501, 1254, 501, 1256, 501, 1258, 501, 1260, 501, 1262, 501, 1264, 501, 1266, 501, 1268, 501, 1270, 501, 1272, 501, 1274, 501, 1276, 501, 1278, 501, 1280, 501, 1282, 501, 1284, 501, 1286, 501, 1288, 501, 1290, 501, 1292, 501, 1294, 501, 1296, 501, 1298, 501, 1300, 501, 1302, 501, 1304, 501, 1306, 501, 1308, 501, 1310, 501, 1312, 501, 1314, 501, 1316, 501, 1318, 501, 1320, 501, 1322, 501, 1324, 501, 1326, 501, 4295, 7764, 4301, 7764, 7680, 501, 7682, 501, 7684, 501, 7686, 501, 7688, 501, 7690, 501, 7692, 501, 7694, 501, 7696, 501, 7698, 501, 7700, 501, 7702, 501, 7704, 501, 7706, 501, 7708, 501, 7710, 501, 7712, 501, 7714, 501, 7716, 501, 7718, 501, 7720, 501, 7722, 501, 7724, 501, 7726, 501, 7728, 501, 7730, 501, 7732, 501, 7734, 501, 7736, 501, 7738, 501, 7740, 501, 7742, 501, 7744, 501, 7746, 501, 7748, 501, 7750, 501, 7752, 501, 7754, 501, 7756, 501, 7758, 501, 7760, 501, 7762, 501, 7764, 501, 7766, 501, 7768, 501, 7770, 501, 7772, 501, 7774, 501, 7776, 501, 7778, 501, 7780, 501, 7782, 501, 7784, 501, 7786, 501, 7788, 501, 7790, 501, 7792, 501, 7794, 501, 7796, 501, 7798, 501, 7800, 501, 7802, 501, 7804, 501, 7806, 501, 7808, 501, 7810, 501, 7812, 501, 7814, 501, 7816, 501, 7818, 501, 7820, 501, 7822, 501, 7824, 501, 7826, 501, 7828, 501, 7838, -7115, 7840, 501, 7842, 501, 7844, 501, 7846, 501, 7848, 501, 7850, 501, 7852, 501, 7854, 501, 7856, 501, 7858, 501, 7860, 501, 7862, 501, 7864, 501, 7866, 501, 7868, 501, 7870, 501, 7872, 501, 7874, 501, 7876, 501, 7878, 501, 7880, 501, 7882, 501, 7884, 501, 7886, 501, 7888, 501, 7890, 501, 7892, 501, 7894, 501, 7896, 501, 7898, 501, 7900, 501, 7902, 501, 7904, 501, 7906, 501, 7908, 501, 7910, 501, 7912, 501, 7914, 501, 7916, 501, 7918, 501, 7920, 501, 7922, 501, 7924, 501, 7926, 501, 7928, 501, 7930, 501, 7932, 501, 7934, 501, 8025, 492, 8027, 492, 8029, 492, 8031, 492, 8124, 491, 8140, 491, 8172, 493, 8188, 491, 8486, -7017, 8490, -7883, 8491, -7762, 8498, 528, 8579, 501, 11360, 501, 11362, -10243, 11363, -3314, 11364, -10227, 11367, 501, 11369, 501, 11371, 501, 11373, -10280, 11374, -10249, 11375, -10283, 11376, -10282, 11378, 501, 11381, 501, 11392, 501, 11394, 501, 11396, 501, 11398, 501, 11400, 501, 11402, 501, 11404, 501, 11406, 501, 11408, 501, 11410, 501, 11412, 501, 11414, 501, 11416, 501, 11418, 501, 11420, 501, 11422, 501, 11424, 501, 11426, 501, 11428, 501, 11430, 501, 11432, 501, 11434, 501, 11436, 501, 11438, 501, 11440, 501, 11442, 501, 11444, 501, 11446, 501, 11448, 501, 11450, 501, 11452, 501, 11454, 501, 11456, 501, 11458, 501, 11460, 501, 11462, 501, 11464, 501, 11466, 501, 11468, 501, 11470, 501, 11472, 501, 11474, 501, 11476, 501, 11478, 501, 11480, 501, 11482, 501, 11484, 501, 11486, 501, 11488, 501, 11490, 501, 11499, 501, 11501, 501, 11506, 501, 42560, 501, 42562, 501, 42564, 501, 42566, 501, 42568, 501, 42570, 501, 42572, 501, 42574, 501, 42576, 501, 42578, 501, 42580, 501, 42582, 501, 42584, 501, 42586, 501, 42588, 501, 42590, 501, 42592, 501, 42594, 501, 42596, 501, 42598, 501, 42600, 501, 42602, 501, 42604, 501, 42624, 501, 42626, 501, 42628, 501, 42630, 501, 42632, 501, 42634, 501, 42636, 501, 42638, 501, 42640, 501, 42642, 501, 42644, 501, 42646, 501, 42648, 501, 42650, 501, 42786, 501, 42788, 501, 42790, 501, 42792, 501, 42794, 501, 42796, 501, 42798, 501, 42802, 501, 42804, 501, 42806, 501, 42808, 501, 42810, 501, 42812, 501, 42814, 501, 42816, 501, 42818, 501, 42820, 501, 42822, 501, 42824, 501, 42826, 501, 42828, 501, 42830, 501, 42832, 501, 42834, 501, 42836, 501, 42838, 501, 42840, 501, 42842, 501, 42844, 501, 42846, 501, 42848, 501, 42850, 501, 42852, 501, 42854, 501, 42856, 501, 42858, 501, 42860, 501, 42862, 501, 42873, 501, 42875, 501, 42877, -34832, 42878, 501, 42880, 501, 42882, 501, 42884, 501, 42886, 501, 42891, 501, 42893, -41780, 42896, 501, 42898, 501, 42902, 501, 42904, 501, 42906, 501, 42908, 501, 42910, 501, 42912, 501, 42914, 501, 42916, 501, 42918, 501, 42920, 501, 42922, -41808, 42923, -41819, 42924, -41815, 42925, -41805, 42926, -41808, 42928, -41758, 42929, -41782, 42930, -41761, 42931, 1428, 42932, 501, 42934, 501, 42936, 501, 42938, 501, 42940, 501, 42942, 501, 42946, 501, 42948, 452, 42949, -41807, 42950, -34884]);
 
 function nimMax(a_33556998, b_33556999) {
     var Temporary1;
@@ -1389,8 +1393,6 @@ function nimMax(a_33556998, b_33556999) {
   return result_33557000;
 
 }
-    var toLowerRanges_973079451 = new Int32Array([65, 90, 532, 192, 214, 532, 216, 222, 532, 393, 394, 705, 433, 434, 717, 904, 906, 537, 910, 911, 563, 913, 929, 532, 931, 939, 532, 1021, 1023, 370, 1024, 1039, 580, 1040, 1071, 532, 1329, 1366, 548, 4256, 4293, 7764, 5024, 5103, 39364, 5104, 5109, 508, 7312, 7354, -2508, 7357, 7359, -2508, 7944, 7951, 492, 7960, 7965, 492, 7976, 7983, 492, 7992, 7999, 492, 8008, 8013, 492, 8040, 8047, 492, 8072, 8079, 492, 8088, 8095, 492, 8104, 8111, 492, 8120, 8121, 492, 8122, 8123, 426, 8136, 8139, 414, 8152, 8153, 492, 8154, 8155, 400, 8168, 8169, 492, 8170, 8171, 388, 8184, 8185, 372, 8186, 8187, 374, 11264, 11310, 548, 11390, 11391, -10315, 65313, 65338, 532, 66560, 66599, 540, 66736, 66771, 540, 68736, 68786, 564, 71840, 71871, 532, 93760, 93791, 532, 125184, 125217, 534]);
-    var toLowerSinglets_973079452 = new Int32Array([256, 501, 258, 501, 260, 501, 262, 501, 264, 501, 266, 501, 268, 501, 270, 501, 272, 501, 274, 501, 276, 501, 278, 501, 280, 501, 282, 501, 284, 501, 286, 501, 288, 501, 290, 501, 292, 501, 294, 501, 296, 501, 298, 501, 300, 501, 302, 501, 304, 301, 306, 501, 308, 501, 310, 501, 313, 501, 315, 501, 317, 501, 319, 501, 321, 501, 323, 501, 325, 501, 327, 501, 330, 501, 332, 501, 334, 501, 336, 501, 338, 501, 340, 501, 342, 501, 344, 501, 346, 501, 348, 501, 350, 501, 352, 501, 354, 501, 356, 501, 358, 501, 360, 501, 362, 501, 364, 501, 366, 501, 368, 501, 370, 501, 372, 501, 374, 501, 376, 379, 377, 501, 379, 501, 381, 501, 385, 710, 386, 501, 388, 501, 390, 706, 391, 501, 395, 501, 398, 579, 399, 702, 400, 703, 401, 501, 403, 705, 404, 707, 406, 711, 407, 709, 408, 501, 412, 711, 413, 713, 415, 714, 416, 501, 418, 501, 420, 501, 422, 718, 423, 501, 425, 718, 428, 501, 430, 718, 431, 501, 435, 501, 437, 501, 439, 719, 440, 501, 444, 501, 452, 502, 453, 501, 455, 502, 456, 501, 458, 502, 459, 501, 461, 501, 463, 501, 465, 501, 467, 501, 469, 501, 471, 501, 473, 501, 475, 501, 478, 501, 480, 501, 482, 501, 484, 501, 486, 501, 488, 501, 490, 501, 492, 501, 494, 501, 497, 502, 498, 501, 500, 501, 502, 403, 503, 444, 504, 501, 506, 501, 508, 501, 510, 501, 512, 501, 514, 501, 516, 501, 518, 501, 520, 501, 522, 501, 524, 501, 526, 501, 528, 501, 530, 501, 532, 501, 534, 501, 536, 501, 538, 501, 540, 501, 542, 501, 544, 370, 546, 501, 548, 501, 550, 501, 552, 501, 554, 501, 556, 501, 558, 501, 560, 501, 562, 501, 570, 11295, 571, 501, 573, 337, 574, 11292, 577, 501, 579, 305, 580, 569, 581, 571, 582, 501, 584, 501, 586, 501, 588, 501, 590, 501, 880, 501, 882, 501, 886, 501, 895, 616, 902, 538, 908, 564, 975, 508, 984, 501, 986, 501, 988, 501, 990, 501, 992, 501, 994, 501, 996, 501, 998, 501, 1000, 501, 1002, 501, 1004, 501, 1006, 501, 1012, 440, 1015, 501, 1017, 493, 1018, 501, 1120, 501, 1122, 501, 1124, 501, 1126, 501, 1128, 501, 1130, 501, 1132, 501, 1134, 501, 1136, 501, 1138, 501, 1140, 501, 1142, 501, 1144, 501, 1146, 501, 1148, 501, 1150, 501, 1152, 501, 1162, 501, 1164, 501, 1166, 501, 1168, 501, 1170, 501, 1172, 501, 1174, 501, 1176, 501, 1178, 501, 1180, 501, 1182, 501, 1184, 501, 1186, 501, 1188, 501, 1190, 501, 1192, 501, 1194, 501, 1196, 501, 1198, 501, 1200, 501, 1202, 501, 1204, 501, 1206, 501, 1208, 501, 1210, 501, 1212, 501, 1214, 501, 1216, 515, 1217, 501, 1219, 501, 1221, 501, 1223, 501, 1225, 501, 1227, 501, 1229, 501, 1232, 501, 1234, 501, 1236, 501, 1238, 501, 1240, 501, 1242, 501, 1244, 501, 1246, 501, 1248, 501, 1250, 501, 1252, 501, 1254, 501, 1256, 501, 1258, 501, 1260, 501, 1262, 501, 1264, 501, 1266, 501, 1268, 501, 1270, 501, 1272, 501, 1274, 501, 1276, 501, 1278, 501, 1280, 501, 1282, 501, 1284, 501, 1286, 501, 1288, 501, 1290, 501, 1292, 501, 1294, 501, 1296, 501, 1298, 501, 1300, 501, 1302, 501, 1304, 501, 1306, 501, 1308, 501, 1310, 501, 1312, 501, 1314, 501, 1316, 501, 1318, 501, 1320, 501, 1322, 501, 1324, 501, 1326, 501, 4295, 7764, 4301, 7764, 7680, 501, 7682, 501, 7684, 501, 7686, 501, 7688, 501, 7690, 501, 7692, 501, 7694, 501, 7696, 501, 7698, 501, 7700, 501, 7702, 501, 7704, 501, 7706, 501, 7708, 501, 7710, 501, 7712, 501, 7714, 501, 7716, 501, 7718, 501, 7720, 501, 7722, 501, 7724, 501, 7726, 501, 7728, 501, 7730, 501, 7732, 501, 7734, 501, 7736, 501, 7738, 501, 7740, 501, 7742, 501, 7744, 501, 7746, 501, 7748, 501, 7750, 501, 7752, 501, 7754, 501, 7756, 501, 7758, 501, 7760, 501, 7762, 501, 7764, 501, 7766, 501, 7768, 501, 7770, 501, 7772, 501, 7774, 501, 7776, 501, 7778, 501, 7780, 501, 7782, 501, 7784, 501, 7786, 501, 7788, 501, 7790, 501, 7792, 501, 7794, 501, 7796, 501, 7798, 501, 7800, 501, 7802, 501, 7804, 501, 7806, 501, 7808, 501, 7810, 501, 7812, 501, 7814, 501, 7816, 501, 7818, 501, 7820, 501, 7822, 501, 7824, 501, 7826, 501, 7828, 501, 7838, -7115, 7840, 501, 7842, 501, 7844, 501, 7846, 501, 7848, 501, 7850, 501, 7852, 501, 7854, 501, 7856, 501, 7858, 501, 7860, 501, 7862, 501, 7864, 501, 7866, 501, 7868, 501, 7870, 501, 7872, 501, 7874, 501, 7876, 501, 7878, 501, 7880, 501, 7882, 501, 7884, 501, 7886, 501, 7888, 501, 7890, 501, 7892, 501, 7894, 501, 7896, 501, 7898, 501, 7900, 501, 7902, 501, 7904, 501, 7906, 501, 7908, 501, 7910, 501, 7912, 501, 7914, 501, 7916, 501, 7918, 501, 7920, 501, 7922, 501, 7924, 501, 7926, 501, 7928, 501, 7930, 501, 7932, 501, 7934, 501, 8025, 492, 8027, 492, 8029, 492, 8031, 492, 8124, 491, 8140, 491, 8172, 493, 8188, 491, 8486, -7017, 8490, -7883, 8491, -7762, 8498, 528, 8579, 501, 11360, 501, 11362, -10243, 11363, -3314, 11364, -10227, 11367, 501, 11369, 501, 11371, 501, 11373, -10280, 11374, -10249, 11375, -10283, 11376, -10282, 11378, 501, 11381, 501, 11392, 501, 11394, 501, 11396, 501, 11398, 501, 11400, 501, 11402, 501, 11404, 501, 11406, 501, 11408, 501, 11410, 501, 11412, 501, 11414, 501, 11416, 501, 11418, 501, 11420, 501, 11422, 501, 11424, 501, 11426, 501, 11428, 501, 11430, 501, 11432, 501, 11434, 501, 11436, 501, 11438, 501, 11440, 501, 11442, 501, 11444, 501, 11446, 501, 11448, 501, 11450, 501, 11452, 501, 11454, 501, 11456, 501, 11458, 501, 11460, 501, 11462, 501, 11464, 501, 11466, 501, 11468, 501, 11470, 501, 11472, 501, 11474, 501, 11476, 501, 11478, 501, 11480, 501, 11482, 501, 11484, 501, 11486, 501, 11488, 501, 11490, 501, 11499, 501, 11501, 501, 11506, 501, 42560, 501, 42562, 501, 42564, 501, 42566, 501, 42568, 501, 42570, 501, 42572, 501, 42574, 501, 42576, 501, 42578, 501, 42580, 501, 42582, 501, 42584, 501, 42586, 501, 42588, 501, 42590, 501, 42592, 501, 42594, 501, 42596, 501, 42598, 501, 42600, 501, 42602, 501, 42604, 501, 42624, 501, 42626, 501, 42628, 501, 42630, 501, 42632, 501, 42634, 501, 42636, 501, 42638, 501, 42640, 501, 42642, 501, 42644, 501, 42646, 501, 42648, 501, 42650, 501, 42786, 501, 42788, 501, 42790, 501, 42792, 501, 42794, 501, 42796, 501, 42798, 501, 42802, 501, 42804, 501, 42806, 501, 42808, 501, 42810, 501, 42812, 501, 42814, 501, 42816, 501, 42818, 501, 42820, 501, 42822, 501, 42824, 501, 42826, 501, 42828, 501, 42830, 501, 42832, 501, 42834, 501, 42836, 501, 42838, 501, 42840, 501, 42842, 501, 42844, 501, 42846, 501, 42848, 501, 42850, 501, 42852, 501, 42854, 501, 42856, 501, 42858, 501, 42860, 501, 42862, 501, 42873, 501, 42875, 501, 42877, -34832, 42878, 501, 42880, 501, 42882, 501, 42884, 501, 42886, 501, 42891, 501, 42893, -41780, 42896, 501, 42898, 501, 42902, 501, 42904, 501, 42906, 501, 42908, 501, 42910, 501, 42912, 501, 42914, 501, 42916, 501, 42918, 501, 42920, 501, 42922, -41808, 42923, -41819, 42924, -41815, 42925, -41805, 42926, -41808, 42928, -41758, 42929, -41782, 42930, -41761, 42931, 1428, 42932, 501, 42934, 501, 42936, 501, 42938, 501, 42940, 501, 42942, 501, 42946, 501, 42948, 452, 42949, -41807, 42950, -34884]);
 if (!Math.trunc) {
   Math.trunc = function(v) {
     v = +v;
@@ -6247,6 +6249,162 @@ framePtr = F.prev;
 var F = {procname: "module flatzone", prev: framePtr, filename: "/home/avahe/programming/nim/flatzone/src/flatzone.nim", line: 0};
 framePtr = F;
 framePtr = F.prev;
+var F = {procname: "module sequtils", prev: framePtr, filename: "/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/sequtils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module sequtils", prev: framePtr, filename: "/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/sequtils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module sequtils", prev: framePtr, filename: "/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/sequtils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module sequtils", prev: framePtr, filename: "/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/sequtils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module sequtils", prev: framePtr, filename: "/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/sequtils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module sequtils", prev: framePtr, filename: "/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/sequtils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module sequtils", prev: framePtr, filename: "/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/sequtils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module sequtils", prev: framePtr, filename: "/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/sequtils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module sequtils", prev: framePtr, filename: "/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/sequtils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module sequtils", prev: framePtr, filename: "/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/sequtils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module sequtils", prev: framePtr, filename: "/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/sequtils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module sequtils", prev: framePtr, filename: "/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/sequtils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module sequtils", prev: framePtr, filename: "/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/sequtils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module sequtils", prev: framePtr, filename: "/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/sequtils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module sequtils", prev: framePtr, filename: "/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/sequtils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module sequtils", prev: framePtr, filename: "/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/sequtils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module sequtils", prev: framePtr, filename: "/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/sequtils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module sequtils", prev: framePtr, filename: "/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/sequtils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module sequtils", prev: framePtr, filename: "/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/sequtils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module sequtils", prev: framePtr, filename: "/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/sequtils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module sequtils", prev: framePtr, filename: "/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/sequtils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module sequtils", prev: framePtr, filename: "/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/sequtils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module sequtils", prev: framePtr, filename: "/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/sequtils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module sequtils", prev: framePtr, filename: "/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/sequtils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module sequtils", prev: framePtr, filename: "/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/sequtils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module sequtils", prev: framePtr, filename: "/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/sequtils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module sequtils", prev: framePtr, filename: "/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/sequtils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module sequtils", prev: framePtr, filename: "/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/sequtils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module sequtils", prev: framePtr, filename: "/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/sequtils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module sequtils", prev: framePtr, filename: "/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/sequtils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module sequtils", prev: framePtr, filename: "/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/sequtils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module sequtils", prev: framePtr, filename: "/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/sequtils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module sequtils", prev: framePtr, filename: "/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/sequtils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module sequtils", prev: framePtr, filename: "/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/sequtils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module sequtils", prev: framePtr, filename: "/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/sequtils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module sequtils", prev: framePtr, filename: "/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/sequtils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module sequtils", prev: framePtr, filename: "/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/sequtils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module sequtils", prev: framePtr, filename: "/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/sequtils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module sequtils", prev: framePtr, filename: "/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/sequtils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module sequtils", prev: framePtr, filename: "/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/sequtils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module sequtils", prev: framePtr, filename: "/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/sequtils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module sequtils", prev: framePtr, filename: "/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/sequtils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module sequtils", prev: framePtr, filename: "/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/sequtils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module sequtils", prev: framePtr, filename: "/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/sequtils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module sequtils", prev: framePtr, filename: "/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/sequtils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module sequtils", prev: framePtr, filename: "/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/sequtils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module fuzzy", prev: framePtr, filename: "/home/avahe/programming/nim/flatzone/src/fuzzy.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module fuzzy", prev: framePtr, filename: "/home/avahe/programming/nim/flatzone/src/fuzzy.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module fuzzy", prev: framePtr, filename: "/home/avahe/programming/nim/flatzone/src/fuzzy.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module fuzzy", prev: framePtr, filename: "/home/avahe/programming/nim/flatzone/src/fuzzy.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module fuzzy", prev: framePtr, filename: "/home/avahe/programming/nim/flatzone/src/fuzzy.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module flatzone", prev: framePtr, filename: "/home/avahe/programming/nim/flatzone/src/flatzone.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
 
 function nextPowerOfTwo_805306571(x_805306572) {
   var result_805306573 = 0;
@@ -6345,17 +6503,17 @@ function addChars_251658415(result_251658417, result_251658417_Idx, x_251658418,
       F.line = 46;
       var iHEX60gensym4_251658435 = 0;
       F.line = 119;
-      var i_452986465 = 0;
+      var i_452986504 = 0;
       Label2: do {
         F.line = 120;
           Label3: while (true) {
-          if (!(i_452986465 < n_251658420)) break Label3;
+          if (!(i_452986504 < n_251658420)) break Label3;
             F.line = 49;
-            iHEX60gensym4_251658435 = i_452986465;
+            iHEX60gensym4_251658435 = i_452986504;
             F.line = 49;
             result_251658417[result_251658417_Idx][chckIndx(addInt(old_251658421, iHEX60gensym4_251658435), 0, (result_251658417[result_251658417_Idx]).length - 1)] = x_251658418.charCodeAt(chckIndx(addInt(start_251658419, iHEX60gensym4_251658435), 0, (x_251658418).length - 1));
             F.line = 122;
-            i_452986465 = addInt(i_452986465, 1);
+            i_452986504 = addInt(i_452986504, 1);
           }
       } while (false);
     } while (false);
@@ -6443,13 +6601,13 @@ function auxWriteStackTrace_33556559(f_33556560) {
     
     Label6: do {
       var j_33556602 = 0;
-      var colontmp__452986458 = 0;
-      colontmp__452986458 = (i_33556570 - 1);
-      var res_452986459 = colontmp__452986458;
+      var colontmp__452986497 = 0;
+      colontmp__452986497 = (i_33556570 - 1);
+      var res_452986498 = colontmp__452986497;
       Label7: do {
           Label8: while (true) {
-          if (!(0 <= res_452986459)) break Label8;
-            j_33556602 = res_452986459;
+          if (!(0 <= res_452986498)) break Label8;
+            j_33556602 = res_452986498;
             result_33556561[0].push.apply(result_33556561[0], cstrToNimstr(tempFrames_33556572[j_33556602].Field2));;
             if ((0 < tempFrames_33556572[j_33556602].Field1)) {
             result_33556561[0].push.apply(result_33556561[0], makeNimstrLit("("));;
@@ -6465,7 +6623,7 @@ function auxWriteStackTrace_33556559(f_33556560) {
             result_33556561[0].push.apply(result_33556561[0], makeNimstrLit(" at "));;
             add_33556419(result_33556561, 0, tempFrames_33556572[j_33556602].Field0);
             result_33556561[0].push.apply(result_33556561[0], makeNimstrLit("\x0A"));;
-            res_452986459 -= 1;
+            res_452986498 -= 1;
           }
       } while (false);
     } while (false);
@@ -6560,19 +6718,19 @@ function slotsNeeded_1023410218(count_1023410219) {
 
 }
 
-function initTable_452985074(initialSize_452985077) {
-  var result_452985083 = ({data: [], counter: 0});
+function initTable_452985076(initialSize_452985079) {
+  var result_452985085 = ({data: [], counter: 0});
 
   var F = {procname: "initTable.initTable", prev: framePtr, filename: "/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/tables.nim", line: 0};
   framePtr = F;
     F.line = 163;
-    var correctSizeHEX60gensym21_452985085 = slotsNeeded_1023410218(chckRange(initialSize_452985077, 0, 2147483647));
+    var correctSizeHEX60gensym21_452985087 = slotsNeeded_1023410218(chckRange(initialSize_452985079, 0, 2147483647));
     F.line = 167;
-    result_452985083.counter = 0;
+    result_452985085.counter = 0;
     F.line = 168;
-    result_452985083.data = new Array(chckRange(correctSizeHEX60gensym21_452985085, 0, 2147483647)); for (var i = 0 ; i < chckRange(correctSizeHEX60gensym21_452985085, 0, 2147483647) ; ++i) { result_452985083.data[i] = {Field0: 0, Field1: [], Field2: ({name: [], generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 0, doesDsmashHitAllLedgeOptionsButJump: false, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []})}; }  framePtr = F.prev;
+    result_452985085.data = new Array(chckRange(correctSizeHEX60gensym21_452985087, 0, 2147483647)); for (var i = 0 ; i < chckRange(correctSizeHEX60gensym21_452985087, 0, 2147483647) ; ++i) { result_452985085.data[i] = {Field0: 0, Field1: [], Field2: ({name: [], generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 0, doesDsmashHitAllLedgeOptionsButJump: false, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []})}; }  framePtr = F.prev;
 
-  return result_452985083;
+  return result_452985085;
 
 }
 
@@ -6745,49 +6903,49 @@ function nextTry_1023410210(h_1023410211, maxHash_1023410212) {
 
 }
 
-function rawGet_452985223(t_452985226, key_452985227, hc_452985228, hc_452985228_Idx) {
+function rawGet_452985225(t_452985228, key_452985229, hc_452985230, hc_452985230_Idx) {
             var Temporary3;
 
-  var result_452985229 = 0;
+  var result_452985231 = 0;
 
   var F = {procname: "rawGet.rawGet", prev: framePtr, filename: "/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/hashcommon.nim", line: 0};
   framePtr = F;
   BeforeRet: do {
     F.line = 64;
-    hc_452985228[hc_452985228_Idx] = hash_1040187814(key_452985227);
-    if ((hc_452985228[hc_452985228_Idx] == 0)) {
+    hc_452985230[hc_452985230_Idx] = hash_1040187814(key_452985229);
+    if ((hc_452985230[hc_452985230_Idx] == 0)) {
     F.line = 66;
-    hc_452985228[hc_452985228_Idx] = 314159265;
+    hc_452985230[hc_452985230_Idx] = 314159265;
     }
     
-    if (((t_452985226.data).length == 0)) {
+    if (((t_452985228.data).length == 0)) {
     F.line = 48;
-    result_452985229 = -1;
+    result_452985231 = -1;
     break BeforeRet;
     }
     
     F.line = 49;
-    var h_452985280 = (hc_452985228[hc_452985228_Idx] & (t_452985226.data).length - 1);
+    var h_452985282 = (hc_452985230[hc_452985230_Idx] & (t_452985228.data).length - 1);
     Label1: do {
       F.line = 50;
         Label2: while (true) {
-        if (!isFilled_1023410207(t_452985226.data[chckIndx(h_452985280, 0, (t_452985226.data).length - 1)].Field0)) break Label2;
-            if (!(t_452985226.data[chckIndx(h_452985280, 0, (t_452985226.data).length - 1)].Field0 == hc_452985228[hc_452985228_Idx])) Temporary3 = false; else {              Temporary3 = eqStrings(t_452985226.data[chckIndx(h_452985280, 0, (t_452985226.data).length - 1)].Field1, key_452985227);            }          if (Temporary3) {
+        if (!isFilled_1023410207(t_452985228.data[chckIndx(h_452985282, 0, (t_452985228.data).length - 1)].Field0)) break Label2;
+            if (!(t_452985228.data[chckIndx(h_452985282, 0, (t_452985228.data).length - 1)].Field0 == hc_452985230[hc_452985230_Idx])) Temporary3 = false; else {              Temporary3 = eqStrings(t_452985228.data[chckIndx(h_452985282, 0, (t_452985228.data).length - 1)].Field1, key_452985229);            }          if (Temporary3) {
           F.line = 56;
-          result_452985229 = h_452985280;
+          result_452985231 = h_452985282;
           break BeforeRet;
           }
           
           F.line = 57;
-          h_452985280 = nextTry_1023410210(h_452985280, (t_452985226.data).length - 1);
+          h_452985282 = nextTry_1023410210(h_452985282, (t_452985228.data).length - 1);
         }
     } while (false);
     F.line = 58;
-    result_452985229 = subInt(-1, h_452985280);
+    result_452985231 = subInt(-1, h_452985282);
   } while (false);
   framePtr = F.prev;
 
-  return result_452985229;
+  return result_452985231;
 
 }
 
@@ -6821,79 +6979,79 @@ function failedAssertImpl_218103864(msg_218103865) {
   
 }
 
-function mustRehash_452985559(t_452985561) {
-  var result_452985562 = false;
+function mustRehash_452985561(t_452985563) {
+  var result_452985564 = false;
 
   var F = {procname: "mustRehash.mustRehash", prev: framePtr, filename: "/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/hashcommon.nim", line: 0};
   framePtr = F;
-    if (!((t_452985561.counter < (t_452985561.data).length))) {
+    if (!((t_452985563.counter < (t_452985563.data).length))) {
     F.line = 29;
     failedAssertImpl_218103864(makeNimstrLit("/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/hashcommon.nim(29, 9) `\x0At.counter < t.dataLen` "));
     }
     
     F.line = 30;
-    result_452985562 = ((mulInt((t_452985561.data).length, 2) < mulInt(t_452985561.counter, 3)) || (subInt((t_452985561.data).length, t_452985561.counter) < 4));
+    result_452985564 = ((mulInt((t_452985563.data).length, 2) < mulInt(t_452985563.counter, 3)) || (subInt((t_452985563.data).length, t_452985563.counter) < 4));
   framePtr = F.prev;
 
-  return result_452985562;
+  return result_452985564;
 
 }
 
-function rawInsert_452986008(t_452986012, data_452986013, data_452986013_Idx, key_452986014, val_452986015, hc_452986016, h_452986017) {
+function rawInsert_452986010(t_452986014, data_452986015, data_452986015_Idx, key_452986016, val_452986017, hc_452986018, h_452986019) {
   var F = {procname: "rawInsert.rawInsert", prev: framePtr, filename: "/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/tableimpl.nim", line: 0};
   framePtr = F;
     F.line = 22;
-    data_452986013[data_452986013_Idx][chckIndx(h_452986017, 0, (data_452986013[data_452986013_Idx]).length - 1)].Field1 = nimCopy(null, key_452986014, NTI33554439);
+    data_452986015[data_452986015_Idx][chckIndx(h_452986019, 0, (data_452986015[data_452986015_Idx]).length - 1)].Field1 = nimCopy(null, key_452986016, NTI33554439);
     F.line = 23;
-    data_452986013[data_452986013_Idx][chckIndx(h_452986017, 0, (data_452986013[data_452986013_Idx]).length - 1)].Field2 = nimCopy(data_452986013[data_452986013_Idx][chckIndx(h_452986017, 0, (data_452986013[data_452986013_Idx]).length - 1)].Field2, val_452986015, NTI452984835);
+    data_452986015[data_452986015_Idx][chckIndx(h_452986019, 0, (data_452986015[data_452986015_Idx]).length - 1)].Field2 = nimCopy(data_452986015[data_452986015_Idx][chckIndx(h_452986019, 0, (data_452986015[data_452986015_Idx]).length - 1)].Field2, val_452986017, NTI452984835);
     F.line = 24;
-    data_452986013[data_452986013_Idx][chckIndx(h_452986017, 0, (data_452986013[data_452986013_Idx]).length - 1)].Field0 = hc_452986016;
+    data_452986015[data_452986015_Idx][chckIndx(h_452986019, 0, (data_452986015[data_452986015_Idx]).length - 1)].Field0 = hc_452986018;
   framePtr = F.prev;
 
   
 }
 
-function enlarge_452985714(t_452985717) {
+function enlarge_452985716(t_452985719) {
   var F = {procname: "enlarge.enlarge", prev: framePtr, filename: "/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/tables.nim", line: 0};
   framePtr = F;
     F.line = 249;
-    var n_452985720 = [];
+    var n_452985722 = [];
     F.line = 250;
-    n_452985720 = new Array(chckRange(mulInt((t_452985717.data).length, 2), 0, 2147483647)); for (var i = 0 ; i < chckRange(mulInt((t_452985717.data).length, 2), 0, 2147483647) ; ++i) { n_452985720[i] = {Field0: 0, Field1: [], Field2: ({name: [], generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 0, doesDsmashHitAllLedgeOptionsButJump: false, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []})}; }    F.line = 251;
-    var Temporary1 = t_452985717.data; t_452985717.data = n_452985720; n_452985720 = Temporary1;    Label2: do {
+    n_452985722 = new Array(chckRange(mulInt((t_452985719.data).length, 2), 0, 2147483647)); for (var i = 0 ; i < chckRange(mulInt((t_452985719.data).length, 2), 0, 2147483647) ; ++i) { n_452985722[i] = {Field0: 0, Field1: [], Field2: ({name: [], generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 0, doesDsmashHitAllLedgeOptionsButJump: false, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []})}; }    F.line = 251;
+    var Temporary1 = t_452985719.data; t_452985719.data = n_452985722; n_452985722 = Temporary1;    Label2: do {
       F.line = 252;
-      var i_452985784 = 0;
+      var i_452985786 = 0;
       F.line = 43;
-      var colontmp__452986475 = 0;
+      var colontmp__452986514 = 0;
       F.line = 252;
-      colontmp__452986475 = (n_452985720).length - 1;
+      colontmp__452986514 = (n_452985722).length - 1;
       F.line = 65;
-      var res_452986476 = 0;
+      var res_452986515 = 0;
       Label3: do {
         F.line = 66;
           Label4: while (true) {
-          if (!(res_452986476 <= colontmp__452986475)) break Label4;
+          if (!(res_452986515 <= colontmp__452986514)) break Label4;
             F.line = 252;
-            i_452985784 = res_452986476;
+            i_452985786 = res_452986515;
             F.line = 253;
-            var eh_452985838 = n_452985720[chckIndx(i_452985784, 0, (n_452985720).length - 1)].Field0;
-            if (isFilled_1023410207(eh_452985838)) {
+            var eh_452985840 = n_452985722[chckIndx(i_452985786, 0, (n_452985722).length - 1)].Field0;
+            if (isFilled_1023410207(eh_452985840)) {
             F.line = 255;
-            var j_452985842 = (eh_452985838 & (t_452985717.data).length - 1);
+            var j_452985844 = (eh_452985840 & (t_452985719.data).length - 1);
             Label5: do {
               F.line = 256;
                 Label6: while (true) {
-                if (!isFilled_1023410207(t_452985717.data[chckIndx(j_452985842, 0, (t_452985717.data).length - 1)].Field0)) break Label6;
+                if (!isFilled_1023410207(t_452985719.data[chckIndx(j_452985844, 0, (t_452985719.data).length - 1)].Field0)) break Label6;
                   F.line = 257;
-                  j_452985842 = nextTry_1023410210(j_452985842, (t_452985717.data).length - 1);
+                  j_452985844 = nextTry_1023410210(j_452985844, (t_452985719.data).length - 1);
                 }
             } while (false);
             F.line = 259;
-            rawInsert_452986008(t_452985717, t_452985717, "data", n_452985720[chckIndx(i_452985784, 0, (n_452985720).length - 1)].Field1, n_452985720[chckIndx(i_452985784, 0, (n_452985720).length - 1)].Field2, eh_452985838, j_452985842);
+            rawInsert_452986010(t_452985719, t_452985719, "data", n_452985722[chckIndx(i_452985786, 0, (n_452985722).length - 1)].Field1, n_452985722[chckIndx(i_452985786, 0, (n_452985722).length - 1)].Field2, eh_452985840, j_452985844);
             }
             
             F.line = 68;
-            res_452986476 = addInt(res_452986476, 1);
+            res_452986515 = addInt(res_452986515, 1);
           }
       } while (false);
     } while (false);
@@ -6902,112 +7060,128 @@ function enlarge_452985714(t_452985717) {
   
 }
 
-function rawGetKnownHC_452986186(t_452986189, key_452986190, hc_452986191) {
-  var result_452986192 = 0;
+function rawGetKnownHC_452986188(t_452986191, key_452986192, hc_452986193) {
+  var result_452986194 = 0;
 
   var F = {procname: "rawGetKnownHC.rawGetKnownHC", prev: framePtr, filename: "/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/hashcommon.nim", line: 0};
   framePtr = F;
   BeforeRet: do {
-    if (((t_452986189.data).length == 0)) {
+    if (((t_452986191.data).length == 0)) {
     F.line = 48;
-    result_452986192 = -1;
+    result_452986194 = -1;
     break BeforeRet;
     }
     
     F.line = 49;
-    var h_452986243 = (hc_452986191 & (t_452986189.data).length - 1);
+    var h_452986245 = (hc_452986193 & (t_452986191.data).length - 1);
     Label1: do {
       F.line = 50;
         Label2: while (true) {
-        if (!isFilled_1023410207(t_452986189.data[chckIndx(h_452986243, 0, (t_452986189.data).length - 1)].Field0)) break Label2;
-          if (((t_452986189.data[chckIndx(h_452986243, 0, (t_452986189.data).length - 1)].Field0 == hc_452986191) && eqStrings(t_452986189.data[chckIndx(h_452986243, 0, (t_452986189.data).length - 1)].Field1, key_452986190))) {
+        if (!isFilled_1023410207(t_452986191.data[chckIndx(h_452986245, 0, (t_452986191.data).length - 1)].Field0)) break Label2;
+          if (((t_452986191.data[chckIndx(h_452986245, 0, (t_452986191.data).length - 1)].Field0 == hc_452986193) && eqStrings(t_452986191.data[chckIndx(h_452986245, 0, (t_452986191.data).length - 1)].Field1, key_452986192))) {
           F.line = 56;
-          result_452986192 = h_452986243;
+          result_452986194 = h_452986245;
           break BeforeRet;
           }
           
           F.line = 57;
-          h_452986243 = nextTry_1023410210(h_452986243, (t_452986189.data).length - 1);
+          h_452986245 = nextTry_1023410210(h_452986245, (t_452986191.data).length - 1);
         }
     } while (false);
     F.line = 58;
-    result_452986192 = subInt(-1, h_452986243);
+    result_452986194 = subInt(-1, h_452986245);
   } while (false);
   framePtr = F.prev;
 
-  return result_452986192;
+  return result_452986194;
 
 }
 
-function HEX5BHEX5DHEX3D_452985162(t_452985165, key_452985166, val_452985167) {
+function HEX5BHEX5DHEX3D_452985164(t_452985167, key_452985168, val_452985169) {
   var F = {procname: "[]=.[]=", prev: framePtr, filename: "/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/tables.nim", line: 0};
   framePtr = F;
-    if (((t_452985165.data).length == 0)) {
+    if (((t_452985167.data).length == 0)) {
     F.line = 163;
-    var correctSizeHEX60gensym26_452985217 = slotsNeeded_1023410218(32);
+    var correctSizeHEX60gensym26_452985219 = slotsNeeded_1023410218(32);
     F.line = 167;
-    t_452985165.counter = 0;
+    t_452985167.counter = 0;
     F.line = 168;
-    t_452985165.data = new Array(chckRange(correctSizeHEX60gensym26_452985217, 0, 2147483647)); for (var i = 0 ; i < chckRange(correctSizeHEX60gensym26_452985217, 0, 2147483647) ; ++i) { t_452985165.data[i] = {Field0: 0, Field1: [], Field2: ({name: [], generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 0, doesDsmashHitAllLedgeOptionsButJump: false, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []})}; }    }
+    t_452985167.data = new Array(chckRange(correctSizeHEX60gensym26_452985219, 0, 2147483647)); for (var i = 0 ; i < chckRange(correctSizeHEX60gensym26_452985219, 0, 2147483647) ; ++i) { t_452985167.data[i] = {Field0: 0, Field1: [], Field2: ({name: [], generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 0, doesDsmashHitAllLedgeOptionsButJump: false, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []})}; }    }
     
     F.line = 57;
-    var hc_452985222 = [0];
+    var hc_452985224 = [0];
     F.line = 58;
-    var index_452985452 = rawGet_452985223(t_452985165, key_452985166, hc_452985222, 0);
-    if ((0 <= index_452985452)) {
+    var index_452985454 = rawGet_452985225(t_452985167, key_452985168, hc_452985224, 0);
+    if ((0 <= index_452985454)) {
     F.line = 59;
-    t_452985165.data[chckIndx(index_452985452, 0, (t_452985165.data).length - 1)].Field2 = nimCopy(t_452985165.data[chckIndx(index_452985452, 0, (t_452985165.data).length - 1)].Field2, val_452985167, NTI452984835);
+    t_452985167.data[chckIndx(index_452985454, 0, (t_452985167.data).length - 1)].Field2 = nimCopy(t_452985167.data[chckIndx(index_452985454, 0, (t_452985167.data).length - 1)].Field2, val_452985169, NTI452984835);
     }
     else {
-      if (((t_452985165.data).length == 0)) {
+      if (((t_452985167.data).length == 0)) {
       F.line = 163;
-      var correctSizeHEX60gensym31_452985554 = slotsNeeded_1023410218(32);
+      var correctSizeHEX60gensym31_452985556 = slotsNeeded_1023410218(32);
       F.line = 167;
-      t_452985165.counter = 0;
+      t_452985167.counter = 0;
       F.line = 168;
-      t_452985165.data = new Array(chckRange(correctSizeHEX60gensym31_452985554, 0, 2147483647)); for (var i = 0 ; i < chckRange(correctSizeHEX60gensym31_452985554, 0, 2147483647) ; ++i) { t_452985165.data[i] = {Field0: 0, Field1: [], Field2: ({name: [], generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 0, doesDsmashHitAllLedgeOptionsButJump: false, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []})}; }      }
+      t_452985167.data = new Array(chckRange(correctSizeHEX60gensym31_452985556, 0, 2147483647)); for (var i = 0 ; i < chckRange(correctSizeHEX60gensym31_452985556, 0, 2147483647) ; ++i) { t_452985167.data[i] = {Field0: 0, Field1: [], Field2: ({name: [], generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 0, doesDsmashHitAllLedgeOptionsButJump: false, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []})}; }      }
       
-      if (mustRehash_452985559(t_452985165)) {
+      if (mustRehash_452985561(t_452985167)) {
       F.line = 49;
-      enlarge_452985714(t_452985165);
+      enlarge_452985716(t_452985167);
       F.line = 50;
-      index_452985452 = rawGetKnownHC_452986186(t_452985165, key_452985166, hc_452985222[0]);
+      index_452985454 = rawGetKnownHC_452986188(t_452985167, key_452985168, hc_452985224[0]);
       }
       
       F.line = 51;
-      index_452985452 = subInt(-1, index_452985452);
+      index_452985454 = subInt(-1, index_452985454);
       F.line = 52;
-      rawInsert_452986008(t_452985165, t_452985165, "data", key_452985166, val_452985167, hc_452985222[0], index_452985452);
+      rawInsert_452986010(t_452985167, t_452985167, "data", key_452985168, val_452985169, hc_452985224[0], index_452985454);
       F.line = 60;
-      t_452985165.counter = addInt(t_452985165.counter, 1);
+      t_452985167.counter = addInt(t_452985167.counter, 1);
     }
     
   framePtr = F.prev;
 
   
 }
+
+function initTable_452986432(initialSize_452986435) {
+  var result_452986436 = ({data: [], counter: 0});
+
+  var F = {procname: "initTable.initTable", prev: framePtr, filename: "/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/tables.nim", line: 0};
+  framePtr = F;
+    F.line = 163;
+    var correctSizeHEX60gensym39_452986438 = slotsNeeded_1023410218(chckRange(initialSize_452986435, 0, 2147483647));
+    F.line = 167;
+    result_452986436.counter = 0;
+    F.line = 168;
+    result_452986436.data = new Array(chckRange(correctSizeHEX60gensym39_452986438, 0, 2147483647)); for (var i = 0 ; i < chckRange(correctSizeHEX60gensym39_452986438, 0, 2147483647) ; ++i) { result_452986436.data[i] = {Field0: 0, Field1: [], Field2: null}; }  framePtr = F.prev;
+
+  return result_452986436;
+
+}
 var F = {procname: "module flatzone", prev: framePtr, filename: "/home/avahe/programming/nim/flatzone/src/flatzone.nim", line: 0};
 framePtr = F;
-F.line = 19;
-var characterLookup_452985099 = [initTable_452985074(32)];
+F.line = 20;
+var characterLookup_452985101 = [initTable_452985076(32)];
 Label1: do {
-  F.line = 20;
-  var character_452985121 = [({name: [], generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 0, doesDsmashHitAllLedgeOptionsButJump: false, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []})];
+  F.line = 21;
+  var character_452985123 = [({name: [], generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 0, doesDsmashHitAllLedgeOptionsButJump: false, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []})];
   F.line = 235;
-  var i_452986452 = 0;
+  var i_452986491 = 0;
   F.line = 236;
-  var L_452986453 = 89;
+  var L_452986492 = 89;
   Label2: do {
     F.line = 237;
       Label3: while (true) {
-      if (!(i_452986452 < L_452986453)) break Label3;
-        F.line = 20;
-        character_452985121[0] = characters_452985073[chckIndx(i_452986452, 0, (characters_452985073).length - 1)];
-        F.line = 20;
-        HEX5BHEX5DHEX3D_452985162(characterLookup_452985099[0], character_452985121[0].name, character_452985121[0]);
+      if (!(i_452986491 < L_452986492)) break Label3;
+        F.line = 21;
+        character_452985123[0] = characters_452985075[chckIndx(i_452986491, 0, (characters_452985075).length - 1)];
+        F.line = 21;
+        HEX5BHEX5DHEX3D_452985164(characterLookup_452985101[0], character_452985123[0].name, character_452985123[0]);
         F.line = 239;
-        i_452986452 = addInt(i_452986452, 1);
-        if (!((89 == L_452986453))) {
+        i_452986491 = addInt(i_452986491, 1);
+        if (!((89 == L_452986492))) {
         F.line = 240;
         failedAssertImpl_218103864(makeNimstrLit("/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/system/iterators.nim(240, 11) `len(a) == L` the length of the seq changed while iterating over it"));
         }
@@ -7015,6 +7189,11 @@ Label1: do {
       }
   } while (false);
 } while (false);
+F.line = 24;
+var characterDomTiles_452986452 = [initTable_452986432(32)];
+framePtr = F.prev;
+var F = {procname: "module flatzone", prev: framePtr, filename: "/home/avahe/programming/nim/flatzone/src/flatzone.nim", line: 0};
+framePtr = F;
 framePtr = F.prev;
 var F = {procname: "module flatzone", prev: framePtr, filename: "/home/avahe/programming/nim/flatzone/src/flatzone.nim", line: 0};
 framePtr = F;
@@ -7304,21 +7483,21 @@ function applyEvents_620757252(n_620757253) {
       F.line = 147;
       var i_620757262 = 0;
       F.line = 117;
-      var colontmp__452986663 = 0;
+      var colontmp__452988293 = 0;
       F.line = 147;
-      colontmp__452986663 = (n_620757253.events).length;
+      colontmp__452988293 = (n_620757253.events).length;
       F.line = 119;
-      var i_452986664 = 0;
+      var i_452988294 = 0;
       Label2: do {
         F.line = 120;
           Label3: while (true) {
-          if (!(i_452986664 < colontmp__452986663)) break Label3;
+          if (!(i_452988294 < colontmp__452988293)) break Label3;
             F.line = 147;
-            i_620757262 = i_452986664;
+            i_620757262 = i_452988294;
             F.line = 147;
             n_620757253.events[chckIndx(i_620757262, 0, (n_620757253.events).length - 1)]["Field2"] = wrapEvent_620757146(dest_620757254, n_620757253, n_620757253.events[chckIndx(i_620757262, 0, (n_620757253.events).length - 1)]["Field0"], n_620757253.events[chckIndx(i_620757262, 0, (n_620757253.events).length - 1)]["Field1"]);
             F.line = 122;
-            i_452986664 = addInt(i_452986664, 1);
+            i_452988294 = addInt(i_452988294, 1);
           }
       } while (false);
     } while (false);
@@ -7336,21 +7515,21 @@ function applyStyle_721420770(n_721420771, s_721420772) {
       F.line = 325;
       var i_721420785 = 0;
       F.line = 43;
-      var colontmp__452986667 = 0;
+      var colontmp__452988297 = 0;
       F.line = 325;
-      colontmp__452986667 = subInt(s_721420772.length, 1);
+      colontmp__452988297 = subInt(s_721420772.length, 1);
       F.line = 65;
-      var res_452986668 = 0;
+      var res_452988298 = 0;
       Label2: do {
         F.line = 66;
           Label3: while (true) {
-          if (!(res_452986668 <= colontmp__452986667)) break Label3;
+          if (!(res_452988298 <= colontmp__452988297)) break Label3;
             F.line = 325;
-            i_721420785 = res_452986668;
+            i_721420785 = res_452988298;
             F.line = 325;
             n_721420771.style[s_721420772[i_721420785]] = s_721420772[addInt(i_721420785, 1)];
             F.line = 68;
-            res_452986668 = addInt(res_452986668, 2);
+            res_452988298 = addInt(res_452988298, 2);
           }
       } while (false);
     } while (false);
@@ -7495,25 +7674,25 @@ function toDom_620757280(n_620757281, useAttachedNode_620757282, kxi_620757283) 
         var k_620757393 = null;
         Label2: do {
           F.line = 310;
-          var i_452986648 = 0;
+          var i_452988278 = 0;
           F.line = 117;
-          var colontmp__452986649 = 0;
+          var colontmp__452988279 = 0;
           F.line = 310;
-          colontmp__452986649 = (n_620757281.kids).length;
+          colontmp__452988279 = (n_620757281.kids).length;
           F.line = 119;
-          var i_452986650 = 0;
+          var i_452988280 = 0;
           Label3: do {
             F.line = 120;
               Label4: while (true) {
-              if (!(i_452986650 < colontmp__452986649)) break Label4;
+              if (!(i_452988280 < colontmp__452988279)) break Label4;
                 F.line = 310;
-                i_452986648 = i_452986650;
+                i_452988278 = i_452988280;
                 F.line = 195;
-                k_620757393 = n_620757281.kids[chckIndx(i_452986648, 0, (n_620757281.kids).length - 1)];
+                k_620757393 = n_620757281.kids[chckIndx(i_452988278, 0, (n_620757281.kids).length - 1)];
                 F.line = 195;
                 result_620757284.appendChild(toDom_620757280(k_620757393, useAttachedNode_620757282, kxi_620757283));
                 F.line = 122;
-                i_452986650 = addInt(i_452986650, 1);
+                i_452988280 = addInt(i_452988280, 1);
               }
           } while (false);
         } while (false);
@@ -7542,30 +7721,30 @@ function toDom_620757280(n_620757281, useAttachedNode_620757282, kxi_620757283) 
       var v_620757395 = null;
       Label6: do {
         F.line = 313;
-        var i_452986658 = 0;
+        var i_452988288 = 0;
         F.line = 43;
-        var colontmp__452986659 = 0;
+        var colontmp__452988289 = 0;
         F.line = 313;
-        colontmp__452986659 = subInt((n_620757281.attrs).length, 2);
+        colontmp__452988289 = subInt((n_620757281.attrs).length, 2);
         F.line = 65;
-        var res_452986660 = 0;
+        var res_452988290 = 0;
         Label7: do {
           F.line = 66;
             Label8: while (true) {
-            if (!(res_452986660 <= colontmp__452986659)) break Label8;
+            if (!(res_452988290 <= colontmp__452988289)) break Label8;
               F.line = 313;
-              i_452986658 = res_452986660;
+              i_452988288 = res_452988290;
               F.line = 206;
-              k_620757394 = n_620757281.attrs[chckIndx(i_452986658, 0, (n_620757281.attrs).length - 1)];
+              k_620757394 = n_620757281.attrs[chckIndx(i_452988288, 0, (n_620757281.attrs).length - 1)];
               F.line = 206;
-              v_620757395 = n_620757281.attrs[chckIndx(addInt(i_452986658, 1), 0, (n_620757281.attrs).length - 1)];
+              v_620757395 = n_620757281.attrs[chckIndx(addInt(i_452988288, 1), 0, (n_620757281.attrs).length - 1)];
               if (!((v_620757395 == null))) {
               F.line = 208;
               result_620757284.setAttribute(k_620757394, v_620757395);
               }
               
               F.line = 68;
-              res_452986660 = addInt(res_452986660, 2);
+              res_452988290 = addInt(res_452988290, 2);
             }
         } while (false);
       } while (false);
@@ -7673,17 +7852,17 @@ function same_620757434(n_620757435, e_620757436, nesting_620757437) {
       F.line = 231;
       var i_620757474 = 0;
       F.line = 117;
-      var colontmp__452986671 = 0;
+      var colontmp__452988301 = 0;
       F.line = 231;
-      colontmp__452986671 = len_654312124(n_620757435);
+      colontmp__452988301 = len_654312124(n_620757435);
       F.line = 119;
-      var i_452986672 = 0;
+      var i_452988302 = 0;
       Label4: do {
         F.line = 120;
           Label5: while (true) {
-          if (!(i_452986672 < colontmp__452986671)) break Label5;
+          if (!(i_452988302 < colontmp__452988301)) break Label5;
             F.line = 231;
-            i_620757474 = i_452986672;
+            i_620757474 = i_452988302;
             if (!(same_620757434(HEX5BHEX5D_654312131(n_620757435, i_620757474), e_620757436.childNodes[i_620757474], addInt(nesting_620757437, 1)))) {
             F.line = 232;
             result_620757438 = false;
@@ -7691,7 +7870,7 @@ function same_620757434(n_620757435, e_620757436, nesting_620757437) {
             }
             
             F.line = 122;
-            i_452986672 = addInt(i_452986672, 1);
+            i_452988302 = addInt(i_452988302, 1);
           }
       } while (false);
     } while (false);
@@ -7744,17 +7923,17 @@ function eq_721420542(a_721420543, b_721420544) {
       F.line = 237;
       var i_721420580 = 0;
       F.line = 117;
-      var colontmp__452986698 = 0;
+      var colontmp__452988328 = 0;
       F.line = 237;
-      colontmp__452986698 = a_721420543.length;
+      colontmp__452988328 = a_721420543.length;
       F.line = 119;
-      var i_452986699 = 0;
+      var i_452988329 = 0;
       Label2: do {
         F.line = 120;
           Label3: while (true) {
-          if (!(i_452986699 < colontmp__452986698)) break Label3;
+          if (!(i_452988329 < colontmp__452988328)) break Label3;
             F.line = 237;
-            i_721420580 = i_452986699;
+            i_721420580 = i_452988329;
             if (!((a_721420543[i_721420580] == b_721420544[i_721420580]))) {
             F.line = 238;
             result_721420545 = false;
@@ -7762,7 +7941,7 @@ function eq_721420542(a_721420543, b_721420544) {
             }
             
             F.line = 122;
-            i_452986699 = addInt(i_452986699, 1);
+            i_452988329 = addInt(i_452988329, 1);
           }
       } while (false);
     } while (false);
@@ -7789,17 +7968,17 @@ function sameAttrs_654312287(a_654312288, b_654312289) {
       F.line = 319;
       var i_654312304 = 0;
       F.line = 117;
-      var colontmp__452986702 = 0;
+      var colontmp__452988332 = 0;
       F.line = 319;
-      colontmp__452986702 = (a_654312288.attrs).length;
+      colontmp__452988332 = (a_654312288.attrs).length;
       F.line = 119;
-      var i_452986703 = 0;
+      var i_452988333 = 0;
       Label2: do {
         F.line = 120;
           Label3: while (true) {
-          if (!(i_452986703 < colontmp__452986702)) break Label3;
+          if (!(i_452988333 < colontmp__452988332)) break Label3;
             F.line = 319;
-            i_654312304 = i_452986703;
+            i_654312304 = i_452988333;
             if (!((a_654312288.attrs[chckIndx(i_654312304, 0, (a_654312288.attrs).length - 1)] == b_654312289.attrs[chckIndx(i_654312304, 0, (b_654312289.attrs).length - 1)]))) {
             F.line = 320;
             result_654312290 = false;
@@ -7807,7 +7986,7 @@ function sameAttrs_654312287(a_654312288, b_654312289) {
             }
             
             F.line = 122;
-            i_452986703 = addInt(i_452986703, 1);
+            i_452988333 = addInt(i_452988333, 1);
           }
       } while (false);
     } while (false);
@@ -7875,17 +8054,17 @@ function eq_620757488(a_620757489, b_620757490, recursive_620757491) {
       F.line = 277;
       var i_620757509 = 0;
       F.line = 117;
-      var colontmp__452986690 = 0;
+      var colontmp__452988320 = 0;
       F.line = 277;
-      colontmp__452986690 = len_654312124(a_620757489);
+      colontmp__452988320 = len_654312124(a_620757489);
       F.line = 119;
-      var i_452986691 = 0;
+      var i_452988321 = 0;
       Label2: do {
         F.line = 120;
           Label3: while (true) {
-          if (!(i_452986691 < colontmp__452986690)) break Label3;
+          if (!(i_452988321 < colontmp__452988320)) break Label3;
             F.line = 277;
-            i_620757509 = i_452986691;
+            i_620757509 = i_452988321;
             if ((eq_620757488(HEX5BHEX5D_654312131(a_620757489, i_620757509), HEX5BHEX5D_654312131(b_620757490, i_620757509), recursive_620757491) == 1)) {
             F.line = 278;
             result_620757492 = 1;
@@ -7893,7 +8072,7 @@ function eq_620757488(a_620757489, b_620757490, recursive_620757491) {
             }
             
             F.line = 122;
-            i_452986691 = addInt(i_452986691, 1);
+            i_452988321 = addInt(i_452988321, 1);
           }
       } while (false);
     } while (false);
@@ -7957,17 +8136,17 @@ function eq_620757488(a_620757489, b_620757490, recursive_620757491) {
       F.line = 309;
       var i_620757535 = 0;
       F.line = 117;
-      var colontmp__452986694 = 0;
+      var colontmp__452988324 = 0;
       F.line = 309;
-      colontmp__452986694 = len_654312124(a_620757489);
+      colontmp__452988324 = len_654312124(a_620757489);
       F.line = 119;
-      var i_452986695 = 0;
+      var i_452988325 = 0;
       Label7: do {
         F.line = 120;
           Label8: while (true) {
-          if (!(i_452986695 < colontmp__452986694)) break Label8;
+          if (!(i_452988325 < colontmp__452988324)) break Label8;
             F.line = 309;
-            i_620757535 = i_452986695;
+            i_620757535 = i_452988325;
             if (!((eq_620757488(HEX5BHEX5D_654312131(a_620757489, i_620757535), HEX5BHEX5D_654312131(b_620757490, i_620757535), true) == 3))) {
             F.line = 311;
             result_620757492 = 1;
@@ -7975,7 +8154,7 @@ function eq_620757488(a_620757489, b_620757490, recursive_620757491) {
             }
             
             F.line = 122;
-            i_452986695 = addInt(i_452986695, 1);
+            i_452988325 = addInt(i_452988325, 1);
           }
       } while (false);
     } while (false);
@@ -8037,27 +8216,27 @@ function updateAttributes_620757578(newNode_620757579, oldNode_620757580) {
       var __620757586 = null;
       Label2: do {
         F.line = 313;
-        var i_452986707 = 0;
+        var i_452988337 = 0;
         F.line = 43;
-        var colontmp__452986708 = 0;
+        var colontmp__452988338 = 0;
         F.line = 313;
-        colontmp__452986708 = subInt((oldNode_620757580.attrs).length, 2);
+        colontmp__452988338 = subInt((oldNode_620757580.attrs).length, 2);
         F.line = 65;
-        var res_452986709 = 0;
+        var res_452988339 = 0;
         Label3: do {
           F.line = 66;
             Label4: while (true) {
-            if (!(res_452986709 <= colontmp__452986708)) break Label4;
+            if (!(res_452988339 <= colontmp__452988338)) break Label4;
               F.line = 313;
-              i_452986707 = res_452986709;
+              i_452988337 = res_452988339;
               F.line = 328;
-              k_620757585 = oldNode_620757580.attrs[chckIndx(i_452986707, 0, (oldNode_620757580.attrs).length - 1)];
+              k_620757585 = oldNode_620757580.attrs[chckIndx(i_452988337, 0, (oldNode_620757580.attrs).length - 1)];
               F.line = 328;
-              __620757586 = oldNode_620757580.attrs[chckIndx(addInt(i_452986707, 1), 0, (oldNode_620757580.attrs).length - 1)];
+              __620757586 = oldNode_620757580.attrs[chckIndx(addInt(i_452988337, 1), 0, (oldNode_620757580.attrs).length - 1)];
               F.line = 328;
               oldNode_620757580.dom.removeAttribute(k_620757585);
               F.line = 68;
-              res_452986709 = addInt(res_452986709, 2);
+              res_452988339 = addInt(res_452988339, 2);
             }
         } while (false);
       } while (false);
@@ -8069,30 +8248,30 @@ function updateAttributes_620757578(newNode_620757579, oldNode_620757580) {
       var v_620757588 = null;
       Label6: do {
         F.line = 313;
-        var i_452986713 = 0;
+        var i_452988343 = 0;
         F.line = 43;
-        var colontmp__452986714 = 0;
+        var colontmp__452988344 = 0;
         F.line = 313;
-        colontmp__452986714 = subInt((newNode_620757579.attrs).length, 2);
+        colontmp__452988344 = subInt((newNode_620757579.attrs).length, 2);
         F.line = 65;
-        var res_452986715 = 0;
+        var res_452988345 = 0;
         Label7: do {
           F.line = 66;
             Label8: while (true) {
-            if (!(res_452986715 <= colontmp__452986714)) break Label8;
+            if (!(res_452988345 <= colontmp__452988344)) break Label8;
               F.line = 313;
-              i_452986713 = res_452986715;
+              i_452988343 = res_452988345;
               F.line = 330;
-              k_620757587 = newNode_620757579.attrs[chckIndx(i_452986713, 0, (newNode_620757579.attrs).length - 1)];
+              k_620757587 = newNode_620757579.attrs[chckIndx(i_452988343, 0, (newNode_620757579.attrs).length - 1)];
               F.line = 330;
-              v_620757588 = newNode_620757579.attrs[chckIndx(addInt(i_452986713, 1), 0, (newNode_620757579.attrs).length - 1)];
+              v_620757588 = newNode_620757579.attrs[chckIndx(addInt(i_452988343, 1), 0, (newNode_620757579.attrs).length - 1)];
               if (!((v_620757588 == null))) {
               F.line = 332;
               oldNode_620757580.dom.setAttribute(k_620757587, v_620757588);
               }
               
               F.line = 68;
-              res_452986715 = addInt(res_452986715, 2);
+              res_452988345 = addInt(res_452988345, 2);
             }
         } while (false);
       } while (false);
@@ -8116,17 +8295,17 @@ function getAttr_654312103(n_654312104, key_654312105) {
       F.line = 254;
       var i_654312115 = 0;
       F.line = 43;
-      var colontmp__452986718 = 0;
+      var colontmp__452988348 = 0;
       F.line = 254;
-      colontmp__452986718 = subInt((n_654312104.attrs).length, 2);
+      colontmp__452988348 = subInt((n_654312104.attrs).length, 2);
       F.line = 65;
-      var res_452986719 = 0;
+      var res_452988349 = 0;
       Label2: do {
         F.line = 66;
           Label3: while (true) {
-          if (!(res_452986719 <= colontmp__452986718)) break Label3;
+          if (!(res_452988349 <= colontmp__452988348)) break Label3;
             F.line = 254;
-            i_654312115 = res_452986719;
+            i_654312115 = res_452988349;
             if ((n_654312104.attrs[chckIndx(i_654312115, 0, (n_654312104.attrs).length - 1)] == key_654312105)) {
             F.line = 255;
             result_654312106 = n_654312104.attrs[chckIndx(addInt(i_654312115, 1), 0, (n_654312104.attrs).length - 1)];
@@ -8134,7 +8313,7 @@ function getAttr_654312103(n_654312104, key_654312105) {
             }
             
             F.line = 68;
-            res_452986719 = addInt(res_452986719, 2);
+            res_452988349 = addInt(res_452988349, 2);
           }
       } while (false);
     } while (false);
@@ -8153,21 +8332,21 @@ function removeAllEventHandlers_620757110(d_620757111) {
       F.line = 97;
       var i_620757127 = 0;
       F.line = 117;
-      var colontmp__452986722 = 0;
+      var colontmp__452988352 = 0;
       F.line = 97;
-      colontmp__452986722 = d_620757111.karaxEvents.length;
+      colontmp__452988352 = d_620757111.karaxEvents.length;
       F.line = 119;
-      var i_452986723 = 0;
+      var i_452988353 = 0;
       Label2: do {
         F.line = 120;
           Label3: while (true) {
-          if (!(i_452986723 < colontmp__452986722)) break Label3;
+          if (!(i_452988353 < colontmp__452988352)) break Label3;
             F.line = 97;
-            i_620757127 = i_452986723;
+            i_620757127 = i_452988353;
             F.line = 97;
             d_620757111.removeEventListener(d_620757111.karaxEvents[i_620757127]["Field0"], d_620757111.karaxEvents[i_620757127]["Field1"]);
             F.line = 122;
-            i_452986723 = addInt(i_452986723, 1);
+            i_452988353 = addInt(i_452988353, 1);
           }
       } while (false);
     } while (false);
@@ -8345,21 +8524,21 @@ function diff_620757733(newNode_620757734, oldNode_620757735, parent_620757736, 
         F.line = 522;
         var i_620757803 = 0;
         F.line = 75;
-        var colontmp__452986677 = 0;
+        var colontmp__452988307 = 0;
         F.line = 522;
-        colontmp__452986677 = subInt(pos_620757798, 1);
+        colontmp__452988307 = subInt(pos_620757798, 1);
         F.line = 90;
-        var res_452986678 = commonPrefix_620757775;
+        var res_452988308 = commonPrefix_620757775;
         Label9: do {
           F.line = 91;
             Label10: while (true) {
-            if (!(res_452986678 <= colontmp__452986677)) break Label10;
+            if (!(res_452988308 <= colontmp__452988307)) break Label10;
               F.line = 522;
-              i_620757803 = res_452986678;
+              i_620757803 = res_452988308;
               F.line = 522;
               diff_620757733(HEX5BHEX5D_654312131(newNode_620757734, i_620757803), HEX5BHEX5D_654312131(oldNode_620757735, i_620757803), current_620757737, current_620757737.childNodes[chckIndx(i_620757803, 0, (current_620757737.childNodes).length - 1)], kxi_620757738);
               F.line = 93;
-              res_452986678 = addInt(res_452986678, 1);
+              res_452988308 = addInt(res_452988308, 1);
             }
         } while (false);
       } while (false);
@@ -8368,17 +8547,17 @@ function diff_620757733(newNode_620757734, oldNode_620757735, parent_620757736, 
         F.line = 526;
         var i_620757808 = 0;
         F.line = 90;
-        var res_452986681 = pos_620757798;
+        var res_452988311 = pos_620757798;
         Label12: do {
           F.line = 91;
             Label13: while (true) {
-            if (!(res_452986681 <= newPos_620757785)) break Label13;
+            if (!(res_452988311 <= newPos_620757785)) break Label13;
               F.line = 526;
-              i_620757808 = res_452986681;
+              i_620757808 = res_452988311;
               F.line = 526;
               addPatch_620757598(kxi_620757738, 2, current_620757737, null, HEX5BHEX5D_654312131(newNode_620757734, i_620757808), null);
               F.line = 93;
-              res_452986681 = addInt(res_452986681, 1);
+              res_452988311 = addInt(res_452988311, 1);
             }
         } while (false);
       } while (false);
@@ -8390,17 +8569,17 @@ function diff_620757733(newNode_620757734, oldNode_620757735, parent_620757736, 
           F.line = 530;
           var i_620757814 = 0;
           F.line = 90;
-          var res_452986684 = pos_620757798;
+          var res_452988314 = pos_620757798;
           Label15: do {
             F.line = 91;
               Label16: while (true) {
-              if (!(res_452986684 <= newPos_620757785)) break Label16;
+              if (!(res_452988314 <= newPos_620757785)) break Label16;
                 F.line = 530;
-                i_620757814 = res_452986684;
+                i_620757814 = res_452988314;
                 F.line = 530;
                 addPatch_620757598(kxi_620757738, 3, current_620757737, before_620757809, HEX5BHEX5D_654312131(newNode_620757734, i_620757814), null);
                 F.line = 93;
-                res_452986684 = addInt(res_452986684, 1);
+                res_452988314 = addInt(res_452988314, 1);
               }
           } while (false);
         } while (false);
@@ -8410,19 +8589,19 @@ function diff_620757733(newNode_620757734, oldNode_620757735, parent_620757736, 
         F.line = 533;
         var i_620757819 = 0;
         F.line = 90;
-        var res_452986687 = pos_620757798;
+        var res_452988317 = pos_620757798;
         Label18: do {
           F.line = 91;
             Label19: while (true) {
-            if (!(res_452986687 <= oldPos_620757784)) break Label19;
+            if (!(res_452988317 <= oldPos_620757784)) break Label19;
               F.line = 533;
-              i_620757819 = res_452986687;
+              i_620757819 = res_452988317;
               F.line = 533;
               addPatch_620757598(kxi__, 4, null, null, null, HEX5BHEX5D_654312131(oldNode_620757735, i_620757819));
               F.line = 533;
               addPatch_620757598(kxi_620757738, 1, current_620757737, current_620757737.childNodes[chckIndx(i_620757819, 0, (current_620757737.childNodes).length - 1)], null, null);
               F.line = 93;
-              res_452986687 = addInt(res_452986687, 1);
+              res_452988317 = addInt(res_452988317, 1);
             }
         } while (false);
       } while (false);
@@ -8521,21 +8700,21 @@ function moveDom_620757663(dest_620757664, src_620757665) {
       F.line = 394;
       var i_620757681 = 0;
       F.line = 117;
-      var colontmp__452986733 = 0;
+      var colontmp__452988363 = 0;
       F.line = 394;
-      colontmp__452986733 = len_654312124(dest_620757664);
+      colontmp__452988363 = len_654312124(dest_620757664);
       F.line = 119;
-      var i_452986734 = 0;
+      var i_452988364 = 0;
       Label2: do {
         F.line = 120;
           Label3: while (true) {
-          if (!(i_452986734 < colontmp__452986733)) break Label3;
+          if (!(i_452988364 < colontmp__452988363)) break Label3;
             F.line = 394;
-            i_620757681 = i_452986734;
+            i_620757681 = i_452988364;
             F.line = 394;
             moveDom_620757663(HEX5BHEX5D_654312131(dest_620757664, i_620757681), HEX5BHEX5D_654312131(src_620757665, i_620757681));
             F.line = 122;
-            i_452986734 = addInt(i_452986734, 1);
+            i_452988364 = addInt(i_452988364, 1);
           }
       } while (false);
     } while (false);
@@ -8561,13 +8740,13 @@ function applyPatch_620757682(kxi_620757683) {
       F.line = 398;
       var i_620757688 = 0;
       F.line = 119;
-      var i_452986727 = 0;
+      var i_452988357 = 0;
       Label2: do {
         F.line = 120;
           Label3: while (true) {
-          if (!(i_452986727 < kxi_620757683.patchLen)) break Label3;
+          if (!(i_452988357 < kxi_620757683.patchLen)) break Label3;
             F.line = 398;
-            i_620757688 = i_452986727;
+            i_620757688 = i_452988357;
             F.line = 399;
             var p_620757689 = nimCopy(null, kxi_620757683.patches[chckIndx(i_620757688, 0, (kxi_620757683.patches).length - 1)], NTI620756998);
             F.line = 398;
@@ -8638,7 +8817,7 @@ function applyPatch_620757682(kxi_620757683) {
               break;
             }
             F.line = 122;
-            i_452986727 = addInt(i_452986727, 1);
+            i_452988357 = addInt(i_452988357, 1);
           }
       } while (false);
     } while (false);
@@ -8648,13 +8827,13 @@ function applyPatch_620757682(kxi_620757683) {
       F.line = 429;
       var i_620757720 = 0;
       F.line = 119;
-      var i_452986730 = 0;
+      var i_452988360 = 0;
       Label5: do {
         F.line = 120;
           Label6: while (true) {
-          if (!(i_452986730 < kxi_620757683.patchLenV)) break Label6;
+          if (!(i_452988360 < kxi_620757683.patchLenV)) break Label6;
             F.line = 429;
-            i_620757720 = i_452986730;
+            i_620757720 = i_452988360;
             F.line = 430;
             var p_620757721 = nimCopy(null, kxi_620757683.patchesV[chckIndx(i_620757720, 0, (kxi_620757683.patchesV).length - 1)], NTI620756999);
             F.line = 429;
@@ -8665,7 +8844,7 @@ function applyPatch_620757682(kxi_620757683) {
             }
             
             F.line = 122;
-            i_452986730 = addInt(i_452986730, 1);
+            i_452988360 = addInt(i_452988360, 1);
           }
       } while (false);
     } while (false);
@@ -8880,17 +9059,17 @@ function tree_654312202(kind_654312203, kids_654312204) {
       F.line = 291;
       var k_654312217 = null;
       F.line = 8;
-      var i_452986742 = 0;
+      var i_452988372 = 0;
       Label2: do {
         F.line = 9;
           Label3: while (true) {
-          if (!(i_452986742 < (kids_654312204).length)) break Label3;
+          if (!(i_452988372 < (kids_654312204).length)) break Label3;
             F.line = 291;
-            k_654312217 = kids_654312204[chckIndx(i_452986742, 0, (kids_654312204).length - 1)];
+            k_654312217 = kids_654312204[chckIndx(i_452988372, 0, (kids_654312204).length - 1)];
             F.line = 291;
             add_654312139(result_654312205, k_654312217);
             F.line = 11;
-            i_452986742 = addInt(i_452986742, 1);
+            i_452988372 = addInt(i_452988372, 1);
           }
       } while (false);
     } while (false);
@@ -8913,17 +9092,17 @@ function setAttr_654312065(n_654312066, key_654312067, val_654312068) {
         F.line = 246;
         var i_654312085 = 0;
         F.line = 43;
-        var colontmp__452986745 = 0;
+        var colontmp__452988375 = 0;
         F.line = 246;
-        colontmp__452986745 = subInt((n_654312066.attrs).length, 2);
+        colontmp__452988375 = subInt((n_654312066.attrs).length, 2);
         F.line = 65;
-        var res_452986746 = 0;
+        var res_452988376 = 0;
         Label2: do {
           F.line = 66;
             Label3: while (true) {
-            if (!(res_452986746 <= colontmp__452986745)) break Label3;
+            if (!(res_452988376 <= colontmp__452988375)) break Label3;
               F.line = 246;
-              i_654312085 = res_452986746;
+              i_654312085 = res_452988376;
               if ((n_654312066.attrs[chckIndx(i_654312085, 0, (n_654312066.attrs).length - 1)] == key_654312067)) {
               F.line = 248;
               n_654312066.attrs[chckIndx(addInt(i_654312085, 1), 0, (n_654312066.attrs).length - 1)] = val_654312068;
@@ -8932,7 +9111,7 @@ function setAttr_654312065(n_654312066, key_654312067, val_654312068) {
               }
               
               F.line = 68;
-              res_452986746 = addInt(res_452986746, 2);
+              res_452988376 = addInt(res_452988376, 2);
             }
         } while (false);
       } while (false);
@@ -8961,74 +9140,155 @@ function text_654312254(s_654312255) {
 
 }
 
-function createTitleBar_452986479() {
-  var result_452986480 = null;
+function createTitleBar_452986518() {
+  var result_452986519 = null;
 
   var F = {procname: "flatzone.createTitleBar", prev: framePtr, filename: "/home/avahe/programming/nim/flatzone/src/flatzone.nim", line: 0};
   framePtr = F;
-    F.line = 24;
-    F.line = 24;
-    var tmp_452986507 = tree_654312202(44, []);
-    F.line = 24;
-    tmp_452986507.class = "top-bar";
-    F.line = 25;
-    var tmp_452986513 = tree_654312202(11, []);
-    F.line = 25;
-    setAttr_654312065(tmp_452986513, "rel", "stylesheet");
-    F.line = 25;
-    setAttr_654312065(tmp_452986513, "type", "text/css");
-    F.line = 25;
-    setAttr_654312065(tmp_452986513, "href", "main.css");
-    F.line = 25;
-    add_654312139(tmp_452986507, tmp_452986513);
-    F.line = 26;
-    var tmp_452986514 = tree_654312202(21, []);
-    F.line = 26;
-    tmp_452986514.class = "title";
     F.line = 27;
-    add_654312139(tmp_452986514, text_654312254(makeNimstrLit("Flatzone")));
     F.line = 27;
-    add_654312139(tmp_452986507, tmp_452986514);
+    var tmp_452986546 = tree_654312202(44, []);
+    F.line = 27;
+    tmp_452986546.class = "top-bar";
+    F.line = 28;
+    var tmp_452986552 = tree_654312202(11, []);
+    F.line = 28;
+    setAttr_654312065(tmp_452986552, "rel", "stylesheet");
+    F.line = 28;
+    setAttr_654312065(tmp_452986552, "type", "text/css");
+    F.line = 28;
+    setAttr_654312065(tmp_452986552, "href", "main.css");
+    F.line = 28;
+    add_654312139(tmp_452986546, tmp_452986552);
     F.line = 29;
-    var tmp_452986515 = tree_654312202(45, []);
+    var tmp_452986553 = tree_654312202(21, []);
     F.line = 29;
-    setAttr_654312065(tmp_452986515, "href", "#/search");
+    tmp_452986553.class = "title";
     F.line = 30;
-    var tmp_452986516 = tree_654312202(22, []);
+    add_654312139(tmp_452986553, text_654312254(makeNimstrLit("Flatzone")));
     F.line = 30;
-    add_654312139(tmp_452986516, text_654312254(makeNimstrLit("Search")));
-    F.line = 30;
-    add_654312139(tmp_452986515, tmp_452986516);
-    F.line = 30;
-    add_654312139(tmp_452986507, tmp_452986515);
-    F.line = 32;
-    var tmp_452986517 = tree_654312202(45, []);
-    F.line = 32;
-    setAttr_654312065(tmp_452986517, "href", "#/news");
-    F.line = 33;
-    var tmp_452986518 = tree_654312202(22, []);
-    F.line = 33;
-    add_654312139(tmp_452986518, text_654312254(makeNimstrLit("News")));
-    F.line = 33;
-    add_654312139(tmp_452986517, tmp_452986518);
-    F.line = 33;
-    add_654312139(tmp_452986507, tmp_452986517);
-    F.line = 35;
-    var tmp_452986519 = tree_654312202(45, []);
-    F.line = 35;
-    setAttr_654312065(tmp_452986519, "href", "#/donations");
-    F.line = 36;
-    var tmp_452986520 = tree_654312202(22, []);
-    F.line = 36;
-    add_654312139(tmp_452986520, text_654312254(makeNimstrLit("Donations")));
-    F.line = 36;
-    add_654312139(tmp_452986519, tmp_452986520);
-    F.line = 36;
-    add_654312139(tmp_452986507, tmp_452986519);
-    result_452986480 = tmp_452986507;
+    add_654312139(tmp_452986546, tmp_452986553);
+    result_452986519 = tmp_452986546;
   framePtr = F.prev;
 
-  return result_452986480;
+  return result_452986519;
+
+}
+
+function setFocus_620757068(n_620757069, enabled_620757070, kxi_620757071) {
+  var F = {procname: "karax.setFocus", prev: framePtr, filename: "/home/avahe/.nimble/pkgs/karax-1.2.2/karax/karax.nim", line: 0};
+  framePtr = F;
+    if (enabled_620757070) {
+    F.line = 65;
+    kxi_620757071.toFocusV = n_620757069;
+    }
+    
+  framePtr = F.prev;
+
+  
+}
+
+function addEventListener_654312305(n_654312306, event_654312307, handler_654312308) {
+  var F = {procname: "vdom.addEventListener", prev: framePtr, filename: "/home/avahe/.nimble/pkgs/karax-1.2.2/karax/vdom.nim", line: 0};
+  framePtr = F;
+    F.line = 323;
+    n_654312306.events.push({Field0: event_654312307, Field1: handler_654312308, Field2: null});;
+  framePtr = F.prev;
+
+  
+}
+
+function addEventHandler_620758167(n_620758168, k_620758169, action_620758170, kxi_620758171) {
+    
+function wrapper_620758172(ev_620758173, n_620758174) {
+      var F = {procname: "addEventHandler.wrapper", prev: framePtr, filename: "/home/avahe/.nimble/pkgs/karax-1.2.2/karax/karax.nim", line: 0};
+      framePtr = F;
+        F.line = 779;
+        action_620758170(ev_620758173, n_620758174);
+        if (!(kxi_620758171.surpressRedraws)) {
+        F.line = 780;
+        redraw_620757987(kxi_620758171);
+        }
+        
+      framePtr = F.prev;
+
+      
+    }
+
+  var F = {procname: "karax.addEventHandler", prev: framePtr, filename: "/home/avahe/.nimble/pkgs/karax-1.2.2/karax/karax.nim", line: 0};
+  framePtr = F;
+    F.line = 781;
+    addEventListener_654312305(n_620758168, k_620758169, wrapper_620758172);
+  framePtr = F.prev;
+
+  
+}
+
+function len_452987921(t_452987924) {
+  var result_452987925 = 0;
+
+  var F = {procname: "len.len", prev: framePtr, filename: "/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/tables.nim", line: 0};
+  framePtr = F;
+    F.line = 485;
+    result_452987925 = t_452987924.counter;
+  framePtr = F.prev;
+
+  return result_452987925;
+
+}
+
+function nsuToLowerAsciiChar(c_771752004) {
+  var result_771752005 = 0;
+
+  var F = {procname: "strutils.toLowerAscii", prev: framePtr, filename: "/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/pure/strutils.nim", line: 0};
+  framePtr = F;
+    if ((ConstSet2[c_771752004] != undefined)) {
+    F.line = 203;
+    result_771752005 = (c_771752004 ^ 32);
+    }
+    else {
+      F.line = 205;
+      result_771752005 = c_771752004;
+    }
+    
+  framePtr = F.prev;
+
+  return result_771752005;
+
+}
+
+function nsuToLowerAsciiStr(s_771752014) {
+  var result_771752015 = [];
+
+  var F = {procname: "strutils.toLowerAscii", prev: framePtr, filename: "/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/pure/strutils.nim", line: 0};
+  framePtr = F;
+    F.line = 208;
+    result_771752015 = nimCopy(null, mnewString(chckRange((s_771752014).length, 0, 2147483647)), NTI33554439);
+    Label1: do {
+      F.line = 209;
+      var iHEX60gensym7_771752021 = 0;
+      F.line = 75;
+      var colontmp__452988391 = 0;
+      F.line = 209;
+      colontmp__452988391 = subInt((s_771752014).length, 1);
+      F.line = 90;
+      var res_452988392 = 0;
+      Label2: do {
+        F.line = 91;
+          Label3: while (true) {
+          if (!(res_452988392 <= colontmp__452988391)) break Label3;
+            F.line = 223;
+            iHEX60gensym7_771752021 = res_452988392;
+            F.line = 223;
+            result_771752015[chckIndx(iHEX60gensym7_771752021, 0, (result_771752015).length - 1)] = nsuToLowerAsciiChar(s_771752014[chckIndx(iHEX60gensym7_771752021, 0, (s_771752014).length - 1)]);
+            F.line = 93;
+            res_452988392 = addInt(res_452988392, 1);
+          }
+      } while (false);
+    } while (false);
+  framePtr = F.prev;
+
+  return result_771752015;
 
 }
 
@@ -9053,17 +9313,17 @@ function nsuFindChar(s_771753464, sub_771753465, start_771753466, last_771753467
       F.line = 1882;
       var i_771753479 = 0;
       F.line = 75;
-      var colontmp__452986755 = 0;
+      var colontmp__452988399 = 0;
       F.line = 1882;
-      colontmp__452986755 = start_771753466;
+      colontmp__452988399 = start_771753466;
       F.line = 90;
-      var res_452986756 = colontmp__452986755;
+      var res_452988400 = colontmp__452988399;
       Label3: do {
         F.line = 91;
           Label4: while (true) {
-          if (!(res_452986756 <= last_771753469)) break Label4;
+          if (!(res_452988400 <= last_771753469)) break Label4;
             F.line = 1882;
-            i_771753479 = res_452986756;
+            i_771753479 = res_452988400;
             if ((sub_771753465 == s_771753464[chckIndx(i_771753479, 0, (s_771753464).length - 1)])) {
             F.line = 1883;
             result_771753468 = i_771753479;
@@ -9071,7 +9331,7 @@ function nsuFindChar(s_771753464, sub_771753465, start_771753466, last_771753467
             }
             
             F.line = 93;
-            res_452986756 = addInt(res_452986756, 1);
+            res_452988400 = addInt(res_452988400, 1);
           }
       } while (false);
     } while (false);
@@ -9085,252 +9345,168 @@ function nsuFindChar(s_771753464, sub_771753465, start_771753466, last_771753467
 
 }
 
-function substr_33557906(s_33557907, first_33557908, last_33557909) {
-  var result_33557910 = [];
+function nsuIsLowerAsciiChar(c_771751990) {
+  var result_771751991 = false;
 
-  var F = {procname: "system.substr", prev: framePtr, filename: "/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/system.nim", line: 0};
-  framePtr = F;
-    F.line = 3055;
-    var first_33557911 = nimMax(first_33557908, 0);
-    F.line = 3056;
-    var L_33557912 = nimMax(addInt(subInt(nimMin(last_33557909, (s_33557907).length - 1), first_33557911), 1), 0);
-    F.line = 3057;
-    result_33557910 = nimCopy(null, mnewString(chckRange(L_33557912, 0, 2147483647)), NTI33554439);
-    Label1: do {
-      F.line = 3058;
-      var i_33557917 = 0;
-      F.line = 75;
-      var colontmp__654311770 = 0;
-      F.line = 3058;
-      colontmp__654311770 = subInt(L_33557912, 1);
-      F.line = 90;
-      var res_654311771 = 0;
-      Label2: do {
-        F.line = 91;
-          Label3: while (true) {
-          if (!(res_654311771 <= colontmp__654311770)) break Label3;
-            F.line = 3058;
-            i_33557917 = res_654311771;
-            F.line = 3058;
-            result_33557910[chckIndx(i_33557917, 0, (result_33557910).length - 1)] = s_33557907[chckIndx(addInt(i_33557917, first_33557911), 0, (s_33557907).length - 1)];
-            F.line = 93;
-            res_654311771 = addInt(res_654311771, 1);
-          }
-      } while (false);
-    } while (false);
-  framePtr = F.prev;
-
-  return result_33557910;
-
-}
-
-function substr_33557918(s_33557919, first_33557920) {
-  var result_33557921 = [];
-
-  var F = {procname: "system.substr", prev: framePtr, filename: "/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/system.nim", line: 0};
-  framePtr = F;
-    F.line = 3062;
-    result_33557921 = nimCopy(null, substr_33557906(s_33557919, first_33557920, (s_33557919).length - 1), NTI33554439);
-  framePtr = F.prev;
-
-  return result_33557921;
-
-}
-
-function fill_771753403(a_771753405, value_771753406) {
-  var F = {procname: "fill.fill", prev: framePtr, filename: "/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/pure/algorithm.nim", line: 0};
-  framePtr = F;
-    F.line = 68;
-    var xHEX60gensym166_771753412 = 0;
-    Label1: do {
-      F.line = 94;
-        Label2: while (true) {
-        if (!(xHEX60gensym166_771753412 <= (a_771753405).length - 1)) break Label2;
-          F.line = 94;
-          a_771753405[chckIndx(xHEX60gensym166_771753412, 0, (a_771753405).length - 1)] = value_771753406;
-          F.line = 71;
-          xHEX60gensym166_771753412 = addInt(xHEX60gensym166_771753412, 1);
-        }
-    } while (false);
-  framePtr = F.prev;
-
-  
-}
-
-function nsuInitSkipTable(a_771753400, sub_771753401) {
-  var F = {procname: "strutils.initSkipTable", prev: framePtr, filename: "/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/pure/strutils.nim", line: 0};
-  framePtr = F;
-    F.line = 1807;
-    var m_771753402 = (sub_771753401).length;
-    F.line = 1808;
-    fill_771753403(a_771753400, m_771753402);
-    Label1: do {
-      F.line = 1810;
-      var i_771753421 = 0;
-      F.line = 117;
-      var colontmp__452986759 = 0;
-      F.line = 1810;
-      colontmp__452986759 = subInt(m_771753402, 1);
-      F.line = 119;
-      var i_452986760 = 0;
-      Label2: do {
-        F.line = 120;
-          Label3: while (true) {
-          if (!(i_452986760 < colontmp__452986759)) break Label3;
-            F.line = 1810;
-            i_771753421 = i_452986760;
-            F.line = 1810;
-            a_771753400[chckIndx(sub_771753401[chckIndx(i_771753421, 0, (sub_771753401).length - 1)], 0, (a_771753400).length - 1)] = subInt(subInt(m_771753402, 1), i_771753421);
-            F.line = 122;
-            i_452986760 = addInt(i_452986760, 1);
-          }
-      } while (false);
-    } while (false);
-  framePtr = F.prev;
-
-  
-}
-
-function nsuFindStrA(a_771753444, s_771753445, sub_771753446, start_771753447, last_771753448) {
-    var Temporary1;
-
-  var result_771753449 = 0;
-
-  var F = {procname: "strutils.find", prev: framePtr, filename: "/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/pure/strutils.nim", line: 0};
+  var F = {procname: "strutils.isLowerAscii", prev: framePtr, filename: "/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/pure/strutils.nim", line: 0};
   framePtr = F;
   BeforeRet: do {
-    F.line = 1830;
-    if ((last_771753448 == 0)) {
-    Temporary1 = (s_771753445).length - 1;
-    }
-    else {
-    Temporary1 = last_771753448;
-    }
-    
-    var last_771753450 = Temporary1;
-    F.line = 1831;
-    var subLast_771753451 = subInt((sub_771753446).length, 1);
-    if ((subLast_771753451 == -1)) {
-    F.line = 1836;
-    result_771753449 = start_771753447;
-    break BeforeRet;
-    }
-    
-    F.line = 1840;
-    var skip_771753452 = start_771753447;
-    Label2: do {
-      F.line = 1842;
-        Label3: while (true) {
-        if (!(subLast_771753451 <= subInt(last_771753450, skip_771753452))) break Label3;
-          F.line = 1843;
-          var i_771753453 = subLast_771753451;
-          Label4: do {
-            F.line = 1844;
-              Label5: while (true) {
-              if (!(s_771753445[chckIndx(addInt(skip_771753452, i_771753453), 0, (s_771753445).length - 1)] == sub_771753446[chckIndx(i_771753453, 0, (sub_771753446).length - 1)])) break Label5;
-                if ((i_771753453 == 0)) {
-                F.line = 1846;
-                result_771753449 = skip_771753452;
-                break BeforeRet;
-                }
-                
-                F.line = 1847;
-                i_771753453 = subInt(i_771753453, 1);
-              }
-          } while (false);
-          F.line = 1848;
-          skip_771753452 = addInt(skip_771753452, a_771753444[chckIndx(s_771753445[chckIndx(addInt(skip_771753452, subLast_771753451), 0, (s_771753445).length - 1)], 0, (a_771753444).length - 1)]);
-        }
-    } while (false);
-    F.line = 1849;
-    result_771753449 = -1;
+    F.line = 172;
+    result_771751991 = (ConstSet3[c_771751990] != undefined);
     break BeforeRet;
   } while (false);
   framePtr = F.prev;
 
-  return result_771753449;
+  return result_771751991;
 
 }
 
-function nsuReplaceStr(s_771753633, sub_771753634, by_771753635) {
-  var result_771753636 = [];
-
-  var F = {procname: "strutils.replace", prev: framePtr, filename: "/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/pure/strutils.nim", line: 0};
+function HEX2BHEX3D_771754023(x_771754025, x_771754025_Idx, y_771754026) {
+  var F = {procname: "+=.+=", prev: framePtr, filename: "/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/system.nim", line: 0};
   framePtr = F;
-    F.line = 2074;
-    result_771753636 = nimCopy(null, [], NTI33554439);
-    F.line = 2075;
-    var subLen_771753637 = (sub_771753634).length;
-    if ((subLen_771753637 == 0)) {
-    F.line = 2077;
-    result_771753636 = nimCopy(null, s_771753633, NTI33554439);
-    }
-    else {
-    if ((subLen_771753637 == 1)) {
-    F.line = 2081;
-    var c_771753638 = sub_771753634[chckIndx(0, 0, (sub_771753634).length - 1)];
-    F.line = 2082;
-    var last_771753639 = (s_771753633).length - 1;
-    F.line = 2083;
-    var i_771753640 = 0;
-    Label1: do {
-      F.line = 2084;
-        Label2: while (true) {
-        if (!true) break Label2;
-          F.line = 2085;
-          var j_771753641 = nsuFindChar(s_771753633, c_771753638, chckRange(i_771753640, 0, 2147483647), last_771753639);
-          if ((j_771753641 < 0)) {
-          F.line = 2086;
-          break Label1;
-          }
-          
-          F.line = 2087;
-          result_771753636.push.apply(result_771753636, substr_33557906(s_771753633, i_771753640, subInt(j_771753641, 1)));;
-          F.line = 2088;
-          result_771753636.push.apply(result_771753636, by_771753635);;
-          F.line = 2089;
-          i_771753640 = addInt(j_771753641, subLen_771753637);
-        }
-    } while (false);
-    F.line = 2091;
-    result_771753636.push.apply(result_771753636, substr_33557918(s_771753633, i_771753640));;
-    }
-    else {
-      F.line = 2093;
-      var a_771753642 = [new Int32Array(256)];
-      F.line = 2094;
-      nsuInitSkipTable(a_771753642[0], sub_771753634);
-      F.line = 2095;
-      var last_771753643 = (s_771753633).length - 1;
-      F.line = 2096;
-      var i_771753644 = 0;
-      Label3: do {
-        F.line = 2097;
-          Label4: while (true) {
-          if (!true) break Label4;
-            F.line = 2098;
-            var j_771753645 = nsuFindStrA(a_771753642[0], s_771753633, sub_771753634, chckRange(i_771753644, 0, 2147483647), last_771753643);
-            if ((j_771753645 < 0)) {
-            F.line = 2099;
-            break Label3;
-            }
-            
-            F.line = 2100;
-            result_771753636.push.apply(result_771753636, substr_33557906(s_771753633, i_771753644, subInt(j_771753645, 1)));;
-            F.line = 2101;
-            result_771753636.push.apply(result_771753636, by_771753635);;
-            F.line = 2102;
-            i_771753644 = addInt(j_771753645, subLen_771753637);
-          }
-      } while (false);
-      F.line = 2104;
-      result_771753636.push.apply(result_771753636, substr_33557918(s_771753633, i_771753644));;
-    }
-    }
+    F.line = 2703;
+    x_771754025[x_771754025_Idx] = (x_771754025[x_771754025_Idx] + y_771754026);
   framePtr = F.prev;
 
-  return result_771753636;
+  
+}
 
+function score_1258291208(needle_1258291209, haystack_1258291210) {
+  var result_1258291211 = [0.0];
+
+  var F = {procname: "fuzzy.score", prev: framePtr, filename: "/home/avahe/programming/nim/flatzone/src/fuzzy.nim", line: 0};
+  framePtr = F;
+  BeforeRet: do {
+    F.line = 14;
+    var needleLength_1258291212 = (needle_1258291209).length;
+    F.line = 15;
+    var haystackLength_1258291213 = (haystack_1258291210).length;
+    if ((haystackLength_1258291213 < needleLength_1258291212)) {
+    F.line = 17;
+    result_1258291211[0] = -1.0;
+    break BeforeRet;
+    }
+    
+    if ((needleLength_1258291212 == 0)) {
+    F.line = 20;
+    result_1258291211[0] = 0.0;
+    break BeforeRet;
+    }
+    
+    F.line = 22;
+    var lowerNeedle_1258291214 = nsuToLowerAsciiStr(needle_1258291209);
+    F.line = 23;
+    var lowerHaystack_1258291215 = nsuToLowerAsciiStr(haystack_1258291210);
+    F.line = 25;
+    var i_1258291216 = 0;
+    F.line = 25;
+    var j_1258291217 = 0;
+    Label1: do {
+      F.line = 26;
+        Label2: while (true) {
+        if (!((i_1258291216 < needleLength_1258291212) && (j_1258291217 < haystackLength_1258291213))) break Label2;
+          F.line = 27;
+          var letter_1258291218 = lowerNeedle_1258291214[chckIndx(i_1258291216, 0, (lowerNeedle_1258291214).length - 1)];
+          F.line = 28;
+          var letterIndex_1258291219 = nsuFindChar(lowerHaystack_1258291215, letter_1258291218, chckRange(j_1258291217, 0, 2147483647), 0);
+          if ((subInt(letterIndex_1258291219, j_1258291217) < 0)) {
+          F.line = 30;
+          result_1258291211[0] = -1.0;
+          break BeforeRet;
+          }
+          
+          if ((nsuIsLowerAsciiChar(needle_1258291209[chckIndx(i_1258291216, 0, (needle_1258291209).length - 1)]) == nsuIsLowerAsciiChar(haystack_1258291210[chckIndx(j_1258291217, 0, (haystack_1258291210).length - 1)]))) {
+          F.line = 33;
+          HEX2BHEX3D_771754023(result_1258291211, 0, 0.5);
+          }
+          
+          if ((letterIndex_1258291219 == j_1258291217)) {
+          F.line = 37;
+          HEX2BHEX3D_771754023(result_1258291211, 0, 8.0);
+          }
+          else {
+            F.line = 39;
+            HEX2BHEX3D_771754023(result_1258291211, 0, (1.0 - (0.1 * letterIndex_1258291219)));
+            F.line = 41;
+            j_1258291217 = letterIndex_1258291219;
+          }
+          
+          if (((j_1258291217 == subInt(haystackLength_1258291213, 1)) && (i_1258291216 < subInt(needleLength_1258291212, 1)))) {
+          F.line = 44;
+          result_1258291211[0] = -1.0;
+          break BeforeRet;
+          }
+          
+          F.line = 46;
+          i_1258291216 = addInt(i_1258291216, 1);
+          F.line = 47;
+          j_1258291217 = addInt(j_1258291217, 1);
+        }
+    } while (false);
+  } while (false);
+  framePtr = F.prev;
+
+  return result_1258291211[0];
+
+}
+
+function filterBySearch_452987871(searchText_452987872) {
+                var Temporary5;
+
+  var F = {procname: "flatzone.filterBySearch", prev: framePtr, filename: "/home/avahe/programming/nim/flatzone/src/flatzone.nim", line: 0};
+  framePtr = F;
+    Label1: do {
+      F.line = 61;
+      var charName_452988156 = [];
+      F.line = 61;
+      var charTile_452988157 = null;
+      F.line = 694;
+      var L_452988383 = len_452987921(characterDomTiles_452986452[0]);
+      Label2: do {
+        F.line = 695;
+        var h_452988385 = 0;
+        F.line = 75;
+        var colontmp__452988386 = 0;
+        F.line = 695;
+        colontmp__452988386 = (characterDomTiles_452986452[0].data).length - 1;
+        F.line = 90;
+        var res_452988387 = 0;
+        Label3: do {
+          F.line = 91;
+            Label4: while (true) {
+            if (!(res_452988387 <= colontmp__452988386)) break Label4;
+              F.line = 695;
+              h_452988385 = res_452988387;
+              if (isFilled_1023410207(characterDomTiles_452986452[0].data[chckIndx(h_452988385, 0, (characterDomTiles_452986452[0].data).length - 1)].Field0)) {
+              F.line = 61;
+              charName_452988156 = characterDomTiles_452986452[0].data[chckIndx(h_452988385, 0, (characterDomTiles_452986452[0].data).length - 1)].Field1;
+              F.line = 61;
+              charTile_452988157 = characterDomTiles_452986452[0].data[chckIndx(h_452988385, 0, (characterDomTiles_452986452[0].data).length - 1)].Field2;
+                if (((searchText_452987872).length == 0)) Temporary5 = true; else {                  Temporary5 = (0.0 < score_1258291208(searchText_452987872, charName_452988156));                }              if (Temporary5) {
+              F.line = 63;
+              charTile_452988157.dom.style.display = "";
+              }
+              else {
+                F.line = 65;
+                charTile_452988157.dom.style.display = "none";
+              }
+              
+              if (!((len_452987921(characterDomTiles_452986452[0]) == L_452988383))) {
+              F.line = 698;
+              failedAssertImpl_218103864(makeNimstrLit("/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/tables.nim(698, 13) `len(t) == L` the length of the table changed while iterating over it"));
+              }
+              
+              }
+              
+              F.line = 93;
+              res_452988387 = addInt(res_452988387, 1);
+            }
+        } while (false);
+      } while (false);
+    } while (false);
+  framePtr = F.prev;
+
+  
 }
 
 function binarySearch_973079541(c_973079542, tab_973079543, len_973079544, stride_973079545) {
@@ -9641,89 +9817,592 @@ function nuctoLowerStr(s_973080562) {
 
 }
 
-function normalizeCharacterName_452986530(name_452986531) {
-  var result_452986532 = [];
+function substr_33557906(s_33557907, first_33557908, last_33557909) {
+  var result_33557910 = [];
 
-  var F = {procname: "flatzone.normalizeCharacterName", prev: framePtr, filename: "/home/avahe/programming/nim/flatzone/src/flatzone.nim", line: 0};
+  var F = {procname: "system.substr", prev: framePtr, filename: "/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/system.nim", line: 0};
+  framePtr = F;
+    F.line = 3055;
+    var first_33557911 = nimMax(first_33557908, 0);
+    F.line = 3056;
+    var L_33557912 = nimMax(addInt(subInt(nimMin(last_33557909, (s_33557907).length - 1), first_33557911), 1), 0);
+    F.line = 3057;
+    result_33557910 = nimCopy(null, mnewString(chckRange(L_33557912, 0, 2147483647)), NTI33554439);
+    Label1: do {
+      F.line = 3058;
+      var i_33557917 = 0;
+      F.line = 75;
+      var colontmp__654311770 = 0;
+      F.line = 3058;
+      colontmp__654311770 = subInt(L_33557912, 1);
+      F.line = 90;
+      var res_654311771 = 0;
+      Label2: do {
+        F.line = 91;
+          Label3: while (true) {
+          if (!(res_654311771 <= colontmp__654311770)) break Label3;
+            F.line = 3058;
+            i_33557917 = res_654311771;
+            F.line = 3058;
+            result_33557910[chckIndx(i_33557917, 0, (result_33557910).length - 1)] = s_33557907[chckIndx(addInt(i_33557917, first_33557911), 0, (s_33557907).length - 1)];
+            F.line = 93;
+            res_654311771 = addInt(res_654311771, 1);
+          }
+      } while (false);
+    } while (false);
+  framePtr = F.prev;
+
+  return result_33557910;
+
+}
+
+function substr_33557918(s_33557919, first_33557920) {
+  var result_33557921 = [];
+
+  var F = {procname: "system.substr", prev: framePtr, filename: "/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/system.nim", line: 0};
+  framePtr = F;
+    F.line = 3062;
+    result_33557921 = nimCopy(null, substr_33557906(s_33557919, first_33557920, (s_33557919).length - 1), NTI33554439);
+  framePtr = F.prev;
+
+  return result_33557921;
+
+}
+
+function fill_771753403(a_771753405, value_771753406) {
+  var F = {procname: "fill.fill", prev: framePtr, filename: "/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/pure/algorithm.nim", line: 0};
+  framePtr = F;
+    F.line = 68;
+    var xHEX60gensym166_771753412 = 0;
+    Label1: do {
+      F.line = 94;
+        Label2: while (true) {
+        if (!(xHEX60gensym166_771753412 <= (a_771753405).length - 1)) break Label2;
+          F.line = 94;
+          a_771753405[chckIndx(xHEX60gensym166_771753412, 0, (a_771753405).length - 1)] = value_771753406;
+          F.line = 71;
+          xHEX60gensym166_771753412 = addInt(xHEX60gensym166_771753412, 1);
+        }
+    } while (false);
+  framePtr = F.prev;
+
+  
+}
+
+function nsuInitSkipTable(a_771753400, sub_771753401) {
+  var F = {procname: "strutils.initSkipTable", prev: framePtr, filename: "/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/pure/strutils.nim", line: 0};
+  framePtr = F;
+    F.line = 1807;
+    var m_771753402 = (sub_771753401).length;
+    F.line = 1808;
+    fill_771753403(a_771753400, m_771753402);
+    Label1: do {
+      F.line = 1810;
+      var i_771753421 = 0;
+      F.line = 117;
+      var colontmp__452988407 = 0;
+      F.line = 1810;
+      colontmp__452988407 = subInt(m_771753402, 1);
+      F.line = 119;
+      var i_452988408 = 0;
+      Label2: do {
+        F.line = 120;
+          Label3: while (true) {
+          if (!(i_452988408 < colontmp__452988407)) break Label3;
+            F.line = 1810;
+            i_771753421 = i_452988408;
+            F.line = 1810;
+            a_771753400[chckIndx(sub_771753401[chckIndx(i_771753421, 0, (sub_771753401).length - 1)], 0, (a_771753400).length - 1)] = subInt(subInt(m_771753402, 1), i_771753421);
+            F.line = 122;
+            i_452988408 = addInt(i_452988408, 1);
+          }
+      } while (false);
+    } while (false);
+  framePtr = F.prev;
+
+  
+}
+
+function nsuFindStrA(a_771753444, s_771753445, sub_771753446, start_771753447, last_771753448) {
+    var Temporary1;
+
+  var result_771753449 = 0;
+
+  var F = {procname: "strutils.find", prev: framePtr, filename: "/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/pure/strutils.nim", line: 0};
   framePtr = F;
   BeforeRet: do {
-    F.line = 43;
-    result_452986532 = nimCopy(null, nsuReplaceStr(nsuReplaceStr(nsuReplaceStr(nuctoLowerStr(name_452986531), makeNimstrLit(" "), makeNimstrLit("_")), makeNimstrLit("."), []), makeNimstrLit("&"), makeNimstrLit("and")), NTI33554439);
+    F.line = 1830;
+    if ((last_771753448 == 0)) {
+    Temporary1 = (s_771753445).length - 1;
+    }
+    else {
+    Temporary1 = last_771753448;
+    }
+    
+    var last_771753450 = Temporary1;
+    F.line = 1831;
+    var subLast_771753451 = subInt((sub_771753446).length, 1);
+    if ((subLast_771753451 == -1)) {
+    F.line = 1836;
+    result_771753449 = start_771753447;
+    break BeforeRet;
+    }
+    
+    F.line = 1840;
+    var skip_771753452 = start_771753447;
+    Label2: do {
+      F.line = 1842;
+        Label3: while (true) {
+        if (!(subLast_771753451 <= subInt(last_771753450, skip_771753452))) break Label3;
+          F.line = 1843;
+          var i_771753453 = subLast_771753451;
+          Label4: do {
+            F.line = 1844;
+              Label5: while (true) {
+              if (!(s_771753445[chckIndx(addInt(skip_771753452, i_771753453), 0, (s_771753445).length - 1)] == sub_771753446[chckIndx(i_771753453, 0, (sub_771753446).length - 1)])) break Label5;
+                if ((i_771753453 == 0)) {
+                F.line = 1846;
+                result_771753449 = skip_771753452;
+                break BeforeRet;
+                }
+                
+                F.line = 1847;
+                i_771753453 = subInt(i_771753453, 1);
+              }
+          } while (false);
+          F.line = 1848;
+          skip_771753452 = addInt(skip_771753452, a_771753444[chckIndx(s_771753445[chckIndx(addInt(skip_771753452, subLast_771753451), 0, (s_771753445).length - 1)], 0, (a_771753444).length - 1)]);
+        }
+    } while (false);
+    F.line = 1849;
+    result_771753449 = -1;
     break BeforeRet;
   } while (false);
   framePtr = F.prev;
 
-  return result_452986532;
+  return result_771753449;
 
 }
 
-function createCharacterTile_452986540(character_452986541) {
-  var result_452986542 = null;
+function nsuReplaceStr(s_771753633, sub_771753634, by_771753635) {
+  var result_771753636 = [];
+
+  var F = {procname: "strutils.replace", prev: framePtr, filename: "/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/pure/strutils.nim", line: 0};
+  framePtr = F;
+    F.line = 2074;
+    result_771753636 = nimCopy(null, [], NTI33554439);
+    F.line = 2075;
+    var subLen_771753637 = (sub_771753634).length;
+    if ((subLen_771753637 == 0)) {
+    F.line = 2077;
+    result_771753636 = nimCopy(null, s_771753633, NTI33554439);
+    }
+    else {
+    if ((subLen_771753637 == 1)) {
+    F.line = 2081;
+    var c_771753638 = sub_771753634[chckIndx(0, 0, (sub_771753634).length - 1)];
+    F.line = 2082;
+    var last_771753639 = (s_771753633).length - 1;
+    F.line = 2083;
+    var i_771753640 = 0;
+    Label1: do {
+      F.line = 2084;
+        Label2: while (true) {
+        if (!true) break Label2;
+          F.line = 2085;
+          var j_771753641 = nsuFindChar(s_771753633, c_771753638, chckRange(i_771753640, 0, 2147483647), last_771753639);
+          if ((j_771753641 < 0)) {
+          F.line = 2086;
+          break Label1;
+          }
+          
+          F.line = 2087;
+          result_771753636.push.apply(result_771753636, substr_33557906(s_771753633, i_771753640, subInt(j_771753641, 1)));;
+          F.line = 2088;
+          result_771753636.push.apply(result_771753636, by_771753635);;
+          F.line = 2089;
+          i_771753640 = addInt(j_771753641, subLen_771753637);
+        }
+    } while (false);
+    F.line = 2091;
+    result_771753636.push.apply(result_771753636, substr_33557918(s_771753633, i_771753640));;
+    }
+    else {
+      F.line = 2093;
+      var a_771753642 = [new Int32Array(256)];
+      F.line = 2094;
+      nsuInitSkipTable(a_771753642[0], sub_771753634);
+      F.line = 2095;
+      var last_771753643 = (s_771753633).length - 1;
+      F.line = 2096;
+      var i_771753644 = 0;
+      Label3: do {
+        F.line = 2097;
+          Label4: while (true) {
+          if (!true) break Label4;
+            F.line = 2098;
+            var j_771753645 = nsuFindStrA(a_771753642[0], s_771753633, sub_771753634, chckRange(i_771753644, 0, 2147483647), last_771753643);
+            if ((j_771753645 < 0)) {
+            F.line = 2099;
+            break Label3;
+            }
+            
+            F.line = 2100;
+            result_771753636.push.apply(result_771753636, substr_33557906(s_771753633, i_771753644, subInt(j_771753645, 1)));;
+            F.line = 2101;
+            result_771753636.push.apply(result_771753636, by_771753635);;
+            F.line = 2102;
+            i_771753644 = addInt(j_771753645, subLen_771753637);
+          }
+      } while (false);
+      F.line = 2104;
+      result_771753636.push.apply(result_771753636, substr_33557918(s_771753633, i_771753644));;
+    }
+    }
+  framePtr = F.prev;
+
+  return result_771753636;
+
+}
+
+function normalizeCharacterName_452986563(name_452986564) {
+  var result_452986565 = [];
+
+  var F = {procname: "flatzone.normalizeCharacterName", prev: framePtr, filename: "/home/avahe/programming/nim/flatzone/src/flatzone.nim", line: 0};
+  framePtr = F;
+  BeforeRet: do {
+    F.line = 39;
+    result_452986565 = nimCopy(null, nsuReplaceStr(nsuReplaceStr(nsuReplaceStr(nuctoLowerStr(name_452986564), makeNimstrLit(" "), makeNimstrLit("_")), makeNimstrLit("."), []), makeNimstrLit("&"), makeNimstrLit("and")), NTI33554439);
+    break BeforeRet;
+  } while (false);
+  framePtr = F.prev;
+
+  return result_452986565;
+
+}
+
+function rawGet_452986680(t_452986683, key_452986684, hc_452986685, hc_452986685_Idx) {
+            var Temporary3;
+
+  var result_452986686 = 0;
+
+  var F = {procname: "rawGet.rawGet", prev: framePtr, filename: "/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/hashcommon.nim", line: 0};
+  framePtr = F;
+  BeforeRet: do {
+    F.line = 64;
+    hc_452986685[hc_452986685_Idx] = hash_1040187814(key_452986684);
+    if ((hc_452986685[hc_452986685_Idx] == 0)) {
+    F.line = 66;
+    hc_452986685[hc_452986685_Idx] = 314159265;
+    }
+    
+    if (((t_452986683.data).length == 0)) {
+    F.line = 48;
+    result_452986686 = -1;
+    break BeforeRet;
+    }
+    
+    F.line = 49;
+    var h_452986737 = (hc_452986685[hc_452986685_Idx] & (t_452986683.data).length - 1);
+    Label1: do {
+      F.line = 50;
+        Label2: while (true) {
+        if (!isFilled_1023410207(t_452986683.data[chckIndx(h_452986737, 0, (t_452986683.data).length - 1)].Field0)) break Label2;
+            if (!(t_452986683.data[chckIndx(h_452986737, 0, (t_452986683.data).length - 1)].Field0 == hc_452986685[hc_452986685_Idx])) Temporary3 = false; else {              Temporary3 = eqStrings(t_452986683.data[chckIndx(h_452986737, 0, (t_452986683.data).length - 1)].Field1, key_452986684);            }          if (Temporary3) {
+          F.line = 56;
+          result_452986686 = h_452986737;
+          break BeforeRet;
+          }
+          
+          F.line = 57;
+          h_452986737 = nextTry_1023410210(h_452986737, (t_452986683.data).length - 1);
+        }
+    } while (false);
+    F.line = 58;
+    result_452986686 = subInt(-1, h_452986737);
+  } while (false);
+  framePtr = F.prev;
+
+  return result_452986686;
+
+}
+
+function mustRehash_452987016(t_452987018) {
+  var result_452987019 = false;
+
+  var F = {procname: "mustRehash.mustRehash", prev: framePtr, filename: "/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/hashcommon.nim", line: 0};
+  framePtr = F;
+    if (!((t_452987018.counter < (t_452987018.data).length))) {
+    F.line = 29;
+    failedAssertImpl_218103864(makeNimstrLit("/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/hashcommon.nim(29, 9) `\x0At.counter < t.dataLen` "));
+    }
+    
+    F.line = 30;
+    result_452987019 = ((mulInt((t_452987018.data).length, 2) < mulInt(t_452987018.counter, 3)) || (subInt((t_452987018.data).length, t_452987018.counter) < 4));
+  framePtr = F.prev;
+
+  return result_452987019;
+
+}
+
+function rawInsert_452987465(t_452987469, data_452987470, data_452987470_Idx, key_452987471, val_452987472, hc_452987473, h_452987474) {
+  var F = {procname: "rawInsert.rawInsert", prev: framePtr, filename: "/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/tableimpl.nim", line: 0};
+  framePtr = F;
+    F.line = 22;
+    data_452987470[data_452987470_Idx][chckIndx(h_452987474, 0, (data_452987470[data_452987470_Idx]).length - 1)].Field1 = nimCopy(null, key_452987471, NTI33554439);
+    F.line = 23;
+    data_452987470[data_452987470_Idx][chckIndx(h_452987474, 0, (data_452987470[data_452987470_Idx]).length - 1)].Field2 = val_452987472;
+    F.line = 24;
+    data_452987470[data_452987470_Idx][chckIndx(h_452987474, 0, (data_452987470[data_452987470_Idx]).length - 1)].Field0 = hc_452987473;
+  framePtr = F.prev;
+
+  
+}
+
+function enlarge_452987171(t_452987174) {
+  var F = {procname: "enlarge.enlarge", prev: framePtr, filename: "/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/tables.nim", line: 0};
+  framePtr = F;
+    F.line = 249;
+    var n_452987177 = [];
+    F.line = 250;
+    n_452987177 = new Array(chckRange(mulInt((t_452987174.data).length, 2), 0, 2147483647)); for (var i = 0 ; i < chckRange(mulInt((t_452987174.data).length, 2), 0, 2147483647) ; ++i) { n_452987177[i] = {Field0: 0, Field1: [], Field2: null}; }    F.line = 251;
+    var Temporary1 = t_452987174.data; t_452987174.data = n_452987177; n_452987177 = Temporary1;    Label2: do {
+      F.line = 252;
+      var i_452987241 = 0;
+      F.line = 43;
+      var colontmp__452988416 = 0;
+      F.line = 252;
+      colontmp__452988416 = (n_452987177).length - 1;
+      F.line = 65;
+      var res_452988417 = 0;
+      Label3: do {
+        F.line = 66;
+          Label4: while (true) {
+          if (!(res_452988417 <= colontmp__452988416)) break Label4;
+            F.line = 252;
+            i_452987241 = res_452988417;
+            F.line = 253;
+            var eh_452987295 = n_452987177[chckIndx(i_452987241, 0, (n_452987177).length - 1)].Field0;
+            if (isFilled_1023410207(eh_452987295)) {
+            F.line = 255;
+            var j_452987299 = (eh_452987295 & (t_452987174.data).length - 1);
+            Label5: do {
+              F.line = 256;
+                Label6: while (true) {
+                if (!isFilled_1023410207(t_452987174.data[chckIndx(j_452987299, 0, (t_452987174.data).length - 1)].Field0)) break Label6;
+                  F.line = 257;
+                  j_452987299 = nextTry_1023410210(j_452987299, (t_452987174.data).length - 1);
+                }
+            } while (false);
+            F.line = 259;
+            rawInsert_452987465(t_452987174, t_452987174, "data", n_452987177[chckIndx(i_452987241, 0, (n_452987177).length - 1)].Field1, n_452987177[chckIndx(i_452987241, 0, (n_452987177).length - 1)].Field2, eh_452987295, j_452987299);
+            }
+            
+            F.line = 68;
+            res_452988417 = addInt(res_452988417, 1);
+          }
+      } while (false);
+    } while (false);
+  framePtr = F.prev;
+
+  
+}
+
+function rawGetKnownHC_452987634(t_452987637, key_452987638, hc_452987639) {
+  var result_452987640 = 0;
+
+  var F = {procname: "rawGetKnownHC.rawGetKnownHC", prev: framePtr, filename: "/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/hashcommon.nim", line: 0};
+  framePtr = F;
+  BeforeRet: do {
+    if (((t_452987637.data).length == 0)) {
+    F.line = 48;
+    result_452987640 = -1;
+    break BeforeRet;
+    }
+    
+    F.line = 49;
+    var h_452987691 = (hc_452987639 & (t_452987637.data).length - 1);
+    Label1: do {
+      F.line = 50;
+        Label2: while (true) {
+        if (!isFilled_1023410207(t_452987637.data[chckIndx(h_452987691, 0, (t_452987637.data).length - 1)].Field0)) break Label2;
+          if (((t_452987637.data[chckIndx(h_452987691, 0, (t_452987637.data).length - 1)].Field0 == hc_452987639) && eqStrings(t_452987637.data[chckIndx(h_452987691, 0, (t_452987637.data).length - 1)].Field1, key_452987638))) {
+          F.line = 56;
+          result_452987640 = h_452987691;
+          break BeforeRet;
+          }
+          
+          F.line = 57;
+          h_452987691 = nextTry_1023410210(h_452987691, (t_452987637.data).length - 1);
+        }
+    } while (false);
+    F.line = 58;
+    result_452987640 = subInt(-1, h_452987691);
+  } while (false);
+  framePtr = F.prev;
+
+  return result_452987640;
+
+}
+
+function HEX5BHEX5DHEX3D_452986619(t_452986622, key_452986623, val_452986624) {
+  var F = {procname: "[]=.[]=", prev: framePtr, filename: "/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/tables.nim", line: 0};
+  framePtr = F;
+    if (((t_452986622.data).length == 0)) {
+    F.line = 163;
+    var correctSizeHEX60gensym44_452986674 = slotsNeeded_1023410218(32);
+    F.line = 167;
+    t_452986622.counter = 0;
+    F.line = 168;
+    t_452986622.data = new Array(chckRange(correctSizeHEX60gensym44_452986674, 0, 2147483647)); for (var i = 0 ; i < chckRange(correctSizeHEX60gensym44_452986674, 0, 2147483647) ; ++i) { t_452986622.data[i] = {Field0: 0, Field1: [], Field2: null}; }    }
+    
+    F.line = 57;
+    var hc_452986679 = [0];
+    F.line = 58;
+    var index_452986909 = rawGet_452986680(t_452986622, key_452986623, hc_452986679, 0);
+    if ((0 <= index_452986909)) {
+    F.line = 59;
+    t_452986622.data[chckIndx(index_452986909, 0, (t_452986622.data).length - 1)].Field2 = val_452986624;
+    }
+    else {
+      if (((t_452986622.data).length == 0)) {
+      F.line = 163;
+      var correctSizeHEX60gensym49_452987011 = slotsNeeded_1023410218(32);
+      F.line = 167;
+      t_452986622.counter = 0;
+      F.line = 168;
+      t_452986622.data = new Array(chckRange(correctSizeHEX60gensym49_452987011, 0, 2147483647)); for (var i = 0 ; i < chckRange(correctSizeHEX60gensym49_452987011, 0, 2147483647) ; ++i) { t_452986622.data[i] = {Field0: 0, Field1: [], Field2: null}; }      }
+      
+      if (mustRehash_452987016(t_452986622)) {
+      F.line = 49;
+      enlarge_452987171(t_452986622);
+      F.line = 50;
+      index_452986909 = rawGetKnownHC_452987634(t_452986622, key_452986623, hc_452986679[0]);
+      }
+      
+      F.line = 51;
+      index_452986909 = subInt(-1, index_452986909);
+      F.line = 52;
+      rawInsert_452987465(t_452986622, t_452986622, "data", key_452986623, val_452986624, hc_452986679[0], index_452986909);
+      F.line = 60;
+      t_452986622.counter = addInt(t_452986622.counter, 1);
+    }
+    
+  framePtr = F.prev;
+
+  
+}
+
+function createCharacterTile_452986573(character_452986574) {
+  var result_452986575 = null;
 
   var F = {procname: "flatzone.createCharacterTile", prev: framePtr, filename: "/home/avahe/programming/nim/flatzone/src/flatzone.nim", line: 0};
   framePtr = F;
-    F.line = 54;
-    F.line = 55;
-    var tmp_452986543 = tree_654312202(45, []);
-    F.line = 55;
-    tmp_452986543.class = "character-tile";
-    F.line = 55;
-    setAttr_654312065(tmp_452986543, "href", toJSStr((makeNimstrLit("#/") || []).concat(character_452986541.name || [])));
+    F.line = 50;
+    F.line = 51;
+    var tmp_452986576 = tree_654312202(45, []);
+    F.line = 51;
+    tmp_452986576.class = "character-tile";
+    F.line = 51;
+    setAttr_654312065(tmp_452986576, "href", toJSStr((makeNimstrLit("#/") || []).concat(character_452986574.name || [])));
+    F.line = 52;
+    var tmp_452986577 = tree_654312202(76, []);
+    F.line = 52;
+    setAttr_654312065(tmp_452986577, "src", toJSStr((makeNimstrLit("../assets/images/") || []).concat(normalizeCharacterName_452986563(character_452986574.name) || [],makeNimstrLit(".png") || [])));
+    F.line = 52;
+    add_654312139(tmp_452986576, tmp_452986577);
+    F.line = 53;
+    var tmp_452986578 = tree_654312202(21, []);
+    F.line = 53;
+    tmp_452986578.class = "character-name";
+    F.line = 53;
+    add_654312139(tmp_452986578, text_654312254(character_452986574.name));
+    F.line = 53;
+    add_654312139(tmp_452986576, tmp_452986578);
+    result_452986575 = tmp_452986576;
     F.line = 56;
-    var tmp_452986544 = tree_654312202(76, []);
-    F.line = 56;
-    setAttr_654312065(tmp_452986544, "src", toJSStr((makeNimstrLit("../assets/images/") || []).concat(normalizeCharacterName_452986530(character_452986541.name) || [],makeNimstrLit(".png") || [])));
-    F.line = 56;
-    add_654312139(tmp_452986543, tmp_452986544);
-    F.line = 57;
-    var tmp_452986545 = tree_654312202(21, []);
-    F.line = 57;
-    tmp_452986545.class = "character-name";
-    F.line = 57;
-    add_654312139(tmp_452986545, text_654312254(character_452986541.name));
-    F.line = 57;
-    add_654312139(tmp_452986543, tmp_452986545);
-    result_452986542 = tmp_452986543;
+    HEX5BHEX5DHEX3D_452986619(characterDomTiles_452986452[0], nsuReplaceStr(nuctoLowerStr(character_452986574.name), makeNimstrLit("."), []), result_452986575);
   framePtr = F.prev;
 
-  return result_452986542;
+  return result_452986575;
 
 }
 
-function createHomePage_452986546() {
-  var result_452986547 = null;
+function createHomePage_452988158() {
+    
+function HEX3Aanonymous_452988164(e_452988165, n_452988166) {
+      var F = {procname: "createHomePage.:anonymous", prev: framePtr, filename: "/home/avahe/programming/nim/flatzone/src/flatzone.nim", line: 0};
+      framePtr = F;
+        F.line = 74;
+        filterBySearch_452987871(nuctoLowerStr(cstrToNimstr(e_452988165.target.value)));
+      framePtr = F.prev;
+
+      
+    }
+    
+function HEX3Aanonymous_452988167(e_452988168, n_452988169) {
+      var F = {procname: "createHomePage.:anonymous", prev: framePtr, filename: "/home/avahe/programming/nim/flatzone/src/flatzone.nim", line: 0};
+      framePtr = F;
+        F.line = 77;
+        e_452988168.target.focus();
+      framePtr = F.prev;
+
+      
+    }
+
+  var result_452988159 = null;
 
   var F = {procname: "flatzone.createHomePage", prev: framePtr, filename: "/home/avahe/programming/nim/flatzone/src/flatzone.nim", line: 0};
   framePtr = F;
-    F.line = 60;
-    F.line = 60;
-    var tmp_452986548 = tree_654312202(44, []);
-    F.line = 60;
-    tmp_452986548.class = "";
-    F.line = 61;
-    add_654312139(tmp_452986548, createTitleBar_452986479());
-    F.line = 62;
-    var tmp_452986549 = tree_654312202(44, []);
-    F.line = 62;
-    tmp_452986549.class = "characters-container";
+    F.line = 68;
+    F.line = 68;
+    var tmp_452988160 = tree_654312202(44, []);
+    F.line = 68;
+    tmp_452988160.class = "";
+    F.line = 69;
+    add_654312139(tmp_452988160, createTitleBar_452986518());
+    F.line = 71;
+    var tmp_452988161 = tree_654312202(44, []);
+    F.line = 71;
+    tmp_452988161.class = "searchbar-container";
+    F.line = 72;
+    var tmp_452988162 = tree_654312202(194, []);
+    F.line = 72;
+    tmp_452988162.class = "searchbar";
+    F.line = 72;
+    setAttr_654312065(tmp_452988162, "placeholder", "Search...");
+    F.line = 72;
+    setFocus_620757068(tmp_452988162, true, kxi__);
+    F.line = 73;
+    addEventHandler_620758167(tmp_452988162, 3, HEX3Aanonymous_452988164, kxi__);
+    F.line = 76;
+    addEventHandler_620758167(tmp_452988162, 7, HEX3Aanonymous_452988167, kxi__);
+    F.line = 76;
+    add_654312139(tmp_452988161, tmp_452988162);
+    F.line = 76;
+    add_654312139(tmp_452988160, tmp_452988161);
+    F.line = 79;
+    var tmp_452988163 = tree_654312202(44, []);
+    F.line = 79;
+    tmp_452988163.class = "characters-container";
     Label1: do {
-      F.line = 63;
-      var character_452986553 = ({name: [], generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 0, doesDsmashHitAllLedgeOptionsButJump: false, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []});
+      F.line = 80;
+      var character_452988173 = ({name: [], generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 0, doesDsmashHitAllLedgeOptionsButJump: false, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []});
       F.line = 235;
-      var i_452986737 = 0;
+      var i_452988367 = 0;
       F.line = 236;
-      var L_452986738 = 89;
+      var L_452988368 = 89;
       Label2: do {
         F.line = 237;
           Label3: while (true) {
-          if (!(i_452986737 < L_452986738)) break Label3;
-            F.line = 63;
-            character_452986553 = characters_452985073[chckIndx(i_452986737, 0, (characters_452985073).length - 1)];
-            F.line = 63;
-            add_654312139(tmp_452986549, createCharacterTile_452986540(character_452986553));
+          if (!(i_452988367 < L_452988368)) break Label3;
+            F.line = 80;
+            character_452988173 = characters_452985075[chckIndx(i_452988367, 0, (characters_452985075).length - 1)];
+            F.line = 80;
+            add_654312139(tmp_452988163, createCharacterTile_452986573(character_452988173));
             F.line = 239;
-            i_452986737 = addInt(i_452986737, 1);
-            if (!((89 == L_452986738))) {
+            i_452988367 = addInt(i_452988367, 1);
+            if (!((89 == L_452988368))) {
             F.line = 240;
             failedAssertImpl_218103864(makeNimstrLit("/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/system/iterators.nim(240, 11) `len(a) == L` the length of the seq changed while iterating over it"));
             }
@@ -9731,12 +10410,12 @@ function createHomePage_452986546() {
           }
       } while (false);
     } while (false);
-    F.line = 64;
-    add_654312139(tmp_452986548, tmp_452986549);
-    result_452986547 = tmp_452986548;
+    F.line = 81;
+    add_654312139(tmp_452988160, tmp_452988163);
+    result_452988159 = tmp_452988160;
   framePtr = F.prev;
 
-  return result_452986547;
+  return result_452988159;
 
 }
 
@@ -9884,17 +10563,17 @@ function HEX5BHEX5D_973081754(s_973081757, x_973081758) {
       F.line = 2552;
       var i_973081768 = 0;
       F.line = 119;
-      var i_452986769 = 0;
+      var i_452988422 = 0;
       Label2: do {
         F.line = 120;
           Label3: while (true) {
-          if (!(i_452986769 < L_973081763)) break Label3;
+          if (!(i_452988422 < L_973081763)) break Label3;
             F.line = 2552;
-            i_973081768 = i_452986769;
+            i_973081768 = i_452988422;
             F.line = 2552;
             result_973081759[chckIndx(i_973081768, 0, (result_973081759).length - 1)] = s_973081757[chckIndx(addInt(i_973081768, a_973081761), 0, (s_973081757).length - 1)];
             F.line = 122;
-            i_452986769 = addInt(i_452986769, 1);
+            i_452988422 = addInt(i_452988422, 1);
           }
       } while (false);
     } while (false);
@@ -9917,108 +10596,108 @@ function HEX2EHEX2E_939524176(a_939524179, b_939524180) {
 
 }
 
-function hasKey_452986620(t_452986623, key_452986624) {
-  var result_452986625 = false;
+function hasKey_452988250(t_452988253, key_452988254) {
+  var result_452988255 = false;
 
   var F = {procname: "hasKey.hasKey", prev: framePtr, filename: "/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/tables.nim", line: 0};
   framePtr = F;
     F.line = 371;
-    var hc_452986626 = [0];
+    var hc_452988256 = [0];
     F.line = 372;
-    result_452986625 = (0 <= rawGet_452985223(t_452986623, key_452986624, hc_452986626, 0));
+    result_452988255 = (0 <= rawGet_452985225(t_452988253, key_452988254, hc_452988256, 0));
   framePtr = F.prev;
 
-  return result_452986625;
+  return result_452988255;
 
 }
 
-function createCharacterPage_452986535(character_452986536) {
-  var result_452986537 = null;
+function createCharacterPage_452986568(character_452986569) {
+  var result_452986570 = null;
 
   var F = {procname: "flatzone.createCharacterPage", prev: framePtr, filename: "/home/avahe/programming/nim/flatzone/src/flatzone.nim", line: 0};
   framePtr = F;
-    F.line = 49;
-    F.line = 49;
-    var tmp_452986538 = tree_654312202(44, []);
-    F.line = 49;
-    tmp_452986538.class = "";
-    F.line = 50;
-    add_654312139(tmp_452986538, createTitleBar_452986479());
-    F.line = 51;
-    var tmp_452986539 = tree_654312202(76, []);
-    F.line = 51;
-    tmp_452986539.class = "character-tile";
-    F.line = 51;
-    setAttr_654312065(tmp_452986539, "src", toJSStr((makeNimstrLit("../assets/images/") || []).concat(normalizeCharacterName_452986530(character_452986536) || [],makeNimstrLit(".png") || [])));
-    F.line = 51;
-    add_654312139(tmp_452986538, tmp_452986539);
-    result_452986537 = tmp_452986538;
+    F.line = 45;
+    F.line = 45;
+    var tmp_452986571 = tree_654312202(44, []);
+    F.line = 45;
+    tmp_452986571.class = "";
+    F.line = 46;
+    add_654312139(tmp_452986571, createTitleBar_452986518());
+    F.line = 47;
+    var tmp_452986572 = tree_654312202(76, []);
+    F.line = 47;
+    tmp_452986572.class = "character-tile";
+    F.line = 47;
+    setAttr_654312065(tmp_452986572, "src", toJSStr((makeNimstrLit("../assets/images/") || []).concat(normalizeCharacterName_452986563(character_452986569) || [],makeNimstrLit(".png") || [])));
+    F.line = 47;
+    add_654312139(tmp_452986571, tmp_452986572);
+    result_452986570 = tmp_452986571;
   framePtr = F.prev;
 
-  return result_452986537;
+  return result_452986570;
 
 }
 
-function create404Page_452986554() {
-  var result_452986555 = null;
+function create404Page_452988184() {
+  var result_452988185 = null;
 
   var F = {procname: "flatzone.create404Page", prev: framePtr, filename: "/home/avahe/programming/nim/flatzone/src/flatzone.nim", line: 0};
   framePtr = F;
-    F.line = 67;
-    F.line = 67;
-    var tmp_452986556 = tree_654312202(44, []);
-    F.line = 67;
-    tmp_452986556.class = "";
-    F.line = 68;
-    add_654312139(tmp_452986556, createTitleBar_452986479());
-    F.line = 69;
-    var tmp_452986557 = tree_654312202(22, []);
-    F.line = 69;
-    add_654312139(tmp_452986557, text_654312254(makeNimstrLit("404 - Not Found")));
-    F.line = 69;
-    add_654312139(tmp_452986556, tmp_452986557);
-    result_452986555 = tmp_452986556;
+    F.line = 84;
+    F.line = 84;
+    var tmp_452988186 = tree_654312202(44, []);
+    F.line = 84;
+    tmp_452988186.class = "";
+    F.line = 85;
+    add_654312139(tmp_452988186, createTitleBar_452986518());
+    F.line = 86;
+    var tmp_452988187 = tree_654312202(22, []);
+    F.line = 86;
+    add_654312139(tmp_452988187, text_654312254(makeNimstrLit("404 - Not Found")));
+    F.line = 86;
+    add_654312139(tmp_452988186, tmp_452988187);
+    result_452988185 = tmp_452988186;
   framePtr = F.prev;
 
-  return result_452986555;
+  return result_452988185;
 
 }
 
-function createSite_452986558(data_452986559) {
-  var result_452986560 = null;
+function createSite_452988188(data_452988189) {
+  var result_452988190 = null;
 
   var F = {procname: "flatzone.createSite", prev: framePtr, filename: "/home/avahe/programming/nim/flatzone/src/flatzone.nim", line: 0};
   framePtr = F;
   BeforeRet: do {
-    if ((((data_452986559.hashPart) == null ? 0 : (data_452986559.hashPart).length) == 0)) {
-    F.line = 73;
-    result_452986560 = createHomePage_452986546();
+    if ((((data_452988189.hashPart) == null ? 0 : (data_452988189.hashPart).length) == 0)) {
+    F.line = 90;
+    result_452988190 = createHomePage_452988158();
     break BeforeRet;
     }
     else {
-    if (data_452986559.hashPart.startsWith("#/")) {
-    F.line = 75;
-    var hashPartEnd_452986579 = decodeUrl_1224736825(HEX5BHEX5D_973081754(cstrToNimstr(data_452986559.hashPart), HEX2EHEX2E_939524176(2, 1)), true);
-    if (hasKey_452986620(characterLookup_452985099[0], hashPartEnd_452986579)) {
-    F.line = 77;
-    result_452986560 = createCharacterPage_452986535(hashPartEnd_452986579);
+    if (data_452988189.hashPart.startsWith("#/")) {
+    F.line = 92;
+    var hashPartEnd_452988209 = decodeUrl_1224736825(HEX5BHEX5D_973081754(cstrToNimstr(data_452988189.hashPart), HEX2EHEX2E_939524176(2, 1)), true);
+    if (hasKey_452988250(characterLookup_452985101[0], hashPartEnd_452988209)) {
+    F.line = 94;
+    result_452988190 = createCharacterPage_452986568(hashPartEnd_452988209);
     break BeforeRet;
     }
     
     }
     }
-    F.line = 79;
-    result_452986560 = create404Page_452986554();
+    F.line = 96;
+    result_452988190 = create404Page_452988184();
     break BeforeRet;
   } while (false);
   framePtr = F.prev;
 
-  return result_452986560;
+  return result_452988190;
 
 }
 var F = {procname: "module flatzone", prev: framePtr, filename: "/home/avahe/programming/nim/flatzone/src/flatzone.nim", line: 0};
 framePtr = F;
-setRenderer_620758006(createSite_452986558, "ROOT", null);
+setRenderer_620758006(createSite_452988188, "ROOT", null);
 framePtr = F.prev;
 var F = {procname: "module flatzone", prev: framePtr, filename: "/home/avahe/programming/nim/flatzone/src/flatzone.nim", line: 0};
 framePtr = F;
