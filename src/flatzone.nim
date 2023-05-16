@@ -23,7 +23,8 @@ for character in characters:
 proc createTitleBar(): VNode =
   result = buildHtml(tdiv(class="top-bar")):
     link(rel = "stylesheet", `type` = "text/css", href = "main.css")
-    h1(class="title"): text "Flatzone"
+    h1(class="title"):
+      text "Flatzone"
 
     a(href = "#/search"):
       h2: text "Search"
@@ -57,8 +58,9 @@ proc createCharacterTile(character: Character): VNode =
 proc createHomePage(): VNode =
   result = buildHtml(tdiv(class="")):
     createTitleBar()
-    for character in characters:
-      createCharacterTile(character)
+    tdiv(class="characters-container"):
+      for character in characters:
+        createCharacterTile(character)
 
 proc create404Page(): VNode =
   result = buildHtml(tdiv(class="")):

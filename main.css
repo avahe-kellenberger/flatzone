@@ -7,19 +7,18 @@ body {
 .top-bar {
   background-color: #5D6074;
   color: #E7E7E8;
-  text-align: center;
+  text-align: left;
   width: 100%;
 }
 
 .title {
-  position: fixed;
-  top: 0px;
-  left: 20px;
-  font-size: 38px
+  display: inline-flex;
+  font-size: 38px;
+  margin-left: 1em;
 }
 
 .top-bar a {
-  display: inline-block;
+  display: inline-flex;
   text-decoration: none;
   padding: 10px 40px;
   color: #E7E7E8; 
@@ -53,9 +52,23 @@ body {
   background-color: #525779;
 }
 
+.characters-container {
+  text-align: center;
+}
+
 .character-tile {
-  max-width: 200px;
-  max-height: 200px;
+  background-color: white;
+  width: 200px;
+  height: 220px;
   overflow: hidden;
+  margin: 8px;
+}
+
+.character-tile img {
+  object-fit: scale-down;
+  max-width: 200px;
+  max-height: 220px;
+  width: auto;
+  height: auto;
 }
 
