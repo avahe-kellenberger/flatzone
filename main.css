@@ -54,14 +54,29 @@ body {
 
 .characters-container {
   text-align: center;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-template-rows: repeat(auto-fill, minmax(200px, 1fr));
 }
 
 .character-tile {
-  background-color: white;
   width: 200px;
   height: 220px;
   overflow: hidden;
   margin: 8px;
+
+  position: relative;
+  text-align: center;
+}
+
+.character-name {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  -webkit-text-stroke-color: #3b3b3b;
+  -webkit-text-stroke-width: 0.8px;
 }
 
 .character-tile img {

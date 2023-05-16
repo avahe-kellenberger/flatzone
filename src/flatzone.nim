@@ -48,12 +48,13 @@ template characterImg(name: string): string =
 proc createCharacterPage(character: string): VNode =
   result = buildHtml(tdiv(class="")):
     createTitleBar()
-    img(class = "character-tile", src = characterImg(character) & ".webp")
+    img(class = "character-tile", src = characterImg(character) & ".png")
 
 proc createCharacterTile(character: Character): VNode =
   result = buildHtml():
-    a(href = cstring("#/" & character.name)):
-      img(class = "character-tile", src = characterImg(character.name) & ".webp")
+    a(class="character-tile", href = cstring("#/" & character.name)):
+      img(src = characterImg(character.name) & ".png")
+      h1(class="character-name"): text character.name
 
 proc createHomePage(): VNode =
   result = buildHtml(tdiv(class="")):
