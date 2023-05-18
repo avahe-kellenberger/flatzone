@@ -29,7 +29,11 @@ proc createTitleBar(): VNode =
     h1(class="title"):
       text "Flatzone"
 
-    # TODO: Add any other links, like to discord etc.
+    a(href = cstring "https://discord.gg/HBkR7eH", target = "_blank"):
+      h2(class="title-link"):
+        text "GnW Discord"
+
+    # TODO: Add any other links we want.
 
 proc normalizeCharacterName(name: string): string =
   return
@@ -72,9 +76,6 @@ proc createHomePage(): VNode =
       input(class="searchbar", placeholder="Search...", setFocus=true):
         proc onkeyup(e: Event, n: VNode) =
           filterBySearch(toLower($e.target.value))
-
-        proc onblur(e: Event, n: VNode) =
-          e.target.focus()
 
     tdiv(class="characters-container"):
       for character in characters:
