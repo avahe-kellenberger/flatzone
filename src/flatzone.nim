@@ -1,6 +1,6 @@
 include karax/prelude
 
-import std/[json, tables, strutils, uri, dom]
+import std/[json, tables, strutils, uri, dom, strformat, os]
 import fuzzy
 
 type
@@ -14,8 +14,24 @@ type
     top3StageBans: seq[string]
     vods: seq[string]
 
+proc normalizeCharacterName(name: string): string =
+  return
+    toLower(name)
+    .replace(" ", "_")
+    .replace(".", "")
+    .replace("&", "and")
+
 const characters: seq[Character] = static:
   parseJson(staticRead("../assets/data.json")).to(seq[flatzone.Character])
+
+var characterHtmlPages =
+  static:
+    var result = initTable[string, string]()
+    for character in characters:
+      let name = normalizeCharacterName(character.name)
+      let text = staticRead(fmt"../html/{name}.html")
+      result[name] = text
+    result
 
 var characterLookup = initTable[string, flatzone.Character]()
 for character in characters:
@@ -27,7 +43,8 @@ proc createTitleBar(): VNode =
   result = buildHtml(tdiv(class="top-bar")):
     link(rel = "stylesheet", `type` = "text/css", href = "main.css")
     h1(class="title"):
-      text "Flatzone"
+      a(href=cstring""):
+        text "Flatzone"
 
     a(href = cstring "https://discord.gg/HBkR7eH", target = "_blank"):
       h2(class="title-link"):
@@ -35,26 +52,26 @@ proc createTitleBar(): VNode =
 
     # TODO: Add any other links we want.
 
-proc normalizeCharacterName(name: string): string =
-  return
-    toLower(name)
-    .replace(" ", "_")
-    .replace(".", "")
-    .replace("&", "and")
-
 template characterImg(name: string): string =
   "../assets/images/" & normalizeCharacterName(name) 
 
 proc createCharacterPage(character: string): VNode =
   result = buildHtml(tdiv(class="")):
     createTitleBar()
-    img(class = "character-tile", src = characterImg(character) & ".png")
+    img(class = "mu-character-tile", src = characterImg(character) & ".png"):
+      h1(class="character-name"):
+        text character
+
+    tdiv(class="mu-info-text"):
+      let charName = normalizeCharacterName(character)
+      verbatim(characterHtmlPages[charName])
 
 proc createCharacterTile(character: Character): VNode =
   result = buildHtml():
     a(class="character-tile", href = cstring("#/" & character.name)):
       img(src = characterImg(character.name) & ".png")
-      h1(class="character-name"): text character.name
+      h1(class="character-name"):
+        text character.name
 
   # Add tile to list so we can filter by search.
   characterDomTiles[

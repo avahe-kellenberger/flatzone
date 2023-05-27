@@ -94,3 +94,40 @@ input:focus {
   outline: navy;
 }
 
+.mu-info-text {
+  font-size: 2ch;
+  margin: 2em;
+  color: #E7E7E8;
+}
+
+.mu-character-tile {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 32px;
+
+  display: flex;
+  height: 14rem;
+  width: 14rem;
+  background-color: #242427;
+  box-shadow: rgba(0, 0, 0, 0.14) 0px 2px 2px 0px, rgba(0, 0, 0, 0.12) 0px 1px 5px 0px, rgba(0, 0, 0, 0.2) 0px 3px 1px -2px;
+  outline-color: rgba(48, 52, 54, 0);
+}
+
+@media screen and (min-width: 800px) {
+  .mu-info-text {
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.mu-info-text > div {
+  padding: 32px;
+  border: 1px solid black;
+  background-color: #242427;
+}
+
+.mu-info-text h2 {
+  color: #4477AA;
+}
+

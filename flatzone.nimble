@@ -10,6 +10,7 @@ srcDir        = "src"
 
 requires "nim >= 1.6.12"
 requires "karax >= 1.2.2"
+requires "markdown >= 0.8.7"
 
 task release, "Builds the website":
   exec "karun src/flatzone.nim"

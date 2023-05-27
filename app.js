@@ -2,6 +2,9 @@
 var framePtr = null;
 var excHandler = 0;
 var lastJSError = null;
+var NTI33555114 = {size: 0, kind: 17, base: null, node: null, finalizer: null};
+var NTI33555125 = {size: 0, kind: 17, base: null, node: null, finalizer: null};
+var NTI33555126 = {size: 0, kind: 17, base: null, node: null, finalizer: null};
 var NTI939524168 = {size: 0,kind: 31,base: null,node: null,finalizer: null};
 var NTI939524175 = {size: 0, kind: 18, base: null, node: null, finalizer: null};
 var NTI654311693 = {size: 0, kind: 24, base: null, node: null, finalizer: null};
@@ -1005,6 +1008,15 @@ NTI654311693.base = NTI33554440;
 var NNI939524175 = {kind: 2, len: 2, offset: 0, typ: null, name: null, sons: [{kind: 1, offset: "a", len: 0, typ: NTI939524168, name: "a", sons: null}, 
 {kind: 1, offset: "b", len: 0, typ: NTI33554456, name: "b", sons: null}]};
 NTI939524175.node = NNI939524175;
+var NNI33555126 = {kind: 2, len: 0, offset: 0, typ: null, name: null, sons: []};
+NTI33555126.node = NNI33555126;
+var NNI33555125 = {kind: 2, len: 0, offset: 0, typ: null, name: null, sons: []};
+NTI33555125.node = NNI33555125;
+var NNI33555114 = {kind: 2, len: 0, offset: 0, typ: null, name: null, sons: []};
+NTI33555114.node = NNI33555114;
+NTI33555114.base = NTI33555112;
+NTI33555125.base = NTI33555114;
+NTI33555126.base = NTI33555125;
 
 function makeNimstrLit(c_33556801) {
       var result = [];
@@ -1311,7 +1323,7 @@ function mulInt(a_33556948, b_33556949) {
 
   
 }
-        var characters_452985075 = [{name: makeNimstrLit("Banjo & Kazooie"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Bayonetta"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Bowser"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Bowser Jr."), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Byleth"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Captain Falcon"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Chrom"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Cloud"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Corrin"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Daisy"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Dark Pit"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Dark Samus"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Diddy Kong"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Donkey Kong"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Dr. Mario"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Duck Hunt"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Falco"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Fox"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Ganondorf"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Greninja"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Hero"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Ice Climbers"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Ike"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Incineroar"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Inkling"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Isabelle"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Jigglypuff"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Joker"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Kazuya"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Ken"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("King Dedede"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("King K. Rool"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Kirby"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Link"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Little Mac"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Lucario"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Lucas"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Lucina"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Luigi"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Mario"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Marth"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Mega Man"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Meta Knight"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Mewtwo"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Mii Brawler"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Mii Gunner"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Mii Swordfighter"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Min Min"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Mr. Game & Watch"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Mythra"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Ness"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Olimar"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Pac Man"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Palutena"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Peach"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Pichu"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Pikachu"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Piranha Plant"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Pit"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Squirtle"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Ivysaur"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Charizard"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Pyra"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Richter"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Ridley"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("R.O.B."), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Robin"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Rosalina and Luma"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Roy"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Ryu"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Samus"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Sephiroth"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Sheik"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Shulk"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Simon"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Snake"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Sonic"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Sora"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Steve"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Terry"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Toon Link"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Villager"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Wario"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Wii Fit Trainer"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Wolf"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Yoshi"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Young Link"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Zelda"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Zero Suit Samus"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}];
+        var characters_452985080 = [{name: makeNimstrLit("Banjo & Kazooie"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Bayonetta"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Bowser"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Bowser Jr."), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Byleth"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Captain Falcon"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Chrom"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Cloud"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Corrin"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Daisy"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Dark Pit"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Dark Samus"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Diddy Kong"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Donkey Kong"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Dr. Mario"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Duck Hunt"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Falco"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Fox"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Ganondorf"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Greninja"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Hero"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Ice Climbers"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Ike"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Incineroar"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Inkling"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Isabelle"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Jigglypuff"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Joker"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Kazuya"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Ken"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("King Dedede"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("King K. Rool"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Kirby"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Link"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Little Mac"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Lucario"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Lucas"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Lucina"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Luigi"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Mario"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Marth"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Mega Man"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Meta Knight"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Mewtwo"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Mii Brawler"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Mii Gunner"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Mii Swordfighter"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Min Min"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Mr. Game & Watch"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Mythra"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Ness"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Olimar"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Pac Man"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Palutena"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Peach"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Pichu"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Pikachu"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Piranha Plant"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Pit"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Squirtle"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Ivysaur"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Charizard"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Pyra"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Richter"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Ridley"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("R.O.B."), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Robin"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Rosalina and Luma"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Roy"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Ryu"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Samus"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Sephiroth"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Sheik"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Shulk"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Simon"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Snake"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Sonic"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Sora"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Steve"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Terry"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Toon Link"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Villager"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Wario"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Wii Fit Trainer"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Wolf"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Yoshi"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Young Link"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Zelda"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}, {name: makeNimstrLit("Zero Suit Samus"), generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 3, doesDsmashHitAllLedgeOptionsButJump: true, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []}];
 
 function subInt(a_33556944, b_33556945) {
         var result = a_33556944 - b_33556945;
@@ -6246,6 +6258,495 @@ framePtr = F.prev;
 var F = {procname: "module uri", prev: framePtr, filename: "/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/pure/uri.nim", line: 0};
 framePtr = F;
 framePtr = F.prev;
+var F = {procname: "module strformat", prev: framePtr, filename: "/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/pure/strformat.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module strformat", prev: framePtr, filename: "/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/pure/strformat.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module strformat", prev: framePtr, filename: "/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/pure/strformat.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module strformat", prev: framePtr, filename: "/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/pure/strformat.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module strformat", prev: framePtr, filename: "/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/pure/strformat.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module strformat", prev: framePtr, filename: "/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/pure/strformat.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module strformat", prev: framePtr, filename: "/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/pure/strformat.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module strformat", prev: framePtr, filename: "/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/pure/strformat.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module strformat", prev: framePtr, filename: "/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/pure/strformat.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module strformat", prev: framePtr, filename: "/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/pure/strformat.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module strformat", prev: framePtr, filename: "/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/pure/strformat.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module strformat", prev: framePtr, filename: "/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/pure/strformat.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module strformat", prev: framePtr, filename: "/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/pure/strformat.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module strformat", prev: framePtr, filename: "/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/pure/strformat.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module strformat", prev: framePtr, filename: "/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/pure/strformat.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module strformat", prev: framePtr, filename: "/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/pure/strformat.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module strformat", prev: framePtr, filename: "/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/pure/strformat.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module strformat", prev: framePtr, filename: "/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/pure/strformat.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module strformat", prev: framePtr, filename: "/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/pure/strformat.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module os", prev: framePtr, filename: "/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/pure/os.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module os", prev: framePtr, filename: "/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/pure/os.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module pathnorm", prev: framePtr, filename: "/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/pure/pathnorm.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module osseps", prev: framePtr, filename: "/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/pure/includes/osseps.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module osseps", prev: framePtr, filename: "/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/pure/includes/osseps.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module osseps", prev: framePtr, filename: "/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/pure/includes/osseps.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module pathnorm", prev: framePtr, filename: "/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/pure/pathnorm.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module pathnorm", prev: framePtr, filename: "/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/pure/pathnorm.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module pathnorm", prev: framePtr, filename: "/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/pure/pathnorm.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module pathnorm", prev: framePtr, filename: "/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/pure/pathnorm.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module pathnorm", prev: framePtr, filename: "/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/pure/pathnorm.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module pathnorm", prev: framePtr, filename: "/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/pure/pathnorm.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module pathnorm", prev: framePtr, filename: "/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/pure/pathnorm.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module pathnorm", prev: framePtr, filename: "/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/pure/pathnorm.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module pathnorm", prev: framePtr, filename: "/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/pure/pathnorm.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module pathnorm", prev: framePtr, filename: "/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/pure/pathnorm.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module pathnorm", prev: framePtr, filename: "/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/pure/pathnorm.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module os", prev: framePtr, filename: "/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/pure/os.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module os", prev: framePtr, filename: "/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/pure/os.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module os", prev: framePtr, filename: "/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/pure/os.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module os", prev: framePtr, filename: "/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/pure/os.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module os", prev: framePtr, filename: "/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/pure/os.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module os", prev: framePtr, filename: "/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/pure/os.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module os", prev: framePtr, filename: "/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/pure/os.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module os", prev: framePtr, filename: "/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/pure/os.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module os", prev: framePtr, filename: "/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/pure/os.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module os", prev: framePtr, filename: "/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/pure/os.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module os", prev: framePtr, filename: "/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/pure/os.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module os", prev: framePtr, filename: "/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/pure/os.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module os", prev: framePtr, filename: "/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/pure/os.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module os", prev: framePtr, filename: "/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/pure/os.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module os", prev: framePtr, filename: "/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/pure/os.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module os", prev: framePtr, filename: "/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/pure/os.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module os", prev: framePtr, filename: "/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/pure/os.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module os", prev: framePtr, filename: "/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/pure/os.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module os", prev: framePtr, filename: "/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/pure/os.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module os", prev: framePtr, filename: "/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/pure/os.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module os", prev: framePtr, filename: "/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/pure/os.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module os", prev: framePtr, filename: "/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/pure/os.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module os", prev: framePtr, filename: "/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/pure/os.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module os", prev: framePtr, filename: "/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/pure/os.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module os", prev: framePtr, filename: "/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/pure/os.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module os", prev: framePtr, filename: "/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/pure/os.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module os", prev: framePtr, filename: "/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/pure/os.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module os", prev: framePtr, filename: "/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/pure/os.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module os", prev: framePtr, filename: "/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/pure/os.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module os", prev: framePtr, filename: "/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/pure/os.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module os", prev: framePtr, filename: "/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/pure/os.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module os", prev: framePtr, filename: "/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/pure/os.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module os", prev: framePtr, filename: "/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/pure/os.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module os", prev: framePtr, filename: "/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/pure/os.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module os", prev: framePtr, filename: "/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/pure/os.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module os", prev: framePtr, filename: "/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/pure/os.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module os", prev: framePtr, filename: "/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/pure/os.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module os", prev: framePtr, filename: "/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/pure/os.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module os", prev: framePtr, filename: "/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/pure/os.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module os", prev: framePtr, filename: "/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/pure/os.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module os", prev: framePtr, filename: "/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/pure/os.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module os", prev: framePtr, filename: "/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/pure/os.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module os", prev: framePtr, filename: "/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/pure/os.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module os", prev: framePtr, filename: "/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/pure/os.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module os", prev: framePtr, filename: "/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/pure/os.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module os", prev: framePtr, filename: "/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/pure/os.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module os", prev: framePtr, filename: "/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/pure/os.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module os", prev: framePtr, filename: "/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/pure/os.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module os", prev: framePtr, filename: "/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/pure/os.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module os", prev: framePtr, filename: "/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/pure/os.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module os", prev: framePtr, filename: "/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/pure/os.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module os", prev: framePtr, filename: "/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/pure/os.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module os", prev: framePtr, filename: "/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/pure/os.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module os", prev: framePtr, filename: "/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/pure/os.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module os", prev: framePtr, filename: "/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/pure/os.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module os", prev: framePtr, filename: "/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/pure/os.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module os", prev: framePtr, filename: "/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/pure/os.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module os", prev: framePtr, filename: "/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/pure/os.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module os", prev: framePtr, filename: "/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/pure/os.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module os", prev: framePtr, filename: "/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/pure/os.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module os", prev: framePtr, filename: "/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/pure/os.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module os", prev: framePtr, filename: "/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/pure/os.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module os", prev: framePtr, filename: "/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/pure/os.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module os", prev: framePtr, filename: "/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/pure/os.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module os", prev: framePtr, filename: "/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/pure/os.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module os", prev: framePtr, filename: "/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/pure/os.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module os", prev: framePtr, filename: "/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/pure/os.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module os", prev: framePtr, filename: "/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/pure/os.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module os", prev: framePtr, filename: "/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/pure/os.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module os", prev: framePtr, filename: "/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/pure/os.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module os", prev: framePtr, filename: "/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/pure/os.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module os", prev: framePtr, filename: "/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/pure/os.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module os", prev: framePtr, filename: "/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/pure/os.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module os", prev: framePtr, filename: "/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/pure/os.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module os", prev: framePtr, filename: "/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/pure/os.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module os", prev: framePtr, filename: "/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/pure/os.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module os", prev: framePtr, filename: "/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/pure/os.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module os", prev: framePtr, filename: "/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/pure/os.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module os", prev: framePtr, filename: "/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/pure/os.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module os", prev: framePtr, filename: "/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/pure/os.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module os", prev: framePtr, filename: "/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/pure/os.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module os", prev: framePtr, filename: "/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/pure/os.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module os", prev: framePtr, filename: "/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/pure/os.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module os", prev: framePtr, filename: "/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/pure/os.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module os", prev: framePtr, filename: "/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/pure/os.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module os", prev: framePtr, filename: "/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/pure/os.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module os", prev: framePtr, filename: "/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/pure/os.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module os", prev: framePtr, filename: "/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/pure/os.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module os", prev: framePtr, filename: "/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/pure/os.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module os", prev: framePtr, filename: "/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/pure/os.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module os", prev: framePtr, filename: "/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/pure/os.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module os", prev: framePtr, filename: "/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/pure/os.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module os", prev: framePtr, filename: "/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/pure/os.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module os", prev: framePtr, filename: "/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/pure/os.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module os", prev: framePtr, filename: "/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/pure/os.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module os", prev: framePtr, filename: "/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/pure/os.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module os", prev: framePtr, filename: "/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/pure/os.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module os", prev: framePtr, filename: "/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/pure/os.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module os", prev: framePtr, filename: "/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/pure/os.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module os", prev: framePtr, filename: "/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/pure/os.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module os", prev: framePtr, filename: "/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/pure/os.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module os", prev: framePtr, filename: "/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/pure/os.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module os", prev: framePtr, filename: "/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/pure/os.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module os", prev: framePtr, filename: "/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/pure/os.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module os", prev: framePtr, filename: "/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/pure/os.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module os", prev: framePtr, filename: "/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/pure/os.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module os", prev: framePtr, filename: "/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/pure/os.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module os", prev: framePtr, filename: "/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/pure/os.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module os", prev: framePtr, filename: "/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/pure/os.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module os", prev: framePtr, filename: "/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/pure/os.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module os", prev: framePtr, filename: "/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/pure/os.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module os", prev: framePtr, filename: "/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/pure/os.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module os", prev: framePtr, filename: "/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/pure/os.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module os", prev: framePtr, filename: "/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/pure/os.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module os", prev: framePtr, filename: "/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/pure/os.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module os", prev: framePtr, filename: "/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/pure/os.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module os", prev: framePtr, filename: "/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/pure/os.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module os", prev: framePtr, filename: "/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/pure/os.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module os", prev: framePtr, filename: "/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/pure/os.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module os", prev: framePtr, filename: "/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/pure/os.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module os", prev: framePtr, filename: "/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/pure/os.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module os", prev: framePtr, filename: "/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/pure/os.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module os", prev: framePtr, filename: "/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/pure/os.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module os", prev: framePtr, filename: "/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/pure/os.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module os", prev: framePtr, filename: "/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/pure/os.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module os", prev: framePtr, filename: "/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/pure/os.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module os", prev: framePtr, filename: "/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/pure/os.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
 var F = {procname: "module flatzone", prev: framePtr, filename: "/home/avahe/programming/nim/flatzone/src/flatzone.nim", line: 0};
 framePtr = F;
 framePtr = F.prev;
@@ -6400,6 +6901,12 @@ var F = {procname: "module fuzzy", prev: framePtr, filename: "/home/avahe/progra
 framePtr = F;
 framePtr = F.prev;
 var F = {procname: "module fuzzy", prev: framePtr, filename: "/home/avahe/programming/nim/flatzone/src/fuzzy.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module flatzone", prev: framePtr, filename: "/home/avahe/programming/nim/flatzone/src/flatzone.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module flatzone", prev: framePtr, filename: "/home/avahe/programming/nim/flatzone/src/flatzone.nim", line: 0};
 framePtr = F;
 framePtr = F.prev;
 var F = {procname: "module flatzone", prev: framePtr, filename: "/home/avahe/programming/nim/flatzone/src/flatzone.nim", line: 0};
@@ -6503,17 +7010,17 @@ function addChars_251658415(result_251658417, result_251658417_Idx, x_251658418,
       F.line = 46;
       var iHEX60gensym4_251658435 = 0;
       F.line = 119;
-      var i_452986504 = 0;
+      var i_452986607 = 0;
       Label2: do {
         F.line = 120;
           Label3: while (true) {
-          if (!(i_452986504 < n_251658420)) break Label3;
+          if (!(i_452986607 < n_251658420)) break Label3;
             F.line = 49;
-            iHEX60gensym4_251658435 = i_452986504;
+            iHEX60gensym4_251658435 = i_452986607;
             F.line = 49;
             result_251658417[result_251658417_Idx][chckIndx(addInt(old_251658421, iHEX60gensym4_251658435), 0, (result_251658417[result_251658417_Idx]).length - 1)] = x_251658418.charCodeAt(chckIndx(addInt(start_251658419, iHEX60gensym4_251658435), 0, (x_251658418).length - 1));
             F.line = 122;
-            i_452986504 = addInt(i_452986504, 1);
+            i_452986607 = addInt(i_452986607, 1);
           }
       } while (false);
     } while (false);
@@ -6601,13 +7108,13 @@ function auxWriteStackTrace_33556559(f_33556560) {
     
     Label6: do {
       var j_33556602 = 0;
-      var colontmp__452986497 = 0;
-      colontmp__452986497 = (i_33556570 - 1);
-      var res_452986498 = colontmp__452986497;
+      var colontmp__452986600 = 0;
+      colontmp__452986600 = (i_33556570 - 1);
+      var res_452986601 = colontmp__452986600;
       Label7: do {
           Label8: while (true) {
-          if (!(0 <= res_452986498)) break Label8;
-            j_33556602 = res_452986498;
+          if (!(0 <= res_452986601)) break Label8;
+            j_33556602 = res_452986601;
             result_33556561[0].push.apply(result_33556561[0], cstrToNimstr(tempFrames_33556572[j_33556602].Field2));;
             if ((0 < tempFrames_33556572[j_33556602].Field1)) {
             result_33556561[0].push.apply(result_33556561[0], makeNimstrLit("("));;
@@ -6623,7 +7130,7 @@ function auxWriteStackTrace_33556559(f_33556560) {
             result_33556561[0].push.apply(result_33556561[0], makeNimstrLit(" at "));;
             add_33556419(result_33556561, 0, tempFrames_33556572[j_33556602].Field0);
             result_33556561[0].push.apply(result_33556561[0], makeNimstrLit("\x0A"));;
-            res_452986498 -= 1;
+            res_452986601 -= 1;
           }
       } while (false);
     } while (false);
@@ -6718,19 +7225,19 @@ function slotsNeeded_1023410218(count_1023410219) {
 
 }
 
-function initTable_452985076(initialSize_452985079) {
-  var result_452985085 = ({data: [], counter: 0});
+function initTable_452985198(initialSize_452985201) {
+  var result_452985207 = ({data: [], counter: 0});
 
   var F = {procname: "initTable.initTable", prev: framePtr, filename: "/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/tables.nim", line: 0};
   framePtr = F;
     F.line = 163;
-    var correctSizeHEX60gensym21_452985087 = slotsNeeded_1023410218(chckRange(initialSize_452985079, 0, 2147483647));
+    var correctSizeHEX60gensym24_452985209 = slotsNeeded_1023410218(chckRange(initialSize_452985201, 0, 2147483647));
     F.line = 167;
-    result_452985085.counter = 0;
+    result_452985207.counter = 0;
     F.line = 168;
-    result_452985085.data = new Array(chckRange(correctSizeHEX60gensym21_452985087, 0, 2147483647)); for (var i = 0 ; i < chckRange(correctSizeHEX60gensym21_452985087, 0, 2147483647) ; ++i) { result_452985085.data[i] = {Field0: 0, Field1: [], Field2: ({name: [], generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 0, doesDsmashHitAllLedgeOptionsButJump: false, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []})}; }  framePtr = F.prev;
+    result_452985207.data = new Array(chckRange(correctSizeHEX60gensym24_452985209, 0, 2147483647)); for (var i = 0 ; i < chckRange(correctSizeHEX60gensym24_452985209, 0, 2147483647) ; ++i) { result_452985207.data[i] = {Field0: 0, Field1: [], Field2: ({name: [], generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 0, doesDsmashHitAllLedgeOptionsButJump: false, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []})}; }  framePtr = F.prev;
 
-  return result_452985085;
+  return result_452985207;
 
 }
 
@@ -6903,49 +7410,49 @@ function nextTry_1023410210(h_1023410211, maxHash_1023410212) {
 
 }
 
-function rawGet_452985225(t_452985228, key_452985229, hc_452985230, hc_452985230_Idx) {
+function rawGet_452985329(t_452985332, key_452985333, hc_452985334, hc_452985334_Idx) {
             var Temporary3;
 
-  var result_452985231 = 0;
+  var result_452985335 = 0;
 
   var F = {procname: "rawGet.rawGet", prev: framePtr, filename: "/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/hashcommon.nim", line: 0};
   framePtr = F;
   BeforeRet: do {
     F.line = 64;
-    hc_452985230[hc_452985230_Idx] = hash_1040187814(key_452985229);
-    if ((hc_452985230[hc_452985230_Idx] == 0)) {
+    hc_452985334[hc_452985334_Idx] = hash_1040187814(key_452985333);
+    if ((hc_452985334[hc_452985334_Idx] == 0)) {
     F.line = 66;
-    hc_452985230[hc_452985230_Idx] = 314159265;
+    hc_452985334[hc_452985334_Idx] = 314159265;
     }
     
-    if (((t_452985228.data).length == 0)) {
+    if (((t_452985332.data).length == 0)) {
     F.line = 48;
-    result_452985231 = -1;
+    result_452985335 = -1;
     break BeforeRet;
     }
     
     F.line = 49;
-    var h_452985282 = (hc_452985230[hc_452985230_Idx] & (t_452985228.data).length - 1);
+    var h_452985386 = (hc_452985334[hc_452985334_Idx] & (t_452985332.data).length - 1);
     Label1: do {
       F.line = 50;
         Label2: while (true) {
-        if (!isFilled_1023410207(t_452985228.data[chckIndx(h_452985282, 0, (t_452985228.data).length - 1)].Field0)) break Label2;
-            if (!(t_452985228.data[chckIndx(h_452985282, 0, (t_452985228.data).length - 1)].Field0 == hc_452985230[hc_452985230_Idx])) Temporary3 = false; else {              Temporary3 = eqStrings(t_452985228.data[chckIndx(h_452985282, 0, (t_452985228.data).length - 1)].Field1, key_452985229);            }          if (Temporary3) {
+        if (!isFilled_1023410207(t_452985332.data[chckIndx(h_452985386, 0, (t_452985332.data).length - 1)].Field0)) break Label2;
+            if (!(t_452985332.data[chckIndx(h_452985386, 0, (t_452985332.data).length - 1)].Field0 == hc_452985334[hc_452985334_Idx])) Temporary3 = false; else {              Temporary3 = eqStrings(t_452985332.data[chckIndx(h_452985386, 0, (t_452985332.data).length - 1)].Field1, key_452985333);            }          if (Temporary3) {
           F.line = 56;
-          result_452985231 = h_452985282;
+          result_452985335 = h_452985386;
           break BeforeRet;
           }
           
           F.line = 57;
-          h_452985282 = nextTry_1023410210(h_452985282, (t_452985228.data).length - 1);
+          h_452985386 = nextTry_1023410210(h_452985386, (t_452985332.data).length - 1);
         }
     } while (false);
     F.line = 58;
-    result_452985231 = subInt(-1, h_452985282);
+    result_452985335 = subInt(-1, h_452985386);
   } while (false);
   framePtr = F.prev;
 
-  return result_452985231;
+  return result_452985335;
 
 }
 
@@ -6979,79 +7486,79 @@ function failedAssertImpl_218103864(msg_218103865) {
   
 }
 
-function mustRehash_452985561(t_452985563) {
-  var result_452985564 = false;
+function mustRehash_452985665(t_452985667) {
+  var result_452985668 = false;
 
   var F = {procname: "mustRehash.mustRehash", prev: framePtr, filename: "/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/hashcommon.nim", line: 0};
   framePtr = F;
-    if (!((t_452985563.counter < (t_452985563.data).length))) {
+    if (!((t_452985667.counter < (t_452985667.data).length))) {
     F.line = 29;
     failedAssertImpl_218103864(makeNimstrLit("/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/hashcommon.nim(29, 9) `\x0At.counter < t.dataLen` "));
     }
     
     F.line = 30;
-    result_452985564 = ((mulInt((t_452985563.data).length, 2) < mulInt(t_452985563.counter, 3)) || (subInt((t_452985563.data).length, t_452985563.counter) < 4));
+    result_452985668 = ((mulInt((t_452985667.data).length, 2) < mulInt(t_452985667.counter, 3)) || (subInt((t_452985667.data).length, t_452985667.counter) < 4));
   framePtr = F.prev;
 
-  return result_452985564;
+  return result_452985668;
 
 }
 
-function rawInsert_452986010(t_452986014, data_452986015, data_452986015_Idx, key_452986016, val_452986017, hc_452986018, h_452986019) {
+function rawInsert_452986114(t_452986118, data_452986119, data_452986119_Idx, key_452986120, val_452986121, hc_452986122, h_452986123) {
   var F = {procname: "rawInsert.rawInsert", prev: framePtr, filename: "/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/tableimpl.nim", line: 0};
   framePtr = F;
     F.line = 22;
-    data_452986015[data_452986015_Idx][chckIndx(h_452986019, 0, (data_452986015[data_452986015_Idx]).length - 1)].Field1 = nimCopy(null, key_452986016, NTI33554439);
+    data_452986119[data_452986119_Idx][chckIndx(h_452986123, 0, (data_452986119[data_452986119_Idx]).length - 1)].Field1 = nimCopy(null, key_452986120, NTI33554439);
     F.line = 23;
-    data_452986015[data_452986015_Idx][chckIndx(h_452986019, 0, (data_452986015[data_452986015_Idx]).length - 1)].Field2 = nimCopy(data_452986015[data_452986015_Idx][chckIndx(h_452986019, 0, (data_452986015[data_452986015_Idx]).length - 1)].Field2, val_452986017, NTI452984835);
+    data_452986119[data_452986119_Idx][chckIndx(h_452986123, 0, (data_452986119[data_452986119_Idx]).length - 1)].Field2 = nimCopy(data_452986119[data_452986119_Idx][chckIndx(h_452986123, 0, (data_452986119[data_452986119_Idx]).length - 1)].Field2, val_452986121, NTI452984835);
     F.line = 24;
-    data_452986015[data_452986015_Idx][chckIndx(h_452986019, 0, (data_452986015[data_452986015_Idx]).length - 1)].Field0 = hc_452986018;
+    data_452986119[data_452986119_Idx][chckIndx(h_452986123, 0, (data_452986119[data_452986119_Idx]).length - 1)].Field0 = hc_452986122;
   framePtr = F.prev;
 
   
 }
 
-function enlarge_452985716(t_452985719) {
+function enlarge_452985820(t_452985823) {
   var F = {procname: "enlarge.enlarge", prev: framePtr, filename: "/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/tables.nim", line: 0};
   framePtr = F;
     F.line = 249;
-    var n_452985722 = [];
+    var n_452985826 = [];
     F.line = 250;
-    n_452985722 = new Array(chckRange(mulInt((t_452985719.data).length, 2), 0, 2147483647)); for (var i = 0 ; i < chckRange(mulInt((t_452985719.data).length, 2), 0, 2147483647) ; ++i) { n_452985722[i] = {Field0: 0, Field1: [], Field2: ({name: [], generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 0, doesDsmashHitAllLedgeOptionsButJump: false, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []})}; }    F.line = 251;
-    var Temporary1 = t_452985719.data; t_452985719.data = n_452985722; n_452985722 = Temporary1;    Label2: do {
+    n_452985826 = new Array(chckRange(mulInt((t_452985823.data).length, 2), 0, 2147483647)); for (var i = 0 ; i < chckRange(mulInt((t_452985823.data).length, 2), 0, 2147483647) ; ++i) { n_452985826[i] = {Field0: 0, Field1: [], Field2: ({name: [], generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 0, doesDsmashHitAllLedgeOptionsButJump: false, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []})}; }    F.line = 251;
+    var Temporary1 = t_452985823.data; t_452985823.data = n_452985826; n_452985826 = Temporary1;    Label2: do {
       F.line = 252;
-      var i_452985786 = 0;
+      var i_452985890 = 0;
       F.line = 43;
-      var colontmp__452986514 = 0;
+      var colontmp__452986617 = 0;
       F.line = 252;
-      colontmp__452986514 = (n_452985722).length - 1;
+      colontmp__452986617 = (n_452985826).length - 1;
       F.line = 65;
-      var res_452986515 = 0;
+      var res_452986618 = 0;
       Label3: do {
         F.line = 66;
           Label4: while (true) {
-          if (!(res_452986515 <= colontmp__452986514)) break Label4;
+          if (!(res_452986618 <= colontmp__452986617)) break Label4;
             F.line = 252;
-            i_452985786 = res_452986515;
+            i_452985890 = res_452986618;
             F.line = 253;
-            var eh_452985840 = n_452985722[chckIndx(i_452985786, 0, (n_452985722).length - 1)].Field0;
-            if (isFilled_1023410207(eh_452985840)) {
+            var eh_452985944 = n_452985826[chckIndx(i_452985890, 0, (n_452985826).length - 1)].Field0;
+            if (isFilled_1023410207(eh_452985944)) {
             F.line = 255;
-            var j_452985844 = (eh_452985840 & (t_452985719.data).length - 1);
+            var j_452985948 = (eh_452985944 & (t_452985823.data).length - 1);
             Label5: do {
               F.line = 256;
                 Label6: while (true) {
-                if (!isFilled_1023410207(t_452985719.data[chckIndx(j_452985844, 0, (t_452985719.data).length - 1)].Field0)) break Label6;
+                if (!isFilled_1023410207(t_452985823.data[chckIndx(j_452985948, 0, (t_452985823.data).length - 1)].Field0)) break Label6;
                   F.line = 257;
-                  j_452985844 = nextTry_1023410210(j_452985844, (t_452985719.data).length - 1);
+                  j_452985948 = nextTry_1023410210(j_452985948, (t_452985823.data).length - 1);
                 }
             } while (false);
             F.line = 259;
-            rawInsert_452986010(t_452985719, t_452985719, "data", n_452985722[chckIndx(i_452985786, 0, (n_452985722).length - 1)].Field1, n_452985722[chckIndx(i_452985786, 0, (n_452985722).length - 1)].Field2, eh_452985840, j_452985844);
+            rawInsert_452986114(t_452985823, t_452985823, "data", n_452985826[chckIndx(i_452985890, 0, (n_452985826).length - 1)].Field1, n_452985826[chckIndx(i_452985890, 0, (n_452985826).length - 1)].Field2, eh_452985944, j_452985948);
             }
             
             F.line = 68;
-            res_452986515 = addInt(res_452986515, 1);
+            res_452986618 = addInt(res_452986618, 1);
           }
       } while (false);
     } while (false);
@@ -7060,84 +7567,84 @@ function enlarge_452985716(t_452985719) {
   
 }
 
-function rawGetKnownHC_452986188(t_452986191, key_452986192, hc_452986193) {
-  var result_452986194 = 0;
+function rawGetKnownHC_452986292(t_452986295, key_452986296, hc_452986297) {
+  var result_452986298 = 0;
 
   var F = {procname: "rawGetKnownHC.rawGetKnownHC", prev: framePtr, filename: "/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/hashcommon.nim", line: 0};
   framePtr = F;
   BeforeRet: do {
-    if (((t_452986191.data).length == 0)) {
+    if (((t_452986295.data).length == 0)) {
     F.line = 48;
-    result_452986194 = -1;
+    result_452986298 = -1;
     break BeforeRet;
     }
     
     F.line = 49;
-    var h_452986245 = (hc_452986193 & (t_452986191.data).length - 1);
+    var h_452986349 = (hc_452986297 & (t_452986295.data).length - 1);
     Label1: do {
       F.line = 50;
         Label2: while (true) {
-        if (!isFilled_1023410207(t_452986191.data[chckIndx(h_452986245, 0, (t_452986191.data).length - 1)].Field0)) break Label2;
-          if (((t_452986191.data[chckIndx(h_452986245, 0, (t_452986191.data).length - 1)].Field0 == hc_452986193) && eqStrings(t_452986191.data[chckIndx(h_452986245, 0, (t_452986191.data).length - 1)].Field1, key_452986192))) {
+        if (!isFilled_1023410207(t_452986295.data[chckIndx(h_452986349, 0, (t_452986295.data).length - 1)].Field0)) break Label2;
+          if (((t_452986295.data[chckIndx(h_452986349, 0, (t_452986295.data).length - 1)].Field0 == hc_452986297) && eqStrings(t_452986295.data[chckIndx(h_452986349, 0, (t_452986295.data).length - 1)].Field1, key_452986296))) {
           F.line = 56;
-          result_452986194 = h_452986245;
+          result_452986298 = h_452986349;
           break BeforeRet;
           }
           
           F.line = 57;
-          h_452986245 = nextTry_1023410210(h_452986245, (t_452986191.data).length - 1);
+          h_452986349 = nextTry_1023410210(h_452986349, (t_452986295.data).length - 1);
         }
     } while (false);
     F.line = 58;
-    result_452986194 = subInt(-1, h_452986245);
+    result_452986298 = subInt(-1, h_452986349);
   } while (false);
   framePtr = F.prev;
 
-  return result_452986194;
+  return result_452986298;
 
 }
 
-function HEX5BHEX5DHEX3D_452985164(t_452985167, key_452985168, val_452985169) {
+function HEX5BHEX5DHEX3D_452985268(t_452985271, key_452985272, val_452985273) {
   var F = {procname: "[]=.[]=", prev: framePtr, filename: "/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/tables.nim", line: 0};
   framePtr = F;
-    if (((t_452985167.data).length == 0)) {
+    if (((t_452985271.data).length == 0)) {
     F.line = 163;
-    var correctSizeHEX60gensym26_452985219 = slotsNeeded_1023410218(32);
+    var correctSizeHEX60gensym27_452985323 = slotsNeeded_1023410218(32);
     F.line = 167;
-    t_452985167.counter = 0;
+    t_452985271.counter = 0;
     F.line = 168;
-    t_452985167.data = new Array(chckRange(correctSizeHEX60gensym26_452985219, 0, 2147483647)); for (var i = 0 ; i < chckRange(correctSizeHEX60gensym26_452985219, 0, 2147483647) ; ++i) { t_452985167.data[i] = {Field0: 0, Field1: [], Field2: ({name: [], generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 0, doesDsmashHitAllLedgeOptionsButJump: false, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []})}; }    }
+    t_452985271.data = new Array(chckRange(correctSizeHEX60gensym27_452985323, 0, 2147483647)); for (var i = 0 ; i < chckRange(correctSizeHEX60gensym27_452985323, 0, 2147483647) ; ++i) { t_452985271.data[i] = {Field0: 0, Field1: [], Field2: ({name: [], generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 0, doesDsmashHitAllLedgeOptionsButJump: false, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []})}; }    }
     
     F.line = 57;
-    var hc_452985224 = [0];
+    var hc_452985328 = [0];
     F.line = 58;
-    var index_452985454 = rawGet_452985225(t_452985167, key_452985168, hc_452985224, 0);
-    if ((0 <= index_452985454)) {
+    var index_452985558 = rawGet_452985329(t_452985271, key_452985272, hc_452985328, 0);
+    if ((0 <= index_452985558)) {
     F.line = 59;
-    t_452985167.data[chckIndx(index_452985454, 0, (t_452985167.data).length - 1)].Field2 = nimCopy(t_452985167.data[chckIndx(index_452985454, 0, (t_452985167.data).length - 1)].Field2, val_452985169, NTI452984835);
+    t_452985271.data[chckIndx(index_452985558, 0, (t_452985271.data).length - 1)].Field2 = nimCopy(t_452985271.data[chckIndx(index_452985558, 0, (t_452985271.data).length - 1)].Field2, val_452985273, NTI452984835);
     }
     else {
-      if (((t_452985167.data).length == 0)) {
+      if (((t_452985271.data).length == 0)) {
       F.line = 163;
-      var correctSizeHEX60gensym31_452985556 = slotsNeeded_1023410218(32);
+      var correctSizeHEX60gensym32_452985660 = slotsNeeded_1023410218(32);
       F.line = 167;
-      t_452985167.counter = 0;
+      t_452985271.counter = 0;
       F.line = 168;
-      t_452985167.data = new Array(chckRange(correctSizeHEX60gensym31_452985556, 0, 2147483647)); for (var i = 0 ; i < chckRange(correctSizeHEX60gensym31_452985556, 0, 2147483647) ; ++i) { t_452985167.data[i] = {Field0: 0, Field1: [], Field2: ({name: [], generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 0, doesDsmashHitAllLedgeOptionsButJump: false, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []})}; }      }
+      t_452985271.data = new Array(chckRange(correctSizeHEX60gensym32_452985660, 0, 2147483647)); for (var i = 0 ; i < chckRange(correctSizeHEX60gensym32_452985660, 0, 2147483647) ; ++i) { t_452985271.data[i] = {Field0: 0, Field1: [], Field2: ({name: [], generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 0, doesDsmashHitAllLedgeOptionsButJump: false, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []})}; }      }
       
-      if (mustRehash_452985561(t_452985167)) {
+      if (mustRehash_452985665(t_452985271)) {
       F.line = 49;
-      enlarge_452985716(t_452985167);
+      enlarge_452985820(t_452985271);
       F.line = 50;
-      index_452985454 = rawGetKnownHC_452986188(t_452985167, key_452985168, hc_452985224[0]);
+      index_452985558 = rawGetKnownHC_452986292(t_452985271, key_452985272, hc_452985328[0]);
       }
       
       F.line = 51;
-      index_452985454 = subInt(-1, index_452985454);
+      index_452985558 = subInt(-1, index_452985558);
       F.line = 52;
-      rawInsert_452986010(t_452985167, t_452985167, "data", key_452985168, val_452985169, hc_452985224[0], index_452985454);
+      rawInsert_452986114(t_452985271, t_452985271, "data", key_452985272, val_452985273, hc_452985328[0], index_452985558);
       F.line = 60;
-      t_452985167.counter = addInt(t_452985167.counter, 1);
+      t_452985271.counter = addInt(t_452985271.counter, 1);
     }
     
   framePtr = F.prev;
@@ -7145,43 +7652,45 @@ function HEX5BHEX5DHEX3D_452985164(t_452985167, key_452985168, val_452985169) {
   
 }
 
-function initTable_452986432(initialSize_452986435) {
-  var result_452986436 = ({data: [], counter: 0});
+function initTable_452986536(initialSize_452986539) {
+  var result_452986540 = ({data: [], counter: 0});
 
   var F = {procname: "initTable.initTable", prev: framePtr, filename: "/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/tables.nim", line: 0};
   framePtr = F;
     F.line = 163;
-    var correctSizeHEX60gensym39_452986438 = slotsNeeded_1023410218(chckRange(initialSize_452986435, 0, 2147483647));
+    var correctSizeHEX60gensym40_452986542 = slotsNeeded_1023410218(chckRange(initialSize_452986539, 0, 2147483647));
     F.line = 167;
-    result_452986436.counter = 0;
+    result_452986540.counter = 0;
     F.line = 168;
-    result_452986436.data = new Array(chckRange(correctSizeHEX60gensym39_452986438, 0, 2147483647)); for (var i = 0 ; i < chckRange(correctSizeHEX60gensym39_452986438, 0, 2147483647) ; ++i) { result_452986436.data[i] = {Field0: 0, Field1: [], Field2: null}; }  framePtr = F.prev;
+    result_452986540.data = new Array(chckRange(correctSizeHEX60gensym40_452986542, 0, 2147483647)); for (var i = 0 ; i < chckRange(correctSizeHEX60gensym40_452986542, 0, 2147483647) ; ++i) { result_452986540.data[i] = {Field0: 0, Field1: [], Field2: null}; }  framePtr = F.prev;
 
-  return result_452986436;
+  return result_452986540;
 
 }
 var F = {procname: "module flatzone", prev: framePtr, filename: "/home/avahe/programming/nim/flatzone/src/flatzone.nim", line: 0};
 framePtr = F;
-F.line = 20;
-var characterLookup_452985101 = [initTable_452985076(32)];
+F.line = 27;
+var characterHtmlPages_452985197 = [{data: [{Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: -902394362, Field1: makeNimstrLit("ice_climbers"), Field2: makeNimstrLit("<h1>No matchup info yet!</h1>\x0A<p>If you\'d like info added for this matchup, please request it to be added in the #metagame channel in our discord server!</p>\x0A")}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: -1570547443, Field1: makeNimstrLit("cloud"), Field2: makeNimstrLit("<h1>No matchup info yet!</h1>\x0A<p>If you\'d like info added for this matchup, please request it to be added in the #metagame channel in our discord server!</p>\x0A")}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: -1419867376, Field1: makeNimstrLit("sephiroth"), Field2: makeNimstrLit("<h1>No matchup info yet!</h1>\x0A<p>If you\'d like info added for this matchup, please request it to be added in the #metagame channel in our discord server!</p>\x0A")}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: -207789544, Field1: makeNimstrLit("kazuya"), Field2: makeNimstrLit("<h1>No matchup info yet!</h1>\x0A<p>If you\'d like info added for this matchup, please request it to be added in the #metagame channel in our discord server!</p>\x0A")}, {Field0: -1818239464, Field1: makeNimstrLit("luigi"), Field2: makeNimstrLit("<h1>No matchup info yet!</h1>\x0A<p>If you\'d like info added for this matchup, please request it to be added in the #metagame channel in our discord server!</p>\x0A")}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: -519537124, Field1: makeNimstrLit("bowser_jr"), Field2: makeNimstrLit("<h1>No matchup info yet!</h1>\x0A<p>If you\'d like info added for this matchup, please request it to be added in the #metagame channel in our discord server!</p>\x0A")}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: -966922720, Field1: makeNimstrLit("young_link"), Field2: makeNimstrLit("<h1>No matchup info yet!</h1>\x0A<p>If you\'d like info added for this matchup, please request it to be added in the #metagame channel in our discord server!</p>\x0A")}, {Field0: -1415198175, Field1: makeNimstrLit("jigglypuff"), Field2: makeNimstrLit("<h1>No matchup info yet!</h1>\x0A<p>If you\'d like info added for this matchup, please request it to be added in the #metagame channel in our discord server!</p>\x0A")}, {Field0: 0, Field1: [], Field2: []}, {Field0: -1577725917, Field1: makeNimstrLit("sora"), Field2: makeNimstrLit("<h1>No matchup info yet!</h1>\x0A<p>If you\'d like info added for this matchup, please request it to be added in the #metagame channel in our discord server!</p>\x0A")}, {Field0: 0, Field1: [], Field2: []}, {Field0: -19708635, Field1: makeNimstrLit("olimar"), Field2: makeNimstrLit("<h1>No matchup info yet!</h1>\x0A<p>If you\'d like info added for this matchup, please request it to be added in the #metagame channel in our discord server!</p>\x0A")}, {Field0: -559580122, Field1: makeNimstrLit("yoshi"), Field2: makeNimstrLit("<h1>No matchup info yet!</h1>\x0A<p>If you\'d like info added for this matchup, please request it to be added in the #metagame channel in our discord server!</p>\x0A")}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 249896745, Field1: makeNimstrLit("bowser"), Field2: makeNimstrLit("<h1>No matchup info yet!</h1>\x0A<p>If you\'d like info added for this matchup, please request it to be added in the #metagame channel in our discord server!</p>\x0A")}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 861289779, Field1: makeNimstrLit("corrin"), Field2: makeNimstrLit("<h1>No matchup info yet!</h1>\x0A<p>If you\'d like info added for this matchup, please request it to be added in the #metagame channel in our discord server!</p>\x0A")}, {Field0: -1858281164, Field1: makeNimstrLit("donkey_kong"), Field2: makeNimstrLit("<h1>No matchup info yet!</h1>\x0A<p>If you\'d like info added for this matchup, please request it to be added in the #metagame channel in our discord server!</p>\x0A")}, {Field0: 446026292, Field1: makeNimstrLit("link"), Field2: makeNimstrLit("<h1>No matchup info yet!</h1>\x0A<p>If you\'d like info added for this matchup, please request it to be added in the #metagame channel in our discord server!</p>\x0A")}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 1682730300, Field1: makeNimstrLit("pikachu"), Field2: makeNimstrLit("<h1>No matchup info yet!</h1>\x0A<p>If you\'d like info added for this matchup, please request it to be added in the #metagame channel in our discord server!</p>\x0A")}, {Field0: -863941827, Field1: makeNimstrLit("min_min"), Field2: makeNimstrLit("<h1>No matchup info yet!</h1>\x0A<p>If you\'d like info added for this matchup, please request it to be added in the #metagame channel in our discord server!</p>\x0A")}, {Field0: 0, Field1: [], Field2: []}, {Field0: -74399425, Field1: makeNimstrLit("chrom"), Field2: makeNimstrLit("<h1>No matchup info yet!</h1>\x0A<p>If you\'d like info added for this matchup, please request it to be added in the #metagame channel in our discord server!</p>\x0A")}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: -1477441465, Field1: makeNimstrLit("mario"), Field2: makeNimstrLit("<h1>No matchup info yet!</h1>\x0A<p>If you\'d like info added for this matchup, please request it to be added in the #metagame channel in our discord server!</p>\x0A")}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: -932942515, Field1: makeNimstrLit("rob"), Field2: makeNimstrLit("<h1>No matchup info yet!</h1>\x0A<p>If you\'d like info added for this matchup, please request it to be added in the #metagame channel in our discord server!</p>\x0A")}, {Field0: 0, Field1: [], Field2: []}, {Field0: 1281212751, Field1: makeNimstrLit("falco"), Field2: makeNimstrLit("<h1>No matchup info yet!</h1>\x0A<p>If you\'d like info added for this matchup, please request it to be added in the #metagame channel in our discord server!</p>\x0A")}, {Field0: 0, Field1: [], Field2: []}, {Field0: 917018705, Field1: makeNimstrLit("byleth"), Field2: makeNimstrLit("<h1>No matchup info yet!</h1>\x0A<p>If you\'d like info added for this matchup, please request it to be added in the #metagame channel in our discord server!</p>\x0A")}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: -2082695083, Field1: makeNimstrLit("robin"), Field2: makeNimstrLit("<h1>No matchup info yet!</h1>\x0A<p>If you\'d like info added for this matchup, please request it to be added in the #metagame channel in our discord server!</p>\x0A")}, {Field0: -604960682, Field1: makeNimstrLit("daisy"), Field2: makeNimstrLit("<h1>No matchup info yet!</h1>\x0A<p>If you\'d like info added for this matchup, please request it to be added in the #metagame channel in our discord server!</p>\x0A")}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: -866004386, Field1: makeNimstrLit("king_dedede"), Field2: makeNimstrLit("<h1>No matchup info yet!</h1>\x0A<p>If you\'d like info added for this matchup, please request it to be added in the #metagame channel in our discord server!</p>\x0A")}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 1411473506, Field1: makeNimstrLit("ridley"), Field2: makeNimstrLit("<h1>No matchup info yet!</h1>\x0A<p>If you\'d like info added for this matchup, please request it to be added in the #metagame channel in our discord server!</p>\x0A")}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: -502051226, Field1: makeNimstrLit("piranha_plant"), Field2: makeNimstrLit("<h1>No matchup info yet!</h1>\x0A<p>If you\'d like info added for this matchup, please request it to be added in the #metagame channel in our discord server!</p>\x0A")}, {Field0: -2069494425, Field1: makeNimstrLit("richter"), Field2: makeNimstrLit("<h1>No matchup info yet!</h1>\x0A<p>If you\'d like info added for this matchup, please request it to be added in the #metagame channel in our discord server!</p>\x0A")}, {Field0: -2104244633, Field1: makeNimstrLit("sheik"), Field2: makeNimstrLit("<h1>No matchup info yet!</h1>\x0A<p>If you\'d like info added for this matchup, please request it to be added in the #metagame channel in our discord server!</p>\x0A")}, {Field0: -1621867415, Field1: makeNimstrLit("fox"), Field2: makeNimstrLit("<h1>No matchup info yet!</h1>\x0A<p>If you\'d like info added for this matchup, please request it to be added in the #metagame channel in our discord server!</p>\x0A")}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 1557688173, Field1: makeNimstrLit("ryu"), Field2: makeNimstrLit("<h1>No matchup info yet!</h1>\x0A<p>If you\'d like info added for this matchup, please request it to be added in the #metagame channel in our discord server!</p>\x0A")}, {Field0: 0, Field1: [], Field2: []}, {Field0: -897124241, Field1: makeNimstrLit("inkling"), Field2: makeNimstrLit("<h1>No matchup info yet!</h1>\x0A<p>If you\'d like info added for this matchup, please request it to be added in the #metagame channel in our discord server!</p>\x0A")}, {Field0: -1189835409, Field1: makeNimstrLit("wolf"), Field2: makeNimstrLit("<h1>No matchup info yet!</h1>\x0A<p>If you\'d like info added for this matchup, please request it to be added in the #metagame channel in our discord server!</p>\x0A")}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 669781364, Field1: makeNimstrLit("greninja"), Field2: makeNimstrLit("<h1>No matchup info yet!</h1>\x0A<p>If you\'d like info added for this matchup, please request it to be added in the #metagame channel in our discord server!</p>\x0A")}, {Field0: 2062329461, Field1: makeNimstrLit("king_k_rool"), Field2: makeNimstrLit("<h1>No matchup info yet!</h1>\x0A<p>If you\'d like info added for this matchup, please request it to be added in the #metagame channel in our discord server!</p>\x0A")}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: -1862255228, Field1: makeNimstrLit("pac_man"), Field2: makeNimstrLit("<h1>No matchup info yet!</h1>\x0A<p>If you\'d like info added for this matchup, please request it to be added in the #metagame channel in our discord server!</p>\x0A")}, {Field0: -1488042875, Field1: makeNimstrLit("little_mac"), Field2: makeNimstrLit("<h1>No matchup info yet!</h1>\x0A<p>If you\'d like info added for this matchup, please request it to be added in the #metagame channel in our discord server!</p>\x0A")}, {Field0: 1678674054, Field1: makeNimstrLit("ganondorf"), Field2: makeNimstrLit("<h1>No matchup info yet!</h1>\x0A<p>If you\'d like info added for this matchup, please request it to be added in the #metagame channel in our discord server!</p>\x0A")}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: -1766580597, Field1: makeNimstrLit("diddy_kong"), Field2: makeNimstrLit("<h1>No matchup info yet!</h1>\x0A<p>If you\'d like info added for this matchup, please request it to be added in the #metagame channel in our discord server!</p>\x0A")}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 651466383, Field1: makeNimstrLit("joker"), Field2: makeNimstrLit("<h1>No matchup info yet!</h1>\x0A<p>If you\'d like info added for this matchup, please request it to be added in the #metagame channel in our discord server!</p>\x0A")}, {Field0: 1695946383, Field1: makeNimstrLit("toon_link"), Field2: makeNimstrLit("<h1>No matchup info yet!</h1>\x0A<p>If you\'d like info added for this matchup, please request it to be added in the #metagame channel in our discord server!</p>\x0A")}, {Field0: 0, Field1: [], Field2: []}, {Field0: 694791314, Field1: makeNimstrLit("duck_hunt"), Field2: makeNimstrLit("<h1>No matchup info yet!</h1>\x0A<p>If you\'d like info added for this matchup, please request it to be added in the #metagame channel in our discord server!</p>\x0A")}, {Field0: 1666503315, Field1: makeNimstrLit("mii_brawler"), Field2: makeNimstrLit("<h1>No matchup info yet!</h1>\x0A<p>If you\'d like info added for this matchup, please request it to be added in the #metagame channel in our discord server!</p>\x0A")}, {Field0: 0, Field1: [], Field2: []}, {Field0: 1315739029, Field1: makeNimstrLit("mythra"), Field2: makeNimstrLit("<h1>No matchup info yet!</h1>\x0A<p>If you\'d like info added for this matchup, please request it to be added in the #metagame channel in our discord server!</p>\x0A")}, {Field0: -457491563, Field1: makeNimstrLit("steve"), Field2: makeNimstrLit("<h1>No matchup info yet!</h1>\x0A<p>If you\'d like info added for this matchup, please request it to be added in the #metagame channel in our discord server!</p>\x0A")}, {Field0: 0, Field1: [], Field2: []}, {Field0: 1239869336, Field1: makeNimstrLit("dr_mario"), Field2: makeNimstrLit("<h1>No matchup info yet!</h1>\x0A<p>If you\'d like info added for this matchup, please request it to be added in the #metagame channel in our discord server!</p>\x0A")}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 796016796, Field1: makeNimstrLit("zero_suit_samus"), Field2: makeNimstrLit("<h1>No matchup info yet!</h1>\x0A<p>If you\'d like info added for this matchup, please request it to be added in the #metagame channel in our discord server!</p>\x0A")}, {Field0: 0, Field1: [], Field2: []}, {Field0: 1191960990, Field1: makeNimstrLit("samus"), Field2: makeNimstrLit("<h1>No matchup info yet!</h1>\x0A<p>If you\'d like info added for this matchup, please request it to be added in the #metagame channel in our discord server!</p>\x0A")}, {Field0: 0, Field1: [], Field2: []}, {Field0: 328022176, Field1: makeNimstrLit("terry"), Field2: makeNimstrLit("<h1>No matchup info yet!</h1>\x0A<p>If you\'d like info added for this matchup, please request it to be added in the #metagame channel in our discord server!</p>\x0A")}, {Field0: -705950303, Field1: makeNimstrLit("squirtle"), Field2: makeNimstrLit("<h1>No matchup info yet!</h1>\x0A<p>If you\'d like info added for this matchup, please request it to be added in the #metagame channel in our discord server!</p>\x0A")}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: -1667035738, Field1: makeNimstrLit("lucina"), Field2: makeNimstrLit("<h1>No matchup info yet!</h1>\x0A<p>If you\'d like info added for this matchup, please request it to be added in the #metagame channel in our discord server!</p>\x0A")}, {Field0: 892418726, Field1: makeNimstrLit("simon"), Field2: makeNimstrLit("<h1>No matchup info yet!</h1>\x0A<p>If you\'d like info added for this matchup, please request it to be added in the #metagame channel in our discord server!</p>\x0A")}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: -1792460374, Field1: makeNimstrLit("charizard"), Field2: makeNimstrLit("<h1>No matchup info yet!</h1>\x0A<p>If you\'d like info added for this matchup, please request it to be added in the #metagame channel in our discord server!</p>\x0A")}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 1305414573, Field1: makeNimstrLit("captain_falcon"), Field2: makeNimstrLit("<h1>No matchup info yet!</h1>\x0A<p>If you\'d like info added for this matchup, please request it to be added in the #metagame channel in our discord server!</p>\x0A")}, {Field0: 0, Field1: [], Field2: []}, {Field0: -1345990737, Field1: makeNimstrLit("lucario"), Field2: makeNimstrLit("<h1>No matchup info yet!</h1>\x0A<p>If you\'d like info added for this matchup, please request it to be added in the #metagame channel in our discord server!</p>\x0A")}, {Field0: -1892594768, Field1: makeNimstrLit("peach"), Field2: makeNimstrLit("<h1>No matchup info yet!</h1>\x0A<p>If you\'d like info added for this matchup, please request it to be added in the #metagame channel in our discord server!</p>\x0A")}, {Field0: 522203569, Field1: makeNimstrLit("incineroar"), Field2: makeNimstrLit("<h2>General gameplan and tips</h2>\x0A<ul>\x0A<li>\x0A<p>Play very grounded! Try to bait and punish. Only try bursting in with nair if bait and punish isn\'t working out</p>\x0A</li>\x0A<li>\x0A<p>Throwing him off stage is better than going for a juggle, according to Maister. Get those bacons in, or punish side b/up b if his mixups are more limited</p>\x0A</li>\x0A<li>\x0A<p>If he falls out of landing bair, just shield. He can spot dodge neutral b for an early kill if we try to grab, like we usually do vs most other characters.</p>\x0A</li>\x0A<li>\x0A<p>Never use fair in this matchup, UNLESS you\'re going for unblockable grab on shield. If he is countering the bombs, we can shield the counter attack then grab.</p>\x0A</li>\x0A<li>\x0A<p>Shield neutral b when he\'s at kill % and we have a healthy shield, shield 3 hits THEN spot dodge. We have a lot of time to punish this move.</p>\x0A</li>\x0A<li>\x0A<p>Incins land on stage with counter attack a lot. We can bait it out and get a huge punish, grab combo, etc.</p>\x0A</li>\x0A<li>\x0A<p>If he is counter attacking bacon, just keep hitting him with bacon until can get an opening to grab or ftilt</p>\x0A</li>\x0A</ul>\x0A<h2>Punishing his landings</h2>\x0A<ul>\x0A<li>\x0A<p>Shield incin when he\'s landing after being juggled. Can punish any of his aerials with grab or up b, if he counters we can wait and react, if he does side b we have enough time to react and up b through it.</p>\x0A</li>\x0A<li>\x0A<p>ALWAYS grab landing nair or fair on shield, it\'s just laggy enough to grab</p>\x0A</li>\x0A<li>\x0A<p>Spaced bair can\'t be grabbed, just up b it</p>\x0A</li>\x0A<li>\x0A<p>Incins like to neutral b after whiffing attacks, be careful of this and punish</p>\x0A</li>\x0A<li>\x0A<p>Look for openings for grabs a lot</p>\x0A</li>\x0A<li>\x0A<p>His nair/fair will go through 3-4 bacons, don\'t throw bacon when he\'s up high/recovering high</p>\x0A</li>\x0A<li>\x0A<p>Incin mains love jumping from ledge, so use nair or up air after throwing bacon if he snaps to ledge without bacon hitting him</p>\x0A</li>\x0A</ul>\x0A<h2>Surviving</h2>\x0A<ul>\x0A<li>DI up if incin rising up b connects, we will always fall out</li>\x0A<li>Air dodge toward the stage if incin side b connects so you\'ll live longer</li>\x0A</ul>\x0A<h2>Punishing his recovery</h2>\x0A<ul>\x0A<li>Ftilt incin recovery at ledge</li>\x0A<li>Always shield his aggressive up b\'s back onto stage</li>\x0A<li>We can up b through his up b to kill him off stage!</li>\x0A<li>If he\'s recovering low close to the stage, we can dair his up b recovery</li>\x0A</ul>\x0A<h2>Getting off ledge</h2>\x0A<ul>\x0A<li>If he is trying to dtilt at ledge, jumping over him from ledge is free</li>\x0A</ul>\x0A<h2>Bread and Butter kill confirm percents</h2>\x0A<ul>\x0A<li>At ledge Nair -&gt; Dtilt kills at 112%</li>\x0A<li>At ledge Nair -&gt; Ftilt kills at 120%</li>\x0A</ul>\x0A")}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: -2100416332, Field1: makeNimstrLit("hero"), Field2: makeNimstrLit("<h1>No matchup info yet!</h1>\x0A<p>If you\'d like info added for this matchup, please request it to be added in the #metagame channel in our discord server!</p>\x0A")}, {Field0: 790940084, Field1: makeNimstrLit("marth"), Field2: makeNimstrLit("<h1>No matchup info yet!</h1>\x0A<p>If you\'d like info added for this matchup, please request it to be added in the #metagame channel in our discord server!</p>\x0A")}, {Field0: -925261132, Field1: makeNimstrLit("ness"), Field2: makeNimstrLit("<h1>No matchup info yet!</h1>\x0A<p>If you\'d like info added for this matchup, please request it to be added in the #metagame channel in our discord server!</p>\x0A")}, {Field0: -891032651, Field1: makeNimstrLit("villager"), Field2: makeNimstrLit("<h1>No matchup info yet!</h1>\x0A<p>If you\'d like info added for this matchup, please request it to be added in the #metagame channel in our discord server!</p>\x0A")}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: -125561413, Field1: makeNimstrLit("sonic"), Field2: makeNimstrLit("<h1>No matchup info yet!</h1>\x0A<p>If you\'d like info added for this matchup, please request it to be added in the #metagame channel in our discord server!</p>\x0A")}, {Field0: -955817284, Field1: makeNimstrLit("mega_man"), Field2: makeNimstrLit("<h1>No matchup info yet!</h1>\x0A<p>If you\'d like info added for this matchup, please request it to be added in the #metagame channel in our discord server!</p>\x0A")}, {Field0: 861964989, Field1: makeNimstrLit("kirby"), Field2: makeNimstrLit("<h1>No matchup info yet!</h1>\x0A<p>If you\'d like info added for this matchup, please request it to be added in the #metagame channel in our discord server!</p>\x0A")}, {Field0: 970982078, Field1: makeNimstrLit("banjo_and_kazooie"), Field2: makeNimstrLit("<h1>No matchup info yet!</h1>\x0A<p>If you\'d like info added for this matchup, please request it to be added in the #metagame channel in our discord server!</p>\x0A")}, {Field0: 0, Field1: [], Field2: []}, {Field0: 2050092224, Field1: makeNimstrLit("meta_knight"), Field2: makeNimstrLit("<h1>No matchup info yet!</h1>\x0A<p>If you\'d like info added for this matchup, please request it to be added in the #metagame channel in our discord server!</p>\x0A")}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 710861252, Field1: makeNimstrLit("roy"), Field2: makeNimstrLit("<h1>No matchup info yet!</h1>\x0A<p>If you\'d like info added for this matchup, please request it to be added in the #metagame channel in our discord server!</p>\x0A")}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: -277309240, Field1: makeNimstrLit("wario"), Field2: makeNimstrLit("<h1>No matchup info yet!</h1>\x0A<p>If you\'d like info added for this matchup, please request it to be added in the #metagame channel in our discord server!</p>\x0A")}, {Field0: -37127991, Field1: makeNimstrLit("mii_swordfighter"), Field2: makeNimstrLit("<h1>No matchup info yet!</h1>\x0A<p>If you\'d like info added for this matchup, please request it to be added in the #metagame channel in our discord server!</p>\x0A")}, {Field0: -1680693046, Field1: makeNimstrLit("mewtwo"), Field2: makeNimstrLit("<h1>No matchup info yet!</h1>\x0A<p>If you\'d like info added for this matchup, please request it to be added in the #metagame channel in our discord server!</p>\x0A")}, {Field0: 0, Field1: [], Field2: []}, {Field0: -331876660, Field1: makeNimstrLit("mii_gunner"), Field2: makeNimstrLit("<h1>No matchup info yet!</h1>\x0A<p>If you\'d like info added for this matchup, please request it to be added in the #metagame channel in our discord server!</p>\x0A")}, {Field0: -1170298931, Field1: makeNimstrLit("pit"), Field2: makeNimstrLit("<h1>No matchup info yet!</h1>\x0A<p>If you\'d like info added for this matchup, please request it to be added in the #metagame channel in our discord server!</p>\x0A")}, {Field0: -729405235, Field1: makeNimstrLit("snake"), Field2: makeNimstrLit("<h1>No matchup info yet!</h1>\x0A<p>If you\'d like info added for this matchup, please request it to be added in the #metagame channel in our discord server!</p>\x0A")}, {Field0: 1213895119, Field1: makeNimstrLit("bayonetta"), Field2: makeNimstrLit("<h1>No matchup info yet!</h1>\x0A<p>If you\'d like info added for this matchup, please request it to be added in the #metagame channel in our discord server!</p>\x0A")}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 4668377, Field1: makeNimstrLit("ike"), Field2: makeNimstrLit("<h1>No matchup info yet!</h1>\x0A<p>If you\'d like info added for this matchup, please request it to be added in the #metagame channel in our discord server!</p>\x0A")}, {Field0: -1769217575, Field1: makeNimstrLit("wii_fit_trainer"), Field2: makeNimstrLit("<h1>No matchup info yet!</h1>\x0A<p>If you\'d like info added for this matchup, please request it to be added in the #metagame channel in our discord server!</p>\x0A")}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 1972240864, Field1: makeNimstrLit("lucas"), Field2: makeNimstrLit("<h1>No matchup info yet!</h1>\x0A<p>If you\'d like info added for this matchup, please request it to be added in the #metagame channel in our discord server!</p>\x0A")}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 2014143459, Field1: makeNimstrLit("ivysaur"), Field2: makeNimstrLit("<h1>No matchup info yet!</h1>\x0A<p>If you\'d like info added for this matchup, please request it to be added in the #metagame channel in our discord server!</p>\x0A")}, {Field0: 1503144420, Field1: makeNimstrLit("dark_samus"), Field2: makeNimstrLit("<h1>No matchup info yet!</h1>\x0A<p>If you\'d like info added for this matchup, please request it to be added in the #metagame channel in our discord server!</p>\x0A")}, {Field0: 0, Field1: [], Field2: []}, {Field0: 509666534, Field1: makeNimstrLit("shulk"), Field2: makeNimstrLit("<h1>No matchup info yet!</h1>\x0A<p>If you\'d like info added for this matchup, please request it to be added in the #metagame channel in our discord server!</p>\x0A")}, {Field0: -167218969, Field1: makeNimstrLit("zelda"), Field2: makeNimstrLit("<h1>No matchup info yet!</h1>\x0A<p>If you\'d like info added for this matchup, please request it to be added in the #metagame channel in our discord server!</p>\x0A")}, {Field0: 0, Field1: [], Field2: []}, {Field0: -2017320215, Field1: makeNimstrLit("pichu"), Field2: makeNimstrLit("<h1>No matchup info yet!</h1>\x0A<p>If you\'d like info added for this matchup, please request it to be added in the #metagame channel in our discord server!</p>\x0A")}, {Field0: -931379734, Field1: makeNimstrLit("isabelle"), Field2: makeNimstrLit("<h1>No matchup info yet!</h1>\x0A<p>If you\'d like info added for this matchup, please request it to be added in the #metagame channel in our discord server!</p>\x0A")}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: -2106880785, Field1: makeNimstrLit("ken"), Field2: makeNimstrLit("<h1>No matchup info yet!</h1>\x0A<p>If you\'d like info added for this matchup, please request it to be added in the #metagame channel in our discord server!</p>\x0A")}, {Field0: 0, Field1: [], Field2: []}, {Field0: -1811961871, Field1: makeNimstrLit("palutena"), Field2: makeNimstrLit("<h1>No matchup info yet!</h1>\x0A<p>If you\'d like info added for this matchup, please request it to be added in the #metagame channel in our discord server!</p>\x0A")}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 1945547256, Field1: makeNimstrLit("pyra"), Field2: makeNimstrLit("<h1>No matchup info yet!</h1>\x0A<p>If you\'d like info added for this matchup, please request it to be added in the #metagame channel in our discord server!</p>\x0A")}, {Field0: 2006991609, Field1: makeNimstrLit("mr_game_and_watch"), Field2: makeNimstrLit("<h1>No matchup info yet!</h1>\x0A<p>If you\'d like info added for this matchup, please request it to be added in the #metagame channel in our discord server!</p>\x0A")}, {Field0: 0, Field1: [], Field2: []}, {Field0: -1562944261, Field1: makeNimstrLit("dark_pit"), Field2: makeNimstrLit("<h1>No matchup info yet!</h1>\x0A<p>If you\'d like info added for this matchup, please request it to be added in the #metagame channel in our discord server!</p>\x0A")}, {Field0: -897441285, Field1: makeNimstrLit("rosalina_and_luma"), Field2: makeNimstrLit("<h1>No matchup info yet!</h1>\x0A<p>If you\'d like info added for this matchup, please request it to be added in the #metagame channel in our discord server!</p>\x0A")}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}], counter: 89}];
+F.line = 36;
+var characterLookup_452985223 = [initTable_452985198(32)];
 Label1: do {
-  F.line = 21;
-  var character_452985123 = [({name: [], generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 0, doesDsmashHitAllLedgeOptionsButJump: false, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []})];
+  F.line = 37;
+  var character_452985227 = [({name: [], generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 0, doesDsmashHitAllLedgeOptionsButJump: false, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []})];
   F.line = 235;
-  var i_452986491 = 0;
+  var i_452986594 = 0;
   F.line = 236;
-  var L_452986492 = 89;
+  var L_452986595 = 89;
   Label2: do {
     F.line = 237;
       Label3: while (true) {
-      if (!(i_452986491 < L_452986492)) break Label3;
-        F.line = 21;
-        character_452985123[0] = characters_452985075[chckIndx(i_452986491, 0, (characters_452985075).length - 1)];
-        F.line = 21;
-        HEX5BHEX5DHEX3D_452985164(characterLookup_452985101[0], character_452985123[0].name, character_452985123[0]);
+      if (!(i_452986594 < L_452986595)) break Label3;
+        F.line = 37;
+        character_452985227[0] = characters_452985080[chckIndx(i_452986594, 0, (characters_452985080).length - 1)];
+        F.line = 37;
+        HEX5BHEX5DHEX3D_452985268(characterLookup_452985223[0], character_452985227[0].name, character_452985227[0]);
         F.line = 239;
-        i_452986491 = addInt(i_452986491, 1);
-        if (!((89 == L_452986492))) {
+        i_452986594 = addInt(i_452986594, 1);
+        if (!((89 == L_452986595))) {
         F.line = 240;
         failedAssertImpl_218103864(makeNimstrLit("/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/system/iterators.nim(240, 11) `len(a) == L` the length of the seq changed while iterating over it"));
         }
@@ -7189,11 +7698,8 @@ Label1: do {
       }
   } while (false);
 } while (false);
-F.line = 24;
-var characterDomTiles_452986452 = [initTable_452986432(32)];
-framePtr = F.prev;
-var F = {procname: "module flatzone", prev: framePtr, filename: "/home/avahe/programming/nim/flatzone/src/flatzone.nim", line: 0};
-framePtr = F;
+F.line = 40;
+var characterDomTiles_452986556 = [initTable_452986536(32)];
 framePtr = F.prev;
 var F = {procname: "module flatzone", prev: framePtr, filename: "/home/avahe/programming/nim/flatzone/src/flatzone.nim", line: 0};
 framePtr = F;
@@ -7483,21 +7989,21 @@ function applyEvents_620757252(n_620757253) {
       F.line = 147;
       var i_620757262 = 0;
       F.line = 117;
-      var colontmp__452988292 = 0;
+      var colontmp__452988454 = 0;
       F.line = 147;
-      colontmp__452988292 = (n_620757253.events).length;
+      colontmp__452988454 = (n_620757253.events).length;
       F.line = 119;
-      var i_452988293 = 0;
+      var i_452988455 = 0;
       Label2: do {
         F.line = 120;
           Label3: while (true) {
-          if (!(i_452988293 < colontmp__452988292)) break Label3;
+          if (!(i_452988455 < colontmp__452988454)) break Label3;
             F.line = 147;
-            i_620757262 = i_452988293;
+            i_620757262 = i_452988455;
             F.line = 147;
             n_620757253.events[chckIndx(i_620757262, 0, (n_620757253.events).length - 1)]["Field2"] = wrapEvent_620757146(dest_620757254, n_620757253, n_620757253.events[chckIndx(i_620757262, 0, (n_620757253.events).length - 1)]["Field0"], n_620757253.events[chckIndx(i_620757262, 0, (n_620757253.events).length - 1)]["Field1"]);
             F.line = 122;
-            i_452988293 = addInt(i_452988293, 1);
+            i_452988455 = addInt(i_452988455, 1);
           }
       } while (false);
     } while (false);
@@ -7515,21 +8021,21 @@ function applyStyle_721420770(n_721420771, s_721420772) {
       F.line = 325;
       var i_721420785 = 0;
       F.line = 43;
-      var colontmp__452988296 = 0;
+      var colontmp__452988458 = 0;
       F.line = 325;
-      colontmp__452988296 = subInt(s_721420772.length, 1);
+      colontmp__452988458 = subInt(s_721420772.length, 1);
       F.line = 65;
-      var res_452988297 = 0;
+      var res_452988459 = 0;
       Label2: do {
         F.line = 66;
           Label3: while (true) {
-          if (!(res_452988297 <= colontmp__452988296)) break Label3;
+          if (!(res_452988459 <= colontmp__452988458)) break Label3;
             F.line = 325;
-            i_721420785 = res_452988297;
+            i_721420785 = res_452988459;
             F.line = 325;
             n_721420771.style[s_721420772[i_721420785]] = s_721420772[addInt(i_721420785, 1)];
             F.line = 68;
-            res_452988297 = addInt(res_452988297, 2);
+            res_452988459 = addInt(res_452988459, 2);
           }
       } while (false);
     } while (false);
@@ -7674,25 +8180,25 @@ function toDom_620757280(n_620757281, useAttachedNode_620757282, kxi_620757283) 
         var k_620757393 = null;
         Label2: do {
           F.line = 310;
-          var i_452988277 = 0;
+          var i_452988439 = 0;
           F.line = 117;
-          var colontmp__452988278 = 0;
+          var colontmp__452988440 = 0;
           F.line = 310;
-          colontmp__452988278 = (n_620757281.kids).length;
+          colontmp__452988440 = (n_620757281.kids).length;
           F.line = 119;
-          var i_452988279 = 0;
+          var i_452988441 = 0;
           Label3: do {
             F.line = 120;
               Label4: while (true) {
-              if (!(i_452988279 < colontmp__452988278)) break Label4;
+              if (!(i_452988441 < colontmp__452988440)) break Label4;
                 F.line = 310;
-                i_452988277 = i_452988279;
+                i_452988439 = i_452988441;
                 F.line = 195;
-                k_620757393 = n_620757281.kids[chckIndx(i_452988277, 0, (n_620757281.kids).length - 1)];
+                k_620757393 = n_620757281.kids[chckIndx(i_452988439, 0, (n_620757281.kids).length - 1)];
                 F.line = 195;
                 result_620757284.appendChild(toDom_620757280(k_620757393, useAttachedNode_620757282, kxi_620757283));
                 F.line = 122;
-                i_452988279 = addInt(i_452988279, 1);
+                i_452988441 = addInt(i_452988441, 1);
               }
           } while (false);
         } while (false);
@@ -7721,30 +8227,30 @@ function toDom_620757280(n_620757281, useAttachedNode_620757282, kxi_620757283) 
       var v_620757395 = null;
       Label6: do {
         F.line = 313;
-        var i_452988287 = 0;
+        var i_452988449 = 0;
         F.line = 43;
-        var colontmp__452988288 = 0;
+        var colontmp__452988450 = 0;
         F.line = 313;
-        colontmp__452988288 = subInt((n_620757281.attrs).length, 2);
+        colontmp__452988450 = subInt((n_620757281.attrs).length, 2);
         F.line = 65;
-        var res_452988289 = 0;
+        var res_452988451 = 0;
         Label7: do {
           F.line = 66;
             Label8: while (true) {
-            if (!(res_452988289 <= colontmp__452988288)) break Label8;
+            if (!(res_452988451 <= colontmp__452988450)) break Label8;
               F.line = 313;
-              i_452988287 = res_452988289;
+              i_452988449 = res_452988451;
               F.line = 206;
-              k_620757394 = n_620757281.attrs[chckIndx(i_452988287, 0, (n_620757281.attrs).length - 1)];
+              k_620757394 = n_620757281.attrs[chckIndx(i_452988449, 0, (n_620757281.attrs).length - 1)];
               F.line = 206;
-              v_620757395 = n_620757281.attrs[chckIndx(addInt(i_452988287, 1), 0, (n_620757281.attrs).length - 1)];
+              v_620757395 = n_620757281.attrs[chckIndx(addInt(i_452988449, 1), 0, (n_620757281.attrs).length - 1)];
               if (!((v_620757395 == null))) {
               F.line = 208;
               result_620757284.setAttribute(k_620757394, v_620757395);
               }
               
               F.line = 68;
-              res_452988289 = addInt(res_452988289, 2);
+              res_452988451 = addInt(res_452988451, 2);
             }
         } while (false);
       } while (false);
@@ -7852,17 +8358,17 @@ function same_620757434(n_620757435, e_620757436, nesting_620757437) {
       F.line = 231;
       var i_620757474 = 0;
       F.line = 117;
-      var colontmp__452988300 = 0;
+      var colontmp__452988462 = 0;
       F.line = 231;
-      colontmp__452988300 = len_654312124(n_620757435);
+      colontmp__452988462 = len_654312124(n_620757435);
       F.line = 119;
-      var i_452988301 = 0;
+      var i_452988463 = 0;
       Label4: do {
         F.line = 120;
           Label5: while (true) {
-          if (!(i_452988301 < colontmp__452988300)) break Label5;
+          if (!(i_452988463 < colontmp__452988462)) break Label5;
             F.line = 231;
-            i_620757474 = i_452988301;
+            i_620757474 = i_452988463;
             if (!(same_620757434(HEX5BHEX5D_654312131(n_620757435, i_620757474), e_620757436.childNodes[i_620757474], addInt(nesting_620757437, 1)))) {
             F.line = 232;
             result_620757438 = false;
@@ -7870,7 +8376,7 @@ function same_620757434(n_620757435, e_620757436, nesting_620757437) {
             }
             
             F.line = 122;
-            i_452988301 = addInt(i_452988301, 1);
+            i_452988463 = addInt(i_452988463, 1);
           }
       } while (false);
     } while (false);
@@ -7923,17 +8429,17 @@ function eq_721420542(a_721420543, b_721420544) {
       F.line = 237;
       var i_721420580 = 0;
       F.line = 117;
-      var colontmp__452988327 = 0;
+      var colontmp__452988489 = 0;
       F.line = 237;
-      colontmp__452988327 = a_721420543.length;
+      colontmp__452988489 = a_721420543.length;
       F.line = 119;
-      var i_452988328 = 0;
+      var i_452988490 = 0;
       Label2: do {
         F.line = 120;
           Label3: while (true) {
-          if (!(i_452988328 < colontmp__452988327)) break Label3;
+          if (!(i_452988490 < colontmp__452988489)) break Label3;
             F.line = 237;
-            i_721420580 = i_452988328;
+            i_721420580 = i_452988490;
             if (!((a_721420543[i_721420580] == b_721420544[i_721420580]))) {
             F.line = 238;
             result_721420545 = false;
@@ -7941,7 +8447,7 @@ function eq_721420542(a_721420543, b_721420544) {
             }
             
             F.line = 122;
-            i_452988328 = addInt(i_452988328, 1);
+            i_452988490 = addInt(i_452988490, 1);
           }
       } while (false);
     } while (false);
@@ -7968,17 +8474,17 @@ function sameAttrs_654312287(a_654312288, b_654312289) {
       F.line = 319;
       var i_654312304 = 0;
       F.line = 117;
-      var colontmp__452988331 = 0;
+      var colontmp__452988493 = 0;
       F.line = 319;
-      colontmp__452988331 = (a_654312288.attrs).length;
+      colontmp__452988493 = (a_654312288.attrs).length;
       F.line = 119;
-      var i_452988332 = 0;
+      var i_452988494 = 0;
       Label2: do {
         F.line = 120;
           Label3: while (true) {
-          if (!(i_452988332 < colontmp__452988331)) break Label3;
+          if (!(i_452988494 < colontmp__452988493)) break Label3;
             F.line = 319;
-            i_654312304 = i_452988332;
+            i_654312304 = i_452988494;
             if (!((a_654312288.attrs[chckIndx(i_654312304, 0, (a_654312288.attrs).length - 1)] == b_654312289.attrs[chckIndx(i_654312304, 0, (b_654312289.attrs).length - 1)]))) {
             F.line = 320;
             result_654312290 = false;
@@ -7986,7 +8492,7 @@ function sameAttrs_654312287(a_654312288, b_654312289) {
             }
             
             F.line = 122;
-            i_452988332 = addInt(i_452988332, 1);
+            i_452988494 = addInt(i_452988494, 1);
           }
       } while (false);
     } while (false);
@@ -8054,17 +8560,17 @@ function eq_620757488(a_620757489, b_620757490, recursive_620757491) {
       F.line = 277;
       var i_620757509 = 0;
       F.line = 117;
-      var colontmp__452988319 = 0;
+      var colontmp__452988481 = 0;
       F.line = 277;
-      colontmp__452988319 = len_654312124(a_620757489);
+      colontmp__452988481 = len_654312124(a_620757489);
       F.line = 119;
-      var i_452988320 = 0;
+      var i_452988482 = 0;
       Label2: do {
         F.line = 120;
           Label3: while (true) {
-          if (!(i_452988320 < colontmp__452988319)) break Label3;
+          if (!(i_452988482 < colontmp__452988481)) break Label3;
             F.line = 277;
-            i_620757509 = i_452988320;
+            i_620757509 = i_452988482;
             if ((eq_620757488(HEX5BHEX5D_654312131(a_620757489, i_620757509), HEX5BHEX5D_654312131(b_620757490, i_620757509), recursive_620757491) == 1)) {
             F.line = 278;
             result_620757492 = 1;
@@ -8072,7 +8578,7 @@ function eq_620757488(a_620757489, b_620757490, recursive_620757491) {
             }
             
             F.line = 122;
-            i_452988320 = addInt(i_452988320, 1);
+            i_452988482 = addInt(i_452988482, 1);
           }
       } while (false);
     } while (false);
@@ -8136,17 +8642,17 @@ function eq_620757488(a_620757489, b_620757490, recursive_620757491) {
       F.line = 309;
       var i_620757535 = 0;
       F.line = 117;
-      var colontmp__452988323 = 0;
+      var colontmp__452988485 = 0;
       F.line = 309;
-      colontmp__452988323 = len_654312124(a_620757489);
+      colontmp__452988485 = len_654312124(a_620757489);
       F.line = 119;
-      var i_452988324 = 0;
+      var i_452988486 = 0;
       Label7: do {
         F.line = 120;
           Label8: while (true) {
-          if (!(i_452988324 < colontmp__452988323)) break Label8;
+          if (!(i_452988486 < colontmp__452988485)) break Label8;
             F.line = 309;
-            i_620757535 = i_452988324;
+            i_620757535 = i_452988486;
             if (!((eq_620757488(HEX5BHEX5D_654312131(a_620757489, i_620757535), HEX5BHEX5D_654312131(b_620757490, i_620757535), true) == 3))) {
             F.line = 311;
             result_620757492 = 1;
@@ -8154,7 +8660,7 @@ function eq_620757488(a_620757489, b_620757490, recursive_620757491) {
             }
             
             F.line = 122;
-            i_452988324 = addInt(i_452988324, 1);
+            i_452988486 = addInt(i_452988486, 1);
           }
       } while (false);
     } while (false);
@@ -8216,27 +8722,27 @@ function updateAttributes_620757578(newNode_620757579, oldNode_620757580) {
       var __620757586 = null;
       Label2: do {
         F.line = 313;
-        var i_452988336 = 0;
+        var i_452988498 = 0;
         F.line = 43;
-        var colontmp__452988337 = 0;
+        var colontmp__452988499 = 0;
         F.line = 313;
-        colontmp__452988337 = subInt((oldNode_620757580.attrs).length, 2);
+        colontmp__452988499 = subInt((oldNode_620757580.attrs).length, 2);
         F.line = 65;
-        var res_452988338 = 0;
+        var res_452988500 = 0;
         Label3: do {
           F.line = 66;
             Label4: while (true) {
-            if (!(res_452988338 <= colontmp__452988337)) break Label4;
+            if (!(res_452988500 <= colontmp__452988499)) break Label4;
               F.line = 313;
-              i_452988336 = res_452988338;
+              i_452988498 = res_452988500;
               F.line = 328;
-              k_620757585 = oldNode_620757580.attrs[chckIndx(i_452988336, 0, (oldNode_620757580.attrs).length - 1)];
+              k_620757585 = oldNode_620757580.attrs[chckIndx(i_452988498, 0, (oldNode_620757580.attrs).length - 1)];
               F.line = 328;
-              __620757586 = oldNode_620757580.attrs[chckIndx(addInt(i_452988336, 1), 0, (oldNode_620757580.attrs).length - 1)];
+              __620757586 = oldNode_620757580.attrs[chckIndx(addInt(i_452988498, 1), 0, (oldNode_620757580.attrs).length - 1)];
               F.line = 328;
               oldNode_620757580.dom.removeAttribute(k_620757585);
               F.line = 68;
-              res_452988338 = addInt(res_452988338, 2);
+              res_452988500 = addInt(res_452988500, 2);
             }
         } while (false);
       } while (false);
@@ -8248,30 +8754,30 @@ function updateAttributes_620757578(newNode_620757579, oldNode_620757580) {
       var v_620757588 = null;
       Label6: do {
         F.line = 313;
-        var i_452988342 = 0;
+        var i_452988504 = 0;
         F.line = 43;
-        var colontmp__452988343 = 0;
+        var colontmp__452988505 = 0;
         F.line = 313;
-        colontmp__452988343 = subInt((newNode_620757579.attrs).length, 2);
+        colontmp__452988505 = subInt((newNode_620757579.attrs).length, 2);
         F.line = 65;
-        var res_452988344 = 0;
+        var res_452988506 = 0;
         Label7: do {
           F.line = 66;
             Label8: while (true) {
-            if (!(res_452988344 <= colontmp__452988343)) break Label8;
+            if (!(res_452988506 <= colontmp__452988505)) break Label8;
               F.line = 313;
-              i_452988342 = res_452988344;
+              i_452988504 = res_452988506;
               F.line = 330;
-              k_620757587 = newNode_620757579.attrs[chckIndx(i_452988342, 0, (newNode_620757579.attrs).length - 1)];
+              k_620757587 = newNode_620757579.attrs[chckIndx(i_452988504, 0, (newNode_620757579.attrs).length - 1)];
               F.line = 330;
-              v_620757588 = newNode_620757579.attrs[chckIndx(addInt(i_452988342, 1), 0, (newNode_620757579.attrs).length - 1)];
+              v_620757588 = newNode_620757579.attrs[chckIndx(addInt(i_452988504, 1), 0, (newNode_620757579.attrs).length - 1)];
               if (!((v_620757588 == null))) {
               F.line = 332;
               oldNode_620757580.dom.setAttribute(k_620757587, v_620757588);
               }
               
               F.line = 68;
-              res_452988344 = addInt(res_452988344, 2);
+              res_452988506 = addInt(res_452988506, 2);
             }
         } while (false);
       } while (false);
@@ -8295,17 +8801,17 @@ function getAttr_654312103(n_654312104, key_654312105) {
       F.line = 254;
       var i_654312115 = 0;
       F.line = 43;
-      var colontmp__452988347 = 0;
+      var colontmp__452988509 = 0;
       F.line = 254;
-      colontmp__452988347 = subInt((n_654312104.attrs).length, 2);
+      colontmp__452988509 = subInt((n_654312104.attrs).length, 2);
       F.line = 65;
-      var res_452988348 = 0;
+      var res_452988510 = 0;
       Label2: do {
         F.line = 66;
           Label3: while (true) {
-          if (!(res_452988348 <= colontmp__452988347)) break Label3;
+          if (!(res_452988510 <= colontmp__452988509)) break Label3;
             F.line = 254;
-            i_654312115 = res_452988348;
+            i_654312115 = res_452988510;
             if ((n_654312104.attrs[chckIndx(i_654312115, 0, (n_654312104.attrs).length - 1)] == key_654312105)) {
             F.line = 255;
             result_654312106 = n_654312104.attrs[chckIndx(addInt(i_654312115, 1), 0, (n_654312104.attrs).length - 1)];
@@ -8313,7 +8819,7 @@ function getAttr_654312103(n_654312104, key_654312105) {
             }
             
             F.line = 68;
-            res_452988348 = addInt(res_452988348, 2);
+            res_452988510 = addInt(res_452988510, 2);
           }
       } while (false);
     } while (false);
@@ -8332,21 +8838,21 @@ function removeAllEventHandlers_620757110(d_620757111) {
       F.line = 97;
       var i_620757127 = 0;
       F.line = 117;
-      var colontmp__452988351 = 0;
+      var colontmp__452988513 = 0;
       F.line = 97;
-      colontmp__452988351 = d_620757111.karaxEvents.length;
+      colontmp__452988513 = d_620757111.karaxEvents.length;
       F.line = 119;
-      var i_452988352 = 0;
+      var i_452988514 = 0;
       Label2: do {
         F.line = 120;
           Label3: while (true) {
-          if (!(i_452988352 < colontmp__452988351)) break Label3;
+          if (!(i_452988514 < colontmp__452988513)) break Label3;
             F.line = 97;
-            i_620757127 = i_452988352;
+            i_620757127 = i_452988514;
             F.line = 97;
             d_620757111.removeEventListener(d_620757111.karaxEvents[i_620757127]["Field0"], d_620757111.karaxEvents[i_620757127]["Field1"]);
             F.line = 122;
-            i_452988352 = addInt(i_452988352, 1);
+            i_452988514 = addInt(i_452988514, 1);
           }
       } while (false);
     } while (false);
@@ -8524,21 +9030,21 @@ function diff_620757733(newNode_620757734, oldNode_620757735, parent_620757736, 
         F.line = 522;
         var i_620757803 = 0;
         F.line = 75;
-        var colontmp__452988306 = 0;
+        var colontmp__452988468 = 0;
         F.line = 522;
-        colontmp__452988306 = subInt(pos_620757798, 1);
+        colontmp__452988468 = subInt(pos_620757798, 1);
         F.line = 90;
-        var res_452988307 = commonPrefix_620757775;
+        var res_452988469 = commonPrefix_620757775;
         Label9: do {
           F.line = 91;
             Label10: while (true) {
-            if (!(res_452988307 <= colontmp__452988306)) break Label10;
+            if (!(res_452988469 <= colontmp__452988468)) break Label10;
               F.line = 522;
-              i_620757803 = res_452988307;
+              i_620757803 = res_452988469;
               F.line = 522;
               diff_620757733(HEX5BHEX5D_654312131(newNode_620757734, i_620757803), HEX5BHEX5D_654312131(oldNode_620757735, i_620757803), current_620757737, current_620757737.childNodes[chckIndx(i_620757803, 0, (current_620757737.childNodes).length - 1)], kxi_620757738);
               F.line = 93;
-              res_452988307 = addInt(res_452988307, 1);
+              res_452988469 = addInt(res_452988469, 1);
             }
         } while (false);
       } while (false);
@@ -8547,17 +9053,17 @@ function diff_620757733(newNode_620757734, oldNode_620757735, parent_620757736, 
         F.line = 526;
         var i_620757808 = 0;
         F.line = 90;
-        var res_452988310 = pos_620757798;
+        var res_452988472 = pos_620757798;
         Label12: do {
           F.line = 91;
             Label13: while (true) {
-            if (!(res_452988310 <= newPos_620757785)) break Label13;
+            if (!(res_452988472 <= newPos_620757785)) break Label13;
               F.line = 526;
-              i_620757808 = res_452988310;
+              i_620757808 = res_452988472;
               F.line = 526;
               addPatch_620757598(kxi_620757738, 2, current_620757737, null, HEX5BHEX5D_654312131(newNode_620757734, i_620757808), null);
               F.line = 93;
-              res_452988310 = addInt(res_452988310, 1);
+              res_452988472 = addInt(res_452988472, 1);
             }
         } while (false);
       } while (false);
@@ -8569,17 +9075,17 @@ function diff_620757733(newNode_620757734, oldNode_620757735, parent_620757736, 
           F.line = 530;
           var i_620757814 = 0;
           F.line = 90;
-          var res_452988313 = pos_620757798;
+          var res_452988475 = pos_620757798;
           Label15: do {
             F.line = 91;
               Label16: while (true) {
-              if (!(res_452988313 <= newPos_620757785)) break Label16;
+              if (!(res_452988475 <= newPos_620757785)) break Label16;
                 F.line = 530;
-                i_620757814 = res_452988313;
+                i_620757814 = res_452988475;
                 F.line = 530;
                 addPatch_620757598(kxi_620757738, 3, current_620757737, before_620757809, HEX5BHEX5D_654312131(newNode_620757734, i_620757814), null);
                 F.line = 93;
-                res_452988313 = addInt(res_452988313, 1);
+                res_452988475 = addInt(res_452988475, 1);
               }
           } while (false);
         } while (false);
@@ -8589,19 +9095,19 @@ function diff_620757733(newNode_620757734, oldNode_620757735, parent_620757736, 
         F.line = 533;
         var i_620757819 = 0;
         F.line = 90;
-        var res_452988316 = pos_620757798;
+        var res_452988478 = pos_620757798;
         Label18: do {
           F.line = 91;
             Label19: while (true) {
-            if (!(res_452988316 <= oldPos_620757784)) break Label19;
+            if (!(res_452988478 <= oldPos_620757784)) break Label19;
               F.line = 533;
-              i_620757819 = res_452988316;
+              i_620757819 = res_452988478;
               F.line = 533;
               addPatch_620757598(kxi__, 4, null, null, null, HEX5BHEX5D_654312131(oldNode_620757735, i_620757819));
               F.line = 533;
               addPatch_620757598(kxi_620757738, 1, current_620757737, current_620757737.childNodes[chckIndx(i_620757819, 0, (current_620757737.childNodes).length - 1)], null, null);
               F.line = 93;
-              res_452988316 = addInt(res_452988316, 1);
+              res_452988478 = addInt(res_452988478, 1);
             }
         } while (false);
       } while (false);
@@ -8700,21 +9206,21 @@ function moveDom_620757663(dest_620757664, src_620757665) {
       F.line = 394;
       var i_620757681 = 0;
       F.line = 117;
-      var colontmp__452988362 = 0;
+      var colontmp__452988524 = 0;
       F.line = 394;
-      colontmp__452988362 = len_654312124(dest_620757664);
+      colontmp__452988524 = len_654312124(dest_620757664);
       F.line = 119;
-      var i_452988363 = 0;
+      var i_452988525 = 0;
       Label2: do {
         F.line = 120;
           Label3: while (true) {
-          if (!(i_452988363 < colontmp__452988362)) break Label3;
+          if (!(i_452988525 < colontmp__452988524)) break Label3;
             F.line = 394;
-            i_620757681 = i_452988363;
+            i_620757681 = i_452988525;
             F.line = 394;
             moveDom_620757663(HEX5BHEX5D_654312131(dest_620757664, i_620757681), HEX5BHEX5D_654312131(src_620757665, i_620757681));
             F.line = 122;
-            i_452988363 = addInt(i_452988363, 1);
+            i_452988525 = addInt(i_452988525, 1);
           }
       } while (false);
     } while (false);
@@ -8740,13 +9246,13 @@ function applyPatch_620757682(kxi_620757683) {
       F.line = 398;
       var i_620757688 = 0;
       F.line = 119;
-      var i_452988356 = 0;
+      var i_452988518 = 0;
       Label2: do {
         F.line = 120;
           Label3: while (true) {
-          if (!(i_452988356 < kxi_620757683.patchLen)) break Label3;
+          if (!(i_452988518 < kxi_620757683.patchLen)) break Label3;
             F.line = 398;
-            i_620757688 = i_452988356;
+            i_620757688 = i_452988518;
             F.line = 399;
             var p_620757689 = nimCopy(null, kxi_620757683.patches[chckIndx(i_620757688, 0, (kxi_620757683.patches).length - 1)], NTI620756998);
             F.line = 398;
@@ -8817,7 +9323,7 @@ function applyPatch_620757682(kxi_620757683) {
               break;
             }
             F.line = 122;
-            i_452988356 = addInt(i_452988356, 1);
+            i_452988518 = addInt(i_452988518, 1);
           }
       } while (false);
     } while (false);
@@ -8827,13 +9333,13 @@ function applyPatch_620757682(kxi_620757683) {
       F.line = 429;
       var i_620757720 = 0;
       F.line = 119;
-      var i_452988359 = 0;
+      var i_452988521 = 0;
       Label5: do {
         F.line = 120;
           Label6: while (true) {
-          if (!(i_452988359 < kxi_620757683.patchLenV)) break Label6;
+          if (!(i_452988521 < kxi_620757683.patchLenV)) break Label6;
             F.line = 429;
-            i_620757720 = i_452988359;
+            i_620757720 = i_452988521;
             F.line = 430;
             var p_620757721 = nimCopy(null, kxi_620757683.patchesV[chckIndx(i_620757720, 0, (kxi_620757683.patchesV).length - 1)], NTI620756999);
             F.line = 429;
@@ -8844,7 +9350,7 @@ function applyPatch_620757682(kxi_620757683) {
             }
             
             F.line = 122;
-            i_452988359 = addInt(i_452988359, 1);
+            i_452988521 = addInt(i_452988521, 1);
           }
       } while (false);
     } while (false);
@@ -9059,17 +9565,17 @@ function tree_654312202(kind_654312203, kids_654312204) {
       F.line = 291;
       var k_654312217 = null;
       F.line = 8;
-      var i_452988371 = 0;
+      var i_452988533 = 0;
       Label2: do {
         F.line = 9;
           Label3: while (true) {
-          if (!(i_452988371 < (kids_654312204).length)) break Label3;
+          if (!(i_452988533 < (kids_654312204).length)) break Label3;
             F.line = 291;
-            k_654312217 = kids_654312204[chckIndx(i_452988371, 0, (kids_654312204).length - 1)];
+            k_654312217 = kids_654312204[chckIndx(i_452988533, 0, (kids_654312204).length - 1)];
             F.line = 291;
             add_654312139(result_654312205, k_654312217);
             F.line = 11;
-            i_452988371 = addInt(i_452988371, 1);
+            i_452988533 = addInt(i_452988533, 1);
           }
       } while (false);
     } while (false);
@@ -9092,17 +9598,17 @@ function setAttr_654312065(n_654312066, key_654312067, val_654312068) {
         F.line = 246;
         var i_654312085 = 0;
         F.line = 43;
-        var colontmp__452988374 = 0;
+        var colontmp__452988536 = 0;
         F.line = 246;
-        colontmp__452988374 = subInt((n_654312066.attrs).length, 2);
+        colontmp__452988536 = subInt((n_654312066.attrs).length, 2);
         F.line = 65;
-        var res_452988375 = 0;
+        var res_452988537 = 0;
         Label2: do {
           F.line = 66;
             Label3: while (true) {
-            if (!(res_452988375 <= colontmp__452988374)) break Label3;
+            if (!(res_452988537 <= colontmp__452988536)) break Label3;
               F.line = 246;
-              i_654312085 = res_452988375;
+              i_654312085 = res_452988537;
               if ((n_654312066.attrs[chckIndx(i_654312085, 0, (n_654312066.attrs).length - 1)] == key_654312067)) {
               F.line = 248;
               n_654312066.attrs[chckIndx(addInt(i_654312085, 1), 0, (n_654312066.attrs).length - 1)] = val_654312068;
@@ -9111,7 +9617,7 @@ function setAttr_654312065(n_654312066, key_654312067, val_654312068) {
               }
               
               F.line = 68;
-              res_452988375 = addInt(res_452988375, 2);
+              res_452988537 = addInt(res_452988537, 2);
             }
         } while (false);
       } while (false);
@@ -9140,56 +9646,60 @@ function text_654312254(s_654312255) {
 
 }
 
-function createTitleBar_452986518() {
-  var result_452986519 = null;
+function createTitleBar_452986621() {
+  var result_452986622 = null;
 
   var F = {procname: "flatzone.createTitleBar", prev: framePtr, filename: "/home/avahe/programming/nim/flatzone/src/flatzone.nim", line: 0};
   framePtr = F;
-    F.line = 27;
-    F.line = 27;
-    var tmp_452986546 = tree_654312202(44, []);
-    F.line = 27;
-    tmp_452986546.class = "top-bar";
-    F.line = 28;
-    var tmp_452986552 = tree_654312202(11, []);
-    F.line = 28;
-    setAttr_654312065(tmp_452986552, "rel", "stylesheet");
-    F.line = 28;
-    setAttr_654312065(tmp_452986552, "type", "text/css");
-    F.line = 28;
-    setAttr_654312065(tmp_452986552, "href", "main.css");
-    F.line = 28;
-    add_654312139(tmp_452986546, tmp_452986552);
-    F.line = 29;
-    var tmp_452986553 = tree_654312202(21, []);
-    F.line = 29;
-    tmp_452986553.class = "title";
-    F.line = 30;
-    add_654312139(tmp_452986553, text_654312254(makeNimstrLit("Flatzone")));
-    F.line = 30;
-    add_654312139(tmp_452986546, tmp_452986553);
-    F.line = 32;
-    var tmp_452986554 = tree_654312202(45, []);
-    F.line = 32;
-    tmp_452986554.class = "";
-    F.line = 32;
-    setAttr_654312065(tmp_452986554, "href", "https://discord.gg/HBkR7eH");
-    F.line = 32;
-    setAttr_654312065(tmp_452986554, "target", "_blank");
-    F.line = 33;
-    var tmp_452986555 = tree_654312202(22, []);
-    F.line = 33;
-    tmp_452986555.class = "title-link";
-    F.line = 34;
-    add_654312139(tmp_452986555, text_654312254(makeNimstrLit("GnW Discord")));
-    F.line = 34;
-    add_654312139(tmp_452986554, tmp_452986555);
-    F.line = 34;
-    add_654312139(tmp_452986546, tmp_452986554);
-    result_452986519 = tmp_452986546;
+    F.line = 53;
+    F.line = 53;
+    var tmp_452986649 = tree_654312202(44, []);
+    F.line = 53;
+    tmp_452986649.class = "top-bar";
+    F.line = 54;
+    var tmp_452986655 = tree_654312202(11, []);
+    F.line = 54;
+    setAttr_654312065(tmp_452986655, "rel", "stylesheet");
+    F.line = 54;
+    setAttr_654312065(tmp_452986655, "type", "text/css");
+    F.line = 54;
+    setAttr_654312065(tmp_452986655, "href", "main.css");
+    F.line = 54;
+    add_654312139(tmp_452986649, tmp_452986655);
+    F.line = 55;
+    var tmp_452986656 = tree_654312202(21, []);
+    F.line = 55;
+    tmp_452986656.class = "title";
+    F.line = 56;
+    var tmp_452986657 = tree_654312202(45, []);
+    F.line = 56;
+    setAttr_654312065(tmp_452986657, "href", "");
+    F.line = 57;
+    add_654312139(tmp_452986657, text_654312254(makeNimstrLit("Flatzone")));
+    F.line = 57;
+    add_654312139(tmp_452986656, tmp_452986657);
+    F.line = 57;
+    add_654312139(tmp_452986649, tmp_452986656);
+    F.line = 59;
+    var tmp_452986658 = tree_654312202(45, []);
+    F.line = 59;
+    setAttr_654312065(tmp_452986658, "href", "https://discord.gg/HBkR7eH");
+    F.line = 59;
+    setAttr_654312065(tmp_452986658, "target", "_blank");
+    F.line = 60;
+    var tmp_452986659 = tree_654312202(22, []);
+    F.line = 60;
+    tmp_452986659.class = "title-link";
+    F.line = 61;
+    add_654312139(tmp_452986659, text_654312254(makeNimstrLit("GnW Discord")));
+    F.line = 61;
+    add_654312139(tmp_452986658, tmp_452986659);
+    F.line = 61;
+    add_654312139(tmp_452986649, tmp_452986658);
+    result_452986622 = tmp_452986649;
   framePtr = F.prev;
 
-  return result_452986519;
+  return result_452986622;
 
 }
 
@@ -9242,16 +9752,16 @@ function wrapper_620758172(ev_620758173, n_620758174) {
   
 }
 
-function len_452987923(t_452987926) {
-  var result_452987927 = 0;
+function len_452988085(t_452988088) {
+  var result_452988089 = 0;
 
   var F = {procname: "len.len", prev: framePtr, filename: "/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/tables.nim", line: 0};
   framePtr = F;
     F.line = 485;
-    result_452987927 = t_452987926.counter;
+    result_452988089 = t_452988088.counter;
   framePtr = F.prev;
 
-  return result_452987927;
+  return result_452988089;
 
 }
 
@@ -9286,21 +9796,21 @@ function nsuToLowerAsciiStr(s_771752014) {
       F.line = 209;
       var iHEX60gensym7_771752021 = 0;
       F.line = 75;
-      var colontmp__452988390 = 0;
+      var colontmp__452988552 = 0;
       F.line = 209;
-      colontmp__452988390 = subInt((s_771752014).length, 1);
+      colontmp__452988552 = subInt((s_771752014).length, 1);
       F.line = 90;
-      var res_452988391 = 0;
+      var res_452988553 = 0;
       Label2: do {
         F.line = 91;
           Label3: while (true) {
-          if (!(res_452988391 <= colontmp__452988390)) break Label3;
+          if (!(res_452988553 <= colontmp__452988552)) break Label3;
             F.line = 223;
-            iHEX60gensym7_771752021 = res_452988391;
+            iHEX60gensym7_771752021 = res_452988553;
             F.line = 223;
             result_771752015[chckIndx(iHEX60gensym7_771752021, 0, (result_771752015).length - 1)] = nsuToLowerAsciiChar(s_771752014[chckIndx(iHEX60gensym7_771752021, 0, (s_771752014).length - 1)]);
             F.line = 93;
-            res_452988391 = addInt(res_452988391, 1);
+            res_452988553 = addInt(res_452988553, 1);
           }
       } while (false);
     } while (false);
@@ -9331,17 +9841,17 @@ function nsuFindChar(s_771753464, sub_771753465, start_771753466, last_771753467
       F.line = 1882;
       var i_771753479 = 0;
       F.line = 75;
-      var colontmp__452988398 = 0;
+      var colontmp__452985184 = 0;
       F.line = 1882;
-      colontmp__452988398 = start_771753466;
+      colontmp__452985184 = start_771753466;
       F.line = 90;
-      var res_452988399 = colontmp__452988398;
+      var res_452985185 = colontmp__452985184;
       Label3: do {
         F.line = 91;
           Label4: while (true) {
-          if (!(res_452988399 <= last_771753469)) break Label4;
+          if (!(res_452985185 <= last_771753469)) break Label4;
             F.line = 1882;
-            i_771753479 = res_452988399;
+            i_771753479 = res_452985185;
             if ((sub_771753465 == s_771753464[chckIndx(i_771753479, 0, (s_771753464).length - 1)])) {
             F.line = 1883;
             result_771753468 = i_771753479;
@@ -9349,7 +9859,7 @@ function nsuFindChar(s_771753464, sub_771753465, start_771753466, last_771753467
             }
             
             F.line = 93;
-            res_452988399 = addInt(res_452988399, 1);
+            res_452985185 = addInt(res_452985185, 1);
           }
       } while (false);
     } while (false);
@@ -9389,127 +9899,127 @@ function HEX2BHEX3D_771754023(x_771754025, x_771754025_Idx, y_771754026) {
   
 }
 
-function score_1258291208(needle_1258291209, haystack_1258291210) {
-  var result_1258291211 = [0.0];
+function score_1358954504(needle_1358954505, haystack_1358954506) {
+  var result_1358954507 = [0.0];
 
   var F = {procname: "fuzzy.score", prev: framePtr, filename: "/home/avahe/programming/nim/flatzone/src/fuzzy.nim", line: 0};
   framePtr = F;
   BeforeRet: do {
     F.line = 14;
-    var needleLength_1258291212 = (needle_1258291209).length;
+    var needleLength_1358954508 = (needle_1358954505).length;
     F.line = 15;
-    var haystackLength_1258291213 = (haystack_1258291210).length;
-    if ((haystackLength_1258291213 < needleLength_1258291212)) {
+    var haystackLength_1358954509 = (haystack_1358954506).length;
+    if ((haystackLength_1358954509 < needleLength_1358954508)) {
     F.line = 17;
-    result_1258291211[0] = -1.0;
+    result_1358954507[0] = -1.0;
     break BeforeRet;
     }
     
-    if ((needleLength_1258291212 == 0)) {
+    if ((needleLength_1358954508 == 0)) {
     F.line = 20;
-    result_1258291211[0] = 0.0;
+    result_1358954507[0] = 0.0;
     break BeforeRet;
     }
     
     F.line = 22;
-    var lowerNeedle_1258291214 = nsuToLowerAsciiStr(needle_1258291209);
+    var lowerNeedle_1358954510 = nsuToLowerAsciiStr(needle_1358954505);
     F.line = 23;
-    var lowerHaystack_1258291215 = nsuToLowerAsciiStr(haystack_1258291210);
+    var lowerHaystack_1358954511 = nsuToLowerAsciiStr(haystack_1358954506);
     F.line = 25;
-    var i_1258291216 = 0;
+    var i_1358954512 = 0;
     F.line = 25;
-    var j_1258291217 = 0;
+    var j_1358954513 = 0;
     Label1: do {
       F.line = 26;
         Label2: while (true) {
-        if (!((i_1258291216 < needleLength_1258291212) && (j_1258291217 < haystackLength_1258291213))) break Label2;
+        if (!((i_1358954512 < needleLength_1358954508) && (j_1358954513 < haystackLength_1358954509))) break Label2;
           F.line = 27;
-          var letter_1258291218 = lowerNeedle_1258291214[chckIndx(i_1258291216, 0, (lowerNeedle_1258291214).length - 1)];
+          var letter_1358954514 = lowerNeedle_1358954510[chckIndx(i_1358954512, 0, (lowerNeedle_1358954510).length - 1)];
           F.line = 28;
-          var letterIndex_1258291219 = nsuFindChar(lowerHaystack_1258291215, letter_1258291218, chckRange(j_1258291217, 0, 2147483647), 0);
-          if ((subInt(letterIndex_1258291219, j_1258291217) < 0)) {
+          var letterIndex_1358954515 = nsuFindChar(lowerHaystack_1358954511, letter_1358954514, chckRange(j_1358954513, 0, 2147483647), 0);
+          if ((subInt(letterIndex_1358954515, j_1358954513) < 0)) {
           F.line = 30;
-          result_1258291211[0] = -1.0;
+          result_1358954507[0] = -1.0;
           break BeforeRet;
           }
           
-          if ((nsuIsLowerAsciiChar(needle_1258291209[chckIndx(i_1258291216, 0, (needle_1258291209).length - 1)]) == nsuIsLowerAsciiChar(haystack_1258291210[chckIndx(j_1258291217, 0, (haystack_1258291210).length - 1)]))) {
+          if ((nsuIsLowerAsciiChar(needle_1358954505[chckIndx(i_1358954512, 0, (needle_1358954505).length - 1)]) == nsuIsLowerAsciiChar(haystack_1358954506[chckIndx(j_1358954513, 0, (haystack_1358954506).length - 1)]))) {
           F.line = 33;
-          HEX2BHEX3D_771754023(result_1258291211, 0, 0.5);
+          HEX2BHEX3D_771754023(result_1358954507, 0, 0.5);
           }
           
-          if ((letterIndex_1258291219 == j_1258291217)) {
+          if ((letterIndex_1358954515 == j_1358954513)) {
           F.line = 37;
-          HEX2BHEX3D_771754023(result_1258291211, 0, 8.0);
+          HEX2BHEX3D_771754023(result_1358954507, 0, 8.0);
           }
           else {
             F.line = 39;
-            HEX2BHEX3D_771754023(result_1258291211, 0, (1.0 - (0.1 * letterIndex_1258291219)));
+            HEX2BHEX3D_771754023(result_1358954507, 0, (1.0 - (0.1 * letterIndex_1358954515)));
             F.line = 41;
-            j_1258291217 = letterIndex_1258291219;
+            j_1358954513 = letterIndex_1358954515;
           }
           
-          if (((j_1258291217 == subInt(haystackLength_1258291213, 1)) && (i_1258291216 < subInt(needleLength_1258291212, 1)))) {
+          if (((j_1358954513 == subInt(haystackLength_1358954509, 1)) && (i_1358954512 < subInt(needleLength_1358954508, 1)))) {
           F.line = 44;
-          result_1258291211[0] = -1.0;
+          result_1358954507[0] = -1.0;
           break BeforeRet;
           }
           
           F.line = 46;
-          i_1258291216 = addInt(i_1258291216, 1);
+          i_1358954512 = addInt(i_1358954512, 1);
           F.line = 47;
-          j_1258291217 = addInt(j_1258291217, 1);
+          j_1358954513 = addInt(j_1358954513, 1);
         }
     } while (false);
   } while (false);
   framePtr = F.prev;
 
-  return result_1258291211[0];
+  return result_1358954507[0];
 
 }
 
-function filterBySearch_452987873(searchText_452987874) {
+function filterBySearch_452988035(searchText_452988036) {
                 var Temporary5;
 
   var F = {procname: "flatzone.filterBySearch", prev: framePtr, filename: "/home/avahe/programming/nim/flatzone/src/flatzone.nim", line: 0};
   framePtr = F;
     Label1: do {
-      F.line = 65;
-      var charName_452988158 = [];
-      F.line = 65;
-      var charTile_452988159 = null;
+      F.line = 92;
+      var charName_452988320 = [];
+      F.line = 92;
+      var charTile_452988321 = null;
       F.line = 694;
-      var L_452988382 = len_452987923(characterDomTiles_452986452[0]);
+      var L_452988544 = len_452988085(characterDomTiles_452986556[0]);
       Label2: do {
         F.line = 695;
-        var h_452988384 = 0;
+        var h_452988546 = 0;
         F.line = 75;
-        var colontmp__452988385 = 0;
+        var colontmp__452988547 = 0;
         F.line = 695;
-        colontmp__452988385 = (characterDomTiles_452986452[0].data).length - 1;
+        colontmp__452988547 = (characterDomTiles_452986556[0].data).length - 1;
         F.line = 90;
-        var res_452988386 = 0;
+        var res_452988548 = 0;
         Label3: do {
           F.line = 91;
             Label4: while (true) {
-            if (!(res_452988386 <= colontmp__452988385)) break Label4;
+            if (!(res_452988548 <= colontmp__452988547)) break Label4;
               F.line = 695;
-              h_452988384 = res_452988386;
-              if (isFilled_1023410207(characterDomTiles_452986452[0].data[chckIndx(h_452988384, 0, (characterDomTiles_452986452[0].data).length - 1)].Field0)) {
-              F.line = 65;
-              charName_452988158 = characterDomTiles_452986452[0].data[chckIndx(h_452988384, 0, (characterDomTiles_452986452[0].data).length - 1)].Field1;
-              F.line = 65;
-              charTile_452988159 = characterDomTiles_452986452[0].data[chckIndx(h_452988384, 0, (characterDomTiles_452986452[0].data).length - 1)].Field2;
-                if (((searchText_452987874).length == 0)) Temporary5 = true; else {                  Temporary5 = (0.0 < score_1258291208(searchText_452987874, charName_452988158));                }              if (Temporary5) {
-              F.line = 67;
-              charTile_452988159.dom.style.display = "";
+              h_452988546 = res_452988548;
+              if (isFilled_1023410207(characterDomTiles_452986556[0].data[chckIndx(h_452988546, 0, (characterDomTiles_452986556[0].data).length - 1)].Field0)) {
+              F.line = 92;
+              charName_452988320 = characterDomTiles_452986556[0].data[chckIndx(h_452988546, 0, (characterDomTiles_452986556[0].data).length - 1)].Field1;
+              F.line = 92;
+              charTile_452988321 = characterDomTiles_452986556[0].data[chckIndx(h_452988546, 0, (characterDomTiles_452986556[0].data).length - 1)].Field2;
+                if (((searchText_452988036).length == 0)) Temporary5 = true; else {                  Temporary5 = (0.0 < score_1358954504(searchText_452988036, charName_452988320));                }              if (Temporary5) {
+              F.line = 94;
+              charTile_452988321.dom.style.display = "";
               }
               else {
-                F.line = 69;
-                charTile_452988159.dom.style.display = "none";
+                F.line = 96;
+                charTile_452988321.dom.style.display = "none";
               }
               
-              if (!((len_452987923(characterDomTiles_452986452[0]) == L_452988382))) {
+              if (!((len_452988085(characterDomTiles_452986556[0]) == L_452988544))) {
               F.line = 698;
               failedAssertImpl_218103864(makeNimstrLit("/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/tables.nim(698, 13) `len(t) == L` the length of the table changed while iterating over it"));
               }
@@ -9517,7 +10027,7 @@ function filterBySearch_452987873(searchText_452987874) {
               }
               
               F.line = 93;
-              res_452988386 = addInt(res_452988386, 1);
+              res_452988548 = addInt(res_452988548, 1);
             }
         } while (false);
       } while (false);
@@ -9918,21 +10428,21 @@ function nsuInitSkipTable(a_771753400, sub_771753401) {
       F.line = 1810;
       var i_771753421 = 0;
       F.line = 117;
-      var colontmp__452988406 = 0;
+      var colontmp__452988556 = 0;
       F.line = 1810;
-      colontmp__452988406 = subInt(m_771753402, 1);
+      colontmp__452988556 = subInt(m_771753402, 1);
       F.line = 119;
-      var i_452988407 = 0;
+      var i_452988557 = 0;
       Label2: do {
         F.line = 120;
           Label3: while (true) {
-          if (!(i_452988407 < colontmp__452988406)) break Label3;
+          if (!(i_452988557 < colontmp__452988556)) break Label3;
             F.line = 1810;
-            i_771753421 = i_452988407;
+            i_771753421 = i_452988557;
             F.line = 1810;
             a_771753400[chckIndx(sub_771753401[chckIndx(i_771753421, 0, (sub_771753401).length - 1)], 0, (a_771753400).length - 1)] = subInt(subInt(m_771753402, 1), i_771753421);
             F.line = 122;
-            i_452988407 = addInt(i_452988407, 1);
+            i_452988557 = addInt(i_452988557, 1);
           }
       } while (false);
     } while (false);
@@ -10083,141 +10593,141 @@ function nsuReplaceStr(s_771753633, sub_771753634, by_771753635) {
 
 }
 
-function normalizeCharacterName_452986565(name_452986566) {
-  var result_452986567 = [];
+function normalizeCharacterName_452984856(name_452984857) {
+  var result_452984858 = [];
 
   var F = {procname: "flatzone.normalizeCharacterName", prev: framePtr, filename: "/home/avahe/programming/nim/flatzone/src/flatzone.nim", line: 0};
   framePtr = F;
   BeforeRet: do {
-    F.line = 43;
-    result_452986567 = nimCopy(null, nsuReplaceStr(nsuReplaceStr(nsuReplaceStr(nuctoLowerStr(name_452986566), makeNimstrLit(" "), makeNimstrLit("_")), makeNimstrLit("."), []), makeNimstrLit("&"), makeNimstrLit("and")), NTI33554439);
+    F.line = 22;
+    result_452984858 = nimCopy(null, nsuReplaceStr(nsuReplaceStr(nsuReplaceStr(nuctoLowerStr(name_452984857), makeNimstrLit(" "), makeNimstrLit("_")), makeNimstrLit("."), []), makeNimstrLit("&"), makeNimstrLit("and")), NTI33554439);
     break BeforeRet;
   } while (false);
   framePtr = F.prev;
 
-  return result_452986567;
+  return result_452984858;
 
 }
 
-function rawGet_452986682(t_452986685, key_452986686, hc_452986687, hc_452986687_Idx) {
+function rawGet_452986844(t_452986847, key_452986848, hc_452986849, hc_452986849_Idx) {
             var Temporary3;
 
-  var result_452986688 = 0;
+  var result_452986850 = 0;
 
   var F = {procname: "rawGet.rawGet", prev: framePtr, filename: "/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/hashcommon.nim", line: 0};
   framePtr = F;
   BeforeRet: do {
     F.line = 64;
-    hc_452986687[hc_452986687_Idx] = hash_1040187814(key_452986686);
-    if ((hc_452986687[hc_452986687_Idx] == 0)) {
+    hc_452986849[hc_452986849_Idx] = hash_1040187814(key_452986848);
+    if ((hc_452986849[hc_452986849_Idx] == 0)) {
     F.line = 66;
-    hc_452986687[hc_452986687_Idx] = 314159265;
+    hc_452986849[hc_452986849_Idx] = 314159265;
     }
     
-    if (((t_452986685.data).length == 0)) {
+    if (((t_452986847.data).length == 0)) {
     F.line = 48;
-    result_452986688 = -1;
+    result_452986850 = -1;
     break BeforeRet;
     }
     
     F.line = 49;
-    var h_452986739 = (hc_452986687[hc_452986687_Idx] & (t_452986685.data).length - 1);
+    var h_452986901 = (hc_452986849[hc_452986849_Idx] & (t_452986847.data).length - 1);
     Label1: do {
       F.line = 50;
         Label2: while (true) {
-        if (!isFilled_1023410207(t_452986685.data[chckIndx(h_452986739, 0, (t_452986685.data).length - 1)].Field0)) break Label2;
-            if (!(t_452986685.data[chckIndx(h_452986739, 0, (t_452986685.data).length - 1)].Field0 == hc_452986687[hc_452986687_Idx])) Temporary3 = false; else {              Temporary3 = eqStrings(t_452986685.data[chckIndx(h_452986739, 0, (t_452986685.data).length - 1)].Field1, key_452986686);            }          if (Temporary3) {
+        if (!isFilled_1023410207(t_452986847.data[chckIndx(h_452986901, 0, (t_452986847.data).length - 1)].Field0)) break Label2;
+            if (!(t_452986847.data[chckIndx(h_452986901, 0, (t_452986847.data).length - 1)].Field0 == hc_452986849[hc_452986849_Idx])) Temporary3 = false; else {              Temporary3 = eqStrings(t_452986847.data[chckIndx(h_452986901, 0, (t_452986847.data).length - 1)].Field1, key_452986848);            }          if (Temporary3) {
           F.line = 56;
-          result_452986688 = h_452986739;
+          result_452986850 = h_452986901;
           break BeforeRet;
           }
           
           F.line = 57;
-          h_452986739 = nextTry_1023410210(h_452986739, (t_452986685.data).length - 1);
+          h_452986901 = nextTry_1023410210(h_452986901, (t_452986847.data).length - 1);
         }
     } while (false);
     F.line = 58;
-    result_452986688 = subInt(-1, h_452986739);
+    result_452986850 = subInt(-1, h_452986901);
   } while (false);
   framePtr = F.prev;
 
-  return result_452986688;
+  return result_452986850;
 
 }
 
-function mustRehash_452987018(t_452987020) {
-  var result_452987021 = false;
+function mustRehash_452987180(t_452987182) {
+  var result_452987183 = false;
 
   var F = {procname: "mustRehash.mustRehash", prev: framePtr, filename: "/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/hashcommon.nim", line: 0};
   framePtr = F;
-    if (!((t_452987020.counter < (t_452987020.data).length))) {
+    if (!((t_452987182.counter < (t_452987182.data).length))) {
     F.line = 29;
     failedAssertImpl_218103864(makeNimstrLit("/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/hashcommon.nim(29, 9) `\x0At.counter < t.dataLen` "));
     }
     
     F.line = 30;
-    result_452987021 = ((mulInt((t_452987020.data).length, 2) < mulInt(t_452987020.counter, 3)) || (subInt((t_452987020.data).length, t_452987020.counter) < 4));
+    result_452987183 = ((mulInt((t_452987182.data).length, 2) < mulInt(t_452987182.counter, 3)) || (subInt((t_452987182.data).length, t_452987182.counter) < 4));
   framePtr = F.prev;
 
-  return result_452987021;
+  return result_452987183;
 
 }
 
-function rawInsert_452987467(t_452987471, data_452987472, data_452987472_Idx, key_452987473, val_452987474, hc_452987475, h_452987476) {
+function rawInsert_452987629(t_452987633, data_452987634, data_452987634_Idx, key_452987635, val_452987636, hc_452987637, h_452987638) {
   var F = {procname: "rawInsert.rawInsert", prev: framePtr, filename: "/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/tableimpl.nim", line: 0};
   framePtr = F;
     F.line = 22;
-    data_452987472[data_452987472_Idx][chckIndx(h_452987476, 0, (data_452987472[data_452987472_Idx]).length - 1)].Field1 = nimCopy(null, key_452987473, NTI33554439);
+    data_452987634[data_452987634_Idx][chckIndx(h_452987638, 0, (data_452987634[data_452987634_Idx]).length - 1)].Field1 = nimCopy(null, key_452987635, NTI33554439);
     F.line = 23;
-    data_452987472[data_452987472_Idx][chckIndx(h_452987476, 0, (data_452987472[data_452987472_Idx]).length - 1)].Field2 = val_452987474;
+    data_452987634[data_452987634_Idx][chckIndx(h_452987638, 0, (data_452987634[data_452987634_Idx]).length - 1)].Field2 = val_452987636;
     F.line = 24;
-    data_452987472[data_452987472_Idx][chckIndx(h_452987476, 0, (data_452987472[data_452987472_Idx]).length - 1)].Field0 = hc_452987475;
+    data_452987634[data_452987634_Idx][chckIndx(h_452987638, 0, (data_452987634[data_452987634_Idx]).length - 1)].Field0 = hc_452987637;
   framePtr = F.prev;
 
   
 }
 
-function enlarge_452987173(t_452987176) {
+function enlarge_452987335(t_452987338) {
   var F = {procname: "enlarge.enlarge", prev: framePtr, filename: "/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/tables.nim", line: 0};
   framePtr = F;
     F.line = 249;
-    var n_452987179 = [];
+    var n_452987341 = [];
     F.line = 250;
-    n_452987179 = new Array(chckRange(mulInt((t_452987176.data).length, 2), 0, 2147483647)); for (var i = 0 ; i < chckRange(mulInt((t_452987176.data).length, 2), 0, 2147483647) ; ++i) { n_452987179[i] = {Field0: 0, Field1: [], Field2: null}; }    F.line = 251;
-    var Temporary1 = t_452987176.data; t_452987176.data = n_452987179; n_452987179 = Temporary1;    Label2: do {
+    n_452987341 = new Array(chckRange(mulInt((t_452987338.data).length, 2), 0, 2147483647)); for (var i = 0 ; i < chckRange(mulInt((t_452987338.data).length, 2), 0, 2147483647) ; ++i) { n_452987341[i] = {Field0: 0, Field1: [], Field2: null}; }    F.line = 251;
+    var Temporary1 = t_452987338.data; t_452987338.data = n_452987341; n_452987341 = Temporary1;    Label2: do {
       F.line = 252;
-      var i_452987243 = 0;
+      var i_452987405 = 0;
       F.line = 43;
-      var colontmp__452988415 = 0;
+      var colontmp__452988565 = 0;
       F.line = 252;
-      colontmp__452988415 = (n_452987179).length - 1;
+      colontmp__452988565 = (n_452987341).length - 1;
       F.line = 65;
-      var res_452988416 = 0;
+      var res_452988566 = 0;
       Label3: do {
         F.line = 66;
           Label4: while (true) {
-          if (!(res_452988416 <= colontmp__452988415)) break Label4;
+          if (!(res_452988566 <= colontmp__452988565)) break Label4;
             F.line = 252;
-            i_452987243 = res_452988416;
+            i_452987405 = res_452988566;
             F.line = 253;
-            var eh_452987297 = n_452987179[chckIndx(i_452987243, 0, (n_452987179).length - 1)].Field0;
-            if (isFilled_1023410207(eh_452987297)) {
+            var eh_452987459 = n_452987341[chckIndx(i_452987405, 0, (n_452987341).length - 1)].Field0;
+            if (isFilled_1023410207(eh_452987459)) {
             F.line = 255;
-            var j_452987301 = (eh_452987297 & (t_452987176.data).length - 1);
+            var j_452987463 = (eh_452987459 & (t_452987338.data).length - 1);
             Label5: do {
               F.line = 256;
                 Label6: while (true) {
-                if (!isFilled_1023410207(t_452987176.data[chckIndx(j_452987301, 0, (t_452987176.data).length - 1)].Field0)) break Label6;
+                if (!isFilled_1023410207(t_452987338.data[chckIndx(j_452987463, 0, (t_452987338.data).length - 1)].Field0)) break Label6;
                   F.line = 257;
-                  j_452987301 = nextTry_1023410210(j_452987301, (t_452987176.data).length - 1);
+                  j_452987463 = nextTry_1023410210(j_452987463, (t_452987338.data).length - 1);
                 }
             } while (false);
             F.line = 259;
-            rawInsert_452987467(t_452987176, t_452987176, "data", n_452987179[chckIndx(i_452987243, 0, (n_452987179).length - 1)].Field1, n_452987179[chckIndx(i_452987243, 0, (n_452987179).length - 1)].Field2, eh_452987297, j_452987301);
+            rawInsert_452987629(t_452987338, t_452987338, "data", n_452987341[chckIndx(i_452987405, 0, (n_452987341).length - 1)].Field1, n_452987341[chckIndx(i_452987405, 0, (n_452987341).length - 1)].Field2, eh_452987459, j_452987463);
             }
             
             F.line = 68;
-            res_452988416 = addInt(res_452988416, 1);
+            res_452988566 = addInt(res_452988566, 1);
           }
       } while (false);
     } while (false);
@@ -10226,84 +10736,84 @@ function enlarge_452987173(t_452987176) {
   
 }
 
-function rawGetKnownHC_452987636(t_452987639, key_452987640, hc_452987641) {
-  var result_452987642 = 0;
+function rawGetKnownHC_452987798(t_452987801, key_452987802, hc_452987803) {
+  var result_452987804 = 0;
 
   var F = {procname: "rawGetKnownHC.rawGetKnownHC", prev: framePtr, filename: "/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/hashcommon.nim", line: 0};
   framePtr = F;
   BeforeRet: do {
-    if (((t_452987639.data).length == 0)) {
+    if (((t_452987801.data).length == 0)) {
     F.line = 48;
-    result_452987642 = -1;
+    result_452987804 = -1;
     break BeforeRet;
     }
     
     F.line = 49;
-    var h_452987693 = (hc_452987641 & (t_452987639.data).length - 1);
+    var h_452987855 = (hc_452987803 & (t_452987801.data).length - 1);
     Label1: do {
       F.line = 50;
         Label2: while (true) {
-        if (!isFilled_1023410207(t_452987639.data[chckIndx(h_452987693, 0, (t_452987639.data).length - 1)].Field0)) break Label2;
-          if (((t_452987639.data[chckIndx(h_452987693, 0, (t_452987639.data).length - 1)].Field0 == hc_452987641) && eqStrings(t_452987639.data[chckIndx(h_452987693, 0, (t_452987639.data).length - 1)].Field1, key_452987640))) {
+        if (!isFilled_1023410207(t_452987801.data[chckIndx(h_452987855, 0, (t_452987801.data).length - 1)].Field0)) break Label2;
+          if (((t_452987801.data[chckIndx(h_452987855, 0, (t_452987801.data).length - 1)].Field0 == hc_452987803) && eqStrings(t_452987801.data[chckIndx(h_452987855, 0, (t_452987801.data).length - 1)].Field1, key_452987802))) {
           F.line = 56;
-          result_452987642 = h_452987693;
+          result_452987804 = h_452987855;
           break BeforeRet;
           }
           
           F.line = 57;
-          h_452987693 = nextTry_1023410210(h_452987693, (t_452987639.data).length - 1);
+          h_452987855 = nextTry_1023410210(h_452987855, (t_452987801.data).length - 1);
         }
     } while (false);
     F.line = 58;
-    result_452987642 = subInt(-1, h_452987693);
+    result_452987804 = subInt(-1, h_452987855);
   } while (false);
   framePtr = F.prev;
 
-  return result_452987642;
+  return result_452987804;
 
 }
 
-function HEX5BHEX5DHEX3D_452986621(t_452986624, key_452986625, val_452986626) {
+function HEX5BHEX5DHEX3D_452986783(t_452986786, key_452986787, val_452986788) {
   var F = {procname: "[]=.[]=", prev: framePtr, filename: "/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/tables.nim", line: 0};
   framePtr = F;
-    if (((t_452986624.data).length == 0)) {
+    if (((t_452986786.data).length == 0)) {
     F.line = 163;
-    var correctSizeHEX60gensym44_452986676 = slotsNeeded_1023410218(32);
+    var correctSizeHEX60gensym45_452986838 = slotsNeeded_1023410218(32);
     F.line = 167;
-    t_452986624.counter = 0;
+    t_452986786.counter = 0;
     F.line = 168;
-    t_452986624.data = new Array(chckRange(correctSizeHEX60gensym44_452986676, 0, 2147483647)); for (var i = 0 ; i < chckRange(correctSizeHEX60gensym44_452986676, 0, 2147483647) ; ++i) { t_452986624.data[i] = {Field0: 0, Field1: [], Field2: null}; }    }
+    t_452986786.data = new Array(chckRange(correctSizeHEX60gensym45_452986838, 0, 2147483647)); for (var i = 0 ; i < chckRange(correctSizeHEX60gensym45_452986838, 0, 2147483647) ; ++i) { t_452986786.data[i] = {Field0: 0, Field1: [], Field2: null}; }    }
     
     F.line = 57;
-    var hc_452986681 = [0];
+    var hc_452986843 = [0];
     F.line = 58;
-    var index_452986911 = rawGet_452986682(t_452986624, key_452986625, hc_452986681, 0);
-    if ((0 <= index_452986911)) {
+    var index_452987073 = rawGet_452986844(t_452986786, key_452986787, hc_452986843, 0);
+    if ((0 <= index_452987073)) {
     F.line = 59;
-    t_452986624.data[chckIndx(index_452986911, 0, (t_452986624.data).length - 1)].Field2 = val_452986626;
+    t_452986786.data[chckIndx(index_452987073, 0, (t_452986786.data).length - 1)].Field2 = val_452986788;
     }
     else {
-      if (((t_452986624.data).length == 0)) {
+      if (((t_452986786.data).length == 0)) {
       F.line = 163;
-      var correctSizeHEX60gensym49_452987013 = slotsNeeded_1023410218(32);
+      var correctSizeHEX60gensym50_452987175 = slotsNeeded_1023410218(32);
       F.line = 167;
-      t_452986624.counter = 0;
+      t_452986786.counter = 0;
       F.line = 168;
-      t_452986624.data = new Array(chckRange(correctSizeHEX60gensym49_452987013, 0, 2147483647)); for (var i = 0 ; i < chckRange(correctSizeHEX60gensym49_452987013, 0, 2147483647) ; ++i) { t_452986624.data[i] = {Field0: 0, Field1: [], Field2: null}; }      }
+      t_452986786.data = new Array(chckRange(correctSizeHEX60gensym50_452987175, 0, 2147483647)); for (var i = 0 ; i < chckRange(correctSizeHEX60gensym50_452987175, 0, 2147483647) ; ++i) { t_452986786.data[i] = {Field0: 0, Field1: [], Field2: null}; }      }
       
-      if (mustRehash_452987018(t_452986624)) {
+      if (mustRehash_452987180(t_452986786)) {
       F.line = 49;
-      enlarge_452987173(t_452986624);
+      enlarge_452987335(t_452986786);
       F.line = 50;
-      index_452986911 = rawGetKnownHC_452987636(t_452986624, key_452986625, hc_452986681[0]);
+      index_452987073 = rawGetKnownHC_452987798(t_452986786, key_452986787, hc_452986843[0]);
       }
       
       F.line = 51;
-      index_452986911 = subInt(-1, index_452986911);
+      index_452987073 = subInt(-1, index_452987073);
       F.line = 52;
-      rawInsert_452987467(t_452986624, t_452986624, "data", key_452986625, val_452986626, hc_452986681[0], index_452986911);
+      rawInsert_452987629(t_452986786, t_452986786, "data", key_452986787, val_452986788, hc_452986843[0], index_452987073);
       F.line = 60;
-      t_452986624.counter = addInt(t_452986624.counter, 1);
+      t_452986786.counter = addInt(t_452986786.counter, 1);
     }
     
   framePtr = F.prev;
@@ -10311,104 +10821,104 @@ function HEX5BHEX5DHEX3D_452986621(t_452986624, key_452986625, val_452986626) {
   
 }
 
-function createCharacterTile_452986575(character_452986576) {
-  var result_452986577 = null;
+function createCharacterTile_452986737(character_452986738) {
+  var result_452986739 = null;
 
   var F = {procname: "flatzone.createCharacterTile", prev: framePtr, filename: "/home/avahe/programming/nim/flatzone/src/flatzone.nim", line: 0};
   framePtr = F;
-    F.line = 54;
-    F.line = 55;
-    var tmp_452986578 = tree_654312202(45, []);
-    F.line = 55;
-    tmp_452986578.class = "character-tile";
-    F.line = 55;
-    setAttr_654312065(tmp_452986578, "href", toJSStr((makeNimstrLit("#/") || []).concat(character_452986576.name || [])));
-    F.line = 56;
-    var tmp_452986579 = tree_654312202(76, []);
-    F.line = 56;
-    setAttr_654312065(tmp_452986579, "src", toJSStr((makeNimstrLit("../assets/images/") || []).concat(normalizeCharacterName_452986565(character_452986576.name) || [],makeNimstrLit(".png") || [])));
-    F.line = 56;
-    add_654312139(tmp_452986578, tmp_452986579);
-    F.line = 57;
-    var tmp_452986580 = tree_654312202(21, []);
-    F.line = 57;
-    tmp_452986580.class = "character-name";
-    F.line = 57;
-    add_654312139(tmp_452986580, text_654312254(character_452986576.name));
-    F.line = 57;
-    add_654312139(tmp_452986578, tmp_452986580);
-    result_452986577 = tmp_452986578;
-    F.line = 60;
-    HEX5BHEX5DHEX3D_452986621(characterDomTiles_452986452[0], nsuReplaceStr(nuctoLowerStr(character_452986576.name), makeNimstrLit("."), []), result_452986577);
+    F.line = 80;
+    F.line = 81;
+    var tmp_452986740 = tree_654312202(45, []);
+    F.line = 81;
+    tmp_452986740.class = "character-tile";
+    F.line = 81;
+    setAttr_654312065(tmp_452986740, "href", toJSStr((makeNimstrLit("#/") || []).concat(character_452986738.name || [])));
+    F.line = 82;
+    var tmp_452986741 = tree_654312202(76, []);
+    F.line = 82;
+    setAttr_654312065(tmp_452986741, "src", toJSStr((makeNimstrLit("../assets/images/") || []).concat(normalizeCharacterName_452984856(character_452986738.name) || [],makeNimstrLit(".png") || [])));
+    F.line = 82;
+    add_654312139(tmp_452986740, tmp_452986741);
+    F.line = 83;
+    var tmp_452986742 = tree_654312202(21, []);
+    F.line = 83;
+    tmp_452986742.class = "character-name";
+    F.line = 84;
+    add_654312139(tmp_452986742, text_654312254(character_452986738.name));
+    F.line = 84;
+    add_654312139(tmp_452986740, tmp_452986742);
+    result_452986739 = tmp_452986740;
+    F.line = 87;
+    HEX5BHEX5DHEX3D_452986783(characterDomTiles_452986556[0], nsuReplaceStr(nuctoLowerStr(character_452986738.name), makeNimstrLit("."), []), result_452986739);
   framePtr = F.prev;
 
-  return result_452986577;
+  return result_452986739;
 
 }
 
-function createHomePage_452988160() {
+function createHomePage_452988322() {
     
-function HEX3Aanonymous_452988166(e_452988167, n_452988168) {
+function HEX3Aanonymous_452988328(e_452988329, n_452988330) {
       var F = {procname: "createHomePage.:anonymous", prev: framePtr, filename: "/home/avahe/programming/nim/flatzone/src/flatzone.nim", line: 0};
       framePtr = F;
-        F.line = 78;
-        filterBySearch_452987873(nuctoLowerStr(cstrToNimstr(e_452988167.target.value)));
+        F.line = 105;
+        filterBySearch_452988035(nuctoLowerStr(cstrToNimstr(e_452988329.target.value)));
       framePtr = F.prev;
 
       
     }
 
-  var result_452988161 = null;
+  var result_452988323 = null;
 
   var F = {procname: "flatzone.createHomePage", prev: framePtr, filename: "/home/avahe/programming/nim/flatzone/src/flatzone.nim", line: 0};
   framePtr = F;
-    F.line = 72;
-    F.line = 72;
-    var tmp_452988162 = tree_654312202(44, []);
-    F.line = 72;
-    tmp_452988162.class = "";
-    F.line = 73;
-    add_654312139(tmp_452988162, createTitleBar_452986518());
-    F.line = 75;
-    var tmp_452988163 = tree_654312202(44, []);
-    F.line = 75;
-    tmp_452988163.class = "searchbar-container";
-    F.line = 76;
-    var tmp_452988164 = tree_654312202(194, []);
-    F.line = 76;
-    tmp_452988164.class = "searchbar";
-    F.line = 76;
-    setAttr_654312065(tmp_452988164, "placeholder", "Search...");
-    F.line = 76;
-    setFocus_620757068(tmp_452988164, true, kxi__);
-    F.line = 77;
-    addEventHandler_620758167(tmp_452988164, 3, HEX3Aanonymous_452988166, kxi__);
-    F.line = 77;
-    add_654312139(tmp_452988163, tmp_452988164);
-    F.line = 77;
-    add_654312139(tmp_452988162, tmp_452988163);
-    F.line = 80;
-    var tmp_452988165 = tree_654312202(44, []);
-    F.line = 80;
-    tmp_452988165.class = "characters-container";
+    F.line = 99;
+    F.line = 99;
+    var tmp_452988324 = tree_654312202(44, []);
+    F.line = 99;
+    tmp_452988324.class = "";
+    F.line = 100;
+    add_654312139(tmp_452988324, createTitleBar_452986621());
+    F.line = 102;
+    var tmp_452988325 = tree_654312202(44, []);
+    F.line = 102;
+    tmp_452988325.class = "searchbar-container";
+    F.line = 103;
+    var tmp_452988326 = tree_654312202(194, []);
+    F.line = 103;
+    tmp_452988326.class = "searchbar";
+    F.line = 103;
+    setAttr_654312065(tmp_452988326, "placeholder", "Search...");
+    F.line = 103;
+    setFocus_620757068(tmp_452988326, true, kxi__);
+    F.line = 104;
+    addEventHandler_620758167(tmp_452988326, 3, HEX3Aanonymous_452988328, kxi__);
+    F.line = 104;
+    add_654312139(tmp_452988325, tmp_452988326);
+    F.line = 104;
+    add_654312139(tmp_452988324, tmp_452988325);
+    F.line = 107;
+    var tmp_452988327 = tree_654312202(44, []);
+    F.line = 107;
+    tmp_452988327.class = "characters-container";
     Label1: do {
-      F.line = 81;
-      var character_452988172 = ({name: [], generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 0, doesDsmashHitAllLedgeOptionsButJump: false, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []});
+      F.line = 108;
+      var character_452988334 = ({name: [], generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 0, doesDsmashHitAllLedgeOptionsButJump: false, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []});
       F.line = 235;
-      var i_452988366 = 0;
+      var i_452988528 = 0;
       F.line = 236;
-      var L_452988367 = 89;
+      var L_452988529 = 89;
       Label2: do {
         F.line = 237;
           Label3: while (true) {
-          if (!(i_452988366 < L_452988367)) break Label3;
-            F.line = 81;
-            character_452988172 = characters_452985075[chckIndx(i_452988366, 0, (characters_452985075).length - 1)];
-            F.line = 81;
-            add_654312139(tmp_452988165, createCharacterTile_452986575(character_452988172));
+          if (!(i_452988528 < L_452988529)) break Label3;
+            F.line = 108;
+            character_452988334 = characters_452985080[chckIndx(i_452988528, 0, (characters_452985080).length - 1)];
+            F.line = 108;
+            add_654312139(tmp_452988327, createCharacterTile_452986737(character_452988334));
             F.line = 239;
-            i_452988366 = addInt(i_452988366, 1);
-            if (!((89 == L_452988367))) {
+            i_452988528 = addInt(i_452988528, 1);
+            if (!((89 == L_452988529))) {
             F.line = 240;
             failedAssertImpl_218103864(makeNimstrLit("/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/system/iterators.nim(240, 11) `len(a) == L` the length of the seq changed while iterating over it"));
             }
@@ -10416,12 +10926,12 @@ function HEX3Aanonymous_452988166(e_452988167, n_452988168) {
           }
       } while (false);
     } while (false);
-    F.line = 82;
-    add_654312139(tmp_452988162, tmp_452988165);
-    result_452988161 = tmp_452988162;
+    F.line = 109;
+    add_654312139(tmp_452988324, tmp_452988327);
+    result_452988323 = tmp_452988324;
   framePtr = F.prev;
 
-  return result_452988161;
+  return result_452988323;
 
 }
 
@@ -10569,17 +11079,17 @@ function HEX5BHEX5D_973081754(s_973081757, x_973081758) {
       F.line = 2552;
       var i_973081768 = 0;
       F.line = 119;
-      var i_452988421 = 0;
+      var i_452988571 = 0;
       Label2: do {
         F.line = 120;
           Label3: while (true) {
-          if (!(i_452988421 < L_973081763)) break Label3;
+          if (!(i_452988571 < L_973081763)) break Label3;
             F.line = 2552;
-            i_973081768 = i_452988421;
+            i_973081768 = i_452988571;
             F.line = 2552;
             result_973081759[chckIndx(i_973081768, 0, (result_973081759).length - 1)] = s_973081757[chckIndx(addInt(i_973081768, a_973081761), 0, (s_973081757).length - 1)];
             F.line = 122;
-            i_452988421 = addInt(i_452988421, 1);
+            i_452988571 = addInt(i_452988571, 1);
           }
       } while (false);
     } while (false);
@@ -10602,108 +11112,222 @@ function HEX2EHEX2E_939524176(a_939524179, b_939524180) {
 
 }
 
-function hasKey_452988249(t_452988252, key_452988253) {
-  var result_452988254 = false;
+function hasKey_452988411(t_452988414, key_452988415) {
+  var result_452988416 = false;
 
   var F = {procname: "hasKey.hasKey", prev: framePtr, filename: "/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/tables.nim", line: 0};
   framePtr = F;
     F.line = 371;
-    var hc_452988255 = [0];
+    var hc_452988417 = [0];
     F.line = 372;
-    result_452988254 = (0 <= rawGet_452985225(t_452988252, key_452988253, hc_452988255, 0));
+    result_452988416 = (0 <= rawGet_452985329(t_452988414, key_452988415, hc_452988417, 0));
   framePtr = F.prev;
 
-  return result_452988254;
+  return result_452988416;
 
 }
 
-function createCharacterPage_452986570(character_452986571) {
-  var result_452986572 = null;
+function verbatim_654312260(s_654312261) {
+  var result_654312262 = null;
+
+  var F = {procname: "vdom.verbatim", prev: framePtr, filename: "/home/avahe/.nimble/pkgs/karax-1.2.2/karax/vdom.nim", line: 0};
+  framePtr = F;
+    F.line = 304;
+    result_654312262 = {kind: 6, text: toJSStr(s_654312261), index: -1, m_type: NTI654311526, id: null, class: null, kids: [], attrs: [], events: [], style: null, dom: null};
+  framePtr = F.prev;
+
+  return result_654312262;
+
+}
+
+function rawGet_1207959897(t_1207959900, key_1207959901, hc_1207959902, hc_1207959902_Idx) {
+            var Temporary3;
+
+  var result_1207959903 = 0;
+
+  var F = {procname: "rawGet.rawGet", prev: framePtr, filename: "/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/hashcommon.nim", line: 0};
+  framePtr = F;
+  BeforeRet: do {
+    F.line = 64;
+    hc_1207959902[hc_1207959902_Idx] = hash_1040187814(key_1207959901);
+    if ((hc_1207959902[hc_1207959902_Idx] == 0)) {
+    F.line = 66;
+    hc_1207959902[hc_1207959902_Idx] = 314159265;
+    }
+    
+    if (((t_1207959900.data).length == 0)) {
+    F.line = 48;
+    result_1207959903 = -1;
+    break BeforeRet;
+    }
+    
+    F.line = 49;
+    var h_1207959955 = (hc_1207959902[hc_1207959902_Idx] & (t_1207959900.data).length - 1);
+    Label1: do {
+      F.line = 50;
+        Label2: while (true) {
+        if (!isFilled_1023410207(t_1207959900.data[chckIndx(h_1207959955, 0, (t_1207959900.data).length - 1)].Field0)) break Label2;
+            if (!(t_1207959900.data[chckIndx(h_1207959955, 0, (t_1207959900.data).length - 1)].Field0 == hc_1207959902[hc_1207959902_Idx])) Temporary3 = false; else {              Temporary3 = eqStrings(t_1207959900.data[chckIndx(h_1207959955, 0, (t_1207959900.data).length - 1)].Field1, key_1207959901);            }          if (Temporary3) {
+          F.line = 56;
+          result_1207959903 = h_1207959955;
+          break BeforeRet;
+          }
+          
+          F.line = 57;
+          h_1207959955 = nextTry_1023410210(h_1207959955, (t_1207959900.data).length - 1);
+        }
+    } while (false);
+    F.line = 58;
+    result_1207959903 = subInt(-1, h_1207959955);
+  } while (false);
+  framePtr = F.prev;
+
+  return result_1207959903;
+
+}
+
+function raiseKeyError_1107299189(key_1107299191) {
+  var F = {procname: "raiseKeyError.raiseKeyError", prev: framePtr, filename: "/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/tables.nim", line: 0};
+  framePtr = F;
+    F.line = 234;
+    raiseException({message: (makeNimstrLit("key not found: ") || []).concat(key_1107299191 || []), parent: null, m_type: NTI33555126, name: null, trace: [], up: null}, "KeyError");
+  framePtr = F.prev;
+
+  
+}
+
+function HEX5BHEX5D_1207961252(t_1207961255, key_1207961256) {
+  var result_1207961257 = null;
+  var result_1207961257_Idx = 0;
+
+  var F = {procname: "[].[]", prev: framePtr, filename: "/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/tables.nim", line: 0};
+  framePtr = F;
+    F.line = 242;
+    var hcHEX60gensym22_1207961258 = [0];
+    F.line = 243;
+    var indexHEX60gensym22_1207961265 = rawGet_1207959897(t_1207961255, key_1207961256, hcHEX60gensym22_1207961258, 0);
+    if ((0 <= indexHEX60gensym22_1207961265)) {
+    F.line = 244;
+    result_1207961257 = t_1207961255.data[chckIndx(indexHEX60gensym22_1207961265, 0, (t_1207961255.data).length - 1)]; result_1207961257_Idx = "Field2";
+    }
+    else {
+      F.line = 246;
+    raiseKeyError_1107299189(key_1207961256);
+    }
+    
+  framePtr = F.prev;
+
+  return [result_1207961257, result_1207961257_Idx];
+
+}
+
+function createCharacterPage_452986671(character_452986672) {
+    var Temporary1;
+
+  var result_452986673 = null;
 
   var F = {procname: "flatzone.createCharacterPage", prev: framePtr, filename: "/home/avahe/programming/nim/flatzone/src/flatzone.nim", line: 0};
   framePtr = F;
-    F.line = 49;
-    F.line = 49;
-    var tmp_452986573 = tree_654312202(44, []);
-    F.line = 49;
-    tmp_452986573.class = "";
-    F.line = 50;
-    add_654312139(tmp_452986573, createTitleBar_452986518());
-    F.line = 51;
-    var tmp_452986574 = tree_654312202(76, []);
-    F.line = 51;
-    tmp_452986574.class = "character-tile";
-    F.line = 51;
-    setAttr_654312065(tmp_452986574, "src", toJSStr((makeNimstrLit("../assets/images/") || []).concat(normalizeCharacterName_452986565(character_452986571) || [],makeNimstrLit(".png") || [])));
-    F.line = 51;
-    add_654312139(tmp_452986573, tmp_452986574);
-    result_452986572 = tmp_452986573;
+    F.line = 69;
+    F.line = 69;
+    var tmp_452986674 = tree_654312202(44, []);
+    F.line = 69;
+    tmp_452986674.class = "";
+    F.line = 70;
+    add_654312139(tmp_452986674, createTitleBar_452986621());
+    F.line = 71;
+    var tmp_452986675 = tree_654312202(76, []);
+    F.line = 71;
+    tmp_452986675.class = "mu-character-tile";
+    F.line = 71;
+    setAttr_654312065(tmp_452986675, "src", toJSStr((makeNimstrLit("../assets/images/") || []).concat(normalizeCharacterName_452984856(character_452986672) || [],makeNimstrLit(".png") || [])));
+    F.line = 72;
+    var tmp_452986676 = tree_654312202(21, []);
+    F.line = 72;
+    tmp_452986676.class = "character-name";
+    F.line = 73;
+    add_654312139(tmp_452986676, text_654312254(character_452986672));
+    F.line = 73;
+    add_654312139(tmp_452986675, tmp_452986676);
+    F.line = 73;
+    add_654312139(tmp_452986674, tmp_452986675);
+    F.line = 75;
+    var tmp_452986677 = tree_654312202(44, []);
+    F.line = 75;
+    tmp_452986677.class = "mu-info-text";
+    F.line = 76;
+    var charName_452986678 = normalizeCharacterName_452984856(character_452986672);
+    F.line = 77;
+    add_654312139(tmp_452986677, verbatim_654312260((Temporary1 = HEX5BHEX5D_1207961252(characterHtmlPages_452985197[0], charName_452986678), Temporary1)[0][Temporary1[1]]));
+    F.line = 77;
+    add_654312139(tmp_452986674, tmp_452986677);
+    result_452986673 = tmp_452986674;
   framePtr = F.prev;
 
-  return result_452986572;
+  return result_452986673;
 
 }
 
-function create404Page_452988183() {
-  var result_452988184 = null;
+function create404Page_452988345() {
+  var result_452988346 = null;
 
   var F = {procname: "flatzone.create404Page", prev: framePtr, filename: "/home/avahe/programming/nim/flatzone/src/flatzone.nim", line: 0};
   framePtr = F;
-    F.line = 85;
-    F.line = 85;
-    var tmp_452988185 = tree_654312202(44, []);
-    F.line = 85;
-    tmp_452988185.class = "";
-    F.line = 86;
-    add_654312139(tmp_452988185, createTitleBar_452986518());
-    F.line = 87;
-    var tmp_452988186 = tree_654312202(22, []);
-    F.line = 87;
-    add_654312139(tmp_452988186, text_654312254(makeNimstrLit("404 - Not Found")));
-    F.line = 87;
-    add_654312139(tmp_452988185, tmp_452988186);
-    result_452988184 = tmp_452988185;
+    F.line = 112;
+    F.line = 112;
+    var tmp_452988347 = tree_654312202(44, []);
+    F.line = 112;
+    tmp_452988347.class = "";
+    F.line = 113;
+    add_654312139(tmp_452988347, createTitleBar_452986621());
+    F.line = 114;
+    var tmp_452988348 = tree_654312202(22, []);
+    F.line = 114;
+    add_654312139(tmp_452988348, text_654312254(makeNimstrLit("404 - Not Found")));
+    F.line = 114;
+    add_654312139(tmp_452988347, tmp_452988348);
+    result_452988346 = tmp_452988347;
   framePtr = F.prev;
 
-  return result_452988184;
+  return result_452988346;
 
 }
 
-function createSite_452988187(data_452988188) {
-  var result_452988189 = null;
+function createSite_452988349(data_452988350) {
+  var result_452988351 = null;
 
   var F = {procname: "flatzone.createSite", prev: framePtr, filename: "/home/avahe/programming/nim/flatzone/src/flatzone.nim", line: 0};
   framePtr = F;
   BeforeRet: do {
-    if ((((data_452988188.hashPart) == null ? 0 : (data_452988188.hashPart).length) == 0)) {
-    F.line = 91;
-    result_452988189 = createHomePage_452988160();
+    if ((((data_452988350.hashPart) == null ? 0 : (data_452988350.hashPart).length) == 0)) {
+    F.line = 118;
+    result_452988351 = createHomePage_452988322();
     break BeforeRet;
     }
     else {
-    if (data_452988188.hashPart.startsWith("#/")) {
-    F.line = 93;
-    var hashPartEnd_452988208 = decodeUrl_1224736825(HEX5BHEX5D_973081754(cstrToNimstr(data_452988188.hashPart), HEX2EHEX2E_939524176(2, 1)), true);
-    if (hasKey_452988249(characterLookup_452985101[0], hashPartEnd_452988208)) {
-    F.line = 95;
-    result_452988189 = createCharacterPage_452986570(hashPartEnd_452988208);
+    if (data_452988350.hashPart.startsWith("#/")) {
+    F.line = 120;
+    var hashPartEnd_452988370 = decodeUrl_1224736825(HEX5BHEX5D_973081754(cstrToNimstr(data_452988350.hashPart), HEX2EHEX2E_939524176(2, 1)), true);
+    if (hasKey_452988411(characterLookup_452985223[0], hashPartEnd_452988370)) {
+    F.line = 122;
+    result_452988351 = createCharacterPage_452986671(hashPartEnd_452988370);
     break BeforeRet;
     }
     
     }
     }
-    F.line = 97;
-    result_452988189 = create404Page_452988183();
+    F.line = 124;
+    result_452988351 = create404Page_452988345();
     break BeforeRet;
   } while (false);
   framePtr = F.prev;
 
-  return result_452988189;
+  return result_452988351;
 
 }
 var F = {procname: "module flatzone", prev: framePtr, filename: "/home/avahe/programming/nim/flatzone/src/flatzone.nim", line: 0};
 framePtr = F;
-setRenderer_620758006(createSite_452988187, "ROOT", null);
+setRenderer_620758006(createSite_452988349, "ROOT", null);
 framePtr = F.prev;
 var F = {procname: "module flatzone", prev: framePtr, filename: "/home/avahe/programming/nim/flatzone/src/flatzone.nim", line: 0};
 framePtr = F;
