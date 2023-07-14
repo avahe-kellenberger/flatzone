@@ -55,6 +55,10 @@ body {
   outline-color: rgba(48, 52, 54, 0);
 }
 
+.baw {
+  filter: grayscale(1);
+}
+
 @media screen and (max-width: 526px) {
   .characters-container {
     width: 100%;

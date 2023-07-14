@@ -68,10 +68,17 @@ proc createCharacterPage(character: string): VNode =
 
 proc createCharacterTile(character: Character): VNode =
   result = buildHtml():
-    a(class="character-tile", href = cstring("#/" & character.name)):
-      img(src = characterImg(character.name) & ".png")
-      h1(class="character-name"):
-        text character.name
+    let charName = normalizeCharacterName(character.name)
+    if characterHtmlPages[charName].len > 0:
+      a(class="character-tile", href = cstring("#/" & character.name)):
+        img(src = characterImg(character.name) & ".png")
+        h1(class="character-name"):
+          text character.name
+    else:
+      tdiv(class="character-tile baw"):
+        img(src = characterImg(character.name) & ".png")
+        h1(class="character-name"):
+          text character.name
 
   # Add tile to list so we can filter by search.
   characterDomTiles[

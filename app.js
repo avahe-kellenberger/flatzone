@@ -2,11 +2,11 @@
 var framePtr = null;
 var excHandler = 0;
 var lastJSError = null;
+var NTI939524168 = {size: 0,kind: 31,base: null,node: null,finalizer: null};
+var NTI939524175 = {size: 0, kind: 18, base: null, node: null, finalizer: null};
 var NTI33555114 = {size: 0, kind: 17, base: null, node: null, finalizer: null};
 var NTI33555125 = {size: 0, kind: 17, base: null, node: null, finalizer: null};
 var NTI33555126 = {size: 0, kind: 17, base: null, node: null, finalizer: null};
-var NTI939524168 = {size: 0,kind: 31,base: null,node: null,finalizer: null};
-var NTI939524175 = {size: 0, kind: 18, base: null, node: null, finalizer: null};
 var NTI654311693 = {size: 0, kind: 24, base: null, node: null, finalizer: null};
 var NTI620756999 = {size: 0, kind: 18, base: null, node: null, finalizer: null};
 var NTI704643108 = {size: 0, kind: 18, base: null, node: null, finalizer: null};
@@ -1005,9 +1005,6 @@ var NNI620756999 = {kind: 2, len: 3, offset: 0, typ: null, name: null, sons: [{k
 {kind: 1, offset: "pos", len: 0, typ: NTI33554456, name: "pos", sons: null}]};
 NTI620756999.node = NNI620756999;
 NTI654311693.base = NTI33554440;
-var NNI939524175 = {kind: 2, len: 2, offset: 0, typ: null, name: null, sons: [{kind: 1, offset: "a", len: 0, typ: NTI939524168, name: "a", sons: null}, 
-{kind: 1, offset: "b", len: 0, typ: NTI33554456, name: "b", sons: null}]};
-NTI939524175.node = NNI939524175;
 var NNI33555126 = {kind: 2, len: 0, offset: 0, typ: null, name: null, sons: []};
 NTI33555126.node = NNI33555126;
 var NNI33555125 = {kind: 2, len: 0, offset: 0, typ: null, name: null, sons: []};
@@ -1017,6 +1014,9 @@ NTI33555114.node = NNI33555114;
 NTI33555114.base = NTI33555112;
 NTI33555125.base = NTI33555114;
 NTI33555126.base = NTI33555125;
+var NNI939524175 = {kind: 2, len: 2, offset: 0, typ: null, name: null, sons: [{kind: 1, offset: "a", len: 0, typ: NTI939524168, name: "a", sons: null}, 
+{kind: 1, offset: "b", len: 0, typ: NTI33554456, name: "b", sons: null}]};
+NTI939524175.node = NNI939524175;
 
 function makeNimstrLit(c_33556801) {
       var result = [];
@@ -7670,7 +7670,7 @@ function initTable_452986536(initialSize_452986539) {
 var F = {procname: "module flatzone", prev: framePtr, filename: "/home/avahe/programming/nim/flatzone/src/flatzone.nim", line: 0};
 framePtr = F;
 F.line = 27;
-var characterHtmlPages_452985197 = [{data: [{Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: -902394362, Field1: makeNimstrLit("ice_climbers"), Field2: makeNimstrLit("<h1>No matchup info yet!</h1>\x0A<p>If you\'d like info added for this matchup, please request it to be added in the #metagame channel in our discord server!</p>\x0A")}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: -1570547443, Field1: makeNimstrLit("cloud"), Field2: makeNimstrLit("<h2>General gameplan and tips</h2>\x0A<p>Our best opening we have vs Cloud is when he\xE2\x80\x99s off stage.\x0ATry getting him off stage, then killing him with bair.\x0AIf he\xE2\x80\x99s recovering low, we can dash attack 2 frame his up B almost always (even with limit up b).</p>\x0A<p>Play grounded, he can swat us out of the air very easily with huge hitboxes without thinking</p>\x0A<p>Make use of dash -&gt; shield and walk -&gt; shield to mess up his spacing, to give us openings to use up b oos</p>\x0A<p>Parry his fair/bair, then dash attack or grab</p>\x0A<p>If he\xE2\x80\x99s constantly using falling aerials, we can open him up with a pre-emptive up b, or fh nair</p>\x0A<h2>Getting out of the corner</h2>\x0A<ul>\x0A<li>If we\xE2\x80\x99re being pressured in the corner, don\xE2\x80\x99t jump</li>\x0A<li>Walk -&gt; shield is really good here</li>\x0A<li>Getting grabbed by cloud never matters, so don\'t worry about that here</li>\x0A<li>You can also up b through his shit in the corner because of our iframes, then just have to deal with landing</li>\x0A</ul>\x0A<h2>Ledge trapping</h2>\x0A<p>Chef at ledge is really good as it can force a jump from ledge. You can call out the jump with sh up air, which combos into up b, sending cloud back off stage.</p>\x0A<p>Cloud\xE2\x80\x99s up smash is huge, he can punish spaced landing bair on shield with up smash</p>\x0A<p>Cloud Neutral b can be absorbed by bucket, and bucket will kill at around 15%.</p>\x0A<h2>Cloud up b counterplay</h2>\x0A<ul>\x0A<li>Shield the rising hits, roll behind him, and charge down smash</li>\x0A<li>Shield the rising hits, spot dodge the falling hits, and down smash</li>\x0A<li>Shield rising hits, up b or up air him on the way down</li>\x0A<li>Shield rising hits, up smash him on the way down</li>\x0A</ul>\x0A<h2>Cloud side b counterplay:</h2>\x0A<p>If Cloud does a full side b on our shield, it\xE2\x80\x99s -24. We have just enough time to drop shield -&gt; dsmash</p>\x0A<p>If Cloud starts side b on our shield, we can roll behind him after the 2nd hit</p>\x0A<p>Cloud\xE2\x80\x99s limit side B can be parried easily for a free down smash</p>\x0A<p>Watch <a href=\"https://www.youtube.com/watch?v=kXROMJgX9J0\" target=\"_blank\">this video on how to spot dodge cloud side b</a>, it\xE2\x80\x99s really free</p>\x0A<h2>Bread and Butter kill confirm percents</h2>\x0A<ul>\x0A<li>Nair -&gt; Dtilt kills at 105% at ledge</li>\x0A<li>Nair -&gt; FTilt kills at 112% at ledge</li>\x0A</ul>\x0A")}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: -1419867376, Field1: makeNimstrLit("sephiroth"), Field2: makeNimstrLit("<h1>No matchup info yet!</h1>\x0A<p>If you\'d like info added for this matchup, please request it to be added in the #metagame channel in our discord server!</p>\x0A")}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: -207789544, Field1: makeNimstrLit("kazuya"), Field2: makeNimstrLit("<h2>How to play neutral</h2>\x0A<h3>Do not Approach</h3>\x0A<ul>\x0A<li>Approaching is one of the main things you want to avoid vs kazuya since he can easily stuff out approaches like dash attack, grab and nair with moves such as back tilt and ewgf.</li>\x0A</ul>\x0A<h3>Camp/Play patiently</h3>\x0A<ul>\x0A<li>\x0A<p>Kazuya can stuff out our approaches, but we can stuff out his approaches too</p>\x0A</li>\x0A<li>\x0A<p>Chef is really good at dealing with kazuya approaching, him reflecting the bacons will be useless since it will just clank with the next bacon, cdc wouldn\'t work as there are times where it isn\'t invincible, and since chef has 5 long lasting hitboxes it will hit him</p>\x0A</li>\x0A<li>\x0A<p>Fair and bair are also decent tools vs kazuya. Keep in mind to be careful with your chefs as sometimes kazuya\'s will use neutral b to hit you, which goes through chef.</p>\x0A</li>\x0A<li>\x0A<p>When close to kaz try to avoid shielding as much as possible since ewgf just ignores shield, in general you just don\'t want to be near kaz, you have to play the MU similar to fighting Luigi at 0.</p>\x0A</li>\x0A</ul>\x0A<h2>Advantage is HUGE for us</h2>\x0A<ul>\x0A<li>Kazuya notoriously has a really bad disadvantage state and G&amp;W is very good at capitalizing off it.</li>\x0A<li>Kazuya gets juggled insanely hard as he has very few options to get down, his only real options are airdodge and down air, with down air being super easy to predict.</li>\x0A<li>You can also edgeguard kaz easily since his recovery is extremely linear, if he goes low aim to stage spike him with bair.</li>\x0A<li>Kazuya also gets ledgetrapped pretty hard, he doesn\'t have too many answers to chef.</li>\x0A</ul>\x0A<h2>Disadvantage</h2>\x0A<ul>\x0A<li>\x0A<p>G&amp;W is one of the harder characters for kaz to combo but he still has true confirms, most of the time you can try to sdi out or up b out of the combos, but it mainly comes down to the kazuya dropping the combo or not.</p>\x0A</li>\x0A<li>\x0A<p>If you\'re offstage you won\'t have to worry about getting edgeguarded, since it\'s risky to edgeguard G&amp;W in the first place and kaz isn\'t that great at edgeguarding. Drop down nair is risky as kaz has quite a few moves to combat it, ftilt, tombstone crusher, dragon uppercut to name a few so try to not use it too much.</p>\x0A</li>\x0A<li>\x0A<p>Most of the time just use the different getup options depending on what the kaz is doing, roll is a bit risky due to auto turn around though.</p>\x0A</li>\x0A</ul>\x0A<h2>What to do vs rage drive</h2>\x0A<ul>\x0A<li>\x0A<p>Against rage drive, avoid using chef as kaz can just armor right through it.</p>\x0A</li>\x0A<li>\x0A<p>Try to bait out the rage drive and punish with like a fair or ftilt, getting him offstage is also a good decision as it can setup for an edgeguard kill or kaz just getting ledgetrapped.</p>\x0A</li>\x0A<li>\x0A<p>While ledgetrapping, try to be careful with chef since after the 5th bacon he can just do regular getup into rage drive.\x0AFair is a good way to counter regular/getup attacks.</p>\x0A</li>\x0A</ul>\x0A")}, {Field0: -1818239464, Field1: makeNimstrLit("luigi"), Field2: makeNimstrLit("<h1>No matchup info yet!</h1>\x0A<p>If you\'d like info added for this matchup, please request it to be added in the #metagame channel in our discord server!</p>\x0A")}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: -519537124, Field1: makeNimstrLit("bowser_jr"), Field2: makeNimstrLit("<h1>No matchup info yet!</h1>\x0A<p>If you\'d like info added for this matchup, please request it to be added in the #metagame channel in our discord server!</p>\x0A")}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: -966922720, Field1: makeNimstrLit("young_link"), Field2: makeNimstrLit("<h1>No matchup info yet!</h1>\x0A<p>If you\'d like info added for this matchup, please request it to be added in the #metagame channel in our discord server!</p>\x0A")}, {Field0: -1415198175, Field1: makeNimstrLit("jigglypuff"), Field2: makeNimstrLit("<h2>General gameplan</h2>\x0A<ul>\x0A<li>\x0A<p>Jigglypuff players like to play passive and campy this can be punished by fair spamming and up air spamming if they try to go over you</p>\x0A</li>\x0A<li>\x0A<p>Jigglypuff can\xE2\x80\x99t really beat G&amp;W\xE2\x80\x99s disjoints, so you should abuse fair and bair as much as possible</p>\x0A</li>\x0A<li>\x0A<p>A lot of Jigglypuff players like to use pound to approach to counter this. Make sure to keep your distance from puff and don\xE2\x80\x99t just jump straight into puff.</p>\x0A</li>\x0A<li>\x0A<p>Pound can be beaten by bair and fsmash. If you expect Puff to pound, dash back -&gt; fsmash is a good minimal risk punish that can kill puff at 70%</p>\x0A</li>\x0A<li>\x0A<p>Pound also combo\xE2\x80\x99s into soft fair into rest, so avoiding getting hit by pound at 26-40% is top priority\x0AFurthermore, pound -&gt; soft fair -&gt; rest can be avoided by di\xE2\x80\x99ing away on the pound</p>\x0A</li>\x0A<li>\x0A<p>Doing a random upsmash when a puff approaches is a good mixup, and can catch a stray puff aerial\x0AG&amp;W is such a cheater character that it\xE2\x80\x99s almost impossible for a puff to punish you for doing a random upsmash</p>\x0A</li>\x0A</ul>\x0A<h2>Dealing with puff offstage, dair loops, and recovering</h2>\x0A<ul>\x0A<li>\x0A<p>Jigglypuff is one of the few characters in the game where G&amp;W can struggle to edgeguard or even ledgetrap.\x0AIf Jigglypuff recovers low, using dair off stage can be a good punish, or just waiting for her to come to stage and ledgetrapping with chef can also be good</p>\x0A</li>\x0A<li>\x0A<p>If Jigglypuff recovers high, there\xE2\x80\x99s nothing G&amp;W can really do to stop her so just wait on stage and harass her with up airs when she tries coming back down</p>\x0A</li>\x0A<li>\x0A<p>You can escape jigglypuff dair loops by hard sdi\'ing up</p>\x0A</li>\x0A<li>\x0A<p>Jigglypuff has a confirm of dair into rest, so make sure to switch up which way your sdi\'ing up as to not get hit by rest</p>\x0A</li>\x0A<li>\x0A<p>If a Jigglypuff misses rest, use a charged upsmash to kill at 50% or later</p>\x0A</li>\x0A<li>\x0A<p>Jigglypuff is also one of the few characters that can actually punish G&amp;W up b.\x0AIf she uses pound at ledge, it will 2 frame G&amp;W up b every time. To counter this, use bucket to slow your fall to try and mix up when you\'re going to up b, so the puff will mess up the timing</p>\x0A</li>\x0A</ul>\x0A<h2>Bread and Butter kill confirm percents</h2>\x0A<ul>\x0A<li>\x0A<p>Nair -&gt; Ftilt will kill puff at 88% at ledge.</p>\x0A</li>\x0A<li>\x0A<p>Nair -&gt; Dtilt will kill puff at 80% at ledge (Note nair -&gt; Dtilt is very inconsistent against short character\xE2\x80\x99s like puff).</p>\x0A</li>\x0A</ul>\x0A")}, {Field0: 0, Field1: [], Field2: []}, {Field0: -1577725917, Field1: makeNimstrLit("sora"), Field2: makeNimstrLit("<h1>No matchup info yet!</h1>\x0A<p>If you\'d like info added for this matchup, please request it to be added in the #metagame channel in our discord server!</p>\x0A")}, {Field0: 0, Field1: [], Field2: []}, {Field0: -19708635, Field1: makeNimstrLit("olimar"), Field2: makeNimstrLit("<h1>No matchup info yet!</h1>\x0A<p>If you\'d like info added for this matchup, please request it to be added in the #metagame channel in our discord server!</p>\x0A")}, {Field0: -559580122, Field1: makeNimstrLit("yoshi"), Field2: makeNimstrLit("<h2>General gameplan</h2>\x0A<ul>\x0A<li>\x0A<p>Generally what I do is use nair a lot until about 30 percent, then I spam the ever loving fuck outta bomb</p>\x0A</li>\x0A<li>\x0A<p>Be careful of egg toss when edge guarding</p>\x0A</li>\x0A<li>\x0A<p>You can try to bait a high recovery by jumping out early backwards and threatening a back air which if they jump you can return to stage and punish the landing. Back air will go through egg so if they throw it out you can hit through or drop beneath it and punish the end lag. Up air is really good at covering going above ledge as well. If they don\'t jump you can drop down and hit them with the back air.</p>\x0A</li>\x0A<li>\x0A<p>If you don\'t have time to do this though, your best bet is to ledgetrap. Using bacon is tough, because of egg toss. So, I usually wait until they grab ledge, and reflect/shield any eggs, then ledge trap normally.</p>\x0A</li>\x0A</ul>\x0A<h2>Vods</h2>\x0A<ul>\x0A<li><a href=\"https://www.youtube.com/watch?v=TnHpmnaQ_OM\" target=\"_blank\">Check out Miya vs Yoshidora</a></li>\x0A</ul>\x0A")}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 249896745, Field1: makeNimstrLit("bowser"), Field2: makeNimstrLit("<h2>General gameplan</h2>\x0A<ul>\x0A<li>\x0A<p>In neutral, Bowser will try to fight you in neutral with patience, good positioning and using up B oos as a zone bursting option. He will spend his time in neutral playing grounded bc he has access to quick grounded buttons like jab and ftilt.</p>\x0A</li>\x0A<li>\x0A<p>He has very little ways to directly contest sh ff nair besides these options.</p>\x0A</li>\x0A<li>\x0A<p>Bowser up B oos is a good zone disrupting tool and can be annoying if we mispace an aerial on his shield. But, he is open for a huge punish afterwards. At low percents we can get dash grab, nair or usmash as a combo starter and at higher percents we can get usmash/dsmash oos.</p>\x0A</li>\x0A<li>\x0A<p>Bowser\xE2\x80\x99s disadvantage is horrible. Harass him as hard as you can with up air and try to push him to the corner for a ledgetrap/edgeguard.</p>\x0A</li>\x0A<li>\x0A<p>Be weary of Bowser dair if you are at high percents, but this option loses to our up air.</p>\x0A</li>\x0A<li>\x0A<p>Ledgetrap Bowser <em>outside</em> of roll distance. His getup attack is huge, and can catch poorly spaced chef setups.</p>\x0A</li>\x0A<li>\x0A<p>You can bait him to getup attack by purposefully doing mispaced chef into dtilt oos. But, look out for dropdown side B.</p>\x0A</li>\x0A<li>\x0A<p>Most bowsers will be looking for ledgejump nair into bair kill confirm as their escape option. Catch their jumps with nair or up air and keep the pressure going.</p>\x0A</li>\x0A<li>\x0A<p>When bowser is offstage, he has decent mixups if he has his double jump. Use up B as an edgeguarding option to push him offstage if you have to.</p>\x0A</li>\x0A</ul>\x0A<h2>Disadvantage</h2>\x0A<ul>\x0A<li>\x0A<p>Disadvantage vs Bowser is tough, because of his ground speed. Retreat to the corner and avoid landing on spots where he can catch your landing with utilt or usmash.</p>\x0A</li>\x0A<li>\x0A<p>He can use flame breath to catch your landings, but this works if he knows you like to land aggressively!</p>\x0A</li>\x0A<li>\x0A<p>Getting off ledge vs Bowser is tough because he can react to every option besides jump with up B oos. Getting off the ledge with jump is your best option, then you slowly mix in other escape options.</p>\x0A</li>\x0A<li>\x0A<p>When recovering, please do not overshoot up B as a recovery. He will punish you on the way down with usmash, utilt or up air.</p>\x0A</li>\x0A<li>\x0A<p>When you are at KO percents, look out for Bowser side B. He will catch you with this when he knows you are scared and become shield heavy.</p>\x0A</li>\x0A</ul>\x0A<h2>Bread and Butter kill confirm percents</h2>\x0A<ul>\x0A<li>\x0A<p>Nair -&gt; Dtilt kills at 114% at ledge</p>\x0A</li>\x0A<li>\x0A<p>Nair -&gt; Ftilt kills at 124% at ledge</p>\x0A</li>\x0A</ul>\x0A")}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 861289779, Field1: makeNimstrLit("corrin"), Field2: makeNimstrLit("<h1>No matchup info yet!</h1>\x0A<p>If you\'d like info added for this matchup, please request it to be added in the #metagame channel in our discord server!</p>\x0A")}, {Field0: -1858281164, Field1: makeNimstrLit("donkey_kong"), Field2: makeNimstrLit("<h1>No matchup info yet!</h1>\x0A<p>If you\'d like info added for this matchup, please request it to be added in the #metagame channel in our discord server!</p>\x0A")}, {Field0: 446026292, Field1: makeNimstrLit("link"), Field2: makeNimstrLit("<h2>General gameplan</h2>\x0A<ul>\x0A<li>\x0A<p>I prefer to mostly camp in this matchup, forcing Link to approach.</p>\x0A</li>\x0A<li>\x0A<p>In many matchups, Link will want to use landing nair in neutral as an opener. We can simply shield -&gt; up b this move, or even up b when he\xE2\x80\x99s above us (before the move even touches our shield).</p>\x0A</li>\x0A<li>\x0A<p>If Link doesn\'t want to approach, he will throw projectiles. Using bucket to deal with arrow and boomerang can be a bit too committal for little reward, so I usually avoid using bucket, unless it\xE2\x80\x99s to reflect boomerang returning to Link.\x0AInstead, we can use back air to destroy arrows and boomerang.</p>\x0A</li>\x0A<li>\x0A<p>Link\xE2\x80\x99s bomb explosion can be absorbed (fills 1 stack of bucket). Usually Link has to manually blow up the bomb. He will try to bait you to use bucket, so he can punish you during the move\xE2\x80\x99s lag. He will not want to fill your bucket, as it can kill Link pretty early.</p>\x0A</li>\x0A<li>\x0A<p>To deal with this, we can manually explode the bomb with our forward air. There\'s a specific timing that can be used to blow up the bomb AND absorb that explosion with our bucket. See <a href=\"https://youtu.be/G2A4c_A6Wn4?t=34\" target=\"_blank\">this video on how to perform this setup properly</a>.\x0AIt is worth practicing, I\xE2\x80\x99ve won games and sets from doing this against multiple Link mains.</p>\x0A</li>\x0A</ul>\x0A<h2>Ledge trapping and edge guarding</h2>\x0A<ul>\x0A<li>\x0A<p>Link will usually recover in 1 of 2 ways: Up b from under the ledge, or use bomb recovery.</p>\x0A</li>\x0A<li>\x0A<p>When link is recovering low, I like to use chef 3 (neutral chef angle) to get as many hits in as possible. When he gets to ledge, you will be in getup-attack range. We can use this as a bait to jump -&gt; fair the ledge to punish the getup attack. If he catches on, he\xE2\x80\x99ll likely try to roll or jump.</p>\x0A</li>\x0A<li>\x0A<p>If Link is at a high % and recovering low, try to hit his head with dair while he is going for up b.</p>\x0A</li>\x0A<li>\x0A<p>If Link is far from the stage, you can try getting near him for a back air before he has time to pull bomb and use it to recover.</p>\x0A</li>\x0A<li>\x0A<p>If Link is going to bomb recover high, just try to punish his landing and send him back off stage asap.</p>\x0A</li>\x0A</ul>\x0A")}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 1682730300, Field1: makeNimstrLit("pikachu"), Field2: makeNimstrLit("<h1>No matchup info yet!</h1>\x0A<p>If you\'d like info added for this matchup, please request it to be added in the #metagame channel in our discord server!</p>\x0A")}, {Field0: -863941827, Field1: makeNimstrLit("min_min"), Field2: makeNimstrLit("<h1>No matchup info yet!</h1>\x0A<p>If you\'d like info added for this matchup, please request it to be added in the #metagame channel in our discord server!</p>\x0A")}, {Field0: 0, Field1: [], Field2: []}, {Field0: -74399425, Field1: makeNimstrLit("chrom"), Field2: makeNimstrLit("<h1>No matchup info yet!</h1>\x0A<p>If you\'d like info added for this matchup, please request it to be added in the #metagame channel in our discord server!</p>\x0A")}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: -1477441465, Field1: makeNimstrLit("mario"), Field2: makeNimstrLit("<h1>No matchup info yet!</h1>\x0A<p>If you\'d like info added for this matchup, please request it to be added in the #metagame channel in our discord server!</p>\x0A")}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: -932942515, Field1: makeNimstrLit("rob"), Field2: makeNimstrLit("<h1>No matchup info yet!</h1>\x0A<p>If you\'d like info added for this matchup, please request it to be added in the #metagame channel in our discord server!</p>\x0A")}, {Field0: 0, Field1: [], Field2: []}, {Field0: 1281212751, Field1: makeNimstrLit("falco"), Field2: makeNimstrLit("<h1>No matchup info yet!</h1>\x0A<p>If you\'d like info added for this matchup, please request it to be added in the #metagame channel in our discord server!</p>\x0A")}, {Field0: 0, Field1: [], Field2: []}, {Field0: 917018705, Field1: makeNimstrLit("byleth"), Field2: makeNimstrLit("<h1>No matchup info yet!</h1>\x0A<p>If you\'d like info added for this matchup, please request it to be added in the #metagame channel in our discord server!</p>\x0A")}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: -2082695083, Field1: makeNimstrLit("robin"), Field2: makeNimstrLit("<h1>No matchup info yet!</h1>\x0A<p>If you\'d like info added for this matchup, please request it to be added in the #metagame channel in our discord server!</p>\x0A")}, {Field0: -604960682, Field1: makeNimstrLit("daisy"), Field2: makeNimstrLit("<h1>No matchup info yet!</h1>\x0A<p>If you\'d like info added for this matchup, please request it to be added in the #metagame channel in our discord server!</p>\x0A")}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: -866004386, Field1: makeNimstrLit("king_dedede"), Field2: makeNimstrLit("<h1>No matchup info yet!</h1>\x0A<p>If you\'d like info added for this matchup, please request it to be added in the #metagame channel in our discord server!</p>\x0A")}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 1411473506, Field1: makeNimstrLit("ridley"), Field2: makeNimstrLit("<h1>No matchup info yet!</h1>\x0A<p>If you\'d like info added for this matchup, please request it to be added in the #metagame channel in our discord server!</p>\x0A")}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: -502051226, Field1: makeNimstrLit("piranha_plant"), Field2: makeNimstrLit("<h1>No matchup info yet!</h1>\x0A<p>If you\'d like info added for this matchup, please request it to be added in the #metagame channel in our discord server!</p>\x0A")}, {Field0: -2069494425, Field1: makeNimstrLit("richter"), Field2: makeNimstrLit("<h1>No matchup info yet!</h1>\x0A<p>If you\'d like info added for this matchup, please request it to be added in the #metagame channel in our discord server!</p>\x0A")}, {Field0: -2104244633, Field1: makeNimstrLit("sheik"), Field2: makeNimstrLit("<h1>No matchup info yet!</h1>\x0A<p>If you\'d like info added for this matchup, please request it to be added in the #metagame channel in our discord server!</p>\x0A")}, {Field0: -1621867415, Field1: makeNimstrLit("fox"), Field2: makeNimstrLit("<h1>No matchup info yet!</h1>\x0A<p>If you\'d like info added for this matchup, please request it to be added in the #metagame channel in our discord server!</p>\x0A")}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 1557688173, Field1: makeNimstrLit("ryu"), Field2: makeNimstrLit("<h1>No matchup info yet!</h1>\x0A<p>If you\'d like info added for this matchup, please request it to be added in the #metagame channel in our discord server!</p>\x0A")}, {Field0: 0, Field1: [], Field2: []}, {Field0: -897124241, Field1: makeNimstrLit("inkling"), Field2: makeNimstrLit("<h1>No matchup info yet!</h1>\x0A<p>If you\'d like info added for this matchup, please request it to be added in the #metagame channel in our discord server!</p>\x0A")}, {Field0: -1189835409, Field1: makeNimstrLit("wolf"), Field2: makeNimstrLit("<h1>No matchup info yet!</h1>\x0A<p>If you\'d like info added for this matchup, please request it to be added in the #metagame channel in our discord server!</p>\x0A")}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 669781364, Field1: makeNimstrLit("greninja"), Field2: makeNimstrLit("<h1>No matchup info yet!</h1>\x0A<p>If you\'d like info added for this matchup, please request it to be added in the #metagame channel in our discord server!</p>\x0A")}, {Field0: 2062329461, Field1: makeNimstrLit("king_k_rool"), Field2: makeNimstrLit("<h1>No matchup info yet!</h1>\x0A<p>If you\'d like info added for this matchup, please request it to be added in the #metagame channel in our discord server!</p>\x0A")}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: -1862255228, Field1: makeNimstrLit("pac_man"), Field2: makeNimstrLit("<h1>No matchup info yet!</h1>\x0A<p>If you\'d like info added for this matchup, please request it to be added in the #metagame channel in our discord server!</p>\x0A")}, {Field0: -1488042875, Field1: makeNimstrLit("little_mac"), Field2: makeNimstrLit("<h2>Win Conditions</h2>\x0A<ul>\x0A<li>Keeping a stock advantage.</li>\x0A<li>Sending him offstage can almost always lead to a kill if punished correctly. Hard to cover multiple options so you usually have to read or bait an option out.\x0A-Avoiding interaction when at an advantage.</li>\x0A</ul>\x0A<h2>Focus:</h2>\x0A<ul>\x0A<li>Capitalizing on edge guards. Looking out for mix-ups on recovery. (Side B is very hard to challenge)</li>\x0A<li>Using up Mac\'s resources offstage. (One jump, side b, air dodge)</li>\x0A<li>Trades on ledge can kill him.</li>\x0A<li>Avoiding interactions in neutral due to his speed, kill power, and overall neutral.</li>\x0A<li>His up-b doesn\xE2\x80\x99t always snap to ledge unless spaced well. Easy to hit with dsmash, dash attack.</li>\x0A</ul>\x0A<h2>Neutral:</h2>\x0A<ul>\x0A<li>Try to stay on platforms when you have an advantage. Fish for mistakes or risky options from him to punish and rack up more damage or a kill. He has no real answer to platform camping. He has to pressure you with upsmash or commit to an aerial or side b or even up b sometimes.</li>\x0A<li>Avoid air dodging out of dtilt and uptilt. Up b is almost unpunishable, but he can kill  you with up b so look out at high percents. Up B will be your go to option most of the time. If necessary air dodge to the platforms though he can punish it if he waits.</li>\x0A<li>Dash attack is really good to get him offstage but risky. Can follow-up with another DA at low percents to catch first landing. Most macs won\'t jump so this can work.</li>\x0A<li>Avoid rolling since it\'s too slow. Rely on up-b to get out of most situations EXCEPT dtilt KO punch, you need the iframes at f3 to avoid. Air dodge is very laggy so he can punish it if he reacts or waits.</li>\x0A<li>When platform camping, drop down fair is really good pressure and pretty safe. Just watch out for smash attacks or antiairs.</li>\x0A<li>Wait 4 seconds for KO punch &quot;armor&quot; to go away, then hit him with anything that will put him in tumble. This will get rid of it.</li>\x0A<li>Don\'t let him pressure your shield. He can break it. Up-B to get out of pressure. He can\'t break your full shield except with full charge downsmash probably. If you start getting shield pressured try to escape to avoid shield break.</li>\x0A</ul>\x0A<h2>Disadvantage:</h2>\x0A<h3>Ledge</h3>\x0A<ul>\x0A<li>Watch out for dsmash and dtilt at ledge. He can 2frame you easily. Mix up recovery timings with bucket or jumping.</li>\x0A<li>Ftilt at ledge will kill early and is active. Mix up your recovery options from ledge. Dtilt is frame 3 which is unreactable so don\'t wait too long or he\'ll kill you off a dtilt.</li>\x0A<li>Can armor through get up attack. Upsmash hits ledge. Try to get off ledge ASAP since his kill power makes it unsafe.</li>\x0A<li>The character overall is very dangerous at ledge and has the speed to cover almost everything though he does have to commit to punish so actively mixing it up is always good.</li>\x0A</ul>\x0A<h3>Juggling</h3>\x0A<ul>\x0A<li>Mac can\'t juggle luhmao.</li>\x0A<li>If in the air though he will try to catch landings. He usually tries to take your jump but it\'s not too much of a problem with up b.</li>\x0A<li>Don\'t Dair, it is super punishable by him. Either land on a platform or throw out a hitbox safely to protect yourself like fair or bair, just be aware of his armored smash attacks.</li>\x0A</ul>\x0A<h2>Advantage:</h2>\x0A<h3>Ledge</h3>\x0A<ul>\x0A<li>Dash attack sends at a good angle. May lead into bair. Side B might outrange your dash attack.</li>\x0A<li>Dsmash can 2 frame, but sweetspot will send up. Sour spot will kill him.</li>\x0A<li>Punish get up attack on shield with dtilt. Will most likely kill him at mid% and up. Upsmash at 0 to mid % for damage.</li>\x0A<li>Down smash at ledge is good.</li>\x0A<li>Chef covers ledgehang, roll (spaced), jump, regular getup. He can side b through it though if given the chance since it\xE2\x80\x99s disjointed it will always beat the bacon. It forces an early option on ledge though.</li>\x0A</ul>\x0A<h3>Offstage</h3>\x0A<ul>\x0A<li>Bair is usually the way to go. Will beat anything he can throw out if spaced well. Side B is the hardest thing to challenge. Watch out for counters too.</li>\x0A<li>All he has are mixups. Bair or force an option then punish. (Counter, Side B, Airdodge, Up-B, Jump)</li>\x0A<li>Watch out for walljump recoveries on some stages. Dair can cover it pretty well if timed right, but will send up. Reverse dair to bounce him off stage.</li>\x0A<li>Dragdown nair and bair will kill him. Just be ready to tech if he side b\'s early.</li>\x0A<li>When you\'re low and he\'s about to don\'t hit him with up-b as a mixup. There\'s a chance he\'ll try teching and airdodge and die instead.</li>\x0A</ul>\x0A<h2>Juggling</h2>\x0A<ul>\x0A<li>Nair, Upair.</li>\x0A<li>If he starts using Neutral B armor to get down you can catch landings with dash attack. Try to catch landings with grabs. Throw offstage if near ledge or dthrow at low percents for more nair chains.</li>\x0A<li>If he\'s over you just up-b to get him away from you if you\'re not sure what he\'s up to. Up air is okay too if hes above you or just nair.</li>\x0A</ul>\x0A<h2>Misc.</h2>\x0A<ul>\x0A<li>Dtilt KO punch is true unless you airdodge. Try to AD towards a platform or offstage.</li>\x0A<li>Tech everything and mix it up. Jablocks are really good for him and tech chases can kill you or rack up lots of damage. Fair, bair are used for jab lock setups sometimes.</li>\x0A<li>Can\'t shield KO Punch. Has a lot of lag on whiff.</li>\x0A<li>Very fast character and can outspeed your aerial movement.</li>\x0A</ul>\x0A<h2>Stages</h2>\x0A<h3>Battlefield:</h3>\x0A<ul>\x0A<li>Can camp him out hard.</li>\x0A<li>Watch out for wavelandings.</li>\x0A<li>His Up-B will kill at higher percents on the top platform.</li>\x0A</ul>\x0A<h3>Final Destination</h3>\x0A<ul>\x0A<li>Always ban.</li>\x0A</ul>\x0A<h3>Town and City</h3>\x0A<ul>\x0A<li>It\'s an okay stage, but when the platforms disappear, Mac thrives. Stall for platforms. They can save mac too when returning sometimes.</li>\x0A<li>Small blastzones at ledge benefit him more.</li>\x0A</ul>\x0A<h3>Smashville</h3>\x0A<ul>\x0A<li>Really good platform to avoid interaction.</li>\x0A<li>He can\'t reach the platform with upsmash and has to jump which is good for us.</li>\x0A</ul>\x0A<h3>Pokemon Stadium 2</h3>\x0A<ul>\x0A<li>Generally okay. Upsmash reaches the platforms but only if you are directly above him.</li>\x0A<li>Access to walljumps.</li>\x0A<li>Overall a decent stage.</li>\x0A</ul>\x0A<h3>Yoshi\'s Story</h3>\x0A<ul>\x0A<li>Avoid this stage if possible. Triplats are good but small blastzones will get you killed earlier. Uptilt UpB kills very early. And gives him access to walljump.</li>\x0A<li>Easier for him to dsmash/dtilt you when recovering.</li>\x0A</ul>\x0A<h3>Kalos</h3>\x0A<ul>\x0A<li>His worst stage for killing. Has walljump. Use platforms to cover options when edgeguarding.</li>\x0A<li>You live a lot longer on this stage.</li>\x0A</ul>\x0A<h3>Lylat</h3>\x0A<ul>\x0A<li>Not enough info.</li>\x0A</ul>\x0A")}, {Field0: 1678674054, Field1: makeNimstrLit("ganondorf"), Field2: makeNimstrLit("<h1>No matchup info yet!</h1>\x0A<p>If you\'d like info added for this matchup, please request it to be added in the #metagame channel in our discord server!</p>\x0A")}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: -1766580597, Field1: makeNimstrLit("diddy_kong"), Field2: makeNimstrLit("<h1>No matchup info yet!</h1>\x0A<p>If you\'d like info added for this matchup, please request it to be added in the #metagame channel in our discord server!</p>\x0A")}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 651466383, Field1: makeNimstrLit("joker"), Field2: makeNimstrLit("<h1>No matchup info yet!</h1>\x0A<p>If you\'d like info added for this matchup, please request it to be added in the #metagame channel in our discord server!</p>\x0A")}, {Field0: 1695946383, Field1: makeNimstrLit("toon_link"), Field2: makeNimstrLit("<h1>No matchup info yet!</h1>\x0A<p>If you\'d like info added for this matchup, please request it to be added in the #metagame channel in our discord server!</p>\x0A")}, {Field0: 0, Field1: [], Field2: []}, {Field0: 694791314, Field1: makeNimstrLit("duck_hunt"), Field2: makeNimstrLit("<h1>No matchup info yet!</h1>\x0A<p>If you\'d like info added for this matchup, please request it to be added in the #metagame channel in our discord server!</p>\x0A")}, {Field0: 1666503315, Field1: makeNimstrLit("mii_brawler"), Field2: makeNimstrLit("<h1>No matchup info yet!</h1>\x0A<p>If you\'d like info added for this matchup, please request it to be added in the #metagame channel in our discord server!</p>\x0A")}, {Field0: 0, Field1: [], Field2: []}, {Field0: 1315739029, Field1: makeNimstrLit("mythra"), Field2: makeNimstrLit("<h2>General gameplan and tips</h2>\x0A<p>Pythra\xE2\x80\x99s disjoints beat G&amp;W pretty hard, but Aegis has a pretty bad disadvantage state, particularly landing and recovering.\x0AIf you can gimp Aegis, you win.</p>\x0A<p>In neutral camp Pyra out. If she gets to hit you you lose.</p>\x0A<p>Focus on their habits when they recover, it\xE2\x80\x99s a bit linear but they can mix it up with swap.\x0ALuckily, bair is long lasting enough to last through swap.</p>\x0A<p>If you put them in a situation where they have to Photon Edge to recover, you can use up b to send them further off stage.\x0ASee <a href=\"https://youtu.be/MWSPUz2iMSI?t=1277\" target=\"_blank\">this video timestamp</a> of Miya using up b against Mythra\'s side b.</p>\x0A<p>They are a bait and punish character (especially Mythra, Pyra is more of a Waller) too but Mythra significantly outspeeds G&amp;W so you can\xE2\x80\x99t really camp her out. Remember the neutral triangle (Bait and punish beats poking, overshooting beats B&amp;P, poking beats overshooting). Keep Aegis in disadvantage for as long as possible, juggling and ledgetrapping them to hell. Pyra F Tilt is safe on G&amp;W shield if spaced properly so don\xE2\x80\x99t contest that. If Pyra is above you on a platform, beware of her dair.</p>\x0A<p>When landing, stay the hell away from them.</p>\x0A<p>The key in neutral is seriously just better bait and punish, overshooting and poking. Don\xE2\x80\x99t grab movement, only grab whiffs (that\xE2\x80\x99s universal but it\xE2\x80\x99s especially true with Mythra. However, it\xE2\x80\x99s a bit weird. Foresight activation frames lasts from frames 2-7, but grabs don\xE2\x80\x99t activate Foresight, so she can be grabbed until Frame 8).</p>\x0A")}, {Field0: -457491563, Field1: makeNimstrLit("steve"), Field2: makeNimstrLit("<h1>No matchup info yet!</h1>\x0A<p>If you\'d like info added for this matchup, please request it to be added in the #metagame channel in our discord server!</p>\x0A")}, {Field0: 0, Field1: [], Field2: []}, {Field0: 1239869336, Field1: makeNimstrLit("dr_mario"), Field2: makeNimstrLit("<h1>No matchup info yet!</h1>\x0A<p>If you\'d like info added for this matchup, please request it to be added in the #metagame channel in our discord server!</p>\x0A")}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 796016796, Field1: makeNimstrLit("zero_suit_samus"), Field2: makeNimstrLit("<h1>No matchup info yet!</h1>\x0A<p>If you\'d like info added for this matchup, please request it to be added in the #metagame channel in our discord server!</p>\x0A")}, {Field0: 0, Field1: [], Field2: []}, {Field0: 1191960990, Field1: makeNimstrLit("samus"), Field2: makeNimstrLit("<h1>No matchup info yet!</h1>\x0A<p>If you\'d like info added for this matchup, please request it to be added in the #metagame channel in our discord server!</p>\x0A")}, {Field0: 0, Field1: [], Field2: []}, {Field0: 328022176, Field1: makeNimstrLit("terry"), Field2: makeNimstrLit("<h2>General gameplan</h2>\x0A<ul>\x0A<li>\x0A<p>While getting hit by powerdunk, SDI\xE2\x80\x99ing down+in really hard will make you fall out of the move, pretty much 100% of the time</p>\x0A</li>\x0A<li>\x0A<p>Power Gyser is -29 on shield. Either up smash, or dsmash this move</p>\x0A</li>\x0A<li>\x0A<p>Buster wolf is -45 on shield. You can charge an up smash for quite a long time here for a huge punish</p>\x0A</li>\x0A<li>\x0A<p>His neutral b can be absorbed with bucket, and his approach options aren\xE2\x80\x99t great. Force him to approach, and call out his movement.\x0ABucket will kill at 15% at center stage on FD.</p>\x0A</li>\x0A<li>\x0A<p>Once Terry gets go meter, you should be careful when attacking his shield with anything but nair or fair as he can do jab into buster wolf if you do a laggy move on his shield which can kill at around 60-70%.</p>\x0A</li>\x0A<li>\x0A<p>Terry can do Jab Jab Input Up B and it will kill G&amp;W at around 100%\x0AThis can be avoided by sdi away, however you have to guess if Terry is doing Input up b or input down b, so when you go over 100% it\xE2\x80\x99s easier to just try to avoid any committal moves on his shield.</p>\x0A</li>\x0A<li>\x0A<p>Crack Shoot has 12 frames of endlag on shield, which means a perfectly timed down smash can punish crack shoot OOS. You can also punish with up b.\x0ASome Terry players love to do Crack Shoot in the middle of neutral. This can be intercepted mid Crack Shoot by Up smash or F smash, however you have to read it and time it correctly.</p>\x0A</li>\x0A</ul>\x0A<h2>Edge guarding</h2>\x0A<ul>\x0A<li>\x0A<p>Terry players seem to love recovering high, with either burning knuckle or powerdunk.\x0AThis predictable recovery makes them very susceptible to our Bair or Up b</p>\x0A</li>\x0A<li>\x0A<p>If terry recovers low, we can easily stage-spike with bair since their mixups off stage are very limited</p>\x0A</li>\x0A</ul>\x0A<h2>Bread and Butter kill confirm percents</h2>\x0A<ul>\x0A<li>Nair -&gt; Dtilt will kill terry at around 104% at ledge</li>\x0A<li>Nair -&gt; Ftilt kills at around 115% at ledge</li>\x0A</ul>\x0A")}, {Field0: -705950303, Field1: makeNimstrLit("squirtle"), Field2: makeNimstrLit("<h1>No matchup info yet!</h1>\x0A<p>If you\'d like info added for this matchup, please request it to be added in the #metagame channel in our discord server!</p>\x0A")}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: -1667035738, Field1: makeNimstrLit("lucina"), Field2: makeNimstrLit("<h1>No matchup info yet!</h1>\x0A<p>If you\'d like info added for this matchup, please request it to be added in the #metagame channel in our discord server!</p>\x0A")}, {Field0: 892418726, Field1: makeNimstrLit("simon"), Field2: makeNimstrLit("<h1>No matchup info yet!</h1>\x0A<p>If you\'d like info added for this matchup, please request it to be added in the #metagame channel in our discord server!</p>\x0A")}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: -1792460374, Field1: makeNimstrLit("charizard"), Field2: makeNimstrLit("<h1>No matchup info yet!</h1>\x0A<p>If you\'d like info added for this matchup, please request it to be added in the #metagame channel in our discord server!</p>\x0A")}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 1305414573, Field1: makeNimstrLit("captain_falcon"), Field2: makeNimstrLit("<h1>No matchup info yet!</h1>\x0A<p>If you\'d like info added for this matchup, please request it to be added in the #metagame channel in our discord server!</p>\x0A")}, {Field0: 0, Field1: [], Field2: []}, {Field0: -1345990737, Field1: makeNimstrLit("lucario"), Field2: makeNimstrLit("<h1>No matchup info yet!</h1>\x0A<p>If you\'d like info added for this matchup, please request it to be added in the #metagame channel in our discord server!</p>\x0A")}, {Field0: -1892594768, Field1: makeNimstrLit("peach"), Field2: makeNimstrLit("<h1>No matchup info yet!</h1>\x0A<p>If you\'d like info added for this matchup, please request it to be added in the #metagame channel in our discord server!</p>\x0A")}, {Field0: 522203569, Field1: makeNimstrLit("incineroar"), Field2: makeNimstrLit("<h2>General gameplan and tips</h2>\x0A<ul>\x0A<li>\x0A<p>Play very grounded! Try to bait and punish. Only try bursting in with nair if bait and punish isn\'t working out</p>\x0A</li>\x0A<li>\x0A<p>Throwing him off stage is better than going for a juggle, according to Maister. Get those bacons in, or punish side b/up b if his mixups are more limited</p>\x0A</li>\x0A<li>\x0A<p>If he falls out of landing bair, just shield. He can spot dodge neutral b for an early kill if we try to grab, like we usually do vs most other characters.</p>\x0A</li>\x0A<li>\x0A<p>Never use fair in this matchup, UNLESS you\'re going for unblockable grab on shield. If he is countering the bombs, we can shield the counter attack then grab.</p>\x0A</li>\x0A<li>\x0A<p>Shield neutral b when he\'s at kill % and we have a healthy shield, shield 3 hits THEN spot dodge. We have a lot of time to punish this move.</p>\x0A</li>\x0A<li>\x0A<p>Incins land on stage with counter attack a lot. We can bait it out and get a huge punish, grab combo, etc.</p>\x0A</li>\x0A<li>\x0A<p>If he is counter attacking bacon, just keep hitting him with bacon until can get an opening to grab or ftilt</p>\x0A</li>\x0A</ul>\x0A<h2>Punishing his landings</h2>\x0A<ul>\x0A<li>\x0A<p>Shield incin when he\'s landing after being juggled. Can punish any of his aerials with grab or up b, if he counters we can wait and react, if he does side b we have enough time to react and up b through it.</p>\x0A</li>\x0A<li>\x0A<p>ALWAYS grab landing nair or fair on shield, it\'s just laggy enough to grab</p>\x0A</li>\x0A<li>\x0A<p>Spaced bair can\'t be grabbed, just up b it</p>\x0A</li>\x0A<li>\x0A<p>Incins like to neutral b after whiffing attacks, be careful of this and punish</p>\x0A</li>\x0A<li>\x0A<p>Look for openings for grabs a lot</p>\x0A</li>\x0A<li>\x0A<p>His nair/fair will go through 3-4 bacons, don\'t throw bacon when he\'s up high/recovering high</p>\x0A</li>\x0A<li>\x0A<p>Incin mains love jumping from ledge, so use nair or up air after throwing bacon if he snaps to ledge without bacon hitting him</p>\x0A</li>\x0A</ul>\x0A<h2>Surviving</h2>\x0A<ul>\x0A<li>DI up if incin rising up b connects, we will always fall out</li>\x0A<li>Air dodge toward the stage if incin side b connects so you\'ll live longer</li>\x0A</ul>\x0A<h2>Punishing his recovery</h2>\x0A<ul>\x0A<li>Ftilt incin recovery at ledge</li>\x0A<li>Always shield his aggressive up b\'s back onto stage</li>\x0A<li>We can up b through his up b to kill him off stage!</li>\x0A<li>If he\'s recovering low close to the stage, we can dair his up b recovery</li>\x0A</ul>\x0A<h2>Getting off ledge</h2>\x0A<ul>\x0A<li>If he is trying to dtilt at ledge, jumping over him from ledge is free</li>\x0A</ul>\x0A<h2>Bread and Butter kill confirm percents</h2>\x0A<ul>\x0A<li>At ledge Nair -&gt; Dtilt kills at 112%</li>\x0A<li>At ledge Nair -&gt; Ftilt kills at 120%</li>\x0A</ul>\x0A")}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: -2100416332, Field1: makeNimstrLit("hero"), Field2: makeNimstrLit("<h1>No matchup info yet!</h1>\x0A<p>If you\'d like info added for this matchup, please request it to be added in the #metagame channel in our discord server!</p>\x0A")}, {Field0: 790940084, Field1: makeNimstrLit("marth"), Field2: makeNimstrLit("<h1>No matchup info yet!</h1>\x0A<p>If you\'d like info added for this matchup, please request it to be added in the #metagame channel in our discord server!</p>\x0A")}, {Field0: -925261132, Field1: makeNimstrLit("ness"), Field2: makeNimstrLit("<h1>No matchup info yet!</h1>\x0A<p>If you\'d like info added for this matchup, please request it to be added in the #metagame channel in our discord server!</p>\x0A")}, {Field0: -891032651, Field1: makeNimstrLit("villager"), Field2: makeNimstrLit("<h1>No matchup info yet!</h1>\x0A<p>If you\'d like info added for this matchup, please request it to be added in the #metagame channel in our discord server!</p>\x0A")}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: -125561413, Field1: makeNimstrLit("sonic"), Field2: makeNimstrLit("<h1>No matchup info yet!</h1>\x0A<p>If you\'d like info added for this matchup, please request it to be added in the #metagame channel in our discord server!</p>\x0A")}, {Field0: -955817284, Field1: makeNimstrLit("mega_man"), Field2: makeNimstrLit("<h1>No matchup info yet!</h1>\x0A<p>If you\'d like info added for this matchup, please request it to be added in the #metagame channel in our discord server!</p>\x0A")}, {Field0: 861964989, Field1: makeNimstrLit("kirby"), Field2: makeNimstrLit("<h1>No matchup info yet!</h1>\x0A<p>If you\'d like info added for this matchup, please request it to be added in the #metagame channel in our discord server!</p>\x0A")}, {Field0: 970982078, Field1: makeNimstrLit("banjo_and_kazooie"), Field2: makeNimstrLit("<h1>No matchup info yet!</h1>\x0A<p>If you\'d like info added for this matchup, please request it to be added in the #metagame channel in our discord server!</p>\x0A")}, {Field0: 0, Field1: [], Field2: []}, {Field0: 2050092224, Field1: makeNimstrLit("meta_knight"), Field2: makeNimstrLit("<h2>General gameplan</h2>\x0A<ul>\x0A<li>\x0A<p>In neutral you should be looking out for dash attack and dash grab. They are his main combo starters. He\'ll be looking for those from 0-30% since it\'s the main window for getting his ladder combo early on. He can also get them from up airs on the plat as well but it depends on where he is positioned and how many jumps he has burned.</p>\x0A</li>\x0A<li>\x0A<p>Same idea applies when you are at 70-90% except he is looking for dash attack into up B.</p>\x0A</li>\x0A<li>\x0A<p>You should try to play outside of his dash attack/dash grab burst range and not overextend in neutral.</p>\x0A</li>\x0A<li>\x0A<p>If he is multijumping, he\xE2\x80\x99s generally looking for a landing nair combo starter. Up air/nair him depending on how close he is to you.</p>\x0A</li>\x0A<li>\x0A<p>If MK gets a ladder to the side, you\xE2\x80\x99re pretty much fucked.</p>\x0A</li>\x0A<li>\x0A<p>Dtilt is a strong poke that can lead into a tech chase dsmash or fsmash at mid-late percents. DI up to avoid being put in a tech chase situation.</p>\x0A</li>\x0A<li>\x0A<p>Sometimes its okay to chuck out dsmash/usmash in neutral as a hard callout against his dash attack/grab.</p>\x0A</li>\x0A<li>\x0A<p>Same idea applies if he is multi jumping above you.</p>\x0A</li>\x0A<li>\x0A<p>Getting laddered sucks but you want to mix up your SDI and DI as hard as you can. You can start SDIng around the third up air since it becomes stale and easier to get out of. You can also mash up B too to get out and kill him off the top if he is next to you or escape in a position to where he can\'t Up B himself to kill you.</p>\x0A</li>\x0A<li>\x0A<p>Your main goal when it comes to escaping ladders is to not escape the ladder but to avoid the finisher. The up airs themselves don\xE2\x80\x99t deal much percent but the finisher (depending on MK is positioned) have enough knockback to kill.</p>\x0A</li>\x0A<li>\x0A<p>Outside of ladders, MK has formidable edgeguarding and ledgetrapping. MK will try to wall you with bair/fair if he is ledgetrapping.</p>\x0A</li>\x0A<li>\x0A<p>His edgeguarding is really strong offstage but he will try to cut off low recoveries with nair or neutral B.</p>\x0A</li>\x0A<li>\x0A<p>Don\xE2\x80\x99t recover high otherwise he will up B snipe you. But, don\xE2\x80\x99t be afraid to recover high. You can up B away early on to avoid getting punished and mix your recovery downwards.</p>\x0A</li>\x0A<li>\x0A<p>Watch out for Fsmash at high percentages. It acts like our usmash and he\xE2\x80\x99ll use it as a hard callout if we overextend.</p>\x0A</li>\x0A<li>\x0A<p>MK is really hard to edgeguard since he has multiple jumps and 4 different specials that all act as recovery options but up air cuts off high recoveries and forces him to recover low.</p>\x0A</li>\x0A<li>\x0A<p>Always ban FD</p>\x0A</li>\x0A<li>\x0A<p>Try to take him to Town or Kalos. The higher ceilings work against his ladder combos and we have more space to move around in.</p>\x0A</li>\x0A<li>\x0A<p>Time out MK if you have to. Although he has multi jumps and many mobile special moves, we move faster in the air.</p>\x0A</li>\x0A</ul>\x0A")}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 710861252, Field1: makeNimstrLit("roy"), Field2: makeNimstrLit("<p>Roy\xE2\x80\x99s fsmash on shield can be down tilted if we are close to him during the initial hit.</p>\x0A<p>If the end of the hit (far) touches our shield, it has significantly more lag.\x0AWe can run up -&gt; dtilt for an early kill.</p>\x0A<p>Dtilt will kill Roy at about 120% center stage when we have 50% rage (tested on PS2)</p>\x0A")}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: -277309240, Field1: makeNimstrLit("wario"), Field2: makeNimstrLit("<h1>No matchup info yet!</h1>\x0A<p>If you\'d like info added for this matchup, please request it to be added in the #metagame channel in our discord server!</p>\x0A")}, {Field0: -37127991, Field1: makeNimstrLit("mii_swordfighter"), Field2: makeNimstrLit("<h1>No matchup info yet!</h1>\x0A<p>If you\'d like info added for this matchup, please request it to be added in the #metagame channel in our discord server!</p>\x0A")}, {Field0: -1680693046, Field1: makeNimstrLit("mewtwo"), Field2: makeNimstrLit("<h1>No matchup info yet!</h1>\x0A<p>If you\'d like info added for this matchup, please request it to be added in the #metagame channel in our discord server!</p>\x0A")}, {Field0: 0, Field1: [], Field2: []}, {Field0: -331876660, Field1: makeNimstrLit("mii_gunner"), Field2: makeNimstrLit("<h1>No matchup info yet!</h1>\x0A<p>If you\'d like info added for this matchup, please request it to be added in the #metagame channel in our discord server!</p>\x0A")}, {Field0: -1170298931, Field1: makeNimstrLit("pit"), Field2: makeNimstrLit("<h1>No matchup info yet!</h1>\x0A<p>If you\'d like info added for this matchup, please request it to be added in the #metagame channel in our discord server!</p>\x0A")}, {Field0: -729405235, Field1: makeNimstrLit("snake"), Field2: makeNimstrLit("<h1>No matchup info yet!</h1>\x0A<p>If you\'d like info added for this matchup, please request it to be added in the #metagame channel in our discord server!</p>\x0A")}, {Field0: 1213895119, Field1: makeNimstrLit("bayonetta"), Field2: makeNimstrLit("<h1>No matchup info yet!</h1>\x0A<p>If you\'d like info added for this matchup, please request it to be added in the #metagame channel in our discord server!</p>\x0A")}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 4668377, Field1: makeNimstrLit("ike"), Field2: makeNimstrLit("<h1>No matchup info yet!</h1>\x0A<p>If you\'d like info added for this matchup, please request it to be added in the #metagame channel in our discord server!</p>\x0A")}, {Field0: -1769217575, Field1: makeNimstrLit("wii_fit_trainer"), Field2: makeNimstrLit("<h1>No matchup info yet!</h1>\x0A<p>If you\'d like info added for this matchup, please request it to be added in the #metagame channel in our discord server!</p>\x0A")}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 1972240864, Field1: makeNimstrLit("lucas"), Field2: makeNimstrLit("<h1>No matchup info yet!</h1>\x0A<p>If you\'d like info added for this matchup, please request it to be added in the #metagame channel in our discord server!</p>\x0A")}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 2014143459, Field1: makeNimstrLit("ivysaur"), Field2: makeNimstrLit("<h1>No matchup info yet!</h1>\x0A<p>If you\'d like info added for this matchup, please request it to be added in the #metagame channel in our discord server!</p>\x0A")}, {Field0: 1503144420, Field1: makeNimstrLit("dark_samus"), Field2: makeNimstrLit("<h1>No matchup info yet!</h1>\x0A<p>If you\'d like info added for this matchup, please request it to be added in the #metagame channel in our discord server!</p>\x0A")}, {Field0: 0, Field1: [], Field2: []}, {Field0: 509666534, Field1: makeNimstrLit("shulk"), Field2: makeNimstrLit("<h1>No matchup info yet!</h1>\x0A<p>If you\'d like info added for this matchup, please request it to be added in the #metagame channel in our discord server!</p>\x0A")}, {Field0: -167218969, Field1: makeNimstrLit("zelda"), Field2: makeNimstrLit("<h1>No matchup info yet!</h1>\x0A<p>If you\'d like info added for this matchup, please request it to be added in the #metagame channel in our discord server!</p>\x0A")}, {Field0: 0, Field1: [], Field2: []}, {Field0: -2017320215, Field1: makeNimstrLit("pichu"), Field2: makeNimstrLit("<h1>No matchup info yet!</h1>\x0A<p>If you\'d like info added for this matchup, please request it to be added in the #metagame channel in our discord server!</p>\x0A")}, {Field0: -931379734, Field1: makeNimstrLit("isabelle"), Field2: makeNimstrLit("<h1>No matchup info yet!</h1>\x0A<p>If you\'d like info added for this matchup, please request it to be added in the #metagame channel in our discord server!</p>\x0A")}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: -2106880785, Field1: makeNimstrLit("ken"), Field2: makeNimstrLit("<h1>No matchup info yet!</h1>\x0A<p>If you\'d like info added for this matchup, please request it to be added in the #metagame channel in our discord server!</p>\x0A")}, {Field0: 0, Field1: [], Field2: []}, {Field0: -1811961871, Field1: makeNimstrLit("palutena"), Field2: makeNimstrLit("<h1>No matchup info yet!</h1>\x0A<p>If you\'d like info added for this matchup, please request it to be added in the #metagame channel in our discord server!</p>\x0A")}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 1945547256, Field1: makeNimstrLit("pyra"), Field2: makeNimstrLit("<h2>General gameplan and tips</h2>\x0A<p>Pythra\xE2\x80\x99s disjoints beat G&amp;W pretty hard, but Aegis has a pretty bad disadvantage state, particularly landing and recovering.\x0AIf you can gimp Aegis, you win.</p>\x0A<p>In neutral camp Pyra out. If she gets to hit you you lose.</p>\x0A<p>Focus on their habits when they recover, it\xE2\x80\x99s a bit linear but they can mix it up with swap.\x0ALuckily, bair is long lasting enough to last through swap.</p>\x0A<p>If you put them in a situation where they have to Photon Edge to recover, you can use up b to send them further off stage.\x0ASee <a href=\"https://youtu.be/MWSPUz2iMSI?t=1277\" target=\"_blank\">this video timestamp</a> of Miya using up b against Mythra\'s side b.</p>\x0A<p>They are a bait and punish character (especially Mythra, Pyra is more of a Waller) too but Mythra significantly outspeeds G&amp;W so you can\xE2\x80\x99t really camp her out. Remember the neutral triangle (Bait and punish beats poking, overshooting beats B&amp;P, poking beats overshooting). Keep Aegis in disadvantage for as long as possible, juggling and ledgetrapping them to hell. Pyra F Tilt is safe on G&amp;W shield if spaced properly so don\xE2\x80\x99t contest that. If Pyra is above you on a platform, beware of her dair.</p>\x0A<p>When landing, stay the hell away from them.</p>\x0A<p>The key in neutral is seriously just better bait and punish, overshooting and poking. Don\xE2\x80\x99t grab movement, only grab whiffs (that\xE2\x80\x99s universal but it\xE2\x80\x99s especially true with Mythra. However, it\xE2\x80\x99s a bit weird. Foresight activation frames lasts from frames 2-7, but grabs don\xE2\x80\x99t activate Foresight, so she can be grabbed until Frame 8).</p>\x0A")}, {Field0: 2006991609, Field1: makeNimstrLit("mr_game_and_watch"), Field2: makeNimstrLit("<h1>No matchup info yet!</h1>\x0A<p>If you\'d like info added for this matchup, please request it to be added in the #metagame channel in our discord server!</p>\x0A")}, {Field0: 0, Field1: [], Field2: []}, {Field0: -1562944261, Field1: makeNimstrLit("dark_pit"), Field2: makeNimstrLit("<h1>No matchup info yet!</h1>\x0A<p>If you\'d like info added for this matchup, please request it to be added in the #metagame channel in our discord server!</p>\x0A")}, {Field0: -897441285, Field1: makeNimstrLit("rosalina_and_luma"), Field2: makeNimstrLit("<h1>No matchup info yet!</h1>\x0A<p>If you\'d like info added for this matchup, please request it to be added in the #metagame channel in our discord server!</p>\x0A")}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}], counter: 89}];
+var characterHtmlPages_452985197 = [{data: [{Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: -902394362, Field1: makeNimstrLit("ice_climbers"), Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: -1570547443, Field1: makeNimstrLit("cloud"), Field2: makeNimstrLit("<h2>General gameplan and tips</h2>\x0A<p>Our best opening we have vs Cloud is when he\xE2\x80\x99s off stage.\x0ATry getting him off stage, then killing him with bair.\x0AIf he\xE2\x80\x99s recovering low, we can dash attack 2 frame his up B almost always (even with limit up b).</p>\x0A<p>Play grounded, he can swat us out of the air very easily with huge hitboxes without thinking</p>\x0A<p>Make use of dash -&gt; shield and walk -&gt; shield to mess up his spacing, to give us openings to use up b oos</p>\x0A<p>Parry his fair/bair, then dash attack or grab</p>\x0A<p>If he\xE2\x80\x99s constantly using falling aerials, we can open him up with a pre-emptive up b, or fh nair</p>\x0A<h2>Getting out of the corner</h2>\x0A<ul>\x0A<li>If we\xE2\x80\x99re being pressured in the corner, don\xE2\x80\x99t jump</li>\x0A<li>Walk -&gt; shield is really good here</li>\x0A<li>Getting grabbed by cloud never matters, so don\'t worry about that here</li>\x0A<li>You can also up b through his shit in the corner because of our iframes, then just have to deal with landing</li>\x0A</ul>\x0A<h2>Ledge trapping</h2>\x0A<p>Chef at ledge is really good as it can force a jump from ledge. You can call out the jump with sh up air, which combos into up b, sending cloud back off stage.</p>\x0A<p>Cloud\xE2\x80\x99s up smash is huge, he can punish spaced landing bair on shield with up smash</p>\x0A<p>Cloud Neutral b can be absorbed by bucket, and bucket will kill at around 15%.</p>\x0A<h2>Cloud up b counterplay</h2>\x0A<ul>\x0A<li>Shield the rising hits, roll behind him, and charge down smash</li>\x0A<li>Shield the rising hits, spot dodge the falling hits, and down smash</li>\x0A<li>Shield rising hits, up b or up air him on the way down</li>\x0A<li>Shield rising hits, up smash him on the way down</li>\x0A</ul>\x0A<h2>Cloud side b counterplay:</h2>\x0A<p>If Cloud does a full side b on our shield, it\xE2\x80\x99s -24. We have just enough time to drop shield -&gt; dsmash</p>\x0A<p>If Cloud starts side b on our shield, we can roll behind him after the 2nd hit</p>\x0A<p>Cloud\xE2\x80\x99s limit side B can be parried easily for a free down smash</p>\x0A<p>Watch <a href=\"https://www.youtube.com/watch?v=kXROMJgX9J0\" target=\"_blank\">this video on how to spot dodge cloud side b</a>, it\xE2\x80\x99s really free</p>\x0A<h2>Bread and Butter kill confirm percents</h2>\x0A<ul>\x0A<li>Nair -&gt; Dtilt kills at 105% at ledge</li>\x0A<li>Nair -&gt; FTilt kills at 112% at ledge</li>\x0A</ul>\x0A")}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: -1419867376, Field1: makeNimstrLit("sephiroth"), Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: -207789544, Field1: makeNimstrLit("kazuya"), Field2: makeNimstrLit("<h2>How to play neutral</h2>\x0A<h3>Do not Approach</h3>\x0A<ul>\x0A<li>Approaching is one of the main things you want to avoid vs kazuya since he can easily stuff out approaches like dash attack, grab and nair with moves such as back tilt and ewgf.</li>\x0A</ul>\x0A<h3>Camp/Play patiently</h3>\x0A<ul>\x0A<li>\x0A<p>Kazuya can stuff out our approaches, but we can stuff out his approaches too</p>\x0A</li>\x0A<li>\x0A<p>Chef is really good at dealing with kazuya approaching, him reflecting the bacons will be useless since it will just clank with the next bacon, cdc wouldn\'t work as there are times where it isn\'t invincible, and since chef has 5 long lasting hitboxes it will hit him</p>\x0A</li>\x0A<li>\x0A<p>Fair and bair are also decent tools vs kazuya. Keep in mind to be careful with your chefs as sometimes kazuya\'s will use neutral b to hit you, which goes through chef.</p>\x0A</li>\x0A<li>\x0A<p>When close to kaz try to avoid shielding as much as possible since ewgf just ignores shield, in general you just don\'t want to be near kaz, you have to play the MU similar to fighting Luigi at 0.</p>\x0A</li>\x0A</ul>\x0A<h2>Advantage is HUGE for us</h2>\x0A<ul>\x0A<li>Kazuya notoriously has a really bad disadvantage state and G&amp;W is very good at capitalizing off it.</li>\x0A<li>Kazuya gets juggled insanely hard as he has very few options to get down, his only real options are airdodge and down air, with down air being super easy to predict.</li>\x0A<li>You can also edgeguard kaz easily since his recovery is extremely linear, if he goes low aim to stage spike him with bair.</li>\x0A<li>Kazuya also gets ledgetrapped pretty hard, he doesn\'t have too many answers to chef.</li>\x0A</ul>\x0A<h2>Disadvantage</h2>\x0A<ul>\x0A<li>\x0A<p>G&amp;W is one of the harder characters for kaz to combo but he still has true confirms, most of the time you can try to sdi out or up b out of the combos, but it mainly comes down to the kazuya dropping the combo or not.</p>\x0A</li>\x0A<li>\x0A<p>If you\'re offstage you won\'t have to worry about getting edgeguarded, since it\'s risky to edgeguard G&amp;W in the first place and kaz isn\'t that great at edgeguarding. Drop down nair is risky as kaz has quite a few moves to combat it, ftilt, tombstone crusher, dragon uppercut to name a few so try to not use it too much.</p>\x0A</li>\x0A<li>\x0A<p>Most of the time just use the different getup options depending on what the kaz is doing, roll is a bit risky due to auto turn around though.</p>\x0A</li>\x0A</ul>\x0A<h2>What to do vs rage drive</h2>\x0A<ul>\x0A<li>\x0A<p>Against rage drive, avoid using chef as kaz can just armor right through it.</p>\x0A</li>\x0A<li>\x0A<p>Try to bait out the rage drive and punish with like a fair or ftilt, getting him offstage is also a good decision as it can setup for an edgeguard kill or kaz just getting ledgetrapped.</p>\x0A</li>\x0A<li>\x0A<p>While ledgetrapping, try to be careful with chef since after the 5th bacon he can just do regular getup into rage drive.\x0AFair is a good way to counter regular/getup attacks.</p>\x0A</li>\x0A</ul>\x0A")}, {Field0: -1818239464, Field1: makeNimstrLit("luigi"), Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: -519537124, Field1: makeNimstrLit("bowser_jr"), Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: -966922720, Field1: makeNimstrLit("young_link"), Field2: []}, {Field0: -1415198175, Field1: makeNimstrLit("jigglypuff"), Field2: makeNimstrLit("<h2>General gameplan</h2>\x0A<ul>\x0A<li>\x0A<p>Jigglypuff players like to play passive and campy this can be punished by fair spamming and up air spamming if they try to go over you</p>\x0A</li>\x0A<li>\x0A<p>Jigglypuff can\xE2\x80\x99t really beat G&amp;W\xE2\x80\x99s disjoints, so you should abuse fair and bair as much as possible</p>\x0A</li>\x0A<li>\x0A<p>A lot of Jigglypuff players like to use pound to approach to counter this. Make sure to keep your distance from puff and don\xE2\x80\x99t just jump straight into puff.</p>\x0A</li>\x0A<li>\x0A<p>Pound can be beaten by bair and fsmash. If you expect Puff to pound, dash back -&gt; fsmash is a good minimal risk punish that can kill puff at 70%</p>\x0A</li>\x0A<li>\x0A<p>Pound also combo\xE2\x80\x99s into soft fair into rest, so avoiding getting hit by pound at 26-40% is top priority\x0AFurthermore, pound -&gt; soft fair -&gt; rest can be avoided by di\xE2\x80\x99ing away on the pound</p>\x0A</li>\x0A<li>\x0A<p>Doing a random upsmash when a puff approaches is a good mixup, and can catch a stray puff aerial\x0AG&amp;W is such a cheater character that it\xE2\x80\x99s almost impossible for a puff to punish you for doing a random upsmash</p>\x0A</li>\x0A</ul>\x0A<h2>Dealing with puff offstage, dair loops, and recovering</h2>\x0A<ul>\x0A<li>\x0A<p>Jigglypuff is one of the few characters in the game where G&amp;W can struggle to edgeguard or even ledgetrap.\x0AIf Jigglypuff recovers low, using dair off stage can be a good punish, or just waiting for her to come to stage and ledgetrapping with chef can also be good</p>\x0A</li>\x0A<li>\x0A<p>If Jigglypuff recovers high, there\xE2\x80\x99s nothing G&amp;W can really do to stop her so just wait on stage and harass her with up airs when she tries coming back down</p>\x0A</li>\x0A<li>\x0A<p>You can escape jigglypuff dair loops by hard sdi\'ing up</p>\x0A</li>\x0A<li>\x0A<p>Jigglypuff has a confirm of dair into rest, so make sure to switch up which way your sdi\'ing up as to not get hit by rest</p>\x0A</li>\x0A<li>\x0A<p>If a Jigglypuff misses rest, use a charged upsmash to kill at 50% or later</p>\x0A</li>\x0A<li>\x0A<p>Jigglypuff is also one of the few characters that can actually punish G&amp;W up b.\x0AIf she uses pound at ledge, it will 2 frame G&amp;W up b every time. To counter this, use bucket to slow your fall to try and mix up when you\'re going to up b, so the puff will mess up the timing</p>\x0A</li>\x0A</ul>\x0A<h2>Bread and Butter kill confirm percents</h2>\x0A<ul>\x0A<li>\x0A<p>Nair -&gt; Ftilt will kill puff at 88% at ledge.</p>\x0A</li>\x0A<li>\x0A<p>Nair -&gt; Dtilt will kill puff at 80% at ledge (Note nair -&gt; Dtilt is very inconsistent against short character\xE2\x80\x99s like puff).</p>\x0A</li>\x0A</ul>\x0A")}, {Field0: 0, Field1: [], Field2: []}, {Field0: -1577725917, Field1: makeNimstrLit("sora"), Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: -19708635, Field1: makeNimstrLit("olimar"), Field2: []}, {Field0: -559580122, Field1: makeNimstrLit("yoshi"), Field2: makeNimstrLit("<h2>General gameplan</h2>\x0A<ul>\x0A<li>\x0A<p>Generally what I do is use nair a lot until about 30 percent, then I spam the ever loving fuck outta bomb</p>\x0A</li>\x0A<li>\x0A<p>Be careful of egg toss when edge guarding</p>\x0A</li>\x0A<li>\x0A<p>You can try to bait a high recovery by jumping out early backwards and threatening a back air which if they jump you can return to stage and punish the landing. Back air will go through egg so if they throw it out you can hit through or drop beneath it and punish the end lag. Up air is really good at covering going above ledge as well. If they don\'t jump you can drop down and hit them with the back air.</p>\x0A</li>\x0A<li>\x0A<p>If you don\'t have time to do this though, your best bet is to ledgetrap. Using bacon is tough, because of egg toss. So, I usually wait until they grab ledge, and reflect/shield any eggs, then ledge trap normally.</p>\x0A</li>\x0A</ul>\x0A<h2>Vods</h2>\x0A<ul>\x0A<li><a href=\"https://www.youtube.com/watch?v=TnHpmnaQ_OM\" target=\"_blank\">Check out Miya vs Yoshidora</a></li>\x0A</ul>\x0A")}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 249896745, Field1: makeNimstrLit("bowser"), Field2: makeNimstrLit("<h2>General gameplan</h2>\x0A<ul>\x0A<li>\x0A<p>In neutral, Bowser will try to fight you in neutral with patience, good positioning and using up B oos as a zone bursting option. He will spend his time in neutral playing grounded bc he has access to quick grounded buttons like jab and ftilt.</p>\x0A</li>\x0A<li>\x0A<p>He has very little ways to directly contest sh ff nair besides these options.</p>\x0A</li>\x0A<li>\x0A<p>Bowser up B oos is a good zone disrupting tool and can be annoying if we mispace an aerial on his shield. But, he is open for a huge punish afterwards. At low percents we can get dash grab, nair or usmash as a combo starter and at higher percents we can get usmash/dsmash oos.</p>\x0A</li>\x0A<li>\x0A<p>Bowser\xE2\x80\x99s disadvantage is horrible. Harass him as hard as you can with up air and try to push him to the corner for a ledgetrap/edgeguard.</p>\x0A</li>\x0A<li>\x0A<p>Be weary of Bowser dair if you are at high percents, but this option loses to our up air.</p>\x0A</li>\x0A<li>\x0A<p>Ledgetrap Bowser <em>outside</em> of roll distance. His getup attack is huge, and can catch poorly spaced chef setups.</p>\x0A</li>\x0A<li>\x0A<p>You can bait him to getup attack by purposefully doing mispaced chef into dtilt oos. But, look out for dropdown side B.</p>\x0A</li>\x0A<li>\x0A<p>Most bowsers will be looking for ledgejump nair into bair kill confirm as their escape option. Catch their jumps with nair or up air and keep the pressure going.</p>\x0A</li>\x0A<li>\x0A<p>When bowser is offstage, he has decent mixups if he has his double jump. Use up B as an edgeguarding option to push him offstage if you have to.</p>\x0A</li>\x0A</ul>\x0A<h2>Disadvantage</h2>\x0A<ul>\x0A<li>\x0A<p>Disadvantage vs Bowser is tough, because of his ground speed. Retreat to the corner and avoid landing on spots where he can catch your landing with utilt or usmash.</p>\x0A</li>\x0A<li>\x0A<p>He can use flame breath to catch your landings, but this works if he knows you like to land aggressively!</p>\x0A</li>\x0A<li>\x0A<p>Getting off ledge vs Bowser is tough because he can react to every option besides jump with up B oos. Getting off the ledge with jump is your best option, then you slowly mix in other escape options.</p>\x0A</li>\x0A<li>\x0A<p>When recovering, please do not overshoot up B as a recovery. He will punish you on the way down with usmash, utilt or up air.</p>\x0A</li>\x0A<li>\x0A<p>When you are at KO percents, look out for Bowser side B. He will catch you with this when he knows you are scared and become shield heavy.</p>\x0A</li>\x0A</ul>\x0A<h2>Bread and Butter kill confirm percents</h2>\x0A<ul>\x0A<li>\x0A<p>Nair -&gt; Dtilt kills at 114% at ledge</p>\x0A</li>\x0A<li>\x0A<p>Nair -&gt; Ftilt kills at 124% at ledge</p>\x0A</li>\x0A</ul>\x0A")}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 861289779, Field1: makeNimstrLit("corrin"), Field2: []}, {Field0: -1858281164, Field1: makeNimstrLit("donkey_kong"), Field2: []}, {Field0: 446026292, Field1: makeNimstrLit("link"), Field2: makeNimstrLit("<h2>General gameplan</h2>\x0A<ul>\x0A<li>\x0A<p>I prefer to mostly camp in this matchup, forcing Link to approach.</p>\x0A</li>\x0A<li>\x0A<p>In many matchups, Link will want to use landing nair in neutral as an opener. We can simply shield -&gt; up b this move, or even up b when he\xE2\x80\x99s above us (before the move even touches our shield).</p>\x0A</li>\x0A<li>\x0A<p>If Link doesn\'t want to approach, he will throw projectiles. Using bucket to deal with arrow and boomerang can be a bit too committal for little reward, so I usually avoid using bucket, unless it\xE2\x80\x99s to reflect boomerang returning to Link.\x0AInstead, we can use back air to destroy arrows and boomerang.</p>\x0A</li>\x0A<li>\x0A<p>Link\xE2\x80\x99s bomb explosion can be absorbed (fills 1 stack of bucket). Usually Link has to manually blow up the bomb. He will try to bait you to use bucket, so he can punish you during the move\xE2\x80\x99s lag. He will not want to fill your bucket, as it can kill Link pretty early.</p>\x0A</li>\x0A<li>\x0A<p>To deal with this, we can manually explode the bomb with our forward air. There\'s a specific timing that can be used to blow up the bomb AND absorb that explosion with our bucket. See <a href=\"https://youtu.be/G2A4c_A6Wn4?t=34\" target=\"_blank\">this video on how to perform this setup properly</a>.\x0AIt is worth practicing, I\xE2\x80\x99ve won games and sets from doing this against multiple Link mains.</p>\x0A</li>\x0A</ul>\x0A<h2>Ledge trapping and edge guarding</h2>\x0A<ul>\x0A<li>\x0A<p>Link will usually recover in 1 of 2 ways: Up b from under the ledge, or use bomb recovery.</p>\x0A</li>\x0A<li>\x0A<p>When link is recovering low, I like to use chef 3 (neutral chef angle) to get as many hits in as possible. When he gets to ledge, you will be in getup-attack range. We can use this as a bait to jump -&gt; fair the ledge to punish the getup attack. If he catches on, he\xE2\x80\x99ll likely try to roll or jump.</p>\x0A</li>\x0A<li>\x0A<p>If Link is at a high % and recovering low, try to hit his head with dair while he is going for up b.</p>\x0A</li>\x0A<li>\x0A<p>If Link is far from the stage, you can try getting near him for a back air before he has time to pull bomb and use it to recover.</p>\x0A</li>\x0A<li>\x0A<p>If Link is going to bomb recover high, just try to punish his landing and send him back off stage asap.</p>\x0A</li>\x0A</ul>\x0A")}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 1682730300, Field1: makeNimstrLit("pikachu"), Field2: []}, {Field0: -863941827, Field1: makeNimstrLit("min_min"), Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: -74399425, Field1: makeNimstrLit("chrom"), Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: -1477441465, Field1: makeNimstrLit("mario"), Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: -932942515, Field1: makeNimstrLit("rob"), Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 1281212751, Field1: makeNimstrLit("falco"), Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 917018705, Field1: makeNimstrLit("byleth"), Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: -2082695083, Field1: makeNimstrLit("robin"), Field2: []}, {Field0: -604960682, Field1: makeNimstrLit("daisy"), Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: -866004386, Field1: makeNimstrLit("king_dedede"), Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 1411473506, Field1: makeNimstrLit("ridley"), Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: -502051226, Field1: makeNimstrLit("piranha_plant"), Field2: []}, {Field0: -2069494425, Field1: makeNimstrLit("richter"), Field2: []}, {Field0: -2104244633, Field1: makeNimstrLit("sheik"), Field2: []}, {Field0: -1621867415, Field1: makeNimstrLit("fox"), Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 1557688173, Field1: makeNimstrLit("ryu"), Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: -897124241, Field1: makeNimstrLit("inkling"), Field2: []}, {Field0: -1189835409, Field1: makeNimstrLit("wolf"), Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 669781364, Field1: makeNimstrLit("greninja"), Field2: []}, {Field0: 2062329461, Field1: makeNimstrLit("king_k_rool"), Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: -1862255228, Field1: makeNimstrLit("pac_man"), Field2: []}, {Field0: -1488042875, Field1: makeNimstrLit("little_mac"), Field2: makeNimstrLit("<h2>Win Conditions</h2>\x0A<ul>\x0A<li>Keeping a stock advantage.</li>\x0A<li>Sending him offstage can almost always lead to a kill if punished correctly. Hard to cover multiple options so you usually have to read or bait an option out.\x0A-Avoiding interaction when at an advantage.</li>\x0A</ul>\x0A<h2>Focus:</h2>\x0A<ul>\x0A<li>Capitalizing on edge guards. Looking out for mix-ups on recovery. (Side B is very hard to challenge)</li>\x0A<li>Using up Mac\'s resources offstage. (One jump, side b, air dodge)</li>\x0A<li>Trades on ledge can kill him.</li>\x0A<li>Avoiding interactions in neutral due to his speed, kill power, and overall neutral.</li>\x0A<li>His up-b doesn\xE2\x80\x99t always snap to ledge unless spaced well. Easy to hit with dsmash, dash attack.</li>\x0A</ul>\x0A<h2>Neutral:</h2>\x0A<ul>\x0A<li>Try to stay on platforms when you have an advantage. Fish for mistakes or risky options from him to punish and rack up more damage or a kill. He has no real answer to platform camping. He has to pressure you with upsmash or commit to an aerial or side b or even up b sometimes.</li>\x0A<li>Avoid air dodging out of dtilt and uptilt. Up b is almost unpunishable, but he can kill  you with up b so look out at high percents. Up B will be your go to option most of the time. If necessary air dodge to the platforms though he can punish it if he waits.</li>\x0A<li>Dash attack is really good to get him offstage but risky. Can follow-up with another DA at low percents to catch first landing. Most macs won\'t jump so this can work.</li>\x0A<li>Avoid rolling since it\'s too slow. Rely on up-b to get out of most situations EXCEPT dtilt KO punch, you need the iframes at f3 to avoid. Air dodge is very laggy so he can punish it if he reacts or waits.</li>\x0A<li>When platform camping, drop down fair is really good pressure and pretty safe. Just watch out for smash attacks or antiairs.</li>\x0A<li>Wait 4 seconds for KO punch &quot;armor&quot; to go away, then hit him with anything that will put him in tumble. This will get rid of it.</li>\x0A<li>Don\'t let him pressure your shield. He can break it. Up-B to get out of pressure. He can\'t break your full shield except with full charge downsmash probably. If you start getting shield pressured try to escape to avoid shield break.</li>\x0A</ul>\x0A<h2>Disadvantage:</h2>\x0A<h3>Ledge</h3>\x0A<ul>\x0A<li>Watch out for dsmash and dtilt at ledge. He can 2frame you easily. Mix up recovery timings with bucket or jumping.</li>\x0A<li>Ftilt at ledge will kill early and is active. Mix up your recovery options from ledge. Dtilt is frame 3 which is unreactable so don\'t wait too long or he\'ll kill you off a dtilt.</li>\x0A<li>Can armor through get up attack. Upsmash hits ledge. Try to get off ledge ASAP since his kill power makes it unsafe.</li>\x0A<li>The character overall is very dangerous at ledge and has the speed to cover almost everything though he does have to commit to punish so actively mixing it up is always good.</li>\x0A</ul>\x0A<h3>Juggling</h3>\x0A<ul>\x0A<li>Mac can\'t juggle luhmao.</li>\x0A<li>If in the air though he will try to catch landings. He usually tries to take your jump but it\'s not too much of a problem with up b.</li>\x0A<li>Don\'t Dair, it is super punishable by him. Either land on a platform or throw out a hitbox safely to protect yourself like fair or bair, just be aware of his armored smash attacks.</li>\x0A</ul>\x0A<h2>Advantage:</h2>\x0A<h3>Ledge</h3>\x0A<ul>\x0A<li>Dash attack sends at a good angle. May lead into bair. Side B might outrange your dash attack.</li>\x0A<li>Dsmash can 2 frame, but sweetspot will send up. Sour spot will kill him.</li>\x0A<li>Punish get up attack on shield with dtilt. Will most likely kill him at mid% and up. Upsmash at 0 to mid % for damage.</li>\x0A<li>Down smash at ledge is good.</li>\x0A<li>Chef covers ledgehang, roll (spaced), jump, regular getup. He can side b through it though if given the chance since it\xE2\x80\x99s disjointed it will always beat the bacon. It forces an early option on ledge though.</li>\x0A</ul>\x0A<h3>Offstage</h3>\x0A<ul>\x0A<li>Bair is usually the way to go. Will beat anything he can throw out if spaced well. Side B is the hardest thing to challenge. Watch out for counters too.</li>\x0A<li>All he has are mixups. Bair or force an option then punish. (Counter, Side B, Airdodge, Up-B, Jump)</li>\x0A<li>Watch out for walljump recoveries on some stages. Dair can cover it pretty well if timed right, but will send up. Reverse dair to bounce him off stage.</li>\x0A<li>Dragdown nair and bair will kill him. Just be ready to tech if he side b\'s early.</li>\x0A<li>When you\'re low and he\'s about to don\'t hit him with up-b as a mixup. There\'s a chance he\'ll try teching and airdodge and die instead.</li>\x0A</ul>\x0A<h2>Juggling</h2>\x0A<ul>\x0A<li>Nair, Upair.</li>\x0A<li>If he starts using Neutral B armor to get down you can catch landings with dash attack. Try to catch landings with grabs. Throw offstage if near ledge or dthrow at low percents for more nair chains.</li>\x0A<li>If he\'s over you just up-b to get him away from you if you\'re not sure what he\'s up to. Up air is okay too if hes above you or just nair.</li>\x0A</ul>\x0A<h2>Misc.</h2>\x0A<ul>\x0A<li>Dtilt KO punch is true unless you airdodge. Try to AD towards a platform or offstage.</li>\x0A<li>Tech everything and mix it up. Jablocks are really good for him and tech chases can kill you or rack up lots of damage. Fair, bair are used for jab lock setups sometimes.</li>\x0A<li>Can\'t shield KO Punch. Has a lot of lag on whiff.</li>\x0A<li>Very fast character and can outspeed your aerial movement.</li>\x0A</ul>\x0A<h2>Stages</h2>\x0A<h3>Battlefield:</h3>\x0A<ul>\x0A<li>Can camp him out hard.</li>\x0A<li>Watch out for wavelandings.</li>\x0A<li>His Up-B will kill at higher percents on the top platform.</li>\x0A</ul>\x0A<h3>Final Destination</h3>\x0A<ul>\x0A<li>Always ban.</li>\x0A</ul>\x0A<h3>Town and City</h3>\x0A<ul>\x0A<li>It\'s an okay stage, but when the platforms disappear, Mac thrives. Stall for platforms. They can save mac too when returning sometimes.</li>\x0A<li>Small blastzones at ledge benefit him more.</li>\x0A</ul>\x0A<h3>Smashville</h3>\x0A<ul>\x0A<li>Really good platform to avoid interaction.</li>\x0A<li>He can\'t reach the platform with upsmash and has to jump which is good for us.</li>\x0A</ul>\x0A<h3>Pokemon Stadium 2</h3>\x0A<ul>\x0A<li>Generally okay. Upsmash reaches the platforms but only if you are directly above him.</li>\x0A<li>Access to walljumps.</li>\x0A<li>Overall a decent stage.</li>\x0A</ul>\x0A<h3>Yoshi\'s Story</h3>\x0A<ul>\x0A<li>Avoid this stage if possible. Triplats are good but small blastzones will get you killed earlier. Uptilt UpB kills very early. And gives him access to walljump.</li>\x0A<li>Easier for him to dsmash/dtilt you when recovering.</li>\x0A</ul>\x0A<h3>Kalos</h3>\x0A<ul>\x0A<li>His worst stage for killing. Has walljump. Use platforms to cover options when edgeguarding.</li>\x0A<li>You live a lot longer on this stage.</li>\x0A</ul>\x0A<h3>Lylat</h3>\x0A<ul>\x0A<li>Not enough info.</li>\x0A</ul>\x0A")}, {Field0: 1678674054, Field1: makeNimstrLit("ganondorf"), Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: -1766580597, Field1: makeNimstrLit("diddy_kong"), Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 651466383, Field1: makeNimstrLit("joker"), Field2: []}, {Field0: 1695946383, Field1: makeNimstrLit("toon_link"), Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 694791314, Field1: makeNimstrLit("duck_hunt"), Field2: []}, {Field0: 1666503315, Field1: makeNimstrLit("mii_brawler"), Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 1315739029, Field1: makeNimstrLit("mythra"), Field2: makeNimstrLit("<h2>General gameplan and tips</h2>\x0A<p>Pythra\xE2\x80\x99s disjoints beat G&amp;W pretty hard, but Aegis has a pretty bad disadvantage state, particularly landing and recovering.\x0AIf you can gimp Aegis, you win.</p>\x0A<p>In neutral camp Pyra out. If she gets to hit you you lose.</p>\x0A<p>Focus on their habits when they recover, it\xE2\x80\x99s a bit linear but they can mix it up with swap.\x0ALuckily, bair is long lasting enough to last through swap.</p>\x0A<p>If you put them in a situation where they have to Photon Edge to recover, you can use up b to send them further off stage.\x0ASee <a href=\"https://youtu.be/MWSPUz2iMSI?t=1277\" target=\"_blank\">this video timestamp</a> of Miya using up b against Mythra\'s side b.</p>\x0A<p>They are a bait and punish character (especially Mythra, Pyra is more of a Waller) too but Mythra significantly outspeeds G&amp;W so you can\xE2\x80\x99t really camp her out. Remember the neutral triangle (Bait and punish beats poking, overshooting beats B&amp;P, poking beats overshooting). Keep Aegis in disadvantage for as long as possible, juggling and ledgetrapping them to hell. Pyra F Tilt is safe on G&amp;W shield if spaced properly so don\xE2\x80\x99t contest that. If Pyra is above you on a platform, beware of her dair.</p>\x0A<p>When landing, stay the hell away from them.</p>\x0A<p>The key in neutral is seriously just better bait and punish, overshooting and poking. Don\xE2\x80\x99t grab movement, only grab whiffs (that\xE2\x80\x99s universal but it\xE2\x80\x99s especially true with Mythra. However, it\xE2\x80\x99s a bit weird. Foresight activation frames lasts from frames 2-7, but grabs don\xE2\x80\x99t activate Foresight, so she can be grabbed until Frame 8).</p>\x0A")}, {Field0: -457491563, Field1: makeNimstrLit("steve"), Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 1239869336, Field1: makeNimstrLit("dr_mario"), Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 796016796, Field1: makeNimstrLit("zero_suit_samus"), Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 1191960990, Field1: makeNimstrLit("samus"), Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 328022176, Field1: makeNimstrLit("terry"), Field2: makeNimstrLit("<h2>General gameplan</h2>\x0A<ul>\x0A<li>\x0A<p>While getting hit by powerdunk, SDI\xE2\x80\x99ing down+in really hard will make you fall out of the move, pretty much 100% of the time</p>\x0A</li>\x0A<li>\x0A<p>Power Gyser is -29 on shield. Either up smash, or dsmash this move</p>\x0A</li>\x0A<li>\x0A<p>Buster wolf is -45 on shield. You can charge an up smash for quite a long time here for a huge punish</p>\x0A</li>\x0A<li>\x0A<p>His neutral b can be absorbed with bucket, and his approach options aren\xE2\x80\x99t great. Force him to approach, and call out his movement.\x0ABucket will kill at 15% at center stage on FD.</p>\x0A</li>\x0A<li>\x0A<p>Once Terry gets go meter, you should be careful when attacking his shield with anything but nair or fair as he can do jab into buster wolf if you do a laggy move on his shield which can kill at around 60-70%.</p>\x0A</li>\x0A<li>\x0A<p>Terry can do Jab Jab Input Up B and it will kill G&amp;W at around 100%\x0AThis can be avoided by sdi away, however you have to guess if Terry is doing Input up b or input down b, so when you go over 100% it\xE2\x80\x99s easier to just try to avoid any committal moves on his shield.</p>\x0A</li>\x0A<li>\x0A<p>Crack Shoot has 12 frames of endlag on shield, which means a perfectly timed down smash can punish crack shoot OOS. You can also punish with up b.\x0ASome Terry players love to do Crack Shoot in the middle of neutral. This can be intercepted mid Crack Shoot by Up smash or F smash, however you have to read it and time it correctly.</p>\x0A</li>\x0A</ul>\x0A<h2>Edge guarding</h2>\x0A<ul>\x0A<li>\x0A<p>Terry players seem to love recovering high, with either burning knuckle or powerdunk.\x0AThis predictable recovery makes them very susceptible to our Bair or Up b</p>\x0A</li>\x0A<li>\x0A<p>If terry recovers low, we can easily stage-spike with bair since their mixups off stage are very limited</p>\x0A</li>\x0A</ul>\x0A<h2>Bread and Butter kill confirm percents</h2>\x0A<ul>\x0A<li>Nair -&gt; Dtilt will kill terry at around 104% at ledge</li>\x0A<li>Nair -&gt; Ftilt kills at around 115% at ledge</li>\x0A</ul>\x0A")}, {Field0: -705950303, Field1: makeNimstrLit("squirtle"), Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: -1667035738, Field1: makeNimstrLit("lucina"), Field2: []}, {Field0: 892418726, Field1: makeNimstrLit("simon"), Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: -1792460374, Field1: makeNimstrLit("charizard"), Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 1305414573, Field1: makeNimstrLit("captain_falcon"), Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: -1345990737, Field1: makeNimstrLit("lucario"), Field2: []}, {Field0: -1892594768, Field1: makeNimstrLit("peach"), Field2: []}, {Field0: 522203569, Field1: makeNimstrLit("incineroar"), Field2: makeNimstrLit("<h2>General gameplan and tips</h2>\x0A<ul>\x0A<li>\x0A<p>Play very grounded! Try to bait and punish. Only try bursting in with nair if bait and punish isn\'t working out</p>\x0A</li>\x0A<li>\x0A<p>Throwing him off stage is better than going for a juggle, according to Maister. Get those bacons in, or punish side b/up b if his mixups are more limited</p>\x0A</li>\x0A<li>\x0A<p>If he falls out of landing bair, just shield. He can spot dodge neutral b for an early kill if we try to grab, like we usually do vs most other characters.</p>\x0A</li>\x0A<li>\x0A<p>Never use fair in this matchup, UNLESS you\'re going for unblockable grab on shield. If he is countering the bombs, we can shield the counter attack then grab.</p>\x0A</li>\x0A<li>\x0A<p>Shield neutral b when he\'s at kill % and we have a healthy shield, shield 3 hits THEN spot dodge. We have a lot of time to punish this move.</p>\x0A</li>\x0A<li>\x0A<p>Incins land on stage with counter attack a lot. We can bait it out and get a huge punish, grab combo, etc.</p>\x0A</li>\x0A<li>\x0A<p>If he is counter attacking bacon, just keep hitting him with bacon until can get an opening to grab or ftilt</p>\x0A</li>\x0A</ul>\x0A<h2>Punishing his landings</h2>\x0A<ul>\x0A<li>\x0A<p>Shield incin when he\'s landing after being juggled. Can punish any of his aerials with grab or up b, if he counters we can wait and react, if he does side b we have enough time to react and up b through it.</p>\x0A</li>\x0A<li>\x0A<p>ALWAYS grab landing nair or fair on shield, it\'s just laggy enough to grab</p>\x0A</li>\x0A<li>\x0A<p>Spaced bair can\'t be grabbed, just up b it</p>\x0A</li>\x0A<li>\x0A<p>Incins like to neutral b after whiffing attacks, be careful of this and punish</p>\x0A</li>\x0A<li>\x0A<p>Look for openings for grabs a lot</p>\x0A</li>\x0A<li>\x0A<p>His nair/fair will go through 3-4 bacons, don\'t throw bacon when he\'s up high/recovering high</p>\x0A</li>\x0A<li>\x0A<p>Incin mains love jumping from ledge, so use nair or up air after throwing bacon if he snaps to ledge without bacon hitting him</p>\x0A</li>\x0A</ul>\x0A<h2>Surviving</h2>\x0A<ul>\x0A<li>DI up if incin rising up b connects, we will always fall out</li>\x0A<li>Air dodge toward the stage if incin side b connects so you\'ll live longer</li>\x0A</ul>\x0A<h2>Punishing his recovery</h2>\x0A<ul>\x0A<li>Ftilt incin recovery at ledge</li>\x0A<li>Always shield his aggressive up b\'s back onto stage</li>\x0A<li>We can up b through his up b to kill him off stage!</li>\x0A<li>If he\'s recovering low close to the stage, we can dair his up b recovery</li>\x0A</ul>\x0A<h2>Getting off ledge</h2>\x0A<ul>\x0A<li>If he is trying to dtilt at ledge, jumping over him from ledge is free</li>\x0A</ul>\x0A<h2>Bread and Butter kill confirm percents</h2>\x0A<ul>\x0A<li>At ledge Nair -&gt; Dtilt kills at 112%</li>\x0A<li>At ledge Nair -&gt; Ftilt kills at 120%</li>\x0A</ul>\x0A")}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: -2100416332, Field1: makeNimstrLit("hero"), Field2: []}, {Field0: 790940084, Field1: makeNimstrLit("marth"), Field2: []}, {Field0: -925261132, Field1: makeNimstrLit("ness"), Field2: []}, {Field0: -891032651, Field1: makeNimstrLit("villager"), Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: -125561413, Field1: makeNimstrLit("sonic"), Field2: []}, {Field0: -955817284, Field1: makeNimstrLit("mega_man"), Field2: []}, {Field0: 861964989, Field1: makeNimstrLit("kirby"), Field2: []}, {Field0: 970982078, Field1: makeNimstrLit("banjo_and_kazooie"), Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 2050092224, Field1: makeNimstrLit("meta_knight"), Field2: makeNimstrLit("<h2>General gameplan</h2>\x0A<ul>\x0A<li>\x0A<p>In neutral you should be looking out for dash attack and dash grab. They are his main combo starters. He\'ll be looking for those from 0-30% since it\'s the main window for getting his ladder combo early on. He can also get them from up airs on the plat as well but it depends on where he is positioned and how many jumps he has burned.</p>\x0A</li>\x0A<li>\x0A<p>Same idea applies when you are at 70-90% except he is looking for dash attack into up B.</p>\x0A</li>\x0A<li>\x0A<p>You should try to play outside of his dash attack/dash grab burst range and not overextend in neutral.</p>\x0A</li>\x0A<li>\x0A<p>If he is multijumping, he\xE2\x80\x99s generally looking for a landing nair combo starter. Up air/nair him depending on how close he is to you.</p>\x0A</li>\x0A<li>\x0A<p>If MK gets a ladder to the side, you\xE2\x80\x99re pretty much fucked.</p>\x0A</li>\x0A<li>\x0A<p>Dtilt is a strong poke that can lead into a tech chase dsmash or fsmash at mid-late percents. DI up to avoid being put in a tech chase situation.</p>\x0A</li>\x0A<li>\x0A<p>Sometimes its okay to chuck out dsmash/usmash in neutral as a hard callout against his dash attack/grab.</p>\x0A</li>\x0A<li>\x0A<p>Same idea applies if he is multi jumping above you.</p>\x0A</li>\x0A<li>\x0A<p>Getting laddered sucks but you want to mix up your SDI and DI as hard as you can. You can start SDIng around the third up air since it becomes stale and easier to get out of. You can also mash up B too to get out and kill him off the top if he is next to you or escape in a position to where he can\'t Up B himself to kill you.</p>\x0A</li>\x0A<li>\x0A<p>Your main goal when it comes to escaping ladders is to not escape the ladder but to avoid the finisher. The up airs themselves don\xE2\x80\x99t deal much percent but the finisher (depending on MK is positioned) have enough knockback to kill.</p>\x0A</li>\x0A<li>\x0A<p>Outside of ladders, MK has formidable edgeguarding and ledgetrapping. MK will try to wall you with bair/fair if he is ledgetrapping.</p>\x0A</li>\x0A<li>\x0A<p>His edgeguarding is really strong offstage but he will try to cut off low recoveries with nair or neutral B.</p>\x0A</li>\x0A<li>\x0A<p>Don\xE2\x80\x99t recover high otherwise he will up B snipe you. But, don\xE2\x80\x99t be afraid to recover high. You can up B away early on to avoid getting punished and mix your recovery downwards.</p>\x0A</li>\x0A<li>\x0A<p>Watch out for Fsmash at high percentages. It acts like our usmash and he\xE2\x80\x99ll use it as a hard callout if we overextend.</p>\x0A</li>\x0A<li>\x0A<p>MK is really hard to edgeguard since he has multiple jumps and 4 different specials that all act as recovery options but up air cuts off high recoveries and forces him to recover low.</p>\x0A</li>\x0A<li>\x0A<p>Always ban FD</p>\x0A</li>\x0A<li>\x0A<p>Try to take him to Town or Kalos. The higher ceilings work against his ladder combos and we have more space to move around in.</p>\x0A</li>\x0A<li>\x0A<p>Time out MK if you have to. Although he has multi jumps and many mobile special moves, we move faster in the air.</p>\x0A</li>\x0A</ul>\x0A")}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 710861252, Field1: makeNimstrLit("roy"), Field2: makeNimstrLit("<p>Roy\xE2\x80\x99s fsmash on shield can be down tilted if we are close to him during the initial hit.</p>\x0A<p>If the end of the hit (far) touches our shield, it has significantly more lag.\x0AWe can run up -&gt; dtilt for an early kill.</p>\x0A<p>Dtilt will kill Roy at about 120% center stage when we have 50% rage (tested on PS2)</p>\x0A")}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: -277309240, Field1: makeNimstrLit("wario"), Field2: []}, {Field0: -37127991, Field1: makeNimstrLit("mii_swordfighter"), Field2: []}, {Field0: -1680693046, Field1: makeNimstrLit("mewtwo"), Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: -331876660, Field1: makeNimstrLit("mii_gunner"), Field2: []}, {Field0: -1170298931, Field1: makeNimstrLit("pit"), Field2: []}, {Field0: -729405235, Field1: makeNimstrLit("snake"), Field2: []}, {Field0: 1213895119, Field1: makeNimstrLit("bayonetta"), Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 4668377, Field1: makeNimstrLit("ike"), Field2: []}, {Field0: -1769217575, Field1: makeNimstrLit("wii_fit_trainer"), Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 1972240864, Field1: makeNimstrLit("lucas"), Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 2014143459, Field1: makeNimstrLit("ivysaur"), Field2: []}, {Field0: 1503144420, Field1: makeNimstrLit("dark_samus"), Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 509666534, Field1: makeNimstrLit("shulk"), Field2: []}, {Field0: -167218969, Field1: makeNimstrLit("zelda"), Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: -2017320215, Field1: makeNimstrLit("pichu"), Field2: []}, {Field0: -931379734, Field1: makeNimstrLit("isabelle"), Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: -2106880785, Field1: makeNimstrLit("ken"), Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: -1811961871, Field1: makeNimstrLit("palutena"), Field2: makeNimstrLit("<h2>General gameplan and tips</h2>\x0A<p><strong>Do not jump in neutral</strong> vs. Palutena unless it\'s being used to punish her movement.</p>\x0A<p>In neutral, try running underneath her jumps and hold shield.\x0AThis is an attempt to make her mis-space aerials, so we can use up b.</p>\x0A<p>If they space it well, our up b won\'t connect. However, many Palutena players will dash back (or jump back) after. This means we can either chase them with a grab, or a nair.</p>\x0A<p>When they are at kill %, instead of grab or nair, we can dash -&gt; ftilt for the kill.</p>\x0A<p>Crouching in neutral can be really powerful, as it can make her fair, bair, grab, and dash attack all miss.\x0AGrab and dash attack hitting our crouch is inconsistent (depends on our animation hurtbox shifting).</p>\x0A<p>Shield camping in neutral can work very well vs. many Palutena players. Run up -&gt; shield all game.</p>\x0A<p>If she uses down tilt on your shield point blank, you can drop shield -&gt; dash attack or down tilt.</p>\x0A<h2>Situations to look out for</h2>\x0A<ul>\x0A<li>When you\'re at kill % at a distance, often when in the air, Palutena will try using explosive flame (side b) for an early kill. They will try to use this to catch you using dair off stage, landing on stage with an aerial, etc.</li>\x0A<li>They will try to 2 frame you with down tilt at ledge into bair. Down tilt is active for 14 frames, so it\'s INCREDIBLY easy to 2 frame us. The downside of the move, is that it starts on frame 14, so <strong>they can\'t react to our up b</strong>. To avoid this situation, wait until you see down tilt start, then use up b. Be prepared to go super low, and air dodge to ledge if needed.</li>\x0A<li>If you preemptively up b past her down tilt, we can punish it with dair. Her down tilt is laggy.</li>\x0A<li>If we get hit by down tilt or down throw, <strong>DI AWAY</strong> so the back air won\'t connect. DI up and away might be better, untested.</li>\x0A</ul>\x0A<h2>Edge guarding / Ledge trapping</h2>\x0A<p>Typically, you\'ll want to throw bacon at her when she\'s off stage. Be careful of her using side b to hit you using chef, this can kill you.</p>\x0A<p>When she\'s at kill %, you can start baiting her to teleport from a poor position by throwing only 1 bacon, then chasing her off stage with bair. The startup animation of her teleport has 15 frames where you can still hit her (1/4th of a second, or 250 milliseconds).</p>\x0A<h2>Disadvantage</h2>\x0A<ul>\x0A<li>Make use of fast-fall neutral air dodge to avoid her up air trains.</li>\x0A<li>Don\'t burn your double jump when getting juggled!</li>\x0A</ul>\x0A<h2>Stage bans</h2>\x0A<ul>\x0A<li>Town and City</li>\x0A<li>Kalos</li>\x0A</ul>\x0A")}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 1945547256, Field1: makeNimstrLit("pyra"), Field2: makeNimstrLit("<h2>General gameplan and tips</h2>\x0A<p>Pythra\xE2\x80\x99s disjoints beat G&amp;W pretty hard, but Aegis has a pretty bad disadvantage state, particularly landing and recovering.\x0AIf you can gimp Aegis, you win.</p>\x0A<p>In neutral camp Pyra out. If she gets to hit you you lose.</p>\x0A<p>Focus on their habits when they recover, it\xE2\x80\x99s a bit linear but they can mix it up with swap.\x0ALuckily, bair is long lasting enough to last through swap.</p>\x0A<p>If you put them in a situation where they have to Photon Edge to recover, you can use up b to send them further off stage.\x0ASee <a href=\"https://youtu.be/MWSPUz2iMSI?t=1277\" target=\"_blank\">this video timestamp</a> of Miya using up b against Mythra\'s side b.</p>\x0A<p>They are a bait and punish character (especially Mythra, Pyra is more of a Waller) too but Mythra significantly outspeeds G&amp;W so you can\xE2\x80\x99t really camp her out. Remember the neutral triangle (Bait and punish beats poking, overshooting beats B&amp;P, poking beats overshooting). Keep Aegis in disadvantage for as long as possible, juggling and ledgetrapping them to hell. Pyra F Tilt is safe on G&amp;W shield if spaced properly so don\xE2\x80\x99t contest that. If Pyra is above you on a platform, beware of her dair.</p>\x0A<p>When landing, stay the hell away from them.</p>\x0A<p>The key in neutral is seriously just better bait and punish, overshooting and poking. Don\xE2\x80\x99t grab movement, only grab whiffs (that\xE2\x80\x99s universal but it\xE2\x80\x99s especially true with Mythra. However, it\xE2\x80\x99s a bit weird. Foresight activation frames lasts from frames 2-7, but grabs don\xE2\x80\x99t activate Foresight, so she can be grabbed until Frame 8).</p>\x0A")}, {Field0: 2006991609, Field1: makeNimstrLit("mr_game_and_watch"), Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: -1562944261, Field1: makeNimstrLit("dark_pit"), Field2: []}, {Field0: -897441285, Field1: makeNimstrLit("rosalina_and_luma"), Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}, {Field0: 0, Field1: [], Field2: []}], counter: 89}];
 F.line = 36;
 var characterLookup_452985223 = [initTable_452985198(32)];
 Label1: do {
@@ -7989,21 +7989,21 @@ function applyEvents_620757252(n_620757253) {
       F.line = 147;
       var i_620757262 = 0;
       F.line = 117;
-      var colontmp__452988454 = 0;
+      var colontmp__452988516 = 0;
       F.line = 147;
-      colontmp__452988454 = (n_620757253.events).length;
+      colontmp__452988516 = (n_620757253.events).length;
       F.line = 119;
-      var i_452988455 = 0;
+      var i_452988517 = 0;
       Label2: do {
         F.line = 120;
           Label3: while (true) {
-          if (!(i_452988455 < colontmp__452988454)) break Label3;
+          if (!(i_452988517 < colontmp__452988516)) break Label3;
             F.line = 147;
-            i_620757262 = i_452988455;
+            i_620757262 = i_452988517;
             F.line = 147;
             n_620757253.events[chckIndx(i_620757262, 0, (n_620757253.events).length - 1)]["Field2"] = wrapEvent_620757146(dest_620757254, n_620757253, n_620757253.events[chckIndx(i_620757262, 0, (n_620757253.events).length - 1)]["Field0"], n_620757253.events[chckIndx(i_620757262, 0, (n_620757253.events).length - 1)]["Field1"]);
             F.line = 122;
-            i_452988455 = addInt(i_452988455, 1);
+            i_452988517 = addInt(i_452988517, 1);
           }
       } while (false);
     } while (false);
@@ -8021,21 +8021,21 @@ function applyStyle_721420770(n_721420771, s_721420772) {
       F.line = 325;
       var i_721420785 = 0;
       F.line = 43;
-      var colontmp__452988458 = 0;
+      var colontmp__452988520 = 0;
       F.line = 325;
-      colontmp__452988458 = subInt(s_721420772.length, 1);
+      colontmp__452988520 = subInt(s_721420772.length, 1);
       F.line = 65;
-      var res_452988459 = 0;
+      var res_452988521 = 0;
       Label2: do {
         F.line = 66;
           Label3: while (true) {
-          if (!(res_452988459 <= colontmp__452988458)) break Label3;
+          if (!(res_452988521 <= colontmp__452988520)) break Label3;
             F.line = 325;
-            i_721420785 = res_452988459;
+            i_721420785 = res_452988521;
             F.line = 325;
             n_721420771.style[s_721420772[i_721420785]] = s_721420772[addInt(i_721420785, 1)];
             F.line = 68;
-            res_452988459 = addInt(res_452988459, 2);
+            res_452988521 = addInt(res_452988521, 2);
           }
       } while (false);
     } while (false);
@@ -8180,25 +8180,25 @@ function toDom_620757280(n_620757281, useAttachedNode_620757282, kxi_620757283) 
         var k_620757393 = null;
         Label2: do {
           F.line = 310;
-          var i_452988439 = 0;
+          var i_452988501 = 0;
           F.line = 117;
-          var colontmp__452988440 = 0;
+          var colontmp__452988502 = 0;
           F.line = 310;
-          colontmp__452988440 = (n_620757281.kids).length;
+          colontmp__452988502 = (n_620757281.kids).length;
           F.line = 119;
-          var i_452988441 = 0;
+          var i_452988503 = 0;
           Label3: do {
             F.line = 120;
               Label4: while (true) {
-              if (!(i_452988441 < colontmp__452988440)) break Label4;
+              if (!(i_452988503 < colontmp__452988502)) break Label4;
                 F.line = 310;
-                i_452988439 = i_452988441;
+                i_452988501 = i_452988503;
                 F.line = 195;
-                k_620757393 = n_620757281.kids[chckIndx(i_452988439, 0, (n_620757281.kids).length - 1)];
+                k_620757393 = n_620757281.kids[chckIndx(i_452988501, 0, (n_620757281.kids).length - 1)];
                 F.line = 195;
                 result_620757284.appendChild(toDom_620757280(k_620757393, useAttachedNode_620757282, kxi_620757283));
                 F.line = 122;
-                i_452988441 = addInt(i_452988441, 1);
+                i_452988503 = addInt(i_452988503, 1);
               }
           } while (false);
         } while (false);
@@ -8227,30 +8227,30 @@ function toDom_620757280(n_620757281, useAttachedNode_620757282, kxi_620757283) 
       var v_620757395 = null;
       Label6: do {
         F.line = 313;
-        var i_452988449 = 0;
+        var i_452988511 = 0;
         F.line = 43;
-        var colontmp__452988450 = 0;
+        var colontmp__452988512 = 0;
         F.line = 313;
-        colontmp__452988450 = subInt((n_620757281.attrs).length, 2);
+        colontmp__452988512 = subInt((n_620757281.attrs).length, 2);
         F.line = 65;
-        var res_452988451 = 0;
+        var res_452988513 = 0;
         Label7: do {
           F.line = 66;
             Label8: while (true) {
-            if (!(res_452988451 <= colontmp__452988450)) break Label8;
+            if (!(res_452988513 <= colontmp__452988512)) break Label8;
               F.line = 313;
-              i_452988449 = res_452988451;
+              i_452988511 = res_452988513;
               F.line = 206;
-              k_620757394 = n_620757281.attrs[chckIndx(i_452988449, 0, (n_620757281.attrs).length - 1)];
+              k_620757394 = n_620757281.attrs[chckIndx(i_452988511, 0, (n_620757281.attrs).length - 1)];
               F.line = 206;
-              v_620757395 = n_620757281.attrs[chckIndx(addInt(i_452988449, 1), 0, (n_620757281.attrs).length - 1)];
+              v_620757395 = n_620757281.attrs[chckIndx(addInt(i_452988511, 1), 0, (n_620757281.attrs).length - 1)];
               if (!((v_620757395 == null))) {
               F.line = 208;
               result_620757284.setAttribute(k_620757394, v_620757395);
               }
               
               F.line = 68;
-              res_452988451 = addInt(res_452988451, 2);
+              res_452988513 = addInt(res_452988513, 2);
             }
         } while (false);
       } while (false);
@@ -8358,17 +8358,17 @@ function same_620757434(n_620757435, e_620757436, nesting_620757437) {
       F.line = 231;
       var i_620757474 = 0;
       F.line = 117;
-      var colontmp__452988462 = 0;
+      var colontmp__452988524 = 0;
       F.line = 231;
-      colontmp__452988462 = len_654312124(n_620757435);
+      colontmp__452988524 = len_654312124(n_620757435);
       F.line = 119;
-      var i_452988463 = 0;
+      var i_452988525 = 0;
       Label4: do {
         F.line = 120;
           Label5: while (true) {
-          if (!(i_452988463 < colontmp__452988462)) break Label5;
+          if (!(i_452988525 < colontmp__452988524)) break Label5;
             F.line = 231;
-            i_620757474 = i_452988463;
+            i_620757474 = i_452988525;
             if (!(same_620757434(HEX5BHEX5D_654312131(n_620757435, i_620757474), e_620757436.childNodes[i_620757474], addInt(nesting_620757437, 1)))) {
             F.line = 232;
             result_620757438 = false;
@@ -8376,7 +8376,7 @@ function same_620757434(n_620757435, e_620757436, nesting_620757437) {
             }
             
             F.line = 122;
-            i_452988463 = addInt(i_452988463, 1);
+            i_452988525 = addInt(i_452988525, 1);
           }
       } while (false);
     } while (false);
@@ -8429,17 +8429,17 @@ function eq_721420542(a_721420543, b_721420544) {
       F.line = 237;
       var i_721420580 = 0;
       F.line = 117;
-      var colontmp__452988489 = 0;
+      var colontmp__452988551 = 0;
       F.line = 237;
-      colontmp__452988489 = a_721420543.length;
+      colontmp__452988551 = a_721420543.length;
       F.line = 119;
-      var i_452988490 = 0;
+      var i_452988552 = 0;
       Label2: do {
         F.line = 120;
           Label3: while (true) {
-          if (!(i_452988490 < colontmp__452988489)) break Label3;
+          if (!(i_452988552 < colontmp__452988551)) break Label3;
             F.line = 237;
-            i_721420580 = i_452988490;
+            i_721420580 = i_452988552;
             if (!((a_721420543[i_721420580] == b_721420544[i_721420580]))) {
             F.line = 238;
             result_721420545 = false;
@@ -8447,7 +8447,7 @@ function eq_721420542(a_721420543, b_721420544) {
             }
             
             F.line = 122;
-            i_452988490 = addInt(i_452988490, 1);
+            i_452988552 = addInt(i_452988552, 1);
           }
       } while (false);
     } while (false);
@@ -8474,17 +8474,17 @@ function sameAttrs_654312287(a_654312288, b_654312289) {
       F.line = 319;
       var i_654312304 = 0;
       F.line = 117;
-      var colontmp__452988493 = 0;
+      var colontmp__452988555 = 0;
       F.line = 319;
-      colontmp__452988493 = (a_654312288.attrs).length;
+      colontmp__452988555 = (a_654312288.attrs).length;
       F.line = 119;
-      var i_452988494 = 0;
+      var i_452988556 = 0;
       Label2: do {
         F.line = 120;
           Label3: while (true) {
-          if (!(i_452988494 < colontmp__452988493)) break Label3;
+          if (!(i_452988556 < colontmp__452988555)) break Label3;
             F.line = 319;
-            i_654312304 = i_452988494;
+            i_654312304 = i_452988556;
             if (!((a_654312288.attrs[chckIndx(i_654312304, 0, (a_654312288.attrs).length - 1)] == b_654312289.attrs[chckIndx(i_654312304, 0, (b_654312289.attrs).length - 1)]))) {
             F.line = 320;
             result_654312290 = false;
@@ -8492,7 +8492,7 @@ function sameAttrs_654312287(a_654312288, b_654312289) {
             }
             
             F.line = 122;
-            i_452988494 = addInt(i_452988494, 1);
+            i_452988556 = addInt(i_452988556, 1);
           }
       } while (false);
     } while (false);
@@ -8560,17 +8560,17 @@ function eq_620757488(a_620757489, b_620757490, recursive_620757491) {
       F.line = 277;
       var i_620757509 = 0;
       F.line = 117;
-      var colontmp__452988481 = 0;
+      var colontmp__452988543 = 0;
       F.line = 277;
-      colontmp__452988481 = len_654312124(a_620757489);
+      colontmp__452988543 = len_654312124(a_620757489);
       F.line = 119;
-      var i_452988482 = 0;
+      var i_452988544 = 0;
       Label2: do {
         F.line = 120;
           Label3: while (true) {
-          if (!(i_452988482 < colontmp__452988481)) break Label3;
+          if (!(i_452988544 < colontmp__452988543)) break Label3;
             F.line = 277;
-            i_620757509 = i_452988482;
+            i_620757509 = i_452988544;
             if ((eq_620757488(HEX5BHEX5D_654312131(a_620757489, i_620757509), HEX5BHEX5D_654312131(b_620757490, i_620757509), recursive_620757491) == 1)) {
             F.line = 278;
             result_620757492 = 1;
@@ -8578,7 +8578,7 @@ function eq_620757488(a_620757489, b_620757490, recursive_620757491) {
             }
             
             F.line = 122;
-            i_452988482 = addInt(i_452988482, 1);
+            i_452988544 = addInt(i_452988544, 1);
           }
       } while (false);
     } while (false);
@@ -8642,17 +8642,17 @@ function eq_620757488(a_620757489, b_620757490, recursive_620757491) {
       F.line = 309;
       var i_620757535 = 0;
       F.line = 117;
-      var colontmp__452988485 = 0;
+      var colontmp__452988547 = 0;
       F.line = 309;
-      colontmp__452988485 = len_654312124(a_620757489);
+      colontmp__452988547 = len_654312124(a_620757489);
       F.line = 119;
-      var i_452988486 = 0;
+      var i_452988548 = 0;
       Label7: do {
         F.line = 120;
           Label8: while (true) {
-          if (!(i_452988486 < colontmp__452988485)) break Label8;
+          if (!(i_452988548 < colontmp__452988547)) break Label8;
             F.line = 309;
-            i_620757535 = i_452988486;
+            i_620757535 = i_452988548;
             if (!((eq_620757488(HEX5BHEX5D_654312131(a_620757489, i_620757535), HEX5BHEX5D_654312131(b_620757490, i_620757535), true) == 3))) {
             F.line = 311;
             result_620757492 = 1;
@@ -8660,7 +8660,7 @@ function eq_620757488(a_620757489, b_620757490, recursive_620757491) {
             }
             
             F.line = 122;
-            i_452988486 = addInt(i_452988486, 1);
+            i_452988548 = addInt(i_452988548, 1);
           }
       } while (false);
     } while (false);
@@ -8722,27 +8722,27 @@ function updateAttributes_620757578(newNode_620757579, oldNode_620757580) {
       var __620757586 = null;
       Label2: do {
         F.line = 313;
-        var i_452988498 = 0;
+        var i_452988560 = 0;
         F.line = 43;
-        var colontmp__452988499 = 0;
+        var colontmp__452988561 = 0;
         F.line = 313;
-        colontmp__452988499 = subInt((oldNode_620757580.attrs).length, 2);
+        colontmp__452988561 = subInt((oldNode_620757580.attrs).length, 2);
         F.line = 65;
-        var res_452988500 = 0;
+        var res_452988562 = 0;
         Label3: do {
           F.line = 66;
             Label4: while (true) {
-            if (!(res_452988500 <= colontmp__452988499)) break Label4;
+            if (!(res_452988562 <= colontmp__452988561)) break Label4;
               F.line = 313;
-              i_452988498 = res_452988500;
+              i_452988560 = res_452988562;
               F.line = 328;
-              k_620757585 = oldNode_620757580.attrs[chckIndx(i_452988498, 0, (oldNode_620757580.attrs).length - 1)];
+              k_620757585 = oldNode_620757580.attrs[chckIndx(i_452988560, 0, (oldNode_620757580.attrs).length - 1)];
               F.line = 328;
-              __620757586 = oldNode_620757580.attrs[chckIndx(addInt(i_452988498, 1), 0, (oldNode_620757580.attrs).length - 1)];
+              __620757586 = oldNode_620757580.attrs[chckIndx(addInt(i_452988560, 1), 0, (oldNode_620757580.attrs).length - 1)];
               F.line = 328;
               oldNode_620757580.dom.removeAttribute(k_620757585);
               F.line = 68;
-              res_452988500 = addInt(res_452988500, 2);
+              res_452988562 = addInt(res_452988562, 2);
             }
         } while (false);
       } while (false);
@@ -8754,30 +8754,30 @@ function updateAttributes_620757578(newNode_620757579, oldNode_620757580) {
       var v_620757588 = null;
       Label6: do {
         F.line = 313;
-        var i_452988504 = 0;
+        var i_452988566 = 0;
         F.line = 43;
-        var colontmp__452988505 = 0;
+        var colontmp__452988567 = 0;
         F.line = 313;
-        colontmp__452988505 = subInt((newNode_620757579.attrs).length, 2);
+        colontmp__452988567 = subInt((newNode_620757579.attrs).length, 2);
         F.line = 65;
-        var res_452988506 = 0;
+        var res_452988568 = 0;
         Label7: do {
           F.line = 66;
             Label8: while (true) {
-            if (!(res_452988506 <= colontmp__452988505)) break Label8;
+            if (!(res_452988568 <= colontmp__452988567)) break Label8;
               F.line = 313;
-              i_452988504 = res_452988506;
+              i_452988566 = res_452988568;
               F.line = 330;
-              k_620757587 = newNode_620757579.attrs[chckIndx(i_452988504, 0, (newNode_620757579.attrs).length - 1)];
+              k_620757587 = newNode_620757579.attrs[chckIndx(i_452988566, 0, (newNode_620757579.attrs).length - 1)];
               F.line = 330;
-              v_620757588 = newNode_620757579.attrs[chckIndx(addInt(i_452988504, 1), 0, (newNode_620757579.attrs).length - 1)];
+              v_620757588 = newNode_620757579.attrs[chckIndx(addInt(i_452988566, 1), 0, (newNode_620757579.attrs).length - 1)];
               if (!((v_620757588 == null))) {
               F.line = 332;
               oldNode_620757580.dom.setAttribute(k_620757587, v_620757588);
               }
               
               F.line = 68;
-              res_452988506 = addInt(res_452988506, 2);
+              res_452988568 = addInt(res_452988568, 2);
             }
         } while (false);
       } while (false);
@@ -8801,17 +8801,17 @@ function getAttr_654312103(n_654312104, key_654312105) {
       F.line = 254;
       var i_654312115 = 0;
       F.line = 43;
-      var colontmp__452988509 = 0;
+      var colontmp__452988571 = 0;
       F.line = 254;
-      colontmp__452988509 = subInt((n_654312104.attrs).length, 2);
+      colontmp__452988571 = subInt((n_654312104.attrs).length, 2);
       F.line = 65;
-      var res_452988510 = 0;
+      var res_452988572 = 0;
       Label2: do {
         F.line = 66;
           Label3: while (true) {
-          if (!(res_452988510 <= colontmp__452988509)) break Label3;
+          if (!(res_452988572 <= colontmp__452988571)) break Label3;
             F.line = 254;
-            i_654312115 = res_452988510;
+            i_654312115 = res_452988572;
             if ((n_654312104.attrs[chckIndx(i_654312115, 0, (n_654312104.attrs).length - 1)] == key_654312105)) {
             F.line = 255;
             result_654312106 = n_654312104.attrs[chckIndx(addInt(i_654312115, 1), 0, (n_654312104.attrs).length - 1)];
@@ -8819,7 +8819,7 @@ function getAttr_654312103(n_654312104, key_654312105) {
             }
             
             F.line = 68;
-            res_452988510 = addInt(res_452988510, 2);
+            res_452988572 = addInt(res_452988572, 2);
           }
       } while (false);
     } while (false);
@@ -8838,21 +8838,21 @@ function removeAllEventHandlers_620757110(d_620757111) {
       F.line = 97;
       var i_620757127 = 0;
       F.line = 117;
-      var colontmp__452988513 = 0;
+      var colontmp__452988575 = 0;
       F.line = 97;
-      colontmp__452988513 = d_620757111.karaxEvents.length;
+      colontmp__452988575 = d_620757111.karaxEvents.length;
       F.line = 119;
-      var i_452988514 = 0;
+      var i_452988576 = 0;
       Label2: do {
         F.line = 120;
           Label3: while (true) {
-          if (!(i_452988514 < colontmp__452988513)) break Label3;
+          if (!(i_452988576 < colontmp__452988575)) break Label3;
             F.line = 97;
-            i_620757127 = i_452988514;
+            i_620757127 = i_452988576;
             F.line = 97;
             d_620757111.removeEventListener(d_620757111.karaxEvents[i_620757127]["Field0"], d_620757111.karaxEvents[i_620757127]["Field1"]);
             F.line = 122;
-            i_452988514 = addInt(i_452988514, 1);
+            i_452988576 = addInt(i_452988576, 1);
           }
       } while (false);
     } while (false);
@@ -9030,21 +9030,21 @@ function diff_620757733(newNode_620757734, oldNode_620757735, parent_620757736, 
         F.line = 522;
         var i_620757803 = 0;
         F.line = 75;
-        var colontmp__452988468 = 0;
+        var colontmp__452988530 = 0;
         F.line = 522;
-        colontmp__452988468 = subInt(pos_620757798, 1);
+        colontmp__452988530 = subInt(pos_620757798, 1);
         F.line = 90;
-        var res_452988469 = commonPrefix_620757775;
+        var res_452988531 = commonPrefix_620757775;
         Label9: do {
           F.line = 91;
             Label10: while (true) {
-            if (!(res_452988469 <= colontmp__452988468)) break Label10;
+            if (!(res_452988531 <= colontmp__452988530)) break Label10;
               F.line = 522;
-              i_620757803 = res_452988469;
+              i_620757803 = res_452988531;
               F.line = 522;
               diff_620757733(HEX5BHEX5D_654312131(newNode_620757734, i_620757803), HEX5BHEX5D_654312131(oldNode_620757735, i_620757803), current_620757737, current_620757737.childNodes[chckIndx(i_620757803, 0, (current_620757737.childNodes).length - 1)], kxi_620757738);
               F.line = 93;
-              res_452988469 = addInt(res_452988469, 1);
+              res_452988531 = addInt(res_452988531, 1);
             }
         } while (false);
       } while (false);
@@ -9053,17 +9053,17 @@ function diff_620757733(newNode_620757734, oldNode_620757735, parent_620757736, 
         F.line = 526;
         var i_620757808 = 0;
         F.line = 90;
-        var res_452988472 = pos_620757798;
+        var res_452988534 = pos_620757798;
         Label12: do {
           F.line = 91;
             Label13: while (true) {
-            if (!(res_452988472 <= newPos_620757785)) break Label13;
+            if (!(res_452988534 <= newPos_620757785)) break Label13;
               F.line = 526;
-              i_620757808 = res_452988472;
+              i_620757808 = res_452988534;
               F.line = 526;
               addPatch_620757598(kxi_620757738, 2, current_620757737, null, HEX5BHEX5D_654312131(newNode_620757734, i_620757808), null);
               F.line = 93;
-              res_452988472 = addInt(res_452988472, 1);
+              res_452988534 = addInt(res_452988534, 1);
             }
         } while (false);
       } while (false);
@@ -9075,17 +9075,17 @@ function diff_620757733(newNode_620757734, oldNode_620757735, parent_620757736, 
           F.line = 530;
           var i_620757814 = 0;
           F.line = 90;
-          var res_452988475 = pos_620757798;
+          var res_452988537 = pos_620757798;
           Label15: do {
             F.line = 91;
               Label16: while (true) {
-              if (!(res_452988475 <= newPos_620757785)) break Label16;
+              if (!(res_452988537 <= newPos_620757785)) break Label16;
                 F.line = 530;
-                i_620757814 = res_452988475;
+                i_620757814 = res_452988537;
                 F.line = 530;
                 addPatch_620757598(kxi_620757738, 3, current_620757737, before_620757809, HEX5BHEX5D_654312131(newNode_620757734, i_620757814), null);
                 F.line = 93;
-                res_452988475 = addInt(res_452988475, 1);
+                res_452988537 = addInt(res_452988537, 1);
               }
           } while (false);
         } while (false);
@@ -9095,19 +9095,19 @@ function diff_620757733(newNode_620757734, oldNode_620757735, parent_620757736, 
         F.line = 533;
         var i_620757819 = 0;
         F.line = 90;
-        var res_452988478 = pos_620757798;
+        var res_452988540 = pos_620757798;
         Label18: do {
           F.line = 91;
             Label19: while (true) {
-            if (!(res_452988478 <= oldPos_620757784)) break Label19;
+            if (!(res_452988540 <= oldPos_620757784)) break Label19;
               F.line = 533;
-              i_620757819 = res_452988478;
+              i_620757819 = res_452988540;
               F.line = 533;
               addPatch_620757598(kxi__, 4, null, null, null, HEX5BHEX5D_654312131(oldNode_620757735, i_620757819));
               F.line = 533;
               addPatch_620757598(kxi_620757738, 1, current_620757737, current_620757737.childNodes[chckIndx(i_620757819, 0, (current_620757737.childNodes).length - 1)], null, null);
               F.line = 93;
-              res_452988478 = addInt(res_452988478, 1);
+              res_452988540 = addInt(res_452988540, 1);
             }
         } while (false);
       } while (false);
@@ -9206,21 +9206,21 @@ function moveDom_620757663(dest_620757664, src_620757665) {
       F.line = 394;
       var i_620757681 = 0;
       F.line = 117;
-      var colontmp__452988524 = 0;
+      var colontmp__452988586 = 0;
       F.line = 394;
-      colontmp__452988524 = len_654312124(dest_620757664);
+      colontmp__452988586 = len_654312124(dest_620757664);
       F.line = 119;
-      var i_452988525 = 0;
+      var i_452988587 = 0;
       Label2: do {
         F.line = 120;
           Label3: while (true) {
-          if (!(i_452988525 < colontmp__452988524)) break Label3;
+          if (!(i_452988587 < colontmp__452988586)) break Label3;
             F.line = 394;
-            i_620757681 = i_452988525;
+            i_620757681 = i_452988587;
             F.line = 394;
             moveDom_620757663(HEX5BHEX5D_654312131(dest_620757664, i_620757681), HEX5BHEX5D_654312131(src_620757665, i_620757681));
             F.line = 122;
-            i_452988525 = addInt(i_452988525, 1);
+            i_452988587 = addInt(i_452988587, 1);
           }
       } while (false);
     } while (false);
@@ -9246,13 +9246,13 @@ function applyPatch_620757682(kxi_620757683) {
       F.line = 398;
       var i_620757688 = 0;
       F.line = 119;
-      var i_452988518 = 0;
+      var i_452988580 = 0;
       Label2: do {
         F.line = 120;
           Label3: while (true) {
-          if (!(i_452988518 < kxi_620757683.patchLen)) break Label3;
+          if (!(i_452988580 < kxi_620757683.patchLen)) break Label3;
             F.line = 398;
-            i_620757688 = i_452988518;
+            i_620757688 = i_452988580;
             F.line = 399;
             var p_620757689 = nimCopy(null, kxi_620757683.patches[chckIndx(i_620757688, 0, (kxi_620757683.patches).length - 1)], NTI620756998);
             F.line = 398;
@@ -9323,7 +9323,7 @@ function applyPatch_620757682(kxi_620757683) {
               break;
             }
             F.line = 122;
-            i_452988518 = addInt(i_452988518, 1);
+            i_452988580 = addInt(i_452988580, 1);
           }
       } while (false);
     } while (false);
@@ -9333,13 +9333,13 @@ function applyPatch_620757682(kxi_620757683) {
       F.line = 429;
       var i_620757720 = 0;
       F.line = 119;
-      var i_452988521 = 0;
+      var i_452988583 = 0;
       Label5: do {
         F.line = 120;
           Label6: while (true) {
-          if (!(i_452988521 < kxi_620757683.patchLenV)) break Label6;
+          if (!(i_452988583 < kxi_620757683.patchLenV)) break Label6;
             F.line = 429;
-            i_620757720 = i_452988521;
+            i_620757720 = i_452988583;
             F.line = 430;
             var p_620757721 = nimCopy(null, kxi_620757683.patchesV[chckIndx(i_620757720, 0, (kxi_620757683.patchesV).length - 1)], NTI620756999);
             F.line = 429;
@@ -9350,7 +9350,7 @@ function applyPatch_620757682(kxi_620757683) {
             }
             
             F.line = 122;
-            i_452988521 = addInt(i_452988521, 1);
+            i_452988583 = addInt(i_452988583, 1);
           }
       } while (false);
     } while (false);
@@ -9565,17 +9565,17 @@ function tree_654312202(kind_654312203, kids_654312204) {
       F.line = 291;
       var k_654312217 = null;
       F.line = 8;
-      var i_452988533 = 0;
+      var i_452988595 = 0;
       Label2: do {
         F.line = 9;
           Label3: while (true) {
-          if (!(i_452988533 < (kids_654312204).length)) break Label3;
+          if (!(i_452988595 < (kids_654312204).length)) break Label3;
             F.line = 291;
-            k_654312217 = kids_654312204[chckIndx(i_452988533, 0, (kids_654312204).length - 1)];
+            k_654312217 = kids_654312204[chckIndx(i_452988595, 0, (kids_654312204).length - 1)];
             F.line = 291;
             add_654312139(result_654312205, k_654312217);
             F.line = 11;
-            i_452988533 = addInt(i_452988533, 1);
+            i_452988595 = addInt(i_452988595, 1);
           }
       } while (false);
     } while (false);
@@ -9598,17 +9598,17 @@ function setAttr_654312065(n_654312066, key_654312067, val_654312068) {
         F.line = 246;
         var i_654312085 = 0;
         F.line = 43;
-        var colontmp__452988536 = 0;
+        var colontmp__452988598 = 0;
         F.line = 246;
-        colontmp__452988536 = subInt((n_654312066.attrs).length, 2);
+        colontmp__452988598 = subInt((n_654312066.attrs).length, 2);
         F.line = 65;
-        var res_452988537 = 0;
+        var res_452988599 = 0;
         Label2: do {
           F.line = 66;
             Label3: while (true) {
-            if (!(res_452988537 <= colontmp__452988536)) break Label3;
+            if (!(res_452988599 <= colontmp__452988598)) break Label3;
               F.line = 246;
-              i_654312085 = res_452988537;
+              i_654312085 = res_452988599;
               if ((n_654312066.attrs[chckIndx(i_654312085, 0, (n_654312066.attrs).length - 1)] == key_654312067)) {
               F.line = 248;
               n_654312066.attrs[chckIndx(addInt(i_654312085, 1), 0, (n_654312066.attrs).length - 1)] = val_654312068;
@@ -9617,7 +9617,7 @@ function setAttr_654312065(n_654312066, key_654312067, val_654312068) {
               }
               
               F.line = 68;
-              res_452988537 = addInt(res_452988537, 2);
+              res_452988599 = addInt(res_452988599, 2);
             }
         } while (false);
       } while (false);
@@ -9752,16 +9752,16 @@ function wrapper_620758172(ev_620758173, n_620758174) {
   
 }
 
-function len_452988085(t_452988088) {
-  var result_452988089 = 0;
+function len_452988147(t_452988150) {
+  var result_452988151 = 0;
 
   var F = {procname: "len.len", prev: framePtr, filename: "/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/tables.nim", line: 0};
   framePtr = F;
     F.line = 485;
-    result_452988089 = t_452988088.counter;
+    result_452988151 = t_452988150.counter;
   framePtr = F.prev;
 
-  return result_452988089;
+  return result_452988151;
 
 }
 
@@ -9796,21 +9796,21 @@ function nsuToLowerAsciiStr(s_771752014) {
       F.line = 209;
       var iHEX60gensym7_771752021 = 0;
       F.line = 75;
-      var colontmp__452988552 = 0;
+      var colontmp__452988614 = 0;
       F.line = 209;
-      colontmp__452988552 = subInt((s_771752014).length, 1);
+      colontmp__452988614 = subInt((s_771752014).length, 1);
       F.line = 90;
-      var res_452988553 = 0;
+      var res_452988615 = 0;
       Label2: do {
         F.line = 91;
           Label3: while (true) {
-          if (!(res_452988553 <= colontmp__452988552)) break Label3;
+          if (!(res_452988615 <= colontmp__452988614)) break Label3;
             F.line = 223;
-            iHEX60gensym7_771752021 = res_452988553;
+            iHEX60gensym7_771752021 = res_452988615;
             F.line = 223;
             result_771752015[chckIndx(iHEX60gensym7_771752021, 0, (result_771752015).length - 1)] = nsuToLowerAsciiChar(s_771752014[chckIndx(iHEX60gensym7_771752021, 0, (s_771752014).length - 1)]);
             F.line = 93;
-            res_452988553 = addInt(res_452988553, 1);
+            res_452988615 = addInt(res_452988615, 1);
           }
       } while (false);
     } while (false);
@@ -9978,48 +9978,48 @@ function score_1358954504(needle_1358954505, haystack_1358954506) {
 
 }
 
-function filterBySearch_452988035(searchText_452988036) {
+function filterBySearch_452988097(searchText_452988098) {
                 var Temporary5;
 
   var F = {procname: "flatzone.filterBySearch", prev: framePtr, filename: "/home/avahe/programming/nim/flatzone/src/flatzone.nim", line: 0};
   framePtr = F;
     Label1: do {
-      F.line = 82;
-      var charName_452988320 = [];
-      F.line = 82;
-      var charTile_452988321 = null;
+      F.line = 89;
+      var charName_452988382 = [];
+      F.line = 89;
+      var charTile_452988383 = null;
       F.line = 694;
-      var L_452988544 = len_452988085(characterDomTiles_452986556[0]);
+      var L_452988606 = len_452988147(characterDomTiles_452986556[0]);
       Label2: do {
         F.line = 695;
-        var h_452988546 = 0;
+        var h_452988608 = 0;
         F.line = 75;
-        var colontmp__452988547 = 0;
+        var colontmp__452988609 = 0;
         F.line = 695;
-        colontmp__452988547 = (characterDomTiles_452986556[0].data).length - 1;
+        colontmp__452988609 = (characterDomTiles_452986556[0].data).length - 1;
         F.line = 90;
-        var res_452988548 = 0;
+        var res_452988610 = 0;
         Label3: do {
           F.line = 91;
             Label4: while (true) {
-            if (!(res_452988548 <= colontmp__452988547)) break Label4;
+            if (!(res_452988610 <= colontmp__452988609)) break Label4;
               F.line = 695;
-              h_452988546 = res_452988548;
-              if (isFilled_1023410207(characterDomTiles_452986556[0].data[chckIndx(h_452988546, 0, (characterDomTiles_452986556[0].data).length - 1)].Field0)) {
-              F.line = 82;
-              charName_452988320 = characterDomTiles_452986556[0].data[chckIndx(h_452988546, 0, (characterDomTiles_452986556[0].data).length - 1)].Field1;
-              F.line = 82;
-              charTile_452988321 = characterDomTiles_452986556[0].data[chckIndx(h_452988546, 0, (characterDomTiles_452986556[0].data).length - 1)].Field2;
-                if (((searchText_452988036).length == 0)) Temporary5 = true; else {                  Temporary5 = (0.0 < score_1358954504(searchText_452988036, charName_452988320));                }              if (Temporary5) {
-              F.line = 84;
-              charTile_452988321.dom.style.display = "";
+              h_452988608 = res_452988610;
+              if (isFilled_1023410207(characterDomTiles_452986556[0].data[chckIndx(h_452988608, 0, (characterDomTiles_452986556[0].data).length - 1)].Field0)) {
+              F.line = 89;
+              charName_452988382 = characterDomTiles_452986556[0].data[chckIndx(h_452988608, 0, (characterDomTiles_452986556[0].data).length - 1)].Field1;
+              F.line = 89;
+              charTile_452988383 = characterDomTiles_452986556[0].data[chckIndx(h_452988608, 0, (characterDomTiles_452986556[0].data).length - 1)].Field2;
+                if (((searchText_452988098).length == 0)) Temporary5 = true; else {                  Temporary5 = (0.0 < score_1358954504(searchText_452988098, charName_452988382));                }              if (Temporary5) {
+              F.line = 91;
+              charTile_452988383.dom.style.display = "";
               }
               else {
-                F.line = 86;
-                charTile_452988321.dom.style.display = "none";
+                F.line = 93;
+                charTile_452988383.dom.style.display = "none";
               }
               
-              if (!((len_452988085(characterDomTiles_452986556[0]) == L_452988544))) {
+              if (!((len_452988147(characterDomTiles_452986556[0]) == L_452988606))) {
               F.line = 698;
               failedAssertImpl_218103864(makeNimstrLit("/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/tables.nim(698, 13) `len(t) == L` the length of the table changed while iterating over it"));
               }
@@ -10027,7 +10027,7 @@ function filterBySearch_452988035(searchText_452988036) {
               }
               
               F.line = 93;
-              res_452988548 = addInt(res_452988548, 1);
+              res_452988610 = addInt(res_452988610, 1);
             }
         } while (false);
       } while (false);
@@ -10428,21 +10428,21 @@ function nsuInitSkipTable(a_771753400, sub_771753401) {
       F.line = 1810;
       var i_771753421 = 0;
       F.line = 117;
-      var colontmp__452988556 = 0;
+      var colontmp__452988618 = 0;
       F.line = 1810;
-      colontmp__452988556 = subInt(m_771753402, 1);
+      colontmp__452988618 = subInt(m_771753402, 1);
       F.line = 119;
-      var i_452988557 = 0;
+      var i_452988619 = 0;
       Label2: do {
         F.line = 120;
           Label3: while (true) {
-          if (!(i_452988557 < colontmp__452988556)) break Label3;
+          if (!(i_452988619 < colontmp__452988618)) break Label3;
             F.line = 1810;
-            i_771753421 = i_452988557;
+            i_771753421 = i_452988619;
             F.line = 1810;
             a_771753400[chckIndx(sub_771753401[chckIndx(i_771753421, 0, (sub_771753401).length - 1)], 0, (a_771753400).length - 1)] = subInt(subInt(m_771753402, 1), i_771753421);
             F.line = 122;
-            i_452988557 = addInt(i_452988557, 1);
+            i_452988619 = addInt(i_452988619, 1);
           }
       } while (false);
     } while (false);
@@ -10609,125 +10609,206 @@ function normalizeCharacterName_452984856(name_452984857) {
 
 }
 
-function rawGet_452986844(t_452986847, key_452986848, hc_452986849, hc_452986849_Idx) {
+function rawGet_1207959897(t_1207959900, key_1207959901, hc_1207959902, hc_1207959902_Idx) {
             var Temporary3;
 
-  var result_452986850 = 0;
+  var result_1207959903 = 0;
 
   var F = {procname: "rawGet.rawGet", prev: framePtr, filename: "/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/hashcommon.nim", line: 0};
   framePtr = F;
   BeforeRet: do {
     F.line = 64;
-    hc_452986849[hc_452986849_Idx] = hash_1040187814(key_452986848);
-    if ((hc_452986849[hc_452986849_Idx] == 0)) {
+    hc_1207959902[hc_1207959902_Idx] = hash_1040187814(key_1207959901);
+    if ((hc_1207959902[hc_1207959902_Idx] == 0)) {
     F.line = 66;
-    hc_452986849[hc_452986849_Idx] = 314159265;
+    hc_1207959902[hc_1207959902_Idx] = 314159265;
     }
     
-    if (((t_452986847.data).length == 0)) {
+    if (((t_1207959900.data).length == 0)) {
     F.line = 48;
-    result_452986850 = -1;
+    result_1207959903 = -1;
     break BeforeRet;
     }
     
     F.line = 49;
-    var h_452986901 = (hc_452986849[hc_452986849_Idx] & (t_452986847.data).length - 1);
+    var h_1207959955 = (hc_1207959902[hc_1207959902_Idx] & (t_1207959900.data).length - 1);
     Label1: do {
       F.line = 50;
         Label2: while (true) {
-        if (!isFilled_1023410207(t_452986847.data[chckIndx(h_452986901, 0, (t_452986847.data).length - 1)].Field0)) break Label2;
-            if (!(t_452986847.data[chckIndx(h_452986901, 0, (t_452986847.data).length - 1)].Field0 == hc_452986849[hc_452986849_Idx])) Temporary3 = false; else {              Temporary3 = eqStrings(t_452986847.data[chckIndx(h_452986901, 0, (t_452986847.data).length - 1)].Field1, key_452986848);            }          if (Temporary3) {
+        if (!isFilled_1023410207(t_1207959900.data[chckIndx(h_1207959955, 0, (t_1207959900.data).length - 1)].Field0)) break Label2;
+            if (!(t_1207959900.data[chckIndx(h_1207959955, 0, (t_1207959900.data).length - 1)].Field0 == hc_1207959902[hc_1207959902_Idx])) Temporary3 = false; else {              Temporary3 = eqStrings(t_1207959900.data[chckIndx(h_1207959955, 0, (t_1207959900.data).length - 1)].Field1, key_1207959901);            }          if (Temporary3) {
           F.line = 56;
-          result_452986850 = h_452986901;
+          result_1207959903 = h_1207959955;
           break BeforeRet;
           }
           
           F.line = 57;
-          h_452986901 = nextTry_1023410210(h_452986901, (t_452986847.data).length - 1);
+          h_1207959955 = nextTry_1023410210(h_1207959955, (t_1207959900.data).length - 1);
         }
     } while (false);
     F.line = 58;
-    result_452986850 = subInt(-1, h_452986901);
+    result_1207959903 = subInt(-1, h_1207959955);
   } while (false);
   framePtr = F.prev;
 
-  return result_452986850;
+  return result_1207959903;
 
 }
 
-function mustRehash_452987180(t_452987182) {
-  var result_452987183 = false;
-
-  var F = {procname: "mustRehash.mustRehash", prev: framePtr, filename: "/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/hashcommon.nim", line: 0};
+function raiseKeyError_1107299189(key_1107299191) {
+  var F = {procname: "raiseKeyError.raiseKeyError", prev: framePtr, filename: "/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/tables.nim", line: 0};
   framePtr = F;
-    if (!((t_452987182.counter < (t_452987182.data).length))) {
-    F.line = 29;
-    failedAssertImpl_218103864(makeNimstrLit("/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/hashcommon.nim(29, 9) `\x0At.counter < t.dataLen` "));
-    }
-    
-    F.line = 30;
-    result_452987183 = ((mulInt((t_452987182.data).length, 2) < mulInt(t_452987182.counter, 3)) || (subInt((t_452987182.data).length, t_452987182.counter) < 4));
-  framePtr = F.prev;
-
-  return result_452987183;
-
-}
-
-function rawInsert_452987629(t_452987633, data_452987634, data_452987634_Idx, key_452987635, val_452987636, hc_452987637, h_452987638) {
-  var F = {procname: "rawInsert.rawInsert", prev: framePtr, filename: "/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/tableimpl.nim", line: 0};
-  framePtr = F;
-    F.line = 22;
-    data_452987634[data_452987634_Idx][chckIndx(h_452987638, 0, (data_452987634[data_452987634_Idx]).length - 1)].Field1 = nimCopy(null, key_452987635, NTI33554439);
-    F.line = 23;
-    data_452987634[data_452987634_Idx][chckIndx(h_452987638, 0, (data_452987634[data_452987634_Idx]).length - 1)].Field2 = val_452987636;
-    F.line = 24;
-    data_452987634[data_452987634_Idx][chckIndx(h_452987638, 0, (data_452987634[data_452987634_Idx]).length - 1)].Field0 = hc_452987637;
+    F.line = 234;
+    raiseException({message: (makeNimstrLit("key not found: ") || []).concat(key_1107299191 || []), parent: null, m_type: NTI33555126, name: null, trace: [], up: null}, "KeyError");
   framePtr = F.prev;
 
   
 }
 
-function enlarge_452987335(t_452987338) {
+function HEX5BHEX5D_1207961252(t_1207961255, key_1207961256) {
+  var result_1207961257 = null;
+  var result_1207961257_Idx = 0;
+
+  var F = {procname: "[].[]", prev: framePtr, filename: "/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/tables.nim", line: 0};
+  framePtr = F;
+    F.line = 242;
+    var hcHEX60gensym22_1207961258 = [0];
+    F.line = 243;
+    var indexHEX60gensym22_1207961265 = rawGet_1207959897(t_1207961255, key_1207961256, hcHEX60gensym22_1207961258, 0);
+    if ((0 <= indexHEX60gensym22_1207961265)) {
+    F.line = 244;
+    result_1207961257 = t_1207961255.data[chckIndx(indexHEX60gensym22_1207961265, 0, (t_1207961255.data).length - 1)]; result_1207961257_Idx = "Field2";
+    }
+    else {
+      F.line = 246;
+    raiseKeyError_1107299189(key_1207961256);
+    }
+    
+  framePtr = F.prev;
+
+  return [result_1207961257, result_1207961257_Idx];
+
+}
+
+function rawGet_452986906(t_452986909, key_452986910, hc_452986911, hc_452986911_Idx) {
+            var Temporary3;
+
+  var result_452986912 = 0;
+
+  var F = {procname: "rawGet.rawGet", prev: framePtr, filename: "/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/hashcommon.nim", line: 0};
+  framePtr = F;
+  BeforeRet: do {
+    F.line = 64;
+    hc_452986911[hc_452986911_Idx] = hash_1040187814(key_452986910);
+    if ((hc_452986911[hc_452986911_Idx] == 0)) {
+    F.line = 66;
+    hc_452986911[hc_452986911_Idx] = 314159265;
+    }
+    
+    if (((t_452986909.data).length == 0)) {
+    F.line = 48;
+    result_452986912 = -1;
+    break BeforeRet;
+    }
+    
+    F.line = 49;
+    var h_452986963 = (hc_452986911[hc_452986911_Idx] & (t_452986909.data).length - 1);
+    Label1: do {
+      F.line = 50;
+        Label2: while (true) {
+        if (!isFilled_1023410207(t_452986909.data[chckIndx(h_452986963, 0, (t_452986909.data).length - 1)].Field0)) break Label2;
+            if (!(t_452986909.data[chckIndx(h_452986963, 0, (t_452986909.data).length - 1)].Field0 == hc_452986911[hc_452986911_Idx])) Temporary3 = false; else {              Temporary3 = eqStrings(t_452986909.data[chckIndx(h_452986963, 0, (t_452986909.data).length - 1)].Field1, key_452986910);            }          if (Temporary3) {
+          F.line = 56;
+          result_452986912 = h_452986963;
+          break BeforeRet;
+          }
+          
+          F.line = 57;
+          h_452986963 = nextTry_1023410210(h_452986963, (t_452986909.data).length - 1);
+        }
+    } while (false);
+    F.line = 58;
+    result_452986912 = subInt(-1, h_452986963);
+  } while (false);
+  framePtr = F.prev;
+
+  return result_452986912;
+
+}
+
+function mustRehash_452987242(t_452987244) {
+  var result_452987245 = false;
+
+  var F = {procname: "mustRehash.mustRehash", prev: framePtr, filename: "/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/hashcommon.nim", line: 0};
+  framePtr = F;
+    if (!((t_452987244.counter < (t_452987244.data).length))) {
+    F.line = 29;
+    failedAssertImpl_218103864(makeNimstrLit("/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/hashcommon.nim(29, 9) `\x0At.counter < t.dataLen` "));
+    }
+    
+    F.line = 30;
+    result_452987245 = ((mulInt((t_452987244.data).length, 2) < mulInt(t_452987244.counter, 3)) || (subInt((t_452987244.data).length, t_452987244.counter) < 4));
+  framePtr = F.prev;
+
+  return result_452987245;
+
+}
+
+function rawInsert_452987691(t_452987695, data_452987696, data_452987696_Idx, key_452987697, val_452987698, hc_452987699, h_452987700) {
+  var F = {procname: "rawInsert.rawInsert", prev: framePtr, filename: "/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/tableimpl.nim", line: 0};
+  framePtr = F;
+    F.line = 22;
+    data_452987696[data_452987696_Idx][chckIndx(h_452987700, 0, (data_452987696[data_452987696_Idx]).length - 1)].Field1 = nimCopy(null, key_452987697, NTI33554439);
+    F.line = 23;
+    data_452987696[data_452987696_Idx][chckIndx(h_452987700, 0, (data_452987696[data_452987696_Idx]).length - 1)].Field2 = val_452987698;
+    F.line = 24;
+    data_452987696[data_452987696_Idx][chckIndx(h_452987700, 0, (data_452987696[data_452987696_Idx]).length - 1)].Field0 = hc_452987699;
+  framePtr = F.prev;
+
+  
+}
+
+function enlarge_452987397(t_452987400) {
   var F = {procname: "enlarge.enlarge", prev: framePtr, filename: "/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/tables.nim", line: 0};
   framePtr = F;
     F.line = 249;
-    var n_452987341 = [];
+    var n_452987403 = [];
     F.line = 250;
-    n_452987341 = new Array(chckRange(mulInt((t_452987338.data).length, 2), 0, 2147483647)); for (var i = 0 ; i < chckRange(mulInt((t_452987338.data).length, 2), 0, 2147483647) ; ++i) { n_452987341[i] = {Field0: 0, Field1: [], Field2: null}; }    F.line = 251;
-    var Temporary1 = t_452987338.data; t_452987338.data = n_452987341; n_452987341 = Temporary1;    Label2: do {
+    n_452987403 = new Array(chckRange(mulInt((t_452987400.data).length, 2), 0, 2147483647)); for (var i = 0 ; i < chckRange(mulInt((t_452987400.data).length, 2), 0, 2147483647) ; ++i) { n_452987403[i] = {Field0: 0, Field1: [], Field2: null}; }    F.line = 251;
+    var Temporary1 = t_452987400.data; t_452987400.data = n_452987403; n_452987403 = Temporary1;    Label2: do {
       F.line = 252;
-      var i_452987405 = 0;
+      var i_452987467 = 0;
       F.line = 43;
-      var colontmp__452988565 = 0;
+      var colontmp__452988627 = 0;
       F.line = 252;
-      colontmp__452988565 = (n_452987341).length - 1;
+      colontmp__452988627 = (n_452987403).length - 1;
       F.line = 65;
-      var res_452988566 = 0;
+      var res_452988628 = 0;
       Label3: do {
         F.line = 66;
           Label4: while (true) {
-          if (!(res_452988566 <= colontmp__452988565)) break Label4;
+          if (!(res_452988628 <= colontmp__452988627)) break Label4;
             F.line = 252;
-            i_452987405 = res_452988566;
+            i_452987467 = res_452988628;
             F.line = 253;
-            var eh_452987459 = n_452987341[chckIndx(i_452987405, 0, (n_452987341).length - 1)].Field0;
-            if (isFilled_1023410207(eh_452987459)) {
+            var eh_452987521 = n_452987403[chckIndx(i_452987467, 0, (n_452987403).length - 1)].Field0;
+            if (isFilled_1023410207(eh_452987521)) {
             F.line = 255;
-            var j_452987463 = (eh_452987459 & (t_452987338.data).length - 1);
+            var j_452987525 = (eh_452987521 & (t_452987400.data).length - 1);
             Label5: do {
               F.line = 256;
                 Label6: while (true) {
-                if (!isFilled_1023410207(t_452987338.data[chckIndx(j_452987463, 0, (t_452987338.data).length - 1)].Field0)) break Label6;
+                if (!isFilled_1023410207(t_452987400.data[chckIndx(j_452987525, 0, (t_452987400.data).length - 1)].Field0)) break Label6;
                   F.line = 257;
-                  j_452987463 = nextTry_1023410210(j_452987463, (t_452987338.data).length - 1);
+                  j_452987525 = nextTry_1023410210(j_452987525, (t_452987400.data).length - 1);
                 }
             } while (false);
             F.line = 259;
-            rawInsert_452987629(t_452987338, t_452987338, "data", n_452987341[chckIndx(i_452987405, 0, (n_452987341).length - 1)].Field1, n_452987341[chckIndx(i_452987405, 0, (n_452987341).length - 1)].Field2, eh_452987459, j_452987463);
+            rawInsert_452987691(t_452987400, t_452987400, "data", n_452987403[chckIndx(i_452987467, 0, (n_452987403).length - 1)].Field1, n_452987403[chckIndx(i_452987467, 0, (n_452987403).length - 1)].Field2, eh_452987521, j_452987525);
             }
             
             F.line = 68;
-            res_452988566 = addInt(res_452988566, 1);
+            res_452988628 = addInt(res_452988628, 1);
           }
       } while (false);
     } while (false);
@@ -10736,84 +10817,84 @@ function enlarge_452987335(t_452987338) {
   
 }
 
-function rawGetKnownHC_452987798(t_452987801, key_452987802, hc_452987803) {
-  var result_452987804 = 0;
+function rawGetKnownHC_452987860(t_452987863, key_452987864, hc_452987865) {
+  var result_452987866 = 0;
 
   var F = {procname: "rawGetKnownHC.rawGetKnownHC", prev: framePtr, filename: "/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/hashcommon.nim", line: 0};
   framePtr = F;
   BeforeRet: do {
-    if (((t_452987801.data).length == 0)) {
+    if (((t_452987863.data).length == 0)) {
     F.line = 48;
-    result_452987804 = -1;
+    result_452987866 = -1;
     break BeforeRet;
     }
     
     F.line = 49;
-    var h_452987855 = (hc_452987803 & (t_452987801.data).length - 1);
+    var h_452987917 = (hc_452987865 & (t_452987863.data).length - 1);
     Label1: do {
       F.line = 50;
         Label2: while (true) {
-        if (!isFilled_1023410207(t_452987801.data[chckIndx(h_452987855, 0, (t_452987801.data).length - 1)].Field0)) break Label2;
-          if (((t_452987801.data[chckIndx(h_452987855, 0, (t_452987801.data).length - 1)].Field0 == hc_452987803) && eqStrings(t_452987801.data[chckIndx(h_452987855, 0, (t_452987801.data).length - 1)].Field1, key_452987802))) {
+        if (!isFilled_1023410207(t_452987863.data[chckIndx(h_452987917, 0, (t_452987863.data).length - 1)].Field0)) break Label2;
+          if (((t_452987863.data[chckIndx(h_452987917, 0, (t_452987863.data).length - 1)].Field0 == hc_452987865) && eqStrings(t_452987863.data[chckIndx(h_452987917, 0, (t_452987863.data).length - 1)].Field1, key_452987864))) {
           F.line = 56;
-          result_452987804 = h_452987855;
+          result_452987866 = h_452987917;
           break BeforeRet;
           }
           
           F.line = 57;
-          h_452987855 = nextTry_1023410210(h_452987855, (t_452987801.data).length - 1);
+          h_452987917 = nextTry_1023410210(h_452987917, (t_452987863.data).length - 1);
         }
     } while (false);
     F.line = 58;
-    result_452987804 = subInt(-1, h_452987855);
+    result_452987866 = subInt(-1, h_452987917);
   } while (false);
   framePtr = F.prev;
 
-  return result_452987804;
+  return result_452987866;
 
 }
 
-function HEX5BHEX5DHEX3D_452986783(t_452986786, key_452986787, val_452986788) {
+function HEX5BHEX5DHEX3D_452986845(t_452986848, key_452986849, val_452986850) {
   var F = {procname: "[]=.[]=", prev: framePtr, filename: "/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/tables.nim", line: 0};
   framePtr = F;
-    if (((t_452986786.data).length == 0)) {
+    if (((t_452986848.data).length == 0)) {
     F.line = 163;
-    var correctSizeHEX60gensym45_452986838 = slotsNeeded_1023410218(32);
+    var correctSizeHEX60gensym47_452986900 = slotsNeeded_1023410218(32);
     F.line = 167;
-    t_452986786.counter = 0;
+    t_452986848.counter = 0;
     F.line = 168;
-    t_452986786.data = new Array(chckRange(correctSizeHEX60gensym45_452986838, 0, 2147483647)); for (var i = 0 ; i < chckRange(correctSizeHEX60gensym45_452986838, 0, 2147483647) ; ++i) { t_452986786.data[i] = {Field0: 0, Field1: [], Field2: null}; }    }
+    t_452986848.data = new Array(chckRange(correctSizeHEX60gensym47_452986900, 0, 2147483647)); for (var i = 0 ; i < chckRange(correctSizeHEX60gensym47_452986900, 0, 2147483647) ; ++i) { t_452986848.data[i] = {Field0: 0, Field1: [], Field2: null}; }    }
     
     F.line = 57;
-    var hc_452986843 = [0];
+    var hc_452986905 = [0];
     F.line = 58;
-    var index_452987073 = rawGet_452986844(t_452986786, key_452986787, hc_452986843, 0);
-    if ((0 <= index_452987073)) {
+    var index_452987135 = rawGet_452986906(t_452986848, key_452986849, hc_452986905, 0);
+    if ((0 <= index_452987135)) {
     F.line = 59;
-    t_452986786.data[chckIndx(index_452987073, 0, (t_452986786.data).length - 1)].Field2 = val_452986788;
+    t_452986848.data[chckIndx(index_452987135, 0, (t_452986848.data).length - 1)].Field2 = val_452986850;
     }
     else {
-      if (((t_452986786.data).length == 0)) {
+      if (((t_452986848.data).length == 0)) {
       F.line = 163;
-      var correctSizeHEX60gensym50_452987175 = slotsNeeded_1023410218(32);
+      var correctSizeHEX60gensym52_452987237 = slotsNeeded_1023410218(32);
       F.line = 167;
-      t_452986786.counter = 0;
+      t_452986848.counter = 0;
       F.line = 168;
-      t_452986786.data = new Array(chckRange(correctSizeHEX60gensym50_452987175, 0, 2147483647)); for (var i = 0 ; i < chckRange(correctSizeHEX60gensym50_452987175, 0, 2147483647) ; ++i) { t_452986786.data[i] = {Field0: 0, Field1: [], Field2: null}; }      }
+      t_452986848.data = new Array(chckRange(correctSizeHEX60gensym52_452987237, 0, 2147483647)); for (var i = 0 ; i < chckRange(correctSizeHEX60gensym52_452987237, 0, 2147483647) ; ++i) { t_452986848.data[i] = {Field0: 0, Field1: [], Field2: null}; }      }
       
-      if (mustRehash_452987180(t_452986786)) {
+      if (mustRehash_452987242(t_452986848)) {
       F.line = 49;
-      enlarge_452987335(t_452986786);
+      enlarge_452987397(t_452986848);
       F.line = 50;
-      index_452987073 = rawGetKnownHC_452987798(t_452986786, key_452986787, hc_452986843[0]);
+      index_452987135 = rawGetKnownHC_452987860(t_452986848, key_452986849, hc_452986905[0]);
       }
       
       F.line = 51;
-      index_452987073 = subInt(-1, index_452987073);
+      index_452987135 = subInt(-1, index_452987135);
       F.line = 52;
-      rawInsert_452987629(t_452986786, t_452986786, "data", key_452986787, val_452986788, hc_452986843[0], index_452987073);
+      rawInsert_452987691(t_452986848, t_452986848, "data", key_452986849, val_452986850, hc_452986905[0], index_452987135);
       F.line = 60;
-      t_452986786.counter = addInt(t_452986786.counter, 1);
+      t_452986848.counter = addInt(t_452986848.counter, 1);
     }
     
   framePtr = F.prev;
@@ -10822,103 +10903,133 @@ function HEX5BHEX5DHEX3D_452986783(t_452986786, key_452986787, val_452986788) {
 }
 
 function createCharacterTile_452986737(character_452986738) {
+    var Temporary1;
+      var Temporary2;
+
   var result_452986739 = null;
 
   var F = {procname: "flatzone.createCharacterTile", prev: framePtr, filename: "/home/avahe/programming/nim/flatzone/src/flatzone.nim", line: 0};
   framePtr = F;
     F.line = 70;
     F.line = 71;
+    var charName_452986746 = normalizeCharacterName_452984856(character_452986738.name);
+    if ((0 < ((Temporary2 = HEX5BHEX5D_1207961252(characterHtmlPages_452985197[0], charName_452986746), Temporary2)[0][Temporary2[1]]).length)) {
+    F.line = 73;
     var tmp_452986740 = tree_654312202(45, []);
-    F.line = 71;
+    F.line = 73;
     tmp_452986740.class = "character-tile";
-    F.line = 71;
+    F.line = 73;
     setAttr_654312065(tmp_452986740, "href", toJSStr((makeNimstrLit("#/") || []).concat(character_452986738.name || [])));
-    F.line = 72;
+    F.line = 74;
     var tmp_452986741 = tree_654312202(76, []);
-    F.line = 72;
+    F.line = 74;
     setAttr_654312065(tmp_452986741, "src", toJSStr((makeNimstrLit("../assets/images/") || []).concat(normalizeCharacterName_452984856(character_452986738.name) || [],makeNimstrLit(".png") || [])));
-    F.line = 72;
+    F.line = 74;
     add_654312139(tmp_452986740, tmp_452986741);
-    F.line = 73;
+    F.line = 75;
     var tmp_452986742 = tree_654312202(21, []);
-    F.line = 73;
+    F.line = 75;
     tmp_452986742.class = "character-name";
-    F.line = 74;
+    F.line = 76;
     add_654312139(tmp_452986742, text_654312254(character_452986738.name));
-    F.line = 74;
+    F.line = 76;
     add_654312139(tmp_452986740, tmp_452986742);
-    result_452986739 = tmp_452986740;
-    F.line = 77;
-    HEX5BHEX5DHEX3D_452986783(characterDomTiles_452986556[0], nsuReplaceStr(nuctoLowerStr(character_452986738.name), makeNimstrLit("."), []), result_452986739);
+    Temporary1 = tmp_452986740;
+    }
+    else {
+      F.line = 78;
+      var tmp_452986743 = tree_654312202(44, []);
+      F.line = 78;
+      tmp_452986743.class = "character-tile baw";
+      F.line = 79;
+      var tmp_452986744 = tree_654312202(76, []);
+      F.line = 79;
+      setAttr_654312065(tmp_452986744, "src", toJSStr((makeNimstrLit("../assets/images/") || []).concat(normalizeCharacterName_452984856(character_452986738.name) || [],makeNimstrLit(".png") || [])));
+      F.line = 79;
+      add_654312139(tmp_452986743, tmp_452986744);
+      F.line = 80;
+      var tmp_452986745 = tree_654312202(21, []);
+      F.line = 80;
+      tmp_452986745.class = "character-name";
+      F.line = 81;
+      add_654312139(tmp_452986745, text_654312254(character_452986738.name));
+      F.line = 81;
+      add_654312139(tmp_452986743, tmp_452986745);
+    Temporary1 = tmp_452986743;
+    }
+    
+    result_452986739 = Temporary1;
+    F.line = 84;
+    HEX5BHEX5DHEX3D_452986845(characterDomTiles_452986556[0], nsuReplaceStr(nuctoLowerStr(character_452986738.name), makeNimstrLit("."), []), result_452986739);
   framePtr = F.prev;
 
   return result_452986739;
 
 }
 
-function createHomePage_452988322() {
+function createHomePage_452988384() {
     
-function HEX3Aanonymous_452988328(e_452988329, n_452988330) {
+function HEX3Aanonymous_452988390(e_452988391, n_452988392) {
       var F = {procname: "createHomePage.:anonymous", prev: framePtr, filename: "/home/avahe/programming/nim/flatzone/src/flatzone.nim", line: 0};
       framePtr = F;
-        F.line = 95;
-        filterBySearch_452988035(nuctoLowerStr(cstrToNimstr(e_452988329.target.value)));
+        F.line = 102;
+        filterBySearch_452988097(nuctoLowerStr(cstrToNimstr(e_452988391.target.value)));
       framePtr = F.prev;
 
       
     }
 
-  var result_452988323 = null;
+  var result_452988385 = null;
 
   var F = {procname: "flatzone.createHomePage", prev: framePtr, filename: "/home/avahe/programming/nim/flatzone/src/flatzone.nim", line: 0};
   framePtr = F;
-    F.line = 89;
-    F.line = 89;
-    var tmp_452988324 = tree_654312202(44, []);
-    F.line = 89;
-    tmp_452988324.class = "";
-    F.line = 90;
-    add_654312139(tmp_452988324, createTitleBar_452986621());
-    F.line = 92;
-    var tmp_452988325 = tree_654312202(44, []);
-    F.line = 92;
-    tmp_452988325.class = "searchbar-container";
-    F.line = 93;
-    var tmp_452988326 = tree_654312202(194, []);
-    F.line = 93;
-    tmp_452988326.class = "searchbar";
-    F.line = 93;
-    setAttr_654312065(tmp_452988326, "placeholder", "Search...");
-    F.line = 93;
-    setFocus_620757068(tmp_452988326, true, kxi__);
-    F.line = 94;
-    addEventHandler_620758167(tmp_452988326, 3, HEX3Aanonymous_452988328, kxi__);
-    F.line = 94;
-    add_654312139(tmp_452988325, tmp_452988326);
-    F.line = 94;
-    add_654312139(tmp_452988324, tmp_452988325);
+    F.line = 96;
+    F.line = 96;
+    var tmp_452988386 = tree_654312202(44, []);
+    F.line = 96;
+    tmp_452988386.class = "";
     F.line = 97;
-    var tmp_452988327 = tree_654312202(44, []);
-    F.line = 97;
-    tmp_452988327.class = "characters-container";
+    add_654312139(tmp_452988386, createTitleBar_452986621());
+    F.line = 99;
+    var tmp_452988387 = tree_654312202(44, []);
+    F.line = 99;
+    tmp_452988387.class = "searchbar-container";
+    F.line = 100;
+    var tmp_452988388 = tree_654312202(194, []);
+    F.line = 100;
+    tmp_452988388.class = "searchbar";
+    F.line = 100;
+    setAttr_654312065(tmp_452988388, "placeholder", "Search...");
+    F.line = 100;
+    setFocus_620757068(tmp_452988388, true, kxi__);
+    F.line = 101;
+    addEventHandler_620758167(tmp_452988388, 3, HEX3Aanonymous_452988390, kxi__);
+    F.line = 101;
+    add_654312139(tmp_452988387, tmp_452988388);
+    F.line = 101;
+    add_654312139(tmp_452988386, tmp_452988387);
+    F.line = 104;
+    var tmp_452988389 = tree_654312202(44, []);
+    F.line = 104;
+    tmp_452988389.class = "characters-container";
     Label1: do {
-      F.line = 98;
-      var character_452988334 = ({name: [], generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 0, doesDsmashHitAllLedgeOptionsButJump: false, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []});
+      F.line = 105;
+      var character_452988396 = ({name: [], generalGameplan: [], nairFSDair: [], chefAngleAtLedge: 0, doesDsmashHitAllLedgeOptionsButJump: false, whichIsHighestMoveToHitLedgehang: [], top3StageBans: [], vods: []});
       F.line = 235;
-      var i_452988528 = 0;
+      var i_452988590 = 0;
       F.line = 236;
-      var L_452988529 = 89;
+      var L_452988591 = 89;
       Label2: do {
         F.line = 237;
           Label3: while (true) {
-          if (!(i_452988528 < L_452988529)) break Label3;
-            F.line = 98;
-            character_452988334 = characters_452985080[chckIndx(i_452988528, 0, (characters_452985080).length - 1)];
-            F.line = 98;
-            add_654312139(tmp_452988327, createCharacterTile_452986737(character_452988334));
+          if (!(i_452988590 < L_452988591)) break Label3;
+            F.line = 105;
+            character_452988396 = characters_452985080[chckIndx(i_452988590, 0, (characters_452985080).length - 1)];
+            F.line = 105;
+            add_654312139(tmp_452988389, createCharacterTile_452986737(character_452988396));
             F.line = 239;
-            i_452988528 = addInt(i_452988528, 1);
-            if (!((89 == L_452988529))) {
+            i_452988590 = addInt(i_452988590, 1);
+            if (!((89 == L_452988591))) {
             F.line = 240;
             failedAssertImpl_218103864(makeNimstrLit("/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/system/iterators.nim(240, 11) `len(a) == L` the length of the seq changed while iterating over it"));
             }
@@ -10926,12 +11037,12 @@ function HEX3Aanonymous_452988328(e_452988329, n_452988330) {
           }
       } while (false);
     } while (false);
-    F.line = 99;
-    add_654312139(tmp_452988324, tmp_452988327);
-    result_452988323 = tmp_452988324;
+    F.line = 106;
+    add_654312139(tmp_452988386, tmp_452988389);
+    result_452988385 = tmp_452988386;
   framePtr = F.prev;
 
-  return result_452988323;
+  return result_452988385;
 
 }
 
@@ -11079,17 +11190,17 @@ function HEX5BHEX5D_973081754(s_973081757, x_973081758) {
       F.line = 2552;
       var i_973081768 = 0;
       F.line = 119;
-      var i_452988571 = 0;
+      var i_452988633 = 0;
       Label2: do {
         F.line = 120;
           Label3: while (true) {
-          if (!(i_452988571 < L_973081763)) break Label3;
+          if (!(i_452988633 < L_973081763)) break Label3;
             F.line = 2552;
-            i_973081768 = i_452988571;
+            i_973081768 = i_452988633;
             F.line = 2552;
             result_973081759[chckIndx(i_973081768, 0, (result_973081759).length - 1)] = s_973081757[chckIndx(addInt(i_973081768, a_973081761), 0, (s_973081757).length - 1)];
             F.line = 122;
-            i_452988571 = addInt(i_452988571, 1);
+            i_452988633 = addInt(i_452988633, 1);
           }
       } while (false);
     } while (false);
@@ -11112,18 +11223,18 @@ function HEX2EHEX2E_939524176(a_939524179, b_939524180) {
 
 }
 
-function hasKey_452988411(t_452988414, key_452988415) {
-  var result_452988416 = false;
+function hasKey_452988473(t_452988476, key_452988477) {
+  var result_452988478 = false;
 
   var F = {procname: "hasKey.hasKey", prev: framePtr, filename: "/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/tables.nim", line: 0};
   framePtr = F;
     F.line = 371;
-    var hc_452988417 = [0];
+    var hc_452988479 = [0];
     F.line = 372;
-    result_452988416 = (0 <= rawGet_452985329(t_452988414, key_452988415, hc_452988417, 0));
+    result_452988478 = (0 <= rawGet_452985329(t_452988476, key_452988477, hc_452988479, 0));
   framePtr = F.prev;
 
-  return result_452988416;
+  return result_452988478;
 
 }
 
@@ -11137,87 +11248,6 @@ function verbatim_654312260(s_654312261) {
   framePtr = F.prev;
 
   return result_654312262;
-
-}
-
-function rawGet_1207959897(t_1207959900, key_1207959901, hc_1207959902, hc_1207959902_Idx) {
-            var Temporary3;
-
-  var result_1207959903 = 0;
-
-  var F = {procname: "rawGet.rawGet", prev: framePtr, filename: "/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/hashcommon.nim", line: 0};
-  framePtr = F;
-  BeforeRet: do {
-    F.line = 64;
-    hc_1207959902[hc_1207959902_Idx] = hash_1040187814(key_1207959901);
-    if ((hc_1207959902[hc_1207959902_Idx] == 0)) {
-    F.line = 66;
-    hc_1207959902[hc_1207959902_Idx] = 314159265;
-    }
-    
-    if (((t_1207959900.data).length == 0)) {
-    F.line = 48;
-    result_1207959903 = -1;
-    break BeforeRet;
-    }
-    
-    F.line = 49;
-    var h_1207959955 = (hc_1207959902[hc_1207959902_Idx] & (t_1207959900.data).length - 1);
-    Label1: do {
-      F.line = 50;
-        Label2: while (true) {
-        if (!isFilled_1023410207(t_1207959900.data[chckIndx(h_1207959955, 0, (t_1207959900.data).length - 1)].Field0)) break Label2;
-            if (!(t_1207959900.data[chckIndx(h_1207959955, 0, (t_1207959900.data).length - 1)].Field0 == hc_1207959902[hc_1207959902_Idx])) Temporary3 = false; else {              Temporary3 = eqStrings(t_1207959900.data[chckIndx(h_1207959955, 0, (t_1207959900.data).length - 1)].Field1, key_1207959901);            }          if (Temporary3) {
-          F.line = 56;
-          result_1207959903 = h_1207959955;
-          break BeforeRet;
-          }
-          
-          F.line = 57;
-          h_1207959955 = nextTry_1023410210(h_1207959955, (t_1207959900.data).length - 1);
-        }
-    } while (false);
-    F.line = 58;
-    result_1207959903 = subInt(-1, h_1207959955);
-  } while (false);
-  framePtr = F.prev;
-
-  return result_1207959903;
-
-}
-
-function raiseKeyError_1107299189(key_1107299191) {
-  var F = {procname: "raiseKeyError.raiseKeyError", prev: framePtr, filename: "/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/tables.nim", line: 0};
-  framePtr = F;
-    F.line = 234;
-    raiseException({message: (makeNimstrLit("key not found: ") || []).concat(key_1107299191 || []), parent: null, m_type: NTI33555126, name: null, trace: [], up: null}, "KeyError");
-  framePtr = F.prev;
-
-  
-}
-
-function HEX5BHEX5D_1207961252(t_1207961255, key_1207961256) {
-  var result_1207961257 = null;
-  var result_1207961257_Idx = 0;
-
-  var F = {procname: "[].[]", prev: framePtr, filename: "/home/avahe/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/tables.nim", line: 0};
-  framePtr = F;
-    F.line = 242;
-    var hcHEX60gensym22_1207961258 = [0];
-    F.line = 243;
-    var indexHEX60gensym22_1207961265 = rawGet_1207959897(t_1207961255, key_1207961256, hcHEX60gensym22_1207961258, 0);
-    if ((0 <= indexHEX60gensym22_1207961265)) {
-    F.line = 244;
-    result_1207961257 = t_1207961255.data[chckIndx(indexHEX60gensym22_1207961265, 0, (t_1207961255.data).length - 1)]; result_1207961257_Idx = "Field2";
-    }
-    else {
-      F.line = 246;
-    raiseKeyError_1107299189(key_1207961256);
-    }
-    
-  framePtr = F.prev;
-
-  return [result_1207961257, result_1207961257_Idx];
 
 }
 
@@ -11268,66 +11298,66 @@ function createCharacterPage_452986671(character_452986672) {
 
 }
 
-function create404Page_452988345() {
-  var result_452988346 = null;
+function create404Page_452988407() {
+  var result_452988408 = null;
 
   var F = {procname: "flatzone.create404Page", prev: framePtr, filename: "/home/avahe/programming/nim/flatzone/src/flatzone.nim", line: 0};
   framePtr = F;
-    F.line = 102;
-    F.line = 102;
-    var tmp_452988347 = tree_654312202(44, []);
-    F.line = 102;
-    tmp_452988347.class = "";
-    F.line = 103;
-    add_654312139(tmp_452988347, createTitleBar_452986621());
-    F.line = 104;
-    var tmp_452988348 = tree_654312202(22, []);
-    F.line = 104;
-    add_654312139(tmp_452988348, text_654312254(makeNimstrLit("404 - Not Found")));
-    F.line = 104;
-    add_654312139(tmp_452988347, tmp_452988348);
-    result_452988346 = tmp_452988347;
+    F.line = 109;
+    F.line = 109;
+    var tmp_452988409 = tree_654312202(44, []);
+    F.line = 109;
+    tmp_452988409.class = "";
+    F.line = 110;
+    add_654312139(tmp_452988409, createTitleBar_452986621());
+    F.line = 111;
+    var tmp_452988410 = tree_654312202(22, []);
+    F.line = 111;
+    add_654312139(tmp_452988410, text_654312254(makeNimstrLit("404 - Not Found")));
+    F.line = 111;
+    add_654312139(tmp_452988409, tmp_452988410);
+    result_452988408 = tmp_452988409;
   framePtr = F.prev;
 
-  return result_452988346;
+  return result_452988408;
 
 }
 
-function createSite_452988349(data_452988350) {
-  var result_452988351 = null;
+function createSite_452988411(data_452988412) {
+  var result_452988413 = null;
 
   var F = {procname: "flatzone.createSite", prev: framePtr, filename: "/home/avahe/programming/nim/flatzone/src/flatzone.nim", line: 0};
   framePtr = F;
   BeforeRet: do {
-    if ((((data_452988350.hashPart) == null ? 0 : (data_452988350.hashPart).length) == 0)) {
-    F.line = 108;
-    result_452988351 = createHomePage_452988322();
+    if ((((data_452988412.hashPart) == null ? 0 : (data_452988412.hashPart).length) == 0)) {
+    F.line = 115;
+    result_452988413 = createHomePage_452988384();
     break BeforeRet;
     }
     else {
-    if (data_452988350.hashPart.startsWith("#/")) {
-    F.line = 110;
-    var hashPartEnd_452988370 = decodeUrl_1224736825(HEX5BHEX5D_973081754(cstrToNimstr(data_452988350.hashPart), HEX2EHEX2E_939524176(2, 1)), true);
-    if (hasKey_452988411(characterLookup_452985223[0], hashPartEnd_452988370)) {
-    F.line = 112;
-    result_452988351 = createCharacterPage_452986671(hashPartEnd_452988370);
+    if (data_452988412.hashPart.startsWith("#/")) {
+    F.line = 117;
+    var hashPartEnd_452988432 = decodeUrl_1224736825(HEX5BHEX5D_973081754(cstrToNimstr(data_452988412.hashPart), HEX2EHEX2E_939524176(2, 1)), true);
+    if (hasKey_452988473(characterLookup_452985223[0], hashPartEnd_452988432)) {
+    F.line = 119;
+    result_452988413 = createCharacterPage_452986671(hashPartEnd_452988432);
     break BeforeRet;
     }
     
     }
     }
-    F.line = 114;
-    result_452988351 = create404Page_452988345();
+    F.line = 121;
+    result_452988413 = create404Page_452988407();
     break BeforeRet;
   } while (false);
   framePtr = F.prev;
 
-  return result_452988351;
+  return result_452988413;
 
 }
 var F = {procname: "module flatzone", prev: framePtr, filename: "/home/avahe/programming/nim/flatzone/src/flatzone.nim", line: 0};
 framePtr = F;
-setRenderer_620758006(createSite_452988349, "ROOT", null);
+setRenderer_620758006(createSite_452988411, "ROOT", null);
 framePtr = F.prev;
 var F = {procname: "module flatzone", prev: framePtr, filename: "/home/avahe/programming/nim/flatzone/src/flatzone.nim", line: 0};
 framePtr = F;
