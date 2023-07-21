@@ -55,12 +55,28 @@
 - Playing at ledge is very good but you give up stage control for it but also limit fox's options. 
 
 # Stages
-- Battlefield: Neutral stage overall both characters get a lot from it.
-- Final Destination: Always ban. 
-- Town and City:  Always Ban
-- Smashville:  Decent stage, try to keep stage control under the platform as much as possible.
-- Pokemon Stadium 2: Neutral stage though you're susceptible to getting platform camped. 
-- Yoshi's Story: More advantages for game and watch though you die extremely early to upair but his disadvantage is awful on this stage. Easy 2frames and early kills.
-- Lylat: Always ban. Fox probably won't go here but it’s a risky stage for both characters. Better to avoid it. 
-- Kalos: Always ban. Lives way longer but he has more raw kill power so it benefits fox more. Very easy to get juggled and he has more recovery options.
+
+## Battlefield
+- Neutral stage overall both characters get a lot from it.
+
+## Final Destination
+- Always ban. 
+
+## Town and City
+- Always Ban
+
+## Smashville
+- Decent stage, try to keep stage control under the platform as much as possible.
+
+## Pokemon Stadium 2
+- Neutral stage though you're susceptible to getting platform camped. 
+
+## Yoshi's Story
+- More advantages for game and watch though you die extremely early to upair but his disadvantage is awful on this stage. Easy 2frames and early kills.
+
+## Lylat
+- Always ban. Fox probably won't go here but it’s a risky stage for both characters. Better to avoid it. 
+
+## Kalos
+- Always ban. Lives way longer but he has more raw kill power so it benefits fox more. Very easy to get juggled and he has more recovery options.
 
