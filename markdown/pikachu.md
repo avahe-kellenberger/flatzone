@@ -64,9 +64,14 @@
 - When in doubt up-b
 - Up smash is good against her up-b.
 - Don't charge smash attacks in neutral. Spaced fsmash counters it.
-Bucket:
-- Tjolt: 3 of these kill extremely early.
-- Thunder: Weaker than tjolt when bucketed. Can't bucket the explosion. 
+
+## Bucket:
+
+### Tjolt
+- 3 of these kill extremely early.
+
+### Thunder
+- Weaker than tjolt when bucketed. Can't bucket the explosion. 
 
 # Stages
 

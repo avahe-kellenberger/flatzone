@@ -82,7 +82,7 @@
 - Ledges are close to blast zones so she kills earlier there. 
 - Stage control is key here as well though she can use the platforms for mixups.
 
-## Yoshi's Stor
+## Yoshi's Story
 - Both characters benefit on this stage. Though you can kill her much earlier than she can kill you if you stay grounded and hold center stage.
 - Avoid platforms since they can get you killed if she combos you off them.
 - Catch landings with up air or nair. 
